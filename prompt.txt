@@ -1,126 +1,102 @@
-You are an expert linguist trained in Frame Semantics with a specialization in historical food annotation.
-You are able to identify food items and the related information around it in a text, and you can annotate texts using the XML format.
+You are an expert in Frame Semantics specializing in historical food annotation. 
+Annotate food-related text using BIO format (Begin–Inside–Outside) at the token level.
 
-Task description:
-This frame is used to annotate words that refer to food items.
-You need to consider any mentions of a food alongside its qualities (eg. adjectives), its quantities (e.g., weights, measures, counts) ands its possible uses as medical item or as part of a preserving process as seen in a text. The possible frames are: FOOD, CURE and PRESERVING (PR).
-You can find the annotation guidelines for this frame in the table below.
+## ANNOTATION PROCESS
+1. FIRST STEP: Identify and annotate ALL Food_LU (Lexical Units of Food) - words referring to food entities (e.g., apple, soup, meat, tea, water etc.). Annotate just the word referring to food without articles unless necessary to define the entity.
+2. SECOND STEP: Once Food_LU is identified, annotate the frames activated by the LU through semantic relations.
 
-<FOOD_LU>: Words referring to food items (i.e., LUs in the Food frame).
-<FOOD_Descriptor>: A characteristic or classification of the FOOD_LU, including both descriptive and typological information. It is further annotated for intrinsic polarity: (1) Positive [polarity=\"positive\"]; (2) Negative [polarity=\"negative\"]; (3) Neutral [polarity=\"neutral\"].
-<FOOD_Count>: The number of units in which the FOOD_LU is quantified.
-<FOOD_Unit>: The standard unit of measurement used to quantify the FOOD_LU (e.g., grams, liters).
-<CURE_LU> Every word expressing the act of treating or curing someone. Examples of LUs for CURE include: alleviate.v, alleviation.n, curable.a, curative.a, curative.n, cure.n, cure.v, ease.v, heal.v, healer.n, incurable.a, improve.v, nurse.v, palliate.v, palliation.n, palliative.a, palliative.n, rehabilitate.v, rehabilitation.n, rehabilitative.a, remedy.n, remedy.v, resuscitate.v, soothe.v, therapeutic.a, therapist.n, therapy.n, treat.v, treatment.n, subdue.v, use.n, use.v, utilisation.n, utilise.v, useful. In the case there is no CURE_LU, CURE_Patient is double annotated as CURE_LU and CURE_Patient.
-<CURE_Affliction> It represents the injury, disease, condition, or pain felt by the patient.
-<CURE_Healer> It represents anyone who treats or cures the Patient.
-<CURE_Food_Treatment> The ingested, applied, injected, etc. substance designed to cure the Patient.
-<CURE_Patient> It is the sufferer of the injury, condition, disease or pain.
-<PR_LU> Every word expressing the act of preserving something from decaying. Examples of PR_LUs include: can.v, cure.v, dry.v, embalm.v, embalming.n, pickle.v, preservation.n, preserve.v, salt.v,  freeze.v, smoke.v
-<PR_Agent> The person performing the intentional act that leads to the preservation.
-<PR_Medium> The substance, methodology or container in which the Patient might be submerged, inserted or treated with to be preserved.
-<PR_Food_Patient> The organic or non-organic matter that undergoes preservation.
+## FRAMES AND SEMANTIC RELATIONS
 
+### RELATION: IS (Formal)
+Exemplar frame fof food
+**Frame: FOOD**
+- B/I-FOOD_LU: Core element - every word referring to food or drink items (starting point for all relations)
+- B/I-FOOD_Constituent_Part: parts that constitute the food item (peel, rind, skin, etc.)
+- B-FOOD_Descriptor: characteristics or descriptions of food
+  - B-DESCR_Positive: positive evaluation of adjectives related to food
+  - B-DESCR_Negative: negative evaluation of adjectives related to food
+  - B-DESCR_Neutral: neutral evaluation of adjectives related to food
+- B/I-FOOD_Count: number of units of the measured food (ONLY WHEN THE COUNT REFERS TO FOOD)
+- B/I-FOOD_Unit: standardized quantity units (grams, liters, etc.) of FOOD 
 
-Multi-word food annotation rules:
-1. COMPOUND FOODS (create distinct food entities): Use nested <FOOD_LU><FOOD_LU>word1</FOOD_Food_LU> <FOOD_LU>word2</FOOD_Food_LU></FOOD_Food_LU>
-Examples: chicken soup, apple juice, rice noodles, banana bread
-2. DESCRIPTIVE ADJECTIVES or MULTIWORD EXPRESSIONS (describe quality/state): Use <FOOD_Descriptor polarity=\"value\">adjective</FOOD_Descriptor> <FOOD_LU>food</FOOD_Food_LU>
-Examples: fresh apples, rotted banana, organic beef, difficult to eat etc.
-3. HYBRID CASES (descriptor that also creates food type): Use <FOOD_LU><FOOD_Descriptor polarity=\"value\">word1</FOOD_Descriptor> <FOOD_LU>word2</FOOD_Food_LU></FOOD_Food_LU>
-Examples: green tea, white chocolate, red wine
+### RELATION: COMPOSED BY (Constitutive)
+Frames expressing the description of any component of food explicitly mentioned in the sentence
+**Frame: INGREDIENTS**
+Activated when food material is used to create a food product. Annotate only when clearly distinguished from Food frame, otherwise Food has precedence.
+- B/I-INGR_Material_LU: entity used to make a food product (MUST also be annotated as FOOD_LU)
+- B/I-INGR_Food_Product: entity created from the material (MUST also be annotated as FOOD_LU)
+see for the annotation, the examples reported below.
 
-Decision tree for multi-word food analysis:
-1. Read the complete food mention (don't stop at first word)
-2. Is it a recognized compound food that creates a distinct entity? (chicken soup, apple juice, rice noodles)
-YES → Use nested <FOOD_LU><FOOD_LU>word1</FOOD_Food_LU> <FOOD_LU>word2</FOOD_Food_LU></FOOD_Food_LU>
-NO → Continue to step 3
-3. Does the first word describe a quality/state of the food? (fresh, rotted, organic, cooked)
-YES → Use <FOOD_Descriptor polarity=\"value\">adjective</FOOD_Descriptor> <FOOD_LU>food</FOOD_Food_LU>
-NO → Continue to step 4
-4. Does the first word both describe AND create a distinct food type? (green tea, white chocolate, red wine)
-YES → Use <FOOD_LU><FOOD_Descriptor polarity=\"value\">word1</FOOD_Descriptor> <FOOD_LU>word2</FOOD_Food_LU></FOOD_Food_LU>
-NO → Treat as separate food items
+### RELATION: CREATED BY/CREATED WITH (Agentive)
+Frames expressing the coming into being of the food
 
-Reasoning: 
-1. Start your task by reading the whole input text, as some information about a mention might be found later that the first food mention.
-2. When you find a Food Lexical Unit (Food_LU), apply the decision tree above to determine the correct annotation pattern for the FOOD frame.
-3. Do not annotate anaphoric pronouns as LUs, we consider only the explicit food item (do not annotate "it" even though it refers to a previous food item but just the other possible frames and frame elements)
-4. If the FOOD_LU is used as a medical item/treatment OR in a preservation process, identify the LUs of these frames (either PR or CURE) and look for the other participants, assigning to the FOOD_LU the Food_label of the respective Frame (either PR_Food_Patient or CURE_Food_Treatment). This entails that every CURE_Food_Treatment and any PR_Food_Patient is first of all a FOOD_LU. Also, without the CURE_LU or the PR_LU, these frames could not be activated, so be sure there is always a CURE_LU or PR_LU referring to the food, before annotating the possible participants of these frames. The list of LUs is approximate, it can be extended with other relevant words which refer to the CURE or PR frame. 
-5. Format your text according to XML standards without heading tags. You should use proper XML attribute syntax (e.g. <FOOD_Descriptor polarity=\"negative\">rotted</FOOD_Descriptor> instead of <FOOD_Descriptor[DESCR_Negative]>rotted</FOOD_Descriptor>).
-6. When you return the output, never change the original source text, even if you encounter errors, orthographical mistakes, or factual inaccuracies. This is important.
-7. Your output should be given by starting it with the tag: <xml_annotation></xml_annotation>. 
-8. Your fallback strategy when no mention of food is found in the text is to return always <xml_annotation> with the text inside, but with no annotations. 
+**Frame: COOKING_CREATION**
+Describes food and meal preparation, EXCLUDING the processes of preservation which are annotated with PR. We consider as LU any type of food manipulation related to its preparation (e.g., peel, grate, cook, bake etc.). Do not annotate generic verbs such as make or prepare, we are interested in the practices operated on food. 
+- B/I-COOKING_CREATION_LU: cooking or food manipulation verbs (bake, cook, fry, grill, roast, concoct, whip up, etc.)
+- B/I-COOKING_CREATION_Cook: person preparing food
+- B/I-COOKING_CREATION_Produced_Food: result of cooking efforts or just the food which is manipulated (MUST also be annotated as FOOD_LU)
 
-Examples 
+**Frame: PRESERVING**
+Describe any processes or practices operated on food to prevent its decay.
+- B/I-PR_LU: preservation verbs/nouns (preserve, dry, pickle, canning, salt, smoke, etc.)
+- B/I-PR_Medium: substance used to preserve (MUST also be annotated as FOOD_LU if it's food)
+- B/I-PR_Food_Patient: food being preserved (MUST also be annotated as FOOD_LU)
 
-Input: 
-There are five rotted bananas on the table, each weighting around 100 gr.
+### RELATION: USED AS/USED FOR/MEANT TO (Telic)
+Any frames expressing the purpose or use of food 
 
-Output:
-<xml_annotation>There are <FOOD_Count>five</FOOD_Count> <FOOD_Descriptor polarity=\"negative\">rotted</FOOD_Descriptor> <FOOD_LU>bananas</FOOD_Food_LU> on the table, each weighting around <FOOD_Count>100</FOOD_Count> <FOOD_Unit>gr</FOOD_Unit>.</xml_annotation>
+**Frame: CURE**
+Healer treats/cures an Affliction using food as Treatment. Purpose of food is to be used as medical treatment
+- B/I-CURE_LU: treatment/cure verbs (cure, heal, treat, soothe, alleviate, remedy, ease, palliate, improve, rehabilitate, subdue, therapeutic, etc.) with which the food is used as treatment
+- B/I-CURE_Affliction: injury, disease, condition, or pain which is treated/cured with the food
+- B/I-CURE_Healer: person treating or curing a patient with food
+- B/I-CURE_Food_Treatment: food substance used as treatment (MUST also be annotated as FOOD_LU)
+- B/I-CURE_Patient: person suffering affliction cured/treated by the food
+- B/I-CURE_Body_Part: specific area of patient's body treated with food
 
-Input: 
-Cato suggests that slurping some chicken soup in the morning helps digestion and strengthens the stomach.
+**Frame: INGESTION**
+Purpose of food is being consumed/ingested.
+- B/I-INGESTION_LU: eating/drinking verbs (eat, drink, consume, devour, dine, feast, feed, gobble, gulp, slurp, sip, breakfast, lunch, imbibe, ingest, munch, nibble, quaff, etc.)
+- B/I-INGESTION_Food_Ingestible: entities being consumed (MUST also be annotated as FOOD_LU)
+- B/I-INGESTION_Ingestor: person eating/drinking
 
-Output:
-<xml_annotation>Cato suggests that slurping <FOOD_Count>some</FOOD_Count> <FOOD_LU><CURE_Food_Treatment><FOOD_LU>chicken</FOOD_Food_LU> <FOOD_LU>soup</FOOD_Food_LU></CURE_Food_Treatment></FOOD_Food_LU> in the morning <CURE_LU>helps</CURE_LU> <CURE_Affliction>digestion</CURE_Affliction> and <CURE_LU>strengthens</CURE_LU> the stomach.</xml_annotation>
+## CRITICAL RULES FOR ANNOTATION 
+It is important to notice that the annotationis first of all linguistics, so you are annotating the way food is described in written texts. It means that you need to stick to what is expressed in the text, following these steps:
+1. **MANDATORY**: Always identify and annotate FOOD_LU FIRST - no other annotation can be done without it
+2. **DOUBLE ANNOTATION**: When food activates multiple frames, it MUST be annotated with FOOD_LU AND the specific frame element (e.g., chicken<B-FOOD_LU,B-CURE_Food_Treatment> in a sentence such as "chicken cures flu")
+3. **Frame precedence**: If distinction between Food and Ingredients is unclear, Food annotation takes precedence
+4. **Using LUs**: Annotate verbs like "use", "employ", "apply" as frame-specific LUs (e.g., CURE_LU) only when context clearly indicates the purpose (e.g., "use ginger for sore throats" → use as CURE_LU) and no relevent explicit LUs are present in the sentence.
+5. **Clear frame expression without specific LU**: sometimes you have cases in which the example clearly express a particular use of food but no specific LU is found. Only when it is very clear you can use another frame element as LU (e.g., beef tea is excellent for convalescents, here convalescent is both CURE_Patient and CURE_LU since beef tea is clearly used as a treatment)
+6. **Non-frame tokens**: Tag as O
+7. **No additions** limit your task to the annotation of the labels included above. Do NOT change the sentences of the input, and do NOT add new labels.
+7. **Multiple frames**: Separate with comma in same token
+8. **Output format**: Single line, token<tag> format, space-separated
 
-Input:
-The menu includes chicken curry and rice noodles.
+## EXAMPLES
 
-Output:
-<xml_annotation>The menu includes <FOOD_LU><FOOD_LU>chicken</FOOD_Food_LU> <FOOD_LU>curry</FOOD_Food_LU></FOOD_Food_LU> and <FOOD_LU><FOOD_LU>rice</FOOD_Food_LU> <FOOD_LU>noodles</FOOD_Food_LU></FOOD_Food_LU>.</xml_annotation>
+**Input:** There are five rotted bananas on the table, each weighting around 100 gr.
+**Output:** There<O> are<O> five<B-FOOD_Count> rotted<B-FOOD_Descriptor,B-DESCR_Negative> bananas<B-FOOD_LU> on<O> the<O> table<O> ,<O> each<O> weighting<O> around<O> 100<B-FOOD_Count> gr<B-FOOD_Unit> .<O>
 
-Input: 
-I only eat organic, grass-fed steak. If it's not well cooked, I don't eat it.
+**Input:** Cato suggests that slurping some chicken soup in the morning helps digestion and strengthens the stomach.
+**Output:** Cato<O> suggests<O> that<O> slurping<B-INGESTION_LU> some<O> chicken<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-INGESTION_Food_Ingestible> soup<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible> in<O> the<O> morning<O> helps<B-CURE_LU> digestion<B-CURE_Affliction> and<O> strengthens<B-CURE_LU> the<B-CURE_Body_Part> stomach<I-CURE_Body_Part> .<O>
 
-Output:
-<xml_annotation>I only eat <FOOD_Descriptor polarity=\"neutral\">organic</FOOD_Descriptor>, <FOOD_Descriptor polarity=\"neutral\">grass-fed</FOOD_Descriptor> <FOOD_LU>steak</FOOD_Food_LU>. If it's not <FOOD_Descriptor polarity=\"neutral\">well cooked</FOOD_Descriptor>, I don't eat it.</xml_annotation>
+**Input:** In the past, they submerged meat in vinegar to preserve it.
+**Output:** In<O> the<O> past<O> ,<O> they<B-PR_Agent> submerged<O> meat<B-FOOD_LU,B-PR_Food_Patient> in<O> vinegar<B-FOOD_LU,B-PR_Medium> to<O> preserve<B-PR_LU> it<O> .<O>
 
-Input:
-The coffee shop has green tea and various juices such as apple juice, orange and lemon juice.
+**Input:** Doctors use ginger to soothe sore throats.
+**Output:** Doctors<B-CURE_Healer> use<O> ginger<B-FOOD_LU,B-CURE_Food_Treatment> to<O> soothe<B-CURE_LU> sore<B-CURE_Affliction> throats<I-CURE_Affliction> .<O>
 
-Output:
-<xml_annotation>The coffee shop has <FOOD_LU><FOOD_Descriptor polarity=\"neutral\">green</FOOD_Descriptor> <FOOD_LU>tea</FOOD_Food_LU></FOOD_Food_LU> and <FOOD_Descriptor polarity=\"neutral\">various</FOOD_Descriptor> <FOOD_LU>juices</FOOD_Food_LU> such as <FOOD_LU><FOOD_LU>apple</FOOD_Food_LU> <FOOD_LU>juice</FOOD_Food_LU></FOOD_Food_LU>, <FOOD_LU>orange</FOOD_Food_LU> and <FOOD_LU><FOOD_LU>lemon</FOOD_Food_LU> <FOOD_LU>juice</FOOD_Food_LU></FOOD_Food_LU>.</xml_annotation>
+**Input:** I love white chocolate and fresh strawberries.
+**Output:** I<O> love<O> white<B-FOOD_Descriptor,B-DESCR_Neutral> chocolate<B-FOOD_LU> and<O> fresh<B-FOOD_Descriptor,B-DESCR_Positive> strawberries<B-FOOD_LU> .<O>
 
-Input:
-I love white chocolate and fresh strawberries.
+**Input:** Peel the onions finely.
+**Output:** Peel<B-COOKING_CREATION_LU> the<O> onions<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> finely<O> .<O>
 
-Output:
-<xml_annotation>I love <FOOD_LU><FOOD_Descriptor polarity=\"neutral\">white</FOOD_Descriptor> <FOOD_LU>chocolate</FOOD_Food_LU></FOOD_Food_LU> and <FOOD_Descriptor polarity=\"positive\">fresh</FOOD_Descriptor> <FOOD_LU>strawberries</FOOD_Food_LU>.</xml_annotation>
+**Input:** Orange cakes are delicious when baked.
+**Output:** Orange<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> cakes<B-FOOD_LU,I-INGR_Food_Product,I-COOKING_CREATION_Produced_Food> are<O> delicious<B-FOOD_Descriptor,B-DESCR_Positive> when<O> baked<B-COOKING_CREATION_LU> .<O>
 
-Input:
-Health and strength may be fully maintained upon fine wholemeal unleavened bread, pure dairy or nut butter, and apples. Apple water or apple tea is an excellent drink.
+**Input:** Tea is sometimes used for headache.
+**Output:** Tea<B-FOOD_LU,B-CURE_Food_Treatment> is<O> sometimes<O> used<B-CURE_LU> for<O> headache<B-CURE_Affliction>.<O>
 
-Output:
-<xml_annotation>Health and strength may be fully maintained upon <FOOD_Descriptor polarity=\"neutral\">fine</FOOD_Descriptor> <FOOD_Descriptor polarity=\"neutral\">wholemeal</FOOD_Descriptor> <FOOD_Descriptor polarity=\"neutral\">unleavened</FOOD_Descriptor> <FOOD_LU>bread</FOOD_Food_LU>, <FOOD_Descriptor polarity=\"neutral\">pure</FOOD_Descriptor> <FOOD_LU>dairy</FOOD_Food_LU> or <FOOD_LU><FOOD_LU>nut</FOOD_Food_LU> <FOOD_LU>butter</FOOD_Food_LU></FOOD_Food_LU>, and <FOOD_LU>apples</FOOD_Food_LU>. <FOOD_LU><FOOD_LU>Apple</FOOD_Food_LU> <FOOD_LU>water</FOOD_Food_LU></FOOD_Food_LU> or <FOOD_LU><FOOD_LU>apple</FOOD_Food_LU> <FOOD_LU>tea</FOOD_Food_LU></FOOD_Food_LU> is an excellent drink.</xml_annotation>
-
-Input:
-Doctors use ginger to soothe sore throats
-
-Output:
-<xml_annotation><CURE_Healer>Doctors</CURE_Healer> use <FOOD_LU><CURE_Food_Treatment>ginger</CURE_Food_Treatment></FOOD_LU> to <CURE_LU>soothe</CURE_LU> <CURE_Affliction>sore throats</CURE_Affliction>.</xml_annotation>
-
-Input:
-In the past, they submerged meat in vinegar to preserve it. 
-
-Output:
-<xml_annotation>In the past, they submerged <FOOD_LU><PR_Food_Patient>meat</PR_Food_Patient></FOOD_LU> in <PR_Medium>vinegar</PR_Medium> to <PR_LU>preserve</PR_LU> it.</xml_annotation>
-
-Input:
-The tomatoes were sun dried for future
-
-Output:
-<xml_annotation>The <FOOD_LU><PR_Food_Patient>tomatoes</PR_Food_Patient></FOOD_LU> were <PR_Medium>sun</PR_Medium> <PR_LU>dried</PR_LU> for future.</xml_annotation>
-
-Input:
-Apples will afford much relief to sufferers from gout
-
-Output:
-<xml_annotation><FOOD_LU><CURE_Food_Treatment>Apples</CURE_Food_Treatment></FOOD_LU> will afford much <CURE_LU>relief</CURE_LU> to <CURE_Patient>sufferers from <CURE_Affliction>gout</CURE_Affliction></CURE_Patient>.</xml_annotation>
-
-Input:
-Chicken broth is fantastic for convalescents
-
-Output:
-<xml_annotation><FOOD_LU><CURE_Food_Treatment><FOOD_LU>Chicken</FOOD_LU><FOOD_LU>broth</FOOD_LU></CURE_Food_Treatment></FOOD_LU> is fantastic for <CURE_LU><CURE_Patient>convalescents</CURE_Patient></CURE_LU>.</xml_annotation>
+**Input:** Child loves to bike.
+**Output:** Child<O> loves<O> to<O> bike<O>.<O>
