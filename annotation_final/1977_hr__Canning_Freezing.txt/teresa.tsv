@@ -1,0 +1,1096 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+#T_RL=custom.Relation|label|BT_custom.Span
+
+
+#Text=Of all the methods of home food preservation, freezing is one of the simplest and least time-consuming.
+1-1	0-2	Of	_	_	_	
+1-2	3-6	all	_	_	_	
+1-3	7-10	the	_	_	_	
+1-4	11-18	methods	_	_	_	
+1-5	19-21	of	_	_	_	
+1-6	22-26	home	FOOD\_LU[1]|PR\_Food\_Patient[2]	_	_	
+1-7	27-31	food	FOOD\_LU[1]|PR\_Food\_Patient[2]	_	_	
+1-8	32-44	preservation	PR\_LU	_	_	
+1-9	44-45	,	_	_	_	
+1-10	46-54	freezing	PR\_LU	_	_	
+1-11	55-57	is	_	_	_	
+1-12	58-61	one	_	_	_	
+1-13	62-64	of	_	_	_	
+1-14	65-68	the	_	_	_	
+1-15	69-77	simplest	_	_	_	
+1-16	78-81	and	_	_	_	
+1-17	82-87	least	_	_	_	
+1-18	88-102	time-consuming	_	_	_	
+1-19	102-103	.	_	_	_	
+
+#Text=The natural colors, fresh flavors, and nutritive value of most fruits and vegetables are maintained well by freezing.
+2-1	104-107	The	_	_	_	
+2-2	108-115	natural	_	_	_	
+2-3	116-122	colors	_	_	_	
+2-4	122-123	,	_	_	_	
+2-5	124-129	fresh	_	_	_	
+2-6	130-137	flavors	_	_	_	
+2-7	137-138	,	_	_	_	
+2-8	139-142	and	_	_	_	
+2-9	143-152	nutritive	_	_	_	
+2-10	153-158	value	_	_	_	
+2-11	159-161	of	_	_	_	
+2-12	162-166	most	_	_	_	
+2-13	167-173	fruits	FOOD\_LU[3]|PR\_Food\_Patient[4]	_	_	
+2-14	174-177	and	_	_	_	
+2-15	178-188	vegetables	FOOD\_LU[5]|PR\_Food\_Patient[6]	_	_	
+2-16	189-192	are	_	_	_	
+2-17	193-203	maintained	_	_	_	
+2-18	204-208	well	_	_	_	
+2-19	209-211	by	_	_	_	
+2-20	212-220	freezing	PR\_LU	_	_	
+2-21	220-221	.	_	_	_	
+
+#Text=However, to freeze foods successfully—that is, to preserve their quality—produce must be carefully selected, prepared and packaged, and properly frozen.
+3-1	222-229	However	_	_	_	
+3-2	229-230	,	_	_	_	
+3-3	231-233	to	_	_	_	
+3-4	234-240	freeze	PR\_LU	_	_	
+3-5	241-246	foods	FOOD\_LU[7]|PR\_Food\_Patient[8]	_	_	
+3-6	247-264	successfully—that	_	_	_	
+3-7	265-267	is	_	_	_	
+3-8	267-268	,	_	_	_	
+3-9	269-271	to	_	_	_	
+3-10	272-280	preserve	PR\_LU	_	_	
+3-11	281-286	their	_	_	_	
+3-12	287-302	quality—produce	_	_	_	
+3-13	303-307	must	_	_	_	
+3-14	308-310	be	_	_	_	
+3-15	311-320	carefully	_	_	_	
+3-16	321-329	selected	_	_	_	
+3-17	329-330	,	_	_	_	
+3-18	331-339	prepared	_	_	_	
+3-19	340-343	and	_	_	_	
+3-20	344-352	packaged	_	_	_	
+3-21	352-353	,	_	_	_	
+3-22	354-357	and	_	_	_	
+3-23	358-366	properly	_	_	_	
+3-24	367-373	frozen	PR\_LU	_	_	
+3-25	373-374	.	_	_	_	
+
+#Text=A steam-pressure canner can be used if it is deep enough.
+4-1	375-376	A	_	_	_	
+4-2	377-391	steam-pressure	_	_	_	
+4-3	392-398	canner	_	_	_	
+4-4	399-402	can	_	_	_	
+4-5	403-405	be	_	_	_	
+4-6	406-410	used	_	_	_	
+4-7	411-413	if	_	_	_	
+4-8	414-416	it	_	_	_	
+4-9	417-419	is	_	_	_	
+4-10	420-424	deep	_	_	_	
+4-11	425-431	enough	_	_	_	
+4-12	431-432	.	_	_	_	
+
+#Text=For this purpose, set the cover in place without fastening it.
+5-1	433-436	For	_	_	_	
+5-2	437-441	this	_	_	_	
+5-3	442-449	purpose	_	_	_	
+5-4	449-450	,	_	_	_	
+5-5	451-454	set	_	_	_	
+5-6	455-458	the	_	_	_	
+5-7	459-464	cover	_	_	_	
+5-8	465-467	in	_	_	_	
+5-9	468-473	place	_	_	_	
+5-10	474-481	without	_	_	_	
+5-11	482-491	fastening	_	_	_	
+5-12	492-494	it	_	_	_	
+5-13	494-495	.	_	_	_	
+
+#Text=Be sure the petcock is wide open so that steam escapes and pressure is not built up.
+6-1	496-498	Be	_	_	_	
+6-2	499-503	sure	_	_	_	
+6-3	504-507	the	_	_	_	
+6-4	508-515	petcock	_	_	_	
+6-5	516-518	is	_	_	_	
+6-6	519-523	wide	_	_	_	
+6-7	524-528	open	_	_	_	
+6-8	529-531	so	_	_	_	
+6-9	532-536	that	_	_	_	
+6-10	537-542	steam	_	_	_	
+6-11	543-550	escapes	_	_	_	
+6-12	551-554	and	_	_	_	
+6-13	555-563	pressure	_	_	_	
+6-14	564-566	is	_	_	_	
+6-15	567-570	not	_	_	_	
+6-16	571-576	built	_	_	_	
+6-17	577-579	up	_	_	_	
+6-18	579-580	.	_	_	_	
+
+#Text=Standard home canning jars are used for pickles and relishes.
+7-1	582-590	Standard	_	_	_	
+7-2	591-595	home	_	_	_	
+7-3	596-603	canning	PR\_LU	_	_	
+7-4	604-608	jars	_	_	_	
+7-5	609-612	are	_	_	_	
+7-6	613-617	used	_	_	_	
+7-7	618-621	for	_	_	_	
+7-8	622-629	pickles	FOOD\_LU[9]|PR\_Food\_Patient[10]	_	_	
+7-9	630-633	and	_	_	_	
+7-10	634-642	relishes	FOOD\_LU[11]|PR\_Food\_Patient[12]	_	_	
+7-11	642-643	.	_	_	_	
+
+#Text=Do not use jars and lids from commercially canned foods.
+8-1	644-646	Do	_	_	_	
+8-2	647-650	not	_	_	_	
+8-3	651-654	use	_	_	_	
+8-4	655-659	jars	_	_	_	
+8-5	660-663	and	_	_	_	
+8-6	664-668	lids	_	_	_	
+8-7	669-673	from	_	_	_	
+8-8	674-686	commercially	_	_	_	
+8-9	687-693	canned	PR\_LU[13]|FOOD\_Descriptor[14]|DESCR\_Neutral[15]	_	_	
+8-10	694-699	foods	FOOD\_LU[16]|PR\_Food\_Patient[17]	_	_	
+8-11	699-700	.	_	_	_	
+
+#Text=They are designed for use on special packing machines and are not suitable for home canning.
+9-1	701-705	They	_	_	_	
+9-2	706-709	are	_	_	_	
+9-3	710-718	designed	_	_	_	
+9-4	719-722	for	_	_	_	
+9-5	723-726	use	_	_	_	
+9-6	727-729	on	_	_	_	
+9-7	730-737	special	_	_	_	
+9-8	738-745	packing	_	_	_	
+9-9	746-754	machines	_	_	_	
+9-10	755-758	and	_	_	_	
+9-11	759-762	are	_	_	_	
+9-12	763-766	not	_	_	_	
+9-13	767-775	suitable	_	_	_	
+9-14	776-779	for	_	_	_	
+9-15	780-784	home	_	_	_	
+9-16	785-792	canning	PR\_LU	_	_	
+9-17	792-793	.	_	_	_	
+
+#Text=Select jars free from nicks, chips or any defects.
+10-1	795-801	Select	_	_	_	
+10-2	802-806	jars	_	_	_	
+10-3	807-811	free	_	_	_	
+10-4	812-816	from	_	_	_	
+10-5	817-822	nicks	_	_	_	
+10-6	822-823	,	_	_	_	
+10-7	824-829	chips	_	_	_	
+10-8	830-832	or	_	_	_	
+10-9	833-836	any	_	_	_	
+10-10	837-844	defects	_	_	_	
+10-11	844-845	.	_	_	_	
+
+#Text=As you wash the jars in warm soapy water and rinse them, run your finger around the jar opening to see if there is a defect.
+11-1	846-848	As	_	_	_	
+11-2	849-852	you	_	_	_	
+11-3	853-857	wash	_	_	_	
+11-4	858-861	the	_	_	_	
+11-5	862-866	jars	_	_	_	
+11-6	867-869	in	_	_	_	
+11-7	870-874	warm	_	_	_	
+11-8	875-880	soapy	_	_	_	
+11-9	881-886	water	_	_	_	
+11-10	887-890	and	_	_	_	
+11-11	891-896	rinse	_	_	_	
+11-12	897-901	them	_	_	_	
+11-13	901-902	,	_	_	_	
+11-14	903-906	run	_	_	_	
+11-15	907-911	your	_	_	_	
+11-16	912-918	finger	_	_	_	
+11-17	919-925	around	_	_	_	
+11-18	926-929	the	_	_	_	
+11-19	930-933	jar	_	_	_	
+11-20	934-941	opening	_	_	_	
+11-21	942-944	to	_	_	_	
+11-22	945-948	see	_	_	_	
+11-23	949-951	if	_	_	_	
+11-24	952-957	there	_	_	_	
+11-25	958-960	is	_	_	_	
+11-26	961-962	a	_	_	_	
+11-27	963-969	defect	_	_	_	
+11-28	969-970	.	_	_	_	
+
+#Text=If there is, the jar will not seal.
+12-1	971-973	If	_	_	_	
+12-2	974-979	there	_	_	_	
+12-3	980-982	is	_	_	_	
+12-4	982-983	,	_	_	_	
+12-5	984-987	the	_	_	_	
+12-6	988-991	jar	_	_	_	
+12-7	992-996	will	_	_	_	
+12-8	997-1000	not	_	_	_	
+12-9	1001-1005	seal	_	_	_	
+12-10	1005-1006	.	_	_	_	
+
+#Text=Look at each new metal lid to be sure the sealing compound is even and smooth.
+13-1	1008-1012	Look	_	_	_	
+13-2	1013-1015	at	_	_	_	
+13-3	1016-1020	each	_	_	_	
+13-4	1021-1024	new	_	_	_	
+13-5	1025-1030	metal	_	_	_	
+13-6	1031-1034	lid	_	_	_	
+13-7	1035-1037	to	_	_	_	
+13-8	1038-1040	be	_	_	_	
+13-9	1041-1045	sure	_	_	_	
+13-10	1046-1049	the	_	_	_	
+13-11	1050-1057	sealing	_	_	_	
+13-12	1058-1066	compound	_	_	_	
+13-13	1067-1069	is	_	_	_	
+13-14	1070-1074	even	_	_	_	
+13-15	1075-1078	and	_	_	_	
+13-16	1079-1085	smooth	_	_	_	
+13-17	1085-1086	.	_	_	_	
+
+#Text=Check the metal screw band to see that it is not bent or rusty.
+14-1	1087-1092	Check	_	_	_	
+14-2	1093-1096	the	_	_	_	
+14-3	1097-1102	metal	_	_	_	
+14-4	1103-1108	screw	_	_	_	
+14-5	1109-1113	band	_	_	_	
+14-6	1114-1116	to	_	_	_	
+14-7	1117-1120	see	_	_	_	
+14-8	1121-1125	that	_	_	_	
+14-9	1126-1128	it	_	_	_	
+14-10	1129-1131	is	_	_	_	
+14-11	1132-1135	not	_	_	_	
+14-12	1136-1140	bent	_	_	_	
+14-13	1141-1143	or	_	_	_	
+14-14	1144-1149	rusty	_	_	_	
+14-15	1149-1150	.	_	_	_	
+
+#Text=Bands can be used over and over again.
+15-1	1151-1156	Bands	_	_	_	
+15-2	1157-1160	can	_	_	_	
+15-3	1161-1163	be	_	_	_	
+15-4	1164-1168	used	_	_	_	
+15-5	1169-1173	over	_	_	_	
+15-6	1174-1177	and	_	_	_	
+15-7	1178-1182	over	_	_	_	
+15-8	1183-1188	again	_	_	_	
+15-9	1188-1189	.	_	_	_	
+
+#Text=As for pretreatment of lids and bands, follow the manufacturer’s directions.
+16-1	1190-1192	As	_	_	_	
+16-2	1193-1196	for	_	_	_	
+16-3	1197-1209	pretreatment	_	_	_	
+16-4	1210-1212	of	_	_	_	
+16-5	1213-1217	lids	_	_	_	
+16-6	1218-1221	and	_	_	_	
+16-7	1222-1227	bands	_	_	_	
+16-8	1227-1228	,	_	_	_	
+16-9	1229-1235	follow	_	_	_	
+16-10	1236-1239	the	_	_	_	
+16-11	1240-1252	manufacturer	_	_	_	
+16-12	1252-1253	’	_	_	_	
+16-13	1253-1254	s	_	_	_	
+16-14	1255-1265	directions	_	_	_	
+16-15	1265-1266	.	_	_	_	
+
+#Text=Read these even if you have used that brand before; the directions may have changed.
+17-1	1267-1271	Read	_	_	_	
+17-2	1272-1277	these	_	_	_	
+17-3	1278-1282	even	_	_	_	
+17-4	1283-1285	if	_	_	_	
+17-5	1286-1289	you	_	_	_	
+17-6	1290-1294	have	_	_	_	
+17-7	1295-1299	used	_	_	_	
+17-8	1300-1304	that	_	_	_	
+17-9	1305-1310	brand	_	_	_	
+17-10	1311-1317	before	_	_	_	
+17-11	1317-1318	;	_	_	_	
+17-12	1319-1322	the	_	_	_	
+17-13	1323-1333	directions	_	_	_	
+17-14	1334-1337	may	_	_	_	
+17-15	1338-1342	have	_	_	_	
+17-16	1343-1350	changed	_	_	_	
+17-17	1350-1351	.	_	_	_	
+
+#Text=Drying time varies according to fruit or vegetable type, size of pieces, and tray load.
+18-1	1353-1359	Drying	PR\_LU	_	_	
+18-2	1360-1364	time	_	_	_	
+18-3	1365-1371	varies	_	_	_	
+18-4	1372-1381	according	_	_	_	
+18-5	1382-1384	to	_	_	_	
+18-6	1385-1390	fruit	FOOD\_LU[18]|PR\_Food\_Patient[19]	_	_	
+18-7	1391-1393	or	_	_	_	
+18-8	1394-1403	vegetable	FOOD\_LU[20]|PR\_Food\_Patient[21]	_	_	
+18-9	1404-1408	type	_	_	_	
+18-10	1408-1409	,	_	_	_	
+18-11	1410-1414	size	_	_	_	
+18-12	1415-1417	of	_	_	_	
+18-13	1418-1424	pieces	_	_	_	
+18-14	1424-1425	,	_	_	_	
+18-15	1426-1429	and	_	_	_	
+18-16	1430-1434	tray	_	_	_	
+18-17	1435-1439	load	_	_	_	
+18-18	1439-1440	.	_	_	_	
+
+#Text=Dehydrator drying generally takes less time than oven drying.
+19-1	1441-1451	Dehydrator	PR\_Medium	_	_	
+19-2	1452-1458	drying	PR\_LU	_	_	
+19-3	1459-1468	generally	_	_	_	
+19-4	1469-1474	takes	_	_	_	
+19-5	1475-1479	less	_	_	_	
+19-6	1480-1484	time	_	_	_	
+19-7	1485-1489	than	_	_	_	
+19-8	1490-1494	oven	PR\_Medium	_	_	
+19-9	1495-1501	drying	PR\_LU	_	_	
+19-10	1501-1502	.	_	_	_	
+
+#Text=Sun drying takes considerably more time.
+20-1	1503-1506	Sun	PR\_Medium	_	_	
+20-2	1507-1513	drying	PR\_LU	_	_	
+20-3	1514-1519	takes	_	_	_	
+20-4	1520-1532	considerably	_	_	_	
+20-5	1533-1537	more	_	_	_	
+20-6	1538-1542	time	_	_	_	
+20-7	1542-1543	.	_	_	_	
+
+#Text=Before testing foods for desired dryness, remove a handful and cool for a few moments.
+21-1	1545-1551	Before	_	_	_	
+21-2	1552-1559	testing	_	_	_	
+21-3	1560-1565	foods	FOOD\_LU	_	_	
+21-4	1566-1569	for	_	_	_	
+21-5	1570-1577	desired	_	_	_	
+21-6	1578-1585	dryness	_	_	_	
+21-7	1585-1586	,	_	_	_	
+21-8	1587-1593	remove	_	_	_	
+21-9	1594-1595	a	_	_	_	
+21-10	1596-1603	handful	_	_	_	
+21-11	1604-1607	and	_	_	_	
+21-12	1608-1612	cool	_	_	_	
+21-13	1613-1616	for	_	_	_	
+21-14	1617-1618	a	_	_	_	
+21-15	1619-1622	few	_	_	_	
+21-16	1623-1630	moments	_	_	_	
+21-17	1630-1631	.	_	_	_	
+
+#Text=Foods that are warm or hot seem softer, more moist, and more pliable than they will when cooled.
+22-1	1632-1637	Foods	FOOD\_LU	_	_	
+22-2	1638-1642	that	_	_	_	
+22-3	1643-1646	are	_	_	_	
+22-4	1647-1651	warm	FOOD\_Descriptor[22]|DESCR\_Neutral[23]	_	_	
+22-5	1652-1654	or	_	_	_	
+22-6	1655-1658	hot	FOOD\_Descriptor[24]|DESCR\_Neutral[25]	_	_	
+22-7	1659-1663	seem	_	_	_	
+22-8	1664-1670	softer	FOOD\_Descriptor[26]|DESCR\_Neutral[27]	_	_	
+22-9	1670-1671	,	_	_	_	
+22-10	1672-1676	more	_	_	_	
+22-11	1677-1682	moist	FOOD\_Descriptor[28]|DESCR\_Neutral[29]	_	_	
+22-12	1682-1683	,	_	_	_	
+22-13	1684-1687	and	_	_	_	
+22-14	1688-1692	more	_	_	_	
+22-15	1693-1700	pliable	FOOD\_Descriptor[30]|DESCR\_Neutral[31]	_	_	
+22-16	1701-1705	than	_	_	_	
+22-17	1706-1710	they	_	_	_	
+22-18	1711-1715	will	_	_	_	
+22-19	1716-1720	when	_	_	_	
+22-20	1721-1727	cooled	FOOD\_Descriptor[32]|DESCR\_Neutral[33]	_	_	
+22-21	1727-1728	.	_	_	_	
+
+#Text=Foods should be dry enough to prevent microbial growth and subsequent spoilage.
+23-1	1730-1735	Foods	FOOD\_LU[34]|PR\_Food\_Patient[35]	_	_	
+23-2	1736-1742	should	_	_	_	
+23-3	1743-1745	be	_	_	_	
+23-4	1746-1749	dry	PR\_LU	_	_	
+23-5	1750-1756	enough	_	_	_	
+23-6	1757-1759	to	_	_	_	
+23-7	1760-1767	prevent	_	_	_	
+23-8	1768-1777	microbial	_	_	_	
+23-9	1778-1784	growth	_	_	_	
+23-10	1785-1788	and	_	_	_	
+23-11	1789-1799	subsequent	_	_	_	
+23-12	1800-1808	spoilage	_	_	_	
+23-13	1808-1809	.	_	_	_	
+
+#Text=Dried vegetables should be hard and brittle.
+24-1	1810-1815	Dried	PR\_LU[36]|FOOD\_Descriptor[37]|DESCR\_Neutral[38]	_	_	
+24-2	1816-1826	vegetables	FOOD\_LU[39]|PR\_Food\_Patient[40]	_	_	
+24-3	1827-1833	should	_	_	_	
+24-4	1834-1836	be	_	_	_	
+24-5	1837-1841	hard	FOOD\_Descriptor[41]|DESCR\_Neutral[42]	_	_	
+24-6	1842-1845	and	_	_	_	
+24-7	1846-1853	brittle	FOOD\_Descriptor[43]|DESCR\_Neutral[44]	_	_	
+24-8	1853-1854	.	_	_	_	
+
+#Text=Dried fruits should be leathery and pliable.
+25-1	1855-1860	Dried	PR\_LU[45]|FOOD\_Descriptor[46]|DESCR\_Neutral[47]	_	_	
+25-2	1861-1867	fruits	FOOD\_LU[48]|PR\_Food\_Patient[49]	_	_	
+25-3	1868-1874	should	_	_	_	
+25-4	1875-1877	be	_	_	_	
+25-5	1878-1886	leathery	FOOD\_Descriptor[50]|DESCR\_Neutral[51]	_	_	
+25-6	1887-1890	and	_	_	_	
+25-7	1891-1898	pliable	FOOD\_Descriptor[52]|DESCR\_Neutral[53]	_	_	
+25-8	1898-1899	.	_	_	_	
+
+#Text=For long term storage, home dried fruits will need to be drier than commercially dried fruits sold in grocery stores.
+26-1	1900-1903	For	_	_	_	
+26-2	1904-1908	long	_	_	_	
+26-3	1909-1913	term	_	_	_	
+26-4	1914-1921	storage	_	_	_	
+26-5	1921-1922	,	_	_	_	
+26-6	1923-1927	home	PR\_LU[54]|FOOD\_Descriptor[55]|DESCR\_Neutral[56]	_	_	
+26-7	1928-1933	dried	PR\_LU[54]|FOOD\_Descriptor[55]|DESCR\_Neutral[56]	_	_	
+26-8	1934-1940	fruits	FOOD\_LU[57]|PR\_Food\_Patient[58]	_	_	
+26-9	1941-1945	will	_	_	_	
+26-10	1946-1950	need	_	_	_	
+26-11	1951-1953	to	_	_	_	
+26-12	1954-1956	be	_	_	_	
+26-13	1957-1962	drier	FOOD\_Descriptor[59]|DESCR\_Neutral[60]	_	_	
+26-14	1963-1967	than	_	_	_	
+26-15	1968-1980	commercially	PR\_LU[61]|FOOD\_Descriptor[62]|DESCR\_Neutral[63]	_	_	
+26-16	1981-1986	dried	PR\_LU[61]|FOOD\_Descriptor[62]|DESCR\_Neutral[63]	_	_	
+26-17	1987-1993	fruits	FOOD\_LU[64]|PR\_Food\_Patient[65]	_	_	
+26-18	1994-1998	sold	_	_	_	
+26-19	1999-2001	in	_	_	_	
+26-20	2002-2009	grocery	_	_	_	
+26-21	2010-2016	stores	_	_	_	
+26-22	2016-2017	.	_	_	_	
+
+#Text=Sugar, salt and vinegar play important roles in quality canned foods.
+27-1	2019-2024	Sugar	FOOD\_LU[66]|PR\_Medium[67]	_	_	
+27-2	2024-2025	,	_	_	_	
+27-3	2026-2030	salt	FOOD\_LU[68]|PR\_Medium[69]	_	_	
+27-4	2031-2034	and	_	_	_	
+27-5	2035-2042	vinegar	FOOD\_LU[70]|PR\_Medium[71]	_	_	
+27-6	2043-2047	play	_	_	_	
+27-7	2048-2057	important	_	_	_	
+27-8	2058-2063	roles	_	_	_	
+27-9	2064-2066	in	_	_	_	
+27-10	2067-2074	quality	_	_	_	
+27-11	2075-2081	canned	PR\_LU	_	_	
+27-12	2082-2087	foods	FOOD\_LU[72]|PR\_Food\_Patient[73]	_	_	
+27-13	2087-2088	.	_	_	_	
+
+#Text=While sugar is not needed to safely can fruits, it contributes to better color, flavor and texture.
+28-1	2089-2094	While	_	_	_	
+28-2	2095-2100	sugar	FOOD\_LU[74]|PR\_Medium[75]	_	_	
+28-3	2101-2103	is	_	_	_	
+28-4	2104-2107	not	_	_	_	
+28-5	2108-2114	needed	_	_	_	
+28-6	2115-2117	to	_	_	_	
+28-7	2118-2124	safely	_	_	_	
+28-8	2125-2128	can	PR\_LU	_	_	
+28-9	2129-2135	fruits	FOOD\_LU[76]|PR\_Food\_Patient[77]	_	_	
+28-10	2135-2136	,	_	_	_	
+28-11	2137-2139	it	_	_	_	
+28-12	2140-2151	contributes	_	_	_	
+28-13	2152-2154	to	_	_	_	
+28-14	2155-2161	better	_	_	_	
+28-15	2162-2167	color	_	_	_	
+28-16	2167-2168	,	_	_	_	
+28-17	2169-2175	flavor	_	_	_	
+28-18	2176-2179	and	_	_	_	
+28-19	2180-2187	texture	_	_	_	
+28-20	2187-2188	.	_	_	_	
+
+#Text=Likewise, vegetables may be safely canned without salt, but when salt is used, better flavor results.
+29-1	2189-2197	Likewise	_	_	_	
+29-2	2197-2198	,	_	_	_	
+29-3	2199-2209	vegetables	FOOD\_LU[78]|PR\_Food\_Patient[79]	_	_	
+29-4	2210-2213	may	_	_	_	
+29-5	2214-2216	be	_	_	_	
+29-6	2217-2223	safely	_	_	_	
+29-7	2224-2230	canned	PR\_LU	_	_	
+29-8	2231-2238	without	_	_	_	
+29-9	2239-2243	salt	FOOD\_LU[80]|PR\_Medium[81]	_	_	
+29-10	2243-2244	,	_	_	_	
+29-11	2245-2248	but	_	_	_	
+29-12	2249-2253	when	_	_	_	
+29-13	2254-2258	salt	FOOD\_LU[82]|PR\_Medium[83]	_	_	
+29-14	2259-2261	is	_	_	_	
+29-15	2262-2266	used	_	_	_	
+29-16	2266-2267	,	_	_	_	
+29-17	2268-2274	better	_	_	_	
+29-18	2275-2281	flavor	_	_	_	
+29-19	2282-2289	results	_	_	_	
+29-20	2289-2290	.	_	_	_	
+
+#Text=Salt is essential for slow process pickles; vinegar is needed for quick process pickles.
+30-1	2291-2295	Salt	FOOD\_LU[84]|PR\_Medium[85]	_	_	
+30-2	2296-2298	is	_	_	_	
+30-3	2299-2308	essential	_	_	_	
+30-4	2309-2312	for	_	_	_	
+30-5	2313-2317	slow	_	_	_	
+30-6	2318-2325	process	_	_	_	
+30-7	2326-2333	pickles	FOOD\_LU	_	_	
+30-8	2333-2334	;	_	_	_	
+30-9	2335-2342	vinegar	FOOD\_LU[86]|PR\_Medium[87]	_	_	
+30-10	2343-2345	is	_	_	_	
+30-11	2346-2352	needed	_	_	_	
+30-12	2353-2356	for	_	_	_	
+30-13	2357-2362	quick	_	_	_	
+30-14	2363-2370	process	_	_	_	
+30-15	2371-2378	pickles	FOOD\_LU	_	_	
+30-16	2378-2379	.	_	_	_	
+
+#Text=Canning or pickling salt should always be used.
+31-1	2380-2387	Canning	PR\_LU[88]|FOOD\_Descriptor[89]|DESCR\_Neutral[90]	_	_	
+31-2	2388-2390	or	_	_	_	
+31-3	2391-2399	pickling	PR\_LU[91]|FOOD\_Descriptor[92]|DESCR\_Neutral[93]	_	_	
+31-4	2400-2404	salt	FOOD\_LU[94]|PR\_Medium[95]	_	_	
+31-5	2405-2411	should	_	_	_	
+31-6	2412-2418	always	_	_	_	
+31-7	2419-2421	be	_	_	_	
+31-8	2422-2426	used	_	_	_	
+31-9	2426-2427	.	_	_	_	
+
+#Text=Iodized salt will inhibit proper fermentation and react with the starch in some foods, causing them to turn pink or blue.
+32-1	2428-2435	Iodized	FOOD\_LU[96]|PR\_Medium[97]|DESCR\_Neutral[98]|FOOD\_Descriptor[99]	_	_	
+32-2	2436-2440	salt	FOOD\_LU[96]|PR\_Medium[97]|FOOD\_LU[100]	_	_	
+32-3	2441-2445	will	_	_	_	
+32-4	2446-2453	inhibit	_	_	_	
+32-5	2454-2460	proper	_	_	_	
+32-6	2461-2473	fermentation	PR\_LU	_	_	
+32-7	2474-2477	and	_	_	_	
+32-8	2478-2483	react	_	_	_	
+32-9	2484-2488	with	_	_	_	
+32-10	2489-2492	the	_	_	_	
+32-11	2493-2499	starch	_	_	_	
+32-12	2500-2502	in	_	_	_	
+32-13	2503-2507	some	_	_	_	
+32-14	2508-2513	foods	FOOD\_LU	_	_	
+32-15	2513-2514	,	_	_	_	
+32-16	2515-2522	causing	_	_	_	
+32-17	2523-2527	them	_	_	_	
+32-18	2528-2530	to	_	_	_	
+32-19	2531-2535	turn	_	_	_	
+32-20	2536-2540	pink	_	_	_	
+32-21	2541-2543	or	_	_	_	
+32-22	2544-2548	blue	_	_	_	
+32-23	2548-2549	.	_	_	_	
+
+#Text=Pickles or relishes can add zip and zest to your meals, snacks and party refreshments.
+33-1	2551-2558	Pickles	FOOD\_LU	_	_	
+33-2	2559-2561	or	_	_	_	
+33-3	2562-2570	relishes	FOOD\_LU	_	_	
+33-4	2571-2574	can	_	_	_	
+33-5	2575-2578	add	_	_	_	
+33-6	2579-2582	zip	_	_	_	
+33-7	2583-2586	and	_	_	_	
+33-8	2587-2591	zest	_	_	_	
+33-9	2592-2594	to	_	_	_	
+33-10	2595-2599	your	_	_	_	
+33-11	2600-2605	meals	_	_	_	
+33-12	2605-2606	,	_	_	_	
+33-13	2607-2613	snacks	_	_	_	
+33-14	2614-2617	and	_	_	_	
+33-15	2618-2623	party	_	_	_	
+33-16	2624-2636	refreshments	_	_	_	
+33-17	2636-2637	.	_	_	_	
+
+#Text=They contain small amounts of nutrients, depending on ingredients used in making them.
+34-1	2638-2642	They	_	_	_	
+34-2	2643-2650	contain	_	_	_	
+34-3	2651-2656	small	_	_	_	
+34-4	2657-2664	amounts	_	_	_	
+34-5	2665-2667	of	_	_	_	
+34-6	2668-2677	nutrients	_	_	_	
+34-7	2677-2678	,	_	_	_	
+34-8	2679-2688	depending	_	_	_	
+34-9	2689-2691	on	_	_	_	
+34-10	2692-2703	ingredients	_	_	_	
+34-11	2704-2708	used	_	_	_	
+34-12	2709-2711	in	_	_	_	
+34-13	2712-2718	making	_	_	_	
+34-14	2719-2723	them	_	_	_	
+34-15	2723-2724	.	_	_	_	
+
+#Text=But they have little or no fat and are low in calories, except for the sweet varieties.
+35-1	2725-2728	But	_	_	_	
+35-2	2729-2733	they	_	_	_	
+35-3	2734-2738	have	_	_	_	
+35-4	2739-2745	little	_	_	_	
+35-5	2746-2748	or	_	_	_	
+35-6	2749-2751	no	_	_	_	
+35-7	2752-2755	fat	_	_	_	
+35-8	2756-2759	and	_	_	_	
+35-9	2760-2763	are	_	_	_	
+35-10	2764-2767	low	_	_	_	
+35-11	2768-2770	in	_	_	_	
+35-12	2771-2779	calories	_	_	_	
+35-13	2779-2780	,	_	_	_	
+35-14	2781-2787	except	_	_	_	
+35-15	2788-2791	for	_	_	_	
+35-16	2792-2795	the	_	_	_	
+35-17	2796-2801	sweet	_	_	_	
+35-18	2802-2811	varieties	_	_	_	
+35-19	2811-2812	.	_	_	_	
+
+#Text=Sun-drying, salting, smoking and pickling were methods used in ancient times for preserving food.
+36-1	2814-2824	Sun-drying	PR\_LU	_	_	
+36-2	2824-2825	,	_	_	_	
+36-3	2826-2833	salting	PR\_LU	_	_	
+36-4	2833-2834	,	_	_	_	
+36-5	2835-2842	smoking	PR\_LU	_	_	
+36-6	2843-2846	and	_	_	_	
+36-7	2847-2855	pickling	PR\_LU	_	_	
+36-8	2856-2860	were	_	_	_	
+36-9	2861-2868	methods	_	_	_	
+36-10	2869-2873	used	_	_	_	
+36-11	2874-2876	in	_	_	_	
+36-12	2877-2884	ancient	_	_	_	
+36-13	2885-2890	times	_	_	_	
+36-14	2891-2894	for	_	_	_	
+36-15	2895-2905	preserving	PR\_LU	_	_	
+36-16	2906-2910	food	FOOD\_LU[101]|PR\_Food\_Patient[102]	_	_	
+36-17	2910-2911	.	_	_	_	
+
+#Text=Pickling is still popular today.
+37-1	2912-2920	Pickling	_	_	_	
+37-2	2921-2923	is	_	_	_	
+37-3	2924-2929	still	_	_	_	
+37-4	2930-2937	popular	_	_	_	
+37-5	2938-2943	today	_	_	_	
+37-6	2943-2944	.	_	_	_	
+
+#Text=Pickling is preserving foods in vinegar or brine or a combination of the two.
+38-1	2946-2954	Pickling	PR\_LU	_	_	
+38-2	2955-2957	is	_	_	_	
+38-3	2958-2968	preserving	PR\_LU	_	_	
+38-4	2969-2974	foods	FOOD\_LU[103]|PR\_Food\_Patient[104]	Telic|Telic|Telic|Telic	38-3[0_103]|38-1[0_103]|38-6[106_103]|38-8[108_103]	
+38-5	2975-2977	in	_	_	_	
+38-6	2978-2985	vinegar	FOOD\_LU[105]|PR\_Medium[106]	_	_	
+38-7	2986-2988	or	_	_	_	
+38-8	2989-2994	brine	FOOD\_LU[107]|PR\_Medium[108]	_	_	
+38-9	2995-2997	or	_	_	_	
+38-10	2998-2999	a	_	_	_	
+38-11	3000-3011	combination	_	_	_	
+38-12	3012-3014	of	_	_	_	
+38-13	3015-3018	the	_	_	_	
+38-14	3019-3022	two	_	_	_	
+38-15	3022-3023	.	_	_	_	
+
+#Text=Other ingredients are sometimes added to make pickles crisp and spicy.
+39-1	3024-3029	Other	_	_	_	
+39-2	3030-3041	ingredients	_	_	_	
+39-3	3042-3045	are	_	_	_	
+39-4	3046-3055	sometimes	_	_	_	
+39-5	3056-3061	added	_	_	_	
+39-6	3062-3064	to	_	_	_	
+39-7	3065-3069	make	_	_	_	
+39-8	3070-3077	pickles	FOOD\_LU	_	_	
+39-9	3078-3083	crisp	FOOD\_Descriptor[109]|DESCR\_Positive[110]	_	_	
+39-10	3084-3087	and	_	_	_	
+39-11	3088-3093	spicy	FOOD\_Descriptor[111]|DESCR\_Neutral[112]	_	_	
+39-12	3093-3094	.	_	_	_	
+
+#Text=Relishes and some pickles can be made in a few hours.
+40-1	3096-3104	Relishes	FOOD\_LU	_	_	
+40-2	3105-3108	and	_	_	_	
+40-3	3109-3113	some	_	_	_	
+40-4	3114-3121	pickles	FOOD\_LU	_	_	
+40-5	3122-3125	can	_	_	_	
+40-6	3126-3128	be	_	_	_	
+40-7	3129-3133	made	_	_	_	
+40-8	3134-3136	in	_	_	_	
+40-9	3137-3138	a	_	_	_	
+40-10	3139-3142	few	_	_	_	
+40-11	3143-3148	hours	_	_	_	
+40-12	3148-3149	.	_	_	_	
+
+#Text=Other pickles may take three to six weeks.
+41-1	3150-3155	Other	_	_	_	
+41-2	3156-3163	pickles	FOOD\_LU	_	_	
+41-3	3164-3167	may	_	_	_	
+41-4	3168-3172	take	_	_	_	
+41-5	3173-3178	three	_	_	_	
+41-6	3179-3181	to	_	_	_	
+41-7	3182-3185	six	_	_	_	
+41-8	3186-3191	weeks	_	_	_	
+41-9	3191-3192	.	_	_	_	
+
+#Text=Canning in the home is increasing in popularity as a method of food preservation.
+42-1	3194-3201	Canning	PR\_LU	_	_	
+42-2	3202-3204	in	_	_	_	
+42-3	3205-3208	the	_	_	_	
+42-4	3209-3213	home	_	_	_	
+42-5	3214-3216	is	_	_	_	
+42-6	3217-3227	increasing	_	_	_	
+42-7	3228-3230	in	_	_	_	
+42-8	3231-3241	popularity	_	_	_	
+42-9	3242-3244	as	_	_	_	
+42-10	3245-3246	a	_	_	_	
+42-11	3247-3253	method	_	_	_	
+42-12	3254-3256	of	_	_	_	
+42-13	3257-3261	food	FOOD\_LU[113]|PR\_Food\_Patient[114]	_	_	
+42-14	3262-3274	preservation	PR\_LU	_	_	
+42-15	3274-3275	.	_	_	_	
+
+#Text=Economic considerations are causing consumers to look for ways to stretch their food dollars.
+43-1	3276-3284	Economic	_	_	_	
+43-2	3285-3299	considerations	_	_	_	
+43-3	3300-3303	are	_	_	_	
+43-4	3304-3311	causing	_	_	_	
+43-5	3312-3321	consumers	_	_	_	
+43-6	3322-3324	to	_	_	_	
+43-7	3325-3329	look	_	_	_	
+43-8	3330-3333	for	_	_	_	
+43-9	3334-3338	ways	_	_	_	
+43-10	3339-3341	to	_	_	_	
+43-11	3342-3349	stretch	_	_	_	
+43-12	3350-3355	their	_	_	_	
+43-13	3356-3360	food	FOOD\_LU	_	_	
+43-14	3361-3368	dollars	_	_	_	
+43-15	3368-3369	.	_	_	_	
+
+#Text=By having their own gardens and canning the harvested produce, they often can save money.
+44-1	3370-3372	By	_	_	_	
+44-2	3373-3379	having	_	_	_	
+44-3	3380-3385	their	_	_	_	
+44-4	3386-3389	own	_	_	_	
+44-5	3390-3397	gardens	_	_	_	
+44-6	3398-3401	and	_	_	_	
+44-7	3402-3409	canning	PR\_LU	_	_	
+44-8	3410-3413	the	_	_	_	
+44-9	3414-3423	harvested	FOOD\_LU[115]|PR\_Food\_Patient[116]	_	_	
+44-10	3424-3431	produce	FOOD\_LU[115]|PR\_Food\_Patient[116]	_	_	
+44-11	3431-3432	,	_	_	_	
+44-12	3433-3437	they	_	_	_	
+44-13	3438-3443	often	_	_	_	
+44-14	3444-3447	can	_	_	_	
+44-15	3448-3452	save	_	_	_	
+44-16	3453-3458	money	_	_	_	
+44-17	3458-3459	.	_	_	_	
+
+#Text=Eating quality of home-canned products encourages some individuals to can.
+45-1	3460-3466	Eating	INGESTION\_LU	_	_	
+45-2	3467-3474	quality	_	_	_	
+45-3	3475-3477	of	_	_	_	
+45-4	3478-3489	home-canned	PR\_LU[117]|FOOD\_Descriptor[118]|DESCR\_Neutral[119]	_	_	
+45-5	3490-3498	products	FOOD\_LU[120]|PR\_Food\_Patient[121]|INGESTION\_Food\_Ingestible[122]	_	_	
+45-6	3499-3509	encourages	_	_	_	
+45-7	3510-3514	some	_	_	_	
+45-8	3515-3526	individuals	_	_	_	
+45-9	3527-3529	to	_	_	_	
+45-10	3530-3533	can	PR\_LU	_	_	
+45-11	3533-3534	.	_	_	_	
+
+#Text=The activity of growing or obtaining produce and preserving it in the home sometimes gives people a sense of personal achievement and satisfaction.
+46-1	3535-3538	The	_	_	_	
+46-2	3539-3547	activity	_	_	_	
+46-3	3548-3550	of	_	_	_	
+46-4	3551-3558	growing	_	_	_	
+46-5	3559-3561	or	_	_	_	
+46-6	3562-3571	obtaining	_	_	_	
+46-7	3572-3579	produce	FOOD\_LU[123]|PR\_Food\_Patient[124]	_	_	
+46-8	3580-3583	and	_	_	_	
+46-9	3584-3594	preserving	PR\_LU	_	_	
+46-10	3595-3597	it	_	_	_	
+46-11	3598-3600	in	_	_	_	
+46-12	3601-3604	the	_	_	_	
+46-13	3605-3609	home	_	_	_	
+46-14	3610-3619	sometimes	_	_	_	
+46-15	3620-3625	gives	_	_	_	
+46-16	3626-3632	people	_	_	_	
+46-17	3633-3634	a	_	_	_	
+46-18	3635-3640	sense	_	_	_	
+46-19	3641-3643	of	_	_	_	
+46-20	3644-3652	personal	_	_	_	
+46-21	3653-3664	achievement	_	_	_	
+46-22	3665-3668	and	_	_	_	
+46-23	3669-3681	satisfaction	_	_	_	
+46-24	3681-3682	.	_	_	_	
+
+#Text=In canning, food is preserved by applying heat to prepared food in containers so that micro-organisms that cause spoilage or food poisoning are destroyed and enzymes that cause undesirable quality changes in the flavor, color, and texture of food are inactivated.
+47-1	3684-3686	In	_	_	_	
+47-2	3687-3694	canning	PR\_LU	_	_	
+47-3	3694-3695	,	_	_	_	
+47-4	3696-3700	food	FOOD\_LU[125]|PR\_Food\_Patient[126]	_	_	
+47-5	3701-3703	is	_	_	_	
+47-6	3704-3713	preserved	PR\_LU	_	_	
+47-7	3714-3716	by	_	_	_	
+47-8	3717-3725	applying	_	_	_	
+47-9	3726-3730	heat	_	_	_	
+47-10	3731-3733	to	_	_	_	
+47-11	3734-3742	prepared	_	_	_	
+47-12	3743-3747	food	FOOD\_LU	_	_	
+47-13	3748-3750	in	_	_	_	
+47-14	3751-3761	containers	_	_	_	
+47-15	3762-3764	so	_	_	_	
+47-16	3765-3769	that	_	_	_	
+47-17	3770-3785	micro-organisms	_	_	_	
+47-18	3786-3790	that	_	_	_	
+47-19	3791-3796	cause	_	_	_	
+47-20	3797-3805	spoilage	_	_	_	
+47-21	3806-3808	or	_	_	_	
+47-22	3809-3813	food	FOOD\_LU	_	_	
+47-23	3814-3823	poisoning	_	_	_	
+47-24	3824-3827	are	_	_	_	
+47-25	3828-3837	destroyed	_	_	_	
+47-26	3838-3841	and	_	_	_	
+47-27	3842-3849	enzymes	_	_	_	
+47-28	3850-3854	that	_	_	_	
+47-29	3855-3860	cause	_	_	_	
+47-30	3861-3872	undesirable	_	_	_	
+47-31	3873-3880	quality	_	_	_	
+47-32	3881-3888	changes	_	_	_	
+47-33	3889-3891	in	_	_	_	
+47-34	3892-3895	the	_	_	_	
+47-35	3896-3902	flavor	_	_	_	
+47-36	3902-3903	,	_	_	_	
+47-37	3904-3909	color	_	_	_	
+47-38	3909-3910	,	_	_	_	
+47-39	3911-3914	and	_	_	_	
+47-40	3915-3922	texture	_	_	_	
+47-41	3923-3925	of	_	_	_	
+47-42	3926-3930	food	FOOD\_LU	_	_	
+47-43	3931-3934	are	_	_	_	
+47-44	3935-3946	inactivated	_	_	_	
+47-45	3946-3947	.	_	_	_	
+
+#Text=Preservation of food by canning also depends on sealing the food in sterile, airtight containers to prevent it from coming in contact with micro-organisms in the environment.
+48-1	3948-3960	Preservation	PR\_LU	_	_	
+48-2	3961-3963	of	_	_	_	
+48-3	3964-3968	food	FOOD\_LU[127]|PR\_Food\_Patient[128]	_	_	
+48-4	3969-3971	by	_	_	_	
+48-5	3972-3979	canning	PR\_LU	_	_	
+48-6	3980-3984	also	_	_	_	
+48-7	3985-3992	depends	_	_	_	
+48-8	3993-3995	on	_	_	_	
+48-9	3996-4003	sealing	PR\_LU	_	_	
+48-10	4004-4007	the	_	_	_	
+48-11	4008-4012	food	FOOD\_LU[129]|PR\_Food\_Patient[130]	_	_	
+48-12	4013-4015	in	_	_	_	
+48-13	4016-4023	sterile	_	_	_	
+48-14	4023-4024	,	_	_	_	
+48-15	4025-4033	airtight	_	_	_	
+48-16	4034-4044	containers	_	_	_	
+48-17	4045-4047	to	_	_	_	
+48-18	4048-4055	prevent	_	_	_	
+48-19	4056-4058	it	_	_	_	
+48-20	4059-4063	from	_	_	_	
+48-21	4064-4070	coming	_	_	_	
+48-22	4071-4073	in	_	_	_	
+48-23	4074-4081	contact	_	_	_	
+48-24	4082-4086	with	_	_	_	
+48-25	4087-4102	micro-organisms	_	_	_	
+48-26	4103-4105	in	_	_	_	
+48-27	4106-4109	the	_	_	_	
+48-28	4110-4121	environment	_	_	_	
+48-29	4121-4122	.	_	_	_	
+
+#Text=Canning is not a difficult technique, but it must be done properly to avoid spoilage and food poisoning, such as the often fatal botulism.
+49-1	4124-4131	Canning	PR\_LU	_	_	
+49-2	4132-4134	is	_	_	_	
+49-3	4135-4138	not	_	_	_	
+49-4	4139-4140	a	_	_	_	
+49-5	4141-4150	difficult	_	_	_	
+49-6	4151-4160	technique	_	_	_	
+49-7	4160-4161	,	_	_	_	
+49-8	4162-4165	but	_	_	_	
+49-9	4166-4168	it	_	_	_	
+49-10	4169-4173	must	_	_	_	
+49-11	4174-4176	be	_	_	_	
+49-12	4177-4181	done	_	_	_	
+49-13	4182-4190	properly	_	_	_	
+49-14	4191-4193	to	_	_	_	
+49-15	4194-4199	avoid	_	_	_	
+49-16	4200-4208	spoilage	_	_	_	
+49-17	4209-4212	and	_	_	_	
+49-18	4213-4217	food	FOOD\_LU	_	_	
+49-19	4218-4227	poisoning	_	_	_	
+49-20	4227-4228	,	_	_	_	
+49-21	4229-4233	such	_	_	_	
+49-22	4234-4236	as	_	_	_	
+49-23	4237-4240	the	_	_	_	
+49-24	4241-4246	often	_	_	_	
+49-25	4247-4252	fatal	_	_	_	
+49-26	4253-4261	botulism	_	_	_	
+49-27	4261-4262	.	_	_	_	
+
+#Text=It is extremely important that only tested reliable instructions are used, such as those found in U.S.
+50-1	4263-4265	It	_	_	_	
+50-2	4266-4268	is	_	_	_	
+50-3	4269-4278	extremely	_	_	_	
+50-4	4279-4288	important	_	_	_	
+50-5	4289-4293	that	_	_	_	
+50-6	4294-4298	only	_	_	_	
+50-7	4299-4305	tested	_	_	_	
+50-8	4306-4314	reliable	_	_	_	
+50-9	4315-4327	instructions	_	_	_	
+50-10	4328-4331	are	_	_	_	
+50-11	4332-4336	used	_	_	_	
+50-12	4336-4337	,	_	_	_	
+50-13	4338-4342	such	_	_	_	
+50-14	4343-4345	as	_	_	_	
+50-15	4346-4351	those	_	_	_	
+50-16	4352-4357	found	_	_	_	
+50-17	4358-4360	in	_	_	_	
+50-18	4361-4364	U.S	_	_	_	
+50-19	4364-4365	.	_	_	_	
+
+#Text=Department of Agriculture publications.
+51-1	4366-4376	Department	_	_	_	
+51-2	4377-4379	of	_	_	_	
+51-3	4380-4391	Agriculture	_	_	_	
+51-4	4392-4404	publications	_	_	_	
+51-5	4404-4405	.	_	_	_	
+
+#Text=Based on scientific research, specific instructions have been developed for preparing, packing, and processing each food.
+52-1	4406-4411	Based	_	_	_	
+52-2	4412-4414	on	_	_	_	
+52-3	4415-4425	scientific	_	_	_	
+52-4	4426-4434	research	_	_	_	
+52-5	4434-4435	,	_	_	_	
+52-6	4436-4444	specific	_	_	_	
+52-7	4445-4457	instructions	_	_	_	
+52-8	4458-4462	have	_	_	_	
+52-9	4463-4467	been	_	_	_	
+52-10	4468-4477	developed	_	_	_	
+52-11	4478-4481	for	_	_	_	
+52-12	4482-4491	preparing	_	_	_	
+52-13	4491-4492	,	_	_	_	
+52-14	4493-4500	packing	_	_	_	
+52-15	4500-4501	,	_	_	_	
+52-16	4502-4505	and	_	_	_	
+52-17	4506-4516	processing	_	_	_	
+52-18	4517-4521	each	_	_	_	
+52-19	4522-4526	food	FOOD\_LU	_	_	
+52-20	4526-4527	.	_	_	_	
+
+#Text=Instructions should be followed exactly from beginning to end—without taking any shortcuts or altering any recipes.
+53-1	4528-4540	Instructions	_	_	_	
+53-2	4541-4547	should	_	_	_	
+53-3	4548-4550	be	_	_	_	
+53-4	4551-4559	followed	_	_	_	
+53-5	4560-4567	exactly	_	_	_	
+53-6	4568-4572	from	_	_	_	
+53-7	4573-4582	beginning	_	_	_	
+53-8	4583-4585	to	_	_	_	
+53-9	4586-4597	end—without	_	_	_	
+53-10	4598-4604	taking	_	_	_	
+53-11	4605-4608	any	_	_	_	
+53-12	4609-4618	shortcuts	_	_	_	
+53-13	4619-4621	or	_	_	_	
+53-14	4622-4630	altering	_	_	_	
+53-15	4631-4634	any	_	_	_	
+53-16	4635-4642	recipes	_	_	_	
+53-17	4642-4643	.	_	_	_	
+
+#Text=Acid content varies among fruits and is higher in underripe fruits.
+54-1	4646-4650	Acid	_	_	_	
+54-2	4651-4658	content	_	_	_	
+54-3	4659-4665	varies	_	_	_	
+54-4	4666-4671	among	_	_	_	
+54-5	4672-4678	fruits	FOOD\_LU	_	_	
+54-6	4679-4682	and	_	_	_	
+54-7	4683-4685	is	_	_	_	
+54-8	4686-4692	higher	_	_	_	
+54-9	4693-4695	in	_	_	_	
+54-10	4696-4705	underripe	FOOD\_Descriptor[131]|DESCR\_Negative[132]	_	_	
+54-11	4706-4712	fruits	FOOD\_LU	_	_	
+54-12	4712-4713	.	_	_	_	
+
+#Text=Acid is needed both for gel formation and for flavor.
+55-1	4714-4718	Acid	_	_	_	
+55-2	4719-4721	is	_	_	_	
+55-3	4722-4728	needed	_	_	_	
+55-4	4729-4733	both	_	_	_	
+55-5	4734-4737	for	_	_	_	
+55-6	4738-4741	gel	_	_	_	
+55-7	4742-4751	formation	_	_	_	
+55-8	4752-4755	and	_	_	_	
+55-9	4756-4759	for	_	_	_	
+55-10	4760-4766	flavor	_	_	_	
+55-11	4766-4767	.	_	_	_	
+
+#Text=When fruits are low in acid, lemon juice or citric acid may be used.
+56-1	4768-4772	When	_	_	_	
+56-2	4773-4779	fruits	FOOD\_LU	_	_	
+56-3	4780-4783	are	_	_	_	
+56-4	4784-4787	low	_	_	_	
+56-5	4788-4790	in	_	_	_	
+56-6	4791-4795	acid	_	_	_	
+56-7	4795-4796	,	_	_	_	
+56-8	4797-4802	lemon	FOOD\_LU[133]	_	_	
+56-9	4803-4808	juice	FOOD\_LU[133]	_	_	
+56-10	4809-4811	or	_	_	_	
+56-11	4812-4818	citric	_	_	_	
+56-12	4819-4823	acid	_	_	_	
+56-13	4824-4827	may	_	_	_	
+56-14	4828-4830	be	_	_	_	
+56-15	4831-4835	used	_	_	_	
+56-16	4835-4836	.	_	_	_	
+
+#Text=Commercial pectins also have added acid.
+57-1	4837-4847	Commercial	_	_	_	
+57-2	4848-4855	pectins	_	_	_	
+57-3	4856-4860	also	_	_	_	
+57-4	4861-4865	have	_	_	_	
+57-5	4866-4871	added	_	_	_	
+57-6	4872-4876	acid	_	_	_	
+57-7	4876-4877	.	_	_	_	
+
+#Text=Either beet or cane sugar in fruit products acts as a preserving agent, helps in forming the gel, and enhances the finished product’s flavor.
+58-1	4879-4885	Either	_	_	_	
+58-2	4886-4890	beet	PR\_Medium[134]|FOOD\_Descriptor[135]|DESCR\_Neutral[136]	_	_	
+58-3	4891-4893	or	PR\_Medium[134]	_	_	
+58-4	4894-4898	cane	PR\_Medium[134]|FOOD\_LU[137]|FOOD\_Descriptor[138]|DESCR\_Neutral[139]	_	_	
+58-5	4899-4904	sugar	PR\_Medium[134]|FOOD\_LU[137]|FOOD\_LU[140]	_	_	
+58-6	4905-4907	in	_	_	_	
+58-7	4908-4913	fruit	FOOD\_LU[141]|PR\_Food\_Patient[142]	_	_	
+58-8	4914-4922	products	FOOD\_LU[141]|PR\_Food\_Patient[142]	_	_	
+58-9	4923-4927	acts	_	_	_	
+58-10	4928-4930	as	_	_	_	
+58-11	4931-4932	a	_	_	_	
+58-12	4933-4943	preserving	PR\_LU	_	_	
+58-13	4944-4949	agent	_	_	_	
+58-14	4949-4950	,	_	_	_	
+58-15	4951-4956	helps	_	_	_	
+58-16	4957-4959	in	_	_	_	
+58-17	4960-4967	forming	_	_	_	
+58-18	4968-4971	the	_	_	_	
+58-19	4972-4975	gel	_	_	_	
+58-20	4975-4976	,	_	_	_	
+58-21	4977-4980	and	_	_	_	
+58-22	4981-4989	enhances	_	_	_	
+58-23	4990-4993	the	_	_	_	
+58-24	4994-5002	finished	_	_	_	
+58-25	5003-5010	product	_	_	_	
+58-26	5010-5011	’	_	_	_	
+58-27	5011-5012	s	_	_	_	
+58-28	5013-5019	flavor	_	_	_	
+58-29	5019-5020	.	_	_	_	
+
+#Text=In preserves, sugar aids in firming the fruit or fruit pieces.
+59-1	5021-5023	In	_	_	_	
+59-2	5024-5033	preserves	PR\_LU	_	_	
+59-3	5033-5034	,	_	_	_	
+59-4	5035-5040	sugar	FOOD\_LU[143]|PR\_Medium[144]	_	_	
+59-5	5041-5045	aids	_	_	_	
+59-6	5046-5048	in	_	_	_	
+59-7	5049-5056	firming	_	_	_	
+59-8	5057-5060	the	_	_	_	
+59-9	5061-5066	fruit	FOOD\_LU[145]|PR\_Food\_Patient[146]	_	_	
+59-10	5067-5069	or	_	_	_	
+59-11	5070-5075	fruit	FOOD\_LU[147]|PR\_Food\_Patient[148]	_	_	
+59-12	5076-5082	pieces	FOOD\_LU[147]|PR\_Food\_Patient[148]	_	_	
+59-13	5082-5083	.	_	_	_	
+
+#Text=Sweeteners such as brown sugar, sorghum and molasses are not recommended since their flavor overpowers the fruit flavor and their sweetness varies.
+60-1	5085-5095	Sweeteners	_	_	_	
+60-2	5096-5100	such	_	_	_	
+60-3	5101-5103	as	_	_	_	
+60-4	5104-5109	brown	FOOD\_LU[149]|FOOD\_Descriptor[150]|DESCR\_Neutral[151]	_	_	
+60-5	5110-5115	sugar	FOOD\_LU[149]|FOOD\_LU[152]	_	_	
+60-6	5115-5116	,	_	_	_	
+60-7	5117-5124	sorghum	FOOD\_LU	_	_	
+60-8	5125-5128	and	_	_	_	
+60-9	5129-5137	molasses	FOOD\_LU	_	_	
+60-10	5138-5141	are	_	_	_	
+60-11	5142-5145	not	_	_	_	
+60-12	5146-5157	recommended	_	_	_	
+60-13	5158-5163	since	_	_	_	
+60-14	5164-5169	their	_	_	_	
+60-15	5170-5176	flavor	_	_	_	
+60-16	5177-5187	overpowers	_	_	_	
+60-17	5188-5191	the	_	_	_	
+60-18	5192-5197	fruit	FOOD\_LU	_	_	
+60-19	5198-5204	flavor	_	_	_	
+60-20	5205-5208	and	_	_	_	
+60-21	5209-5214	their	_	_	_	
+60-22	5215-5224	sweetness	_	_	_	
+60-23	5225-5231	varies	_	_	_	
+60-24	5231-5232	.	_	_	_	

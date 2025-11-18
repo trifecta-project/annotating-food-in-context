@@ -1,0 +1,6710 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+
+
+#Text=EXCELLENT CLAM SOUP.
+1-1	0-9	EXCELLENT	FOOD\_Descriptor[1]|DESCR\_Positive[2]	
+1-2	10-14	CLAM	FOOD\_LU[3]|FOOD\_LU[4]	
+1-3	15-19	SOUP	FOOD\_LU[3]|FOOD\_LU[5]	
+1-4	19-20	.	_	
+
+#Text=--Take forty or fifty clams, and wash and scrub the\r
+#Text=outsides of the shells till they are perfectly clean.
+2-1	20-21	-	_	
+2-2	21-22	-	_	
+2-3	22-26	Take	_	
+2-4	27-32	forty	FOOD\_Count	
+2-5	33-35	or	_	
+2-6	36-41	fifty	FOOD\_Count	
+2-7	42-47	clams	FOOD\_LU	
+2-8	47-48	,	_	
+2-9	49-52	and	_	
+2-10	53-57	wash	_	
+2-11	58-61	and	_	
+2-12	62-67	scrub	_	
+2-13	68-71	the	_	
+2-14	73-81	outsides	_	
+2-15	82-84	of	_	
+2-16	85-88	the	_	
+2-17	89-95	shells	FOOD\_Constituent\_Part	
+2-18	96-100	till	_	
+2-19	101-105	they	_	
+2-20	106-109	are	_	
+2-21	110-119	perfectly	_	
+2-22	120-125	clean	FOOD\_Descriptor[6]|DESCR\_Neutral[7]	
+2-23	125-126	.	_	
+
+#Text=Then put them into\r
+#Text=a pot with just sufficient water to keep them from burning.
+3-1	127-131	Then	_	
+3-2	132-135	put	_	
+3-3	136-140	them	_	
+3-4	141-145	into	_	
+3-5	147-148	a	_	
+3-6	149-152	pot	_	
+3-7	153-157	with	_	
+3-8	158-162	just	_	
+3-9	163-173	sufficient	_	
+3-10	174-179	water	FOOD\_LU	
+3-11	180-182	to	_	
+3-12	183-187	keep	_	
+3-13	188-192	them	_	
+3-14	193-197	from	_	
+3-15	198-205	burning	_	
+3-16	205-206	.	_	
+
+#Text=The water\r
+#Text=must boil hard when you put in the clams.
+4-1	207-210	The	_	
+4-2	211-216	water	FOOD\_LU	
+4-3	218-222	must	_	
+4-4	223-227	boil	_	
+4-5	228-232	hard	_	
+4-6	233-237	when	_	
+4-7	238-241	you	_	
+4-8	242-245	put	_	
+4-9	246-248	in	_	
+4-10	249-252	the	_	
+4-11	253-258	clams	FOOD\_LU	
+4-12	258-259	.	_	
+
+#Text=In about a quarter of an hour\r
+#Text=the shells will open, and the liquor run out and mix with the water,\r
+#Text=which must be saved for the soup, and strained into a soup-pot, after\r
+#Text=the clams are taken out.
+5-1	260-262	In	_	
+5-2	263-268	about	_	
+5-3	269-270	a	_	
+5-4	271-278	quarter	_	
+5-5	279-281	of	_	
+5-6	282-284	an	_	
+5-7	285-289	hour	_	
+5-8	291-294	the	_	
+5-9	295-301	shells	FOOD\_Constituent\_Part	
+5-10	302-306	will	_	
+5-11	307-311	open	_	
+5-12	311-312	,	_	
+5-13	313-316	and	_	
+5-14	317-320	the	_	
+5-15	321-327	liquor	FOOD\_LU	
+5-16	328-331	run	_	
+5-17	332-335	out	_	
+5-18	336-339	and	_	
+5-19	340-343	mix	_	
+5-20	344-348	with	_	
+5-21	349-352	the	_	
+5-22	353-358	water	FOOD\_LU	
+5-23	358-359	,	_	
+5-24	361-366	which	_	
+5-25	367-371	must	_	
+5-26	372-374	be	_	
+5-27	375-380	saved	_	
+5-28	381-384	for	_	
+5-29	385-388	the	_	
+5-30	389-393	soup	FOOD\_LU	
+5-31	393-394	,	_	
+5-32	395-398	and	_	
+5-33	399-407	strained	_	
+5-34	408-412	into	_	
+5-35	413-414	a	_	
+5-36	415-423	soup-pot	_	
+5-37	423-424	,	_	
+5-38	425-430	after	_	
+5-39	432-435	the	_	
+5-40	436-441	clams	FOOD\_LU	
+5-41	442-445	are	_	
+5-42	446-451	taken	_	
+5-43	452-455	out	_	
+5-44	455-456	.	_	
+
+#Text=Extract the clams from their shells, and cut\r
+#Text=them up small.
+6-1	457-464	Extract	_	
+6-2	465-468	the	_	
+6-3	469-474	clams	FOOD\_LU	
+6-4	475-479	from	_	
+6-5	480-485	their	_	
+6-6	486-492	shells	FOOD\_Constituent\_Part	
+6-7	492-493	,	_	
+6-8	494-497	and	_	
+6-9	498-501	cut	_	
+6-10	503-507	them	_	
+6-11	508-510	up	_	
+6-12	511-516	small	FOOD\_Descriptor[8]|DESCR\_Neutral[9]	
+6-13	516-517	.	_	
+
+#Text=Then put them into the soup-pot, adding a minced onion, a\r
+#Text=saucer of finely chopped celery, or a table-spoonful of celery seed, and\r
+#Text=a dozen blades of mace, with a dozen whole pepper-corns.
+7-1	518-522	Then	_	
+7-2	523-526	put	_	
+7-3	527-531	them	_	
+7-4	532-536	into	_	
+7-5	537-540	the	_	
+7-6	541-549	soup-pot	_	
+7-7	549-550	,	_	
+7-8	551-557	adding	_	
+7-9	558-559	a	_	
+7-10	560-566	minced	FOOD\_Descriptor[10]|DESCR\_Neutral[11]	
+7-11	567-572	onion	FOOD\_LU	
+7-12	572-573	,	_	
+7-13	574-575	a	FOOD\_Count[12]	
+7-14	577-583	saucer	FOOD\_Count[12]	
+7-15	584-586	of	_	
+7-16	587-593	finely	FOOD\_Descriptor[13]|DESCR\_Neutral[14]	
+7-17	594-601	chopped	FOOD\_Descriptor[13]|DESCR\_Neutral[14]	
+7-18	602-608	celery	FOOD\_LU	
+7-19	608-609	,	_	
+7-20	610-612	or	_	
+7-21	613-614	a	FOOD\_Unit[15]	
+7-22	615-629	table-spoonful	FOOD\_Unit[15]	
+7-23	630-632	of	_	
+7-24	633-639	celery	FOOD\_LU	
+7-25	640-644	seed	FOOD\_Constituent\_Part	
+7-26	644-645	,	_	
+7-27	646-649	and	_	
+7-28	651-652	a	FOOD\_Count[16]	
+7-29	653-658	dozen	FOOD\_Count[16]	
+7-30	659-665	blades	FOOD\_Count[16]	
+7-31	666-668	of	_	
+7-32	669-673	mace	FOOD\_LU	
+7-33	673-674	,	_	
+7-34	675-679	with	_	
+7-35	680-681	a	FOOD\_Count[17]	
+7-36	682-687	dozen	FOOD\_Count[17]	
+7-37	688-693	whole	FOOD\_Descriptor[18]|DESCR\_Neutral[19]	
+7-38	694-706	pepper-corns	FOOD\_LU	
+7-39	706-707	.	_	
+
+#Text=No salt, as the\r
+#Text=clam-liquor will be quite salt enough.
+8-1	708-710	No	_	
+8-2	711-715	salt	FOOD\_LU	
+8-3	715-716	,	_	
+8-4	717-719	as	_	
+8-5	720-723	the	_	
+8-6	725-736	clam-liquor	FOOD\_LU	
+8-7	737-741	will	_	
+8-8	742-744	be	_	
+8-9	745-750	quite	_	
+8-10	751-755	salt	FOOD\_LU	
+8-11	756-762	enough	_	
+8-12	762-763	.	_	
+
+#Text=If the liquid is not in\r
+#Text=sufficient quantity to fill a large tureen, add some milk.
+9-1	764-766	If	_	
+9-2	767-770	the	_	
+9-3	771-777	liquid	_	
+9-4	778-780	is	_	
+9-5	781-784	not	_	
+9-6	785-787	in	_	
+9-7	789-799	sufficient	_	
+9-8	800-808	quantity	_	
+9-9	809-811	to	_	
+9-10	812-816	fill	_	
+9-11	817-818	a	_	
+9-12	819-824	large	_	
+9-13	825-831	tureen	_	
+9-14	831-832	,	_	
+9-15	833-836	add	_	
+9-16	837-841	some	FOOD\_Count	
+9-17	842-846	milk	FOOD\_LU	
+9-18	846-847	.	_	
+
+#Text=Thicken the\r
+#Text=soup with two large table-spoonfuls of fresh butter rolled in flour.
+10-1	848-855	Thicken	_	
+10-2	856-859	the	_	
+10-3	861-865	soup	FOOD\_LU	
+10-4	866-870	with	_	
+10-5	871-874	two	FOOD\_Count[20]	
+10-6	875-880	large	FOOD\_Count[20]	
+10-7	881-896	table-spoonfuls	FOOD\_Count[20]	
+10-8	897-899	of	_	
+10-9	900-905	fresh	FOOD\_Descriptor[21]|DESCR\_Positive[22]	
+10-10	906-912	butter	FOOD\_LU	
+10-11	913-919	rolled	_	
+10-12	920-922	in	_	
+10-13	923-928	flour	FOOD\_LU	
+10-14	928-929	.	_	
+
+#Text=Let\r
+#Text=it boil a quarter of an hour or twenty minutes.
+11-1	930-933	Let	_	
+11-2	935-937	it	_	
+11-3	938-942	boil	_	
+11-4	943-944	a	_	
+11-5	945-952	quarter	_	
+11-6	953-955	of	_	
+11-7	956-958	an	_	
+11-8	959-963	hour	_	
+11-9	964-966	or	_	
+11-10	967-973	twenty	_	
+11-11	974-981	minutes	_	
+11-12	981-982	.	_	
+
+#Text=Just before you take it\r
+#Text=from the fire, stir in, gradually, the beaten yolks of five eggs; and\r
+#Text=then take up the soup, and pour it into a tureen, the bottom of which\r
+#Text=is covered with toasted bread, cut into square dice about an inch in\r
+#Text=size.
+12-1	983-987	Just	_	
+12-2	988-994	before	_	
+12-3	995-998	you	_	
+12-4	999-1003	take	_	
+12-5	1004-1006	it	_	
+12-6	1008-1012	from	_	
+12-7	1013-1016	the	_	
+12-8	1017-1021	fire	_	
+12-9	1021-1022	,	_	
+12-10	1023-1027	stir	_	
+12-11	1028-1030	in	_	
+12-12	1030-1031	,	_	
+12-13	1032-1041	gradually	_	
+12-14	1041-1042	,	_	
+12-15	1043-1046	the	_	
+12-16	1047-1053	beaten	FOOD\_Descriptor[23]|DESCR\_Neutral[24]	
+12-17	1054-1059	yolks	FOOD\_Constituent\_Part	
+12-18	1060-1062	of	_	
+12-19	1063-1067	five	FOOD\_Count	
+12-20	1068-1072	eggs	FOOD\_LU	
+12-21	1072-1073	;	_	
+12-22	1074-1077	and	_	
+12-23	1079-1083	then	_	
+12-24	1084-1088	take	_	
+12-25	1089-1091	up	_	
+12-26	1092-1095	the	_	
+12-27	1096-1100	soup	FOOD\_LU	
+12-28	1100-1101	,	_	
+12-29	1102-1105	and	_	
+12-30	1106-1110	pour	_	
+12-31	1111-1113	it	_	
+12-32	1114-1118	into	_	
+12-33	1119-1120	a	_	
+12-34	1121-1127	tureen	_	
+12-35	1127-1128	,	_	
+12-36	1129-1132	the	_	
+12-37	1133-1139	bottom	_	
+12-38	1140-1142	of	_	
+12-39	1143-1148	which	_	
+12-40	1150-1152	is	_	
+12-41	1153-1160	covered	_	
+12-42	1161-1165	with	_	
+12-43	1166-1173	toasted	FOOD\_Descriptor[25]|DESCR\_Neutral[26]	
+12-44	1174-1179	bread	FOOD\_LU	
+12-45	1179-1180	,	_	
+12-46	1181-1184	cut	_	
+12-47	1185-1189	into	_	
+12-48	1190-1196	square	_	
+12-49	1197-1201	dice	_	
+12-50	1202-1207	about	_	
+12-51	1208-1210	an	_	
+12-52	1211-1215	inch	_	
+12-53	1216-1218	in	_	
+12-54	1220-1224	size	_	
+12-55	1224-1225	.	_	
+
+#Text=VEAL RISSOLES.
+13-1	1233-1237	VEAL	FOOD\_LU[27]|FOOD\_LU[28]	
+13-2	1238-1246	RISSOLES	FOOD\_LU[27]	
+13-3	1246-1247	.	_	
+
+#Text=--Take as much fine wheat bread as will weigh one pound,\r
+#Text=after all the crust is cut off.
+14-1	1247-1248	-	_	
+14-2	1248-1249	-	_	
+14-3	1249-1253	Take	_	
+14-4	1254-1256	as	_	
+14-5	1257-1261	much	_	
+14-6	1262-1266	fine	FOOD\_Descriptor[29]|DESCR\_Positive[30]	
+14-7	1267-1272	wheat	FOOD\_LU[31]|FOOD\_LU[32]	
+14-8	1273-1278	bread	FOOD\_LU[31]|FOOD\_LU[33]	
+14-9	1279-1281	as	_	
+14-10	1282-1286	will	_	
+14-11	1287-1292	weigh	_	
+14-12	1293-1296	one	FOOD\_Count	
+14-13	1297-1302	pound	FOOD\_Unit	
+14-14	1302-1303	,	_	
+14-15	1305-1310	after	_	
+14-16	1311-1314	all	_	
+14-17	1315-1318	the	_	
+14-18	1319-1324	crust	FOOD\_Constituent\_Part	
+14-19	1325-1327	is	_	
+14-20	1328-1331	cut	_	
+14-21	1332-1335	off	_	
+14-22	1335-1336	.	_	
+
+#Text=Slice it; put it into a pan and pour\r
+#Text=over it as much rich milk as will soak it thoroughly.
+15-1	1337-1342	Slice	_	
+15-2	1343-1345	it	_	
+15-3	1345-1346	;	_	
+15-4	1347-1350	put	_	
+15-5	1351-1353	it	_	
+15-6	1354-1358	into	_	
+15-7	1359-1360	a	_	
+15-8	1361-1364	pan	_	
+15-9	1365-1368	and	_	
+15-10	1369-1373	pour	_	
+15-11	1375-1379	over	_	
+15-12	1380-1382	it	_	
+15-13	1383-1385	as	_	
+15-14	1386-1390	much	_	
+15-15	1391-1395	rich	FOOD\_Descriptor[34]|DESCR\_Positive[35]	
+15-16	1396-1400	milk	FOOD\_LU	
+15-17	1401-1403	as	_	
+15-18	1404-1408	will	_	
+15-19	1409-1413	soak	_	
+15-20	1414-1416	it	_	
+15-21	1417-1427	thoroughly	_	
+15-22	1427-1428	.	_	
+
+#Text=After it has\r
+#Text=soaked a quarter of an hour, lay it in a sieve and press it dry.
+16-1	1429-1434	After	_	
+16-2	1435-1437	it	_	
+16-3	1438-1441	has	_	
+16-4	1443-1449	soaked	_	
+16-5	1450-1451	a	_	
+16-6	1452-1459	quarter	_	
+16-7	1460-1462	of	_	
+16-8	1463-1465	an	_	
+16-9	1466-1470	hour	_	
+16-10	1470-1471	,	_	
+16-11	1472-1475	lay	_	
+16-12	1476-1478	it	_	
+16-13	1479-1481	in	_	
+16-14	1482-1483	a	_	
+16-15	1484-1489	sieve	_	
+16-16	1490-1493	and	_	
+16-17	1494-1499	press	_	
+16-18	1500-1502	it	_	
+16-19	1503-1506	dry	_	
+16-20	1506-1507	.	_	
+
+#Text=Mince\r
+#Text=as finely as possible a pound of veal cutlet with six ounces of veal\r
+#Text=suet; then mix in gradually the bread; adding a salt-spoonful of salt, a\r
+#Text=slight sprinkling of cayenne, and a small tea-spoonful of powdered mace\r
+#Text=and nutmeg mixed; also the yellow rind of a lemon grated.
+17-1	1508-1513	Mince	_	
+17-2	1515-1517	as	_	
+17-3	1518-1524	finely	_	
+17-4	1525-1527	as	_	
+17-5	1528-1536	possible	_	
+17-6	1537-1538	a	FOOD\_Unit[36]	
+17-7	1539-1544	pound	FOOD\_Unit[36]	
+17-8	1545-1547	of	_	
+17-9	1548-1552	veal	FOOD\_LU[37]	
+17-10	1553-1559	cutlet	FOOD\_LU[37]	
+17-11	1560-1564	with	_	
+17-12	1565-1568	six	FOOD\_Count	
+17-13	1569-1575	ounces	FOOD\_Unit	
+17-14	1576-1578	of	_	
+17-15	1579-1583	veal	FOOD\_LU[38]	
+17-16	1585-1589	suet	FOOD\_LU[38]	
+17-17	1589-1590	;	_	
+17-18	1591-1595	then	_	
+17-19	1596-1599	mix	_	
+17-20	1600-1602	in	_	
+17-21	1603-1612	gradually	_	
+17-22	1613-1616	the	_	
+17-23	1617-1622	bread	FOOD\_LU	
+17-24	1622-1623	;	_	
+17-25	1624-1630	adding	_	
+17-26	1631-1632	a	_	
+17-27	1633-1646	salt-spoonful	FOOD\_Count	
+17-28	1647-1649	of	_	
+17-29	1650-1654	salt	FOOD\_LU	
+17-30	1654-1655	,	_	
+17-31	1656-1657	a	FOOD\_Count[39]	
+17-32	1659-1665	slight	FOOD\_Count[39]	
+17-33	1666-1676	sprinkling	FOOD\_Count[39]	
+17-34	1677-1679	of	_	
+17-35	1680-1687	cayenne	FOOD\_LU	
+17-36	1687-1688	,	_	
+17-37	1689-1692	and	_	
+17-38	1693-1694	a	FOOD\_Count[40]	
+17-39	1695-1700	small	FOOD\_Count[40]	
+17-40	1701-1713	tea-spoonful	FOOD\_Unit	
+17-41	1714-1716	of	_	
+17-42	1717-1725	powdered	FOOD\_Descriptor[41]|DESCR\_Neutral[42]	
+17-43	1726-1730	mace	FOOD\_LU	
+17-44	1732-1735	and	_	
+17-45	1736-1742	nutmeg	FOOD\_LU	
+17-46	1743-1748	mixed	_	
+17-47	1748-1749	;	_	
+17-48	1750-1754	also	_	
+17-49	1755-1758	the	_	
+17-50	1759-1765	yellow	FOOD\_Descriptor[43]|DESCR\_Neutral[44]	
+17-51	1766-1770	rind	FOOD\_Constituent\_Part	
+17-52	1771-1773	of	_	
+17-53	1774-1775	a	_	
+17-54	1776-1781	lemon	FOOD\_LU	
+17-55	1782-1788	grated	FOOD\_Descriptor[45]|DESCR\_Neutral[46]	
+17-56	1788-1789	.	_	
+
+#Text=Beat two eggs,\r
+#Text=and moisten the mixture with them.
+18-1	1790-1794	Beat	_	
+18-2	1795-1798	two	FOOD\_Count	
+18-3	1799-1803	eggs	FOOD\_LU	
+18-4	1803-1804	,	_	
+18-5	1806-1809	and	_	
+18-6	1810-1817	moisten	_	
+18-7	1818-1821	the	_	
+18-8	1822-1829	mixture	_	
+18-9	1830-1834	with	_	
+18-10	1835-1839	them	_	
+18-11	1839-1840	.	_	
+
+#Text=Then divide it into equal portions,\r
+#Text=and with a little flour on your hands roll it into oval balls rather\r
+#Text=smaller than an egg.
+19-1	1841-1845	Then	_	
+19-2	1846-1852	divide	_	
+19-3	1853-1855	it	_	
+19-4	1856-1860	into	_	
+19-5	1861-1866	equal	_	
+19-6	1867-1875	portions	_	
+19-7	1875-1876	,	_	
+19-8	1878-1881	and	_	
+19-9	1882-1886	with	_	
+19-10	1887-1888	a	FOOD\_Count[47]	
+19-11	1889-1895	little	FOOD\_Count[47]	
+19-12	1896-1901	flour	FOOD\_LU	
+19-13	1902-1904	on	_	
+19-14	1905-1909	your	_	
+19-15	1910-1915	hands	_	
+19-16	1916-1920	roll	_	
+19-17	1921-1923	it	_	
+19-18	1924-1928	into	_	
+19-19	1929-1933	oval	_	
+19-20	1934-1939	balls	_	
+19-21	1940-1946	rather	_	
+19-22	1948-1955	smaller	_	
+19-23	1956-1960	than	_	
+19-24	1961-1963	an	_	
+19-25	1964-1967	egg	FOOD\_LU	
+19-26	1967-1968	.	_	
+
+#Text=Strew over them some dry bread-crumbs; then fry\r
+#Text=them in lard or fresh butter--drain them well, and send them to table\r
+#Text=hot.
+20-1	1969-1974	Strew	_	
+20-2	1975-1979	over	_	
+20-3	1980-1984	them	_	
+20-4	1985-1989	some	FOOD\_Count	
+20-5	1990-1993	dry	FOOD\_Descriptor[48]|DESCR\_Neutral[49]	
+20-6	1994-2006	bread-crumbs	FOOD\_LU	
+20-7	2006-2007	;	_	
+20-8	2008-2012	then	_	
+20-9	2013-2016	fry	_	
+20-10	2018-2022	them	_	
+20-11	2023-2025	in	_	
+20-12	2026-2030	lard	FOOD\_LU	
+20-13	2031-2033	or	_	
+20-14	2034-2039	fresh	FOOD\_Descriptor[50]|DESCR\_Positive[51]	
+20-15	2040-2046	butter	FOOD\_LU	
+20-16	2046-2047	-	_	
+20-17	2047-2048	-	_	
+20-18	2048-2053	drain	_	
+20-19	2054-2058	them	_	
+20-20	2059-2063	well	_	
+20-21	2063-2064	,	_	
+20-22	2065-2068	and	_	
+20-23	2069-2073	send	_	
+20-24	2074-2078	them	_	
+20-25	2079-2081	to	_	
+20-26	2082-2087	table	_	
+20-27	2089-2092	hot	FOOD\_Descriptor[52]|DESCR\_Positive[53]	
+20-28	2092-2093	.	_	
+
+#Text=For gravy (which should be commenced before the rissoles) put some\r
+#Text=bits and trimmings of veal into a small sauce-pan, with as much water as\r
+#Text=will cover them; a very little pepper and salt; and three or four blades\r
+#Text=of mace.
+21-1	2094-2097	For	_	
+21-2	2098-2103	gravy	FOOD\_LU	
+21-3	2104-2105	(	_	
+21-4	2105-2110	which	_	
+21-5	2111-2117	should	_	
+21-6	2118-2120	be	_	
+21-7	2121-2130	commenced	_	
+21-8	2131-2137	before	_	
+21-9	2138-2141	the	_	
+21-10	2142-2150	rissoles	FOOD\_LU	
+21-11	2150-2151	)	_	
+21-12	2152-2155	put	_	
+21-13	2156-2160	some	FOOD\_Count[54]	
+21-14	2162-2166	bits	FOOD\_Count[54]	
+21-15	2167-2170	and	FOOD\_Count[54]	
+21-16	2171-2180	trimmings	FOOD\_Count[54]|FOOD\_Constituent\_Part[55]	
+21-17	2181-2183	of	_	
+21-18	2184-2188	veal	FOOD\_LU	
+21-19	2189-2193	into	_	
+21-20	2194-2195	a	_	
+21-21	2196-2201	small	_	
+21-22	2202-2211	sauce-pan	_	
+21-23	2211-2212	,	_	
+21-24	2213-2217	with	_	
+21-25	2218-2220	as	_	
+21-26	2221-2225	much	_	
+21-27	2226-2231	water	FOOD\_LU	
+21-28	2232-2234	as	_	
+21-29	2236-2240	will	_	
+21-30	2241-2246	cover	_	
+21-31	2247-2251	them	_	
+21-32	2251-2252	;	_	
+21-33	2253-2254	a	_	
+21-34	2255-2259	very	_	
+21-35	2260-2266	little	FOOD\_Count	
+21-36	2267-2273	pepper	FOOD\_LU	
+21-37	2274-2277	and	_	
+21-38	2278-2282	salt	FOOD\_LU	
+21-39	2282-2283	;	_	
+21-40	2284-2287	and	_	
+21-41	2288-2293	three	FOOD\_Count[56]|FOOD\_Count[57]	
+21-42	2294-2296	or	FOOD\_Count[56]	
+21-43	2297-2301	four	FOOD\_Count[56]|FOOD\_Count[58]	
+21-44	2302-2308	blades	FOOD\_Count[56]	
+21-45	2310-2312	of	_	
+21-46	2313-2317	mace	FOOD\_LU	
+21-47	2317-2318	.	_	
+
+#Text=Cover the sauce-pan closely, and let the meat stew till all the\r
+#Text=strength is extracted; skimming it well.
+22-1	2319-2324	Cover	_	
+22-2	2325-2328	the	_	
+22-3	2329-2338	sauce-pan	_	
+22-4	2339-2346	closely	_	
+22-5	2346-2347	,	_	
+22-6	2348-2351	and	_	
+22-7	2352-2355	let	_	
+22-8	2356-2359	the	_	
+22-9	2360-2364	meat	FOOD\_LU	
+22-10	2365-2369	stew	_	
+22-11	2370-2374	till	_	
+22-12	2375-2378	all	_	
+22-13	2379-2382	the	_	
+22-14	2384-2392	strength	_	
+22-15	2393-2395	is	_	
+22-16	2396-2405	extracted	_	
+22-17	2405-2406	;	_	
+22-18	2407-2415	skimming	_	
+22-19	2416-2418	it	_	
+22-20	2419-2423	well	_	
+22-21	2423-2424	.	_	
+
+#Text=Then strain it; return the\r
+#Text=liquid to the sauce-pan; add a bit of butter rolled in flour; and\r
+#Text=squeeze in the juice of a lemon.
+23-1	2425-2429	Then	_	
+23-2	2430-2436	strain	_	
+23-3	2437-2439	it	_	
+23-4	2439-2440	;	_	
+23-5	2441-2447	return	_	
+23-6	2448-2451	the	_	
+23-7	2453-2459	liquid	_	
+23-8	2460-2462	to	_	
+23-9	2463-2466	the	_	
+23-10	2467-2476	sauce-pan	_	
+23-11	2476-2477	;	_	
+23-12	2478-2481	add	_	
+23-13	2482-2483	a	FOOD\_Count[59]	
+23-14	2484-2487	bit	FOOD\_Count[59]	
+23-15	2488-2490	of	FOOD\_Count[59]	
+23-16	2491-2497	butter	FOOD\_LU	
+23-17	2498-2504	rolled	_	
+23-18	2505-2507	in	_	
+23-19	2508-2513	flour	FOOD\_LU	
+23-20	2513-2514	;	_	
+23-21	2515-2518	and	_	
+23-22	2520-2527	squeeze	_	
+23-23	2528-2530	in	_	
+23-24	2531-2534	the	_	
+23-25	2535-2540	juice	FOOD\_LU[60]|FOOD\_Constituent\_Part[61]|INGR\_Food\_Product[62]	
+23-26	2541-2543	of	_	
+23-27	2544-2545	a	_	
+23-28	2546-2551	lemon	FOOD\_LU[63]|INGR\_Material\_LU[64]	
+23-29	2551-2552	.	_	
+
+#Text=Give it a boil up; and then, at the\r
+#Text=last, stir in the beaten yolk of an egg.
+24-1	2553-2557	Give	_	
+24-2	2558-2560	it	_	
+24-3	2561-2562	a	_	
+24-4	2563-2567	boil	_	
+24-5	2568-2570	up	_	
+24-6	2570-2571	;	_	
+24-7	2572-2575	and	_	
+24-8	2576-2580	then	_	
+24-9	2580-2581	,	_	
+24-10	2582-2584	at	_	
+24-11	2585-2588	the	_	
+24-12	2590-2594	last	_	
+24-13	2594-2595	,	_	
+24-14	2596-2600	stir	_	
+24-15	2601-2603	in	_	
+24-16	2604-2607	the	_	
+24-17	2608-2614	beaten	FOOD\_Descriptor[65]|DESCR\_Neutral[66]	
+24-18	2615-2619	yolk	FOOD\_Constituent\_Part	
+24-19	2620-2622	of	_	
+24-20	2623-2625	an	_	
+24-21	2626-2629	egg	FOOD\_LU	
+24-22	2629-2630	.	_	
+
+#Text=Serve up this gravy in a\r
+#Text=sauce-boat, to eat with the rissoles.
+25-1	2631-2636	Serve	_	
+25-2	2637-2639	up	_	
+25-3	2640-2644	this	_	
+25-4	2645-2650	gravy	FOOD\_LU	
+25-5	2651-2653	in	_	
+25-6	2654-2655	a	_	
+25-7	2657-2667	sauce-boat	_	
+25-8	2667-2668	,	_	
+25-9	2669-2671	to	_	
+25-10	2672-2675	eat	INGESTION\_LU	
+25-11	2676-2680	with	_	
+25-12	2681-2684	the	_	
+25-13	2685-2693	rissoles	FOOD\_LU[67]|INGESTION\_Food\_Ingestible[68]	
+25-14	2693-2694	.	_	
+
+#Text=A NICE WAY OF COOKING GAME.
+26-1	2702-2703	A	_	
+26-2	2704-2708	NICE	_	
+26-3	2709-2712	WAY	_	
+26-4	2713-2715	OF	_	
+26-5	2716-2723	COOKING	_	
+26-6	2724-2728	GAME	_	
+26-7	2728-2729	.	_	
+
+#Text=--Pheasants, partridges, quails, grouse,\r
+#Text=plovers are excellent stuffed with chesnuts: boiled, peeled, and\r
+#Text=mashed or pounded.
+27-1	2729-2730	-	_	
+27-2	2730-2731	-	_	
+27-3	2731-2740	Pheasants	FOOD\_LU	
+27-4	2740-2741	,	_	
+27-5	2742-2752	partridges	FOOD\_LU	
+27-6	2752-2753	,	_	
+27-7	2754-2760	quails	FOOD\_LU	
+27-8	2760-2761	,	_	
+27-9	2762-2768	grouse	FOOD\_LU	
+27-10	2768-2769	,	_	
+27-11	2771-2778	plovers	*	
+27-12	2779-2782	are	_	
+27-13	2783-2792	excellent	_	
+27-14	2793-2800	stuffed	_	
+27-15	2801-2805	with	_	
+27-16	2806-2814	chesnuts	FOOD\_LU	
+27-17	2814-2815	:	_	
+27-18	2816-2822	boiled	FOOD\_Descriptor[69]|DESCR\_Neutral[70]	
+27-19	2822-2823	,	_	
+27-20	2824-2830	peeled	FOOD\_Descriptor[71]|DESCR\_Neutral[72]	
+27-21	2830-2831	,	_	
+27-22	2832-2835	and	_	
+27-23	2837-2843	mashed	FOOD\_Descriptor[73]|DESCR\_Neutral[74]	
+27-24	2844-2846	or	_	
+27-25	2847-2854	pounded	FOOD\_Descriptor[75]|DESCR\_Neutral[76]	
+27-26	2854-2855	.	_	
+
+#Text=Cover the birds with very thin slices of cold ham;\r
+#Text=then enclose them in vine-leaves tied on securely so as to keep in the\r
+#Text=gravy.
+28-1	2856-2861	Cover	_	
+28-2	2862-2865	the	_	
+28-3	2866-2871	birds	FOOD\_LU	
+28-4	2872-2876	with	_	
+28-5	2877-2881	very	_	
+28-6	2882-2886	thin	_	
+28-7	2887-2893	slices	FOOD\_Constituent\_Part	
+28-8	2894-2896	of	_	
+28-9	2897-2901	cold	FOOD\_Descriptor[77]|DESCR\_Neutral[78]	
+28-10	2902-2905	ham	FOOD\_LU	
+28-11	2905-2906	;	_	
+28-12	2908-2912	then	_	
+28-13	2913-2920	enclose	_	
+28-14	2921-2925	them	_	
+28-15	2926-2928	in	_	
+28-16	2929-2940	vine-leaves	FOOD\_LU	
+28-17	2941-2945	tied	_	
+28-18	2946-2948	on	_	
+28-19	2949-2957	securely	_	
+28-20	2958-2960	so	_	
+28-21	2961-2963	as	_	
+28-22	2964-2966	to	_	
+28-23	2967-2971	keep	_	
+28-24	2972-2974	in	_	
+28-25	2975-2978	the	_	
+28-26	2980-2985	gravy	FOOD\_LU	
+28-27	2985-2986	.	_	
+
+#Text=Lay them in a deep dish, and bake them in a close oven that has\r
+#Text=nothing else in it, (for instance an iron dutch oven,) that the game may\r
+#Text=imbibe no other flavour.
+29-1	2987-2990	Lay	_	
+29-2	2991-2995	them	_	
+29-3	2996-2998	in	_	
+29-4	2999-3000	a	_	
+29-5	3001-3005	deep	_	
+29-6	3006-3010	dish	_	
+29-7	3010-3011	,	_	
+29-8	3012-3015	and	_	
+29-9	3016-3020	bake	_	
+29-10	3021-3025	them	_	
+29-11	3026-3028	in	_	
+29-12	3029-3030	a	_	
+29-13	3031-3036	close	_	
+29-14	3037-3041	oven	_	
+29-15	3042-3046	that	_	
+29-16	3047-3050	has	_	
+29-17	3052-3059	nothing	_	
+29-18	3060-3064	else	_	
+29-19	3065-3067	in	_	
+29-20	3068-3070	it	_	
+29-21	3070-3071	,	_	
+29-22	3072-3073	(	_	
+29-23	3073-3076	for	_	
+29-24	3077-3085	instance	_	
+29-25	3086-3088	an	_	
+29-26	3089-3093	iron	_	
+29-27	3094-3099	dutch	_	
+29-28	3100-3104	oven	_	
+29-29	3104-3105	,	_	
+29-30	3105-3106	)	_	
+29-31	3107-3111	that	_	
+29-32	3112-3115	the	_	
+29-33	3116-3120	game	_	
+29-34	3121-3124	may	_	
+29-35	3126-3132	imbibe	_	
+29-36	3133-3135	no	_	
+29-37	3136-3141	other	_	
+29-38	3142-3149	flavour	_	
+29-39	3149-3150	.	_	
+
+#Text=When done, remove the ham and the vine leaves,\r
+#Text=and dish the birds with the gravy that is about them.
+30-1	3151-3155	When	_	
+30-2	3156-3160	done	_	
+30-3	3160-3161	,	_	
+30-4	3162-3168	remove	_	
+30-5	3169-3172	the	_	
+30-6	3173-3176	ham	FOOD\_LU	
+30-7	3177-3180	and	_	
+30-8	3181-3184	the	_	
+30-9	3185-3189	vine	FOOD\_LU[79]	
+30-10	3190-3196	leaves	FOOD\_LU[79]	
+30-11	3196-3197	,	_	
+30-12	3199-3202	and	_	
+30-13	3203-3207	dish	_	
+30-14	3208-3211	the	_	
+30-15	3212-3217	birds	FOOD\_LU	
+30-16	3218-3222	with	_	
+30-17	3223-3226	the	_	
+30-18	3227-3232	gravy	FOOD\_LU	
+30-19	3233-3237	that	_	
+30-20	3238-3240	is	_	
+30-21	3241-3246	about	_	
+30-22	3247-3251	them	_	
+30-23	3251-3252	.	_	
+
+#Text=Pheasants are unfit to eat after the first snow, as they then, for want\r
+#Text=of other food, are apt to feed on wild laurel berries, which give their\r
+#Text=flesh a disagreeably bitter taste, and are said to have sometimes\r
+#Text=produced deleterious effects on persons who have eaten it.
+31-1	3256-3265	Pheasants	FOOD\_LU	
+31-2	3266-3269	are	_	
+31-3	3270-3275	unfit	_	
+31-4	3276-3278	to	_	
+31-5	3279-3282	eat	_	
+31-6	3283-3288	after	_	
+31-7	3289-3292	the	_	
+31-8	3293-3298	first	_	
+31-9	3299-3303	snow	_	
+31-10	3303-3304	,	_	
+31-11	3305-3307	as	_	
+31-12	3308-3312	they	_	
+31-13	3313-3317	then	_	
+31-14	3317-3318	,	_	
+31-15	3319-3322	for	_	
+31-16	3323-3327	want	_	
+31-17	3329-3331	of	_	
+31-18	3332-3337	other	_	
+31-19	3338-3342	food	FOOD\_LU	
+31-20	3342-3343	,	_	
+31-21	3344-3347	are	_	
+31-22	3348-3351	apt	_	
+31-23	3352-3354	to	_	
+31-24	3355-3359	feed	_	
+31-25	3360-3362	on	_	
+31-26	3363-3367	wild	FOOD\_Descriptor[80]|DESCR\_Neutral[81]	
+31-27	3368-3374	laurel	FOOD\_Descriptor[80]|DESCR\_Neutral[81]	
+31-28	3375-3382	berries	FOOD\_LU	
+31-29	3382-3383	,	_	
+31-30	3384-3389	which	_	
+31-31	3390-3394	give	_	
+31-32	3395-3400	their	_	
+31-33	3402-3407	flesh	FOOD\_Constituent\_Part	
+31-34	3408-3409	a	_	
+31-35	3410-3422	disagreeably	_	
+31-36	3423-3429	bitter	_	
+31-37	3430-3435	taste	_	
+31-38	3435-3436	,	_	
+31-39	3437-3440	and	_	
+31-40	3441-3444	are	_	
+31-41	3445-3449	said	_	
+31-42	3450-3452	to	_	
+31-43	3453-3457	have	_	
+31-44	3458-3467	sometimes	_	
+31-45	3469-3477	produced	_	
+31-46	3478-3489	deleterious	_	
+31-47	3490-3497	effects	_	
+31-48	3498-3500	on	_	
+31-49	3501-3508	persons	_	
+31-50	3509-3512	who	_	
+31-51	3513-3517	have	_	
+31-52	3518-3523	eaten	_	
+31-53	3524-3526	it	_	
+31-54	3526-3527	.	_	
+
+#Text=SWEETMEAT DUMPLINGS.
+32-1	3539-3548	SWEETMEAT	FOOD\_LU[82]	
+32-2	3549-3558	DUMPLINGS	FOOD\_LU[82]	
+32-3	3558-3559	.	_	
+
+#Text=--Make a paste of half a pound of fresh butter, or\r
+#Text=finely minced suet, and a pound of flour, moistened with a very little\r
+#Text=cold water.
+33-1	3559-3560	-	_	
+33-2	3560-3561	-	_	
+33-3	3561-3565	Make	_	
+33-4	3566-3567	a	_	
+33-5	3568-3573	paste	FOOD\_LU	
+33-6	3574-3576	of	_	
+33-7	3577-3581	half	FOOD\_Count	
+33-8	3582-3583	a	FOOD\_Unit[83]	
+33-9	3584-3589	pound	FOOD\_Unit[83]	
+33-10	3590-3592	of	_	
+33-11	3593-3598	fresh	FOOD\_Descriptor[84]|DESCR\_Positive[85]	
+33-12	3599-3605	butter	FOOD\_LU	
+33-13	3605-3606	,	_	
+33-14	3607-3609	or	_	
+33-15	3611-3617	finely	FOOD\_Descriptor[86]|DESCR\_Neutral[87]	
+33-16	3618-3624	minced	FOOD\_Descriptor[86]|DESCR\_Neutral[87]	
+33-17	3625-3629	suet	FOOD\_LU	
+33-18	3629-3630	,	_	
+33-19	3631-3634	and	_	
+33-20	3635-3636	a	FOOD\_Unit[88]	
+33-21	3637-3642	pound	FOOD\_Unit[88]	
+33-22	3643-3645	of	_	
+33-23	3646-3651	flour	FOOD\_LU	
+33-24	3651-3652	,	_	
+33-25	3653-3662	moistened	_	
+33-26	3663-3667	with	_	
+33-27	3668-3669	a	_	
+33-28	3670-3674	very	_	
+33-29	3675-3681	little	FOOD\_Count	
+33-30	3683-3687	cold	FOOD\_Descriptor[89]|DESCR\_Neutral[90]	
+33-31	3688-3693	water	FOOD\_LU	
+33-32	3693-3694	.	_	
+
+#Text=Beat the lump of paste on all sides with a rolling-pin.
+34-1	3695-3699	Beat	_	
+34-2	3700-3703	the	_	
+34-3	3704-3708	lump	FOOD\_Count[91]	
+34-4	3709-3711	of	FOOD\_Count[91]	
+34-5	3712-3717	paste	FOOD\_LU	
+34-6	3718-3720	on	_	
+34-7	3721-3724	all	_	
+34-8	3725-3730	sides	_	
+34-9	3731-3735	with	_	
+34-10	3736-3737	a	_	
+34-11	3738-3749	rolling-pin	_	
+34-12	3749-3750	.	_	
+
+#Text=Then\r
+#Text=roll it out into a sheet, and divide it into equal portions.
+35-1	3751-3755	Then	_	
+35-2	3757-3761	roll	_	
+35-3	3762-3764	it	_	
+35-4	3765-3768	out	_	
+35-5	3769-3773	into	_	
+35-6	3774-3775	a	_	
+35-7	3776-3781	sheet	_	
+35-8	3781-3782	,	_	
+35-9	3783-3786	and	_	
+35-10	3787-3793	divide	_	
+35-11	3794-3796	it	_	
+35-12	3797-3801	into	_	
+35-13	3802-3807	equal	_	
+35-14	3808-3816	portions	_	
+35-15	3816-3817	.	_	
+
+#Text=Lay on the\r
+#Text=middle of each two halves (laid on each other) of preserved peaches, or\r
+#Text=quinces, or large preserved plums.
+36-1	3818-3821	Lay	_	
+36-2	3822-3824	on	_	
+36-3	3825-3828	the	_	
+36-4	3830-3836	middle	_	
+36-5	3837-3839	of	_	
+36-6	3840-3844	each	_	
+36-7	3845-3848	two	_	
+36-8	3849-3855	halves	_	
+36-9	3856-3857	(	_	
+36-10	3857-3861	laid	_	
+36-11	3862-3864	on	_	
+36-12	3865-3869	each	_	
+36-13	3870-3875	other	_	
+36-14	3875-3876	)	_	
+36-15	3877-3879	of	_	
+36-16	3880-3889	preserved	PR\_LU	
+36-17	3890-3897	peaches	FOOD\_LU[92]|PR\_Food\_Patient[93]	
+36-18	3897-3898	,	_	
+36-19	3899-3901	or	_	
+36-20	3903-3910	quinces	FOOD\_LU[94]|PR\_Food\_Patient[95]	
+36-21	3910-3911	,	_	
+36-22	3912-3914	or	_	
+36-23	3915-3920	large	FOOD\_Descriptor[96]|DESCR\_Positive[97]	
+36-24	3921-3930	preserved	PR\_LU	
+36-25	3931-3936	plums	*[98]|PR\_Food\_Patient[99]	
+36-26	3936-3937	.	_	
+
+#Text=Then close the paste round the\r
+#Text=sweetmeat, so as to form a dumpling.
+37-1	3938-3942	Then	_	
+37-2	3943-3948	close	_	
+37-3	3949-3952	the	_	
+37-4	3953-3958	paste	FOOD\_LU	
+37-5	3959-3964	round	FOOD\_Descriptor[100]|DESCR\_Neutral[101]	
+37-6	3965-3968	the	_	
+37-7	3970-3979	sweetmeat	FOOD\_LU	
+37-8	3979-3980	,	_	
+37-9	3981-3983	so	_	
+37-10	3984-3986	as	_	
+37-11	3987-3989	to	_	
+37-12	3990-3994	form	_	
+37-13	3995-3996	a	_	
+37-14	3997-4005	dumpling	FOOD\_LU	
+37-15	4005-4006	.	_	
+
+#Text=Have ready a pot of boiling water.
+38-1	4007-4011	Have	_	
+38-2	4012-4017	ready	_	
+38-3	4018-4019	a	_	
+38-4	4020-4023	pot	_	
+38-5	4024-4026	of	_	
+38-6	4027-4034	boiling	FOOD\_LU[102]	
+38-7	4035-4040	water	FOOD\_LU[102]|FOOD\_LU[103]	
+38-8	4040-4041	.	_	
+
+#Text=Throw the dumplings into it, tied up in little cloths, and let them boil\r
+#Text=twenty-five minutes or half an hour.
+39-1	4043-4048	Throw	_	
+39-2	4049-4052	the	_	
+39-3	4053-4062	dumplings	FOOD\_LU	
+39-4	4063-4067	into	_	
+39-5	4068-4070	it	_	
+39-6	4070-4071	,	_	
+39-7	4072-4076	tied	_	
+39-8	4077-4079	up	_	
+39-9	4080-4082	in	_	
+39-10	4083-4089	little	_	
+39-11	4090-4096	cloths	_	
+39-12	4096-4097	,	_	
+39-13	4098-4101	and	_	
+39-14	4102-4105	let	_	
+39-15	4106-4110	them	_	
+39-16	4111-4115	boil	_	
+39-17	4117-4128	twenty-five	_	
+39-18	4129-4136	minutes	_	
+39-19	4137-4139	or	_	
+39-20	4140-4144	half	_	
+39-21	4145-4147	an	_	
+39-22	4148-4152	hour	_	
+39-23	4152-4153	.	_	
+
+#Text=Try one first, to see if they are\r
+#Text=done.
+40-1	4154-4157	Try	_	
+40-2	4158-4161	one	_	
+40-3	4162-4167	first	_	
+40-4	4167-4168	,	_	
+40-5	4169-4171	to	_	
+40-6	4172-4175	see	_	
+40-7	4176-4178	if	_	
+40-8	4179-4183	they	_	
+40-9	4184-4187	are	_	
+40-10	4189-4193	done	_	
+40-11	4193-4194	.	_	
+
+#Text=When quite done, take them up, dip them in cold water, turn them\r
+#Text=out of the cloths, and send the dumplings to table immediately.
+41-1	4195-4199	When	_	
+41-2	4200-4205	quite	_	
+41-3	4206-4210	done	_	
+41-4	4210-4211	,	_	
+41-5	4212-4216	take	_	
+41-6	4217-4221	them	_	
+41-7	4222-4224	up	_	
+41-8	4224-4225	,	_	
+41-9	4226-4229	dip	_	
+41-10	4230-4234	them	_	
+41-11	4235-4237	in	_	
+41-12	4238-4242	cold	FOOD\_Descriptor[104]|DESCR\_Neutral[105]	
+41-13	4243-4248	water	FOOD\_LU	
+41-14	4248-4249	,	_	
+41-15	4250-4254	turn	_	
+41-16	4255-4259	them	_	
+41-17	4261-4264	out	_	
+41-18	4265-4267	of	_	
+41-19	4268-4271	the	_	
+41-20	4272-4278	cloths	_	
+41-21	4278-4279	,	_	
+41-22	4280-4283	and	_	
+41-23	4284-4288	send	_	
+41-24	4289-4292	the	_	
+41-25	4293-4302	dumplings	FOOD\_LU	
+41-26	4303-4305	to	_	
+41-27	4306-4311	table	_	
+41-28	4312-4323	immediately	_	
+41-29	4323-4324	.	_	
+
+#Text=Eat them\r
+#Text=with sugar only, or with sweetened cream.
+42-1	4325-4328	Eat	_	
+42-2	4329-4333	them	_	
+42-3	4335-4339	with	_	
+42-4	4340-4345	sugar	FOOD\_LU	
+42-5	4346-4350	only	_	
+42-6	4350-4351	,	_	
+42-7	4352-4354	or	_	
+42-8	4355-4359	with	_	
+42-9	4360-4369	sweetened	FOOD\_Descriptor[106]|DESCR\_Positive[107]	
+42-10	4370-4375	cream	FOOD\_LU	
+42-11	4375-4376	.	_	
+
+#Text=These dumplings may be made with jam or marmalade, formed into a heap or\r
+#Text=lump, and laid in the centre of each piece of paste.
+43-1	4380-4385	These	_	
+43-2	4386-4395	dumplings	FOOD\_LU	
+43-3	4396-4399	may	_	
+43-4	4400-4402	be	_	
+43-5	4403-4407	made	_	
+43-6	4408-4412	with	_	
+43-7	4413-4416	jam	FOOD\_LU	
+43-8	4417-4419	or	_	
+43-9	4420-4429	marmalade	FOOD\_LU	
+43-10	4429-4430	,	_	
+43-11	4431-4437	formed	_	
+43-12	4438-4442	into	_	
+43-13	4443-4444	a	_	
+43-14	4445-4449	heap	_	
+43-15	4450-4452	or	_	
+43-16	4454-4458	lump	_	
+43-17	4458-4459	,	_	
+43-18	4460-4463	and	_	
+43-19	4464-4468	laid	_	
+43-20	4469-4471	in	_	
+43-21	4472-4475	the	_	
+43-22	4476-4482	centre	_	
+43-23	4483-4485	of	_	
+43-24	4486-4490	each	_	
+43-25	4491-4496	piece	FOOD\_Constituent\_Part	
+43-26	4497-4499	of	_	
+43-27	4500-4505	paste	FOOD\_LU	
+43-28	4505-4506	.	_	
+
+#Text=You may fry these fritters in lard, but they will not be so nice as if\r
+#Text=done in fresh butter.
+44-1	4510-4513	You	_	
+44-2	4514-4517	may	_	
+44-3	4518-4521	fry	_	
+44-4	4522-4527	these	_	
+44-5	4528-4536	fritters	FOOD\_LU	
+44-6	4537-4539	in	_	
+44-7	4540-4544	lard	FOOD\_LU	
+44-8	4544-4545	,	_	
+44-9	4546-4549	but	_	
+44-10	4550-4554	they	_	
+44-11	4555-4559	will	_	
+44-12	4560-4563	not	_	
+44-13	4564-4566	be	_	
+44-14	4567-4569	so	_	
+44-15	4570-4574	nice	_	
+44-16	4575-4577	as	_	
+44-17	4578-4580	if	_	
+44-18	4582-4586	done	_	
+44-19	4587-4589	in	_	
+44-20	4590-4595	fresh	FOOD\_Descriptor[108]|DESCR\_Positive[109]	
+44-21	4596-4602	butter	FOOD\_LU	
+44-22	4602-4603	.	_	
+
+#Text=COCOA-NUT CREAM may be made as above; substituting for the almonds a\r
+#Text=pound of cocoa-nut grated finely.
+45-1	4609-4618	COCOA-NUT	FOOD\_LU[110]	
+45-2	4619-4624	CREAM	FOOD\_LU[110]	
+45-3	4625-4628	may	_	
+45-4	4629-4631	be	_	
+45-5	4632-4636	made	_	
+45-6	4637-4639	as	_	
+45-7	4640-4645	above	_	
+45-8	4645-4646	;	_	
+45-9	4647-4659	substituting	_	
+45-10	4660-4663	for	_	
+45-11	4664-4667	the	_	
+45-12	4668-4675	almonds	FOOD\_LU	
+45-13	4676-4677	a	FOOD\_Unit[111]	
+45-14	4679-4684	pound	FOOD\_Unit[111]	
+45-15	4685-4687	of	_	
+45-16	4688-4697	cocoa-nut	FOOD\_LU	
+45-17	4698-4704	grated	FOOD\_Descriptor[112]|DESCR\_Neutral[113]	
+45-18	4705-4711	finely	FOOD\_Descriptor[114]|DESCR\_Positive[115]	
+45-19	4711-4712	.	_	
+
+#Text=When it has boiled, and is taken from\r
+#Text=the fire, stir into the cream a wine-glass of rose-water.
+46-1	4713-4717	When	_	
+46-2	4718-4720	it	_	
+46-3	4721-4724	has	_	
+46-4	4725-4731	boiled	_	
+46-5	4731-4732	,	_	
+46-6	4733-4736	and	_	
+46-7	4737-4739	is	_	
+46-8	4740-4745	taken	_	
+46-9	4746-4750	from	_	
+46-10	4752-4755	the	_	
+46-11	4756-4760	fire	_	
+46-12	4760-4761	,	_	
+46-13	4762-4766	stir	_	
+46-14	4767-4771	into	_	
+46-15	4772-4775	the	_	
+46-16	4776-4781	cream	FOOD\_LU	
+46-17	4782-4783	a	FOOD\_Count[116]	
+46-18	4784-4794	wine-glass	FOOD\_Count[116]	
+46-19	4795-4797	of	_	
+46-20	4798-4808	rose-water	FOOD\_LU	
+46-21	4808-4809	.	_	
+
+#Text=A similar cream may be made with pounded pistachio nuts.
+47-1	4813-4814	A	_	
+47-2	4815-4822	similar	_	
+47-3	4823-4828	cream	FOOD\_LU[117]|INGR\_Food\_Product[118]	
+47-4	4829-4832	may	_	
+47-5	4833-4835	be	_	
+47-6	4836-4840	made	_	
+47-7	4841-4845	with	_	
+47-8	4846-4853	pounded	FOOD\_Descriptor[119]|DESCR\_Neutral[120]|INGR\_Descriptor[121]	
+47-9	4854-4863	pistachio	FOOD\_LU[122]|INGR\_Material\_LU[123]	
+47-10	4864-4868	nuts	FOOD\_LU[122]|INGR\_Material\_LU[123]	
+47-11	4868-4869	.	_	
+
+#Text=Pecan nuts, blanched and pounded, (adding occasionally a little cold\r
+#Text=water to take off the oiliness,) may be boiled as above, with cream,\r
+#Text=sugar, and spice.
+48-1	4873-4878	Pecan	FOOD\_LU[124]	
+48-2	4879-4883	nuts	FOOD\_LU[124]	
+48-3	4883-4884	,	_	
+48-4	4885-4893	blanched	FOOD\_Descriptor[125]|DESCR\_Neutral[126]	
+48-5	4894-4897	and	_	
+48-6	4898-4905	pounded	FOOD\_Descriptor[127]|DESCR\_Neutral[128]	
+48-7	4905-4906	,	_	
+48-8	4907-4908	(	_	
+48-9	4908-4914	adding	_	
+48-10	4915-4927	occasionally	_	
+48-11	4928-4929	a	FOOD\_Count[129]	
+48-12	4930-4936	little	FOOD\_Count[129]	
+48-13	4937-4941	cold	FOOD\_Descriptor[130]|DESCR\_Neutral[131]	
+48-14	4943-4948	water	FOOD\_LU	
+48-15	4949-4951	to	_	
+48-16	4952-4956	take	_	
+48-17	4957-4960	off	_	
+48-18	4961-4964	the	_	
+48-19	4965-4973	oiliness	_	
+48-20	4973-4974	,	_	
+48-21	4974-4975	)	_	
+48-22	4976-4979	may	_	
+48-23	4980-4982	be	_	
+48-24	4983-4989	boiled	_	
+48-25	4990-4992	as	_	
+48-26	4993-4998	above	_	
+48-27	4998-4999	,	_	
+48-28	5000-5004	with	_	
+48-29	5005-5010	cream	FOOD\_LU	
+48-30	5010-5011	,	_	
+48-31	5013-5018	sugar	FOOD\_LU	
+48-32	5018-5019	,	_	
+48-33	5020-5023	and	_	
+48-34	5024-5029	spice	FOOD\_LU	
+48-35	5029-5030	.	_	
+
+#Text=All these creams may be frozen, and served up as ice-cream.
+49-1	5034-5037	All	_	
+49-2	5038-5043	these	_	
+49-3	5044-5050	creams	FOOD\_LU	
+49-4	5051-5054	may	_	
+49-5	5055-5057	be	_	
+49-6	5058-5064	frozen	FOOD\_Descriptor[132]|DESCR\_Neutral[133]	
+49-7	5064-5065	,	_	
+49-8	5066-5069	and	_	
+49-9	5070-5076	served	_	
+49-10	5077-5079	up	_	
+49-11	5080-5082	as	_	
+49-12	5083-5092	ice-cream	FOOD\_LU	
+49-13	5092-5093	.	_	
+
+#Text=VANILLA CREAM.
+50-1	5099-5106	VANILLA	FOOD\_LU[134]	
+50-2	5107-5112	CREAM	FOOD\_LU[134]	
+50-3	5112-5113	.	_	
+
+#Text=--Boil a vanilla bean in half a pint of rich milk, till\r
+#Text=the milk is highly flavoured with the vanilla.
+51-1	5113-5114	-	_	
+51-2	5114-5115	-	_	
+51-3	5115-5119	Boil	_	
+51-4	5120-5121	a	_	
+51-5	5122-5129	vanilla	FOOD\_LU[135]	
+51-6	5130-5134	bean	FOOD\_LU[135]	
+51-7	5135-5137	in	_	
+51-8	5138-5142	half	FOOD\_Count[136]	
+51-9	5143-5144	a	FOOD\_Count[136]	
+51-10	5145-5149	pint	FOOD\_Count[136]	
+51-11	5150-5152	of	_	
+51-12	5153-5157	rich	FOOD\_Descriptor[137]|DESCR\_Positive[138]	
+51-13	5158-5162	milk	FOOD\_LU	
+51-14	5162-5163	,	_	
+51-15	5164-5168	till	_	
+51-16	5170-5173	the	_	
+51-17	5174-5178	milk	FOOD\_LU	
+51-18	5179-5181	is	_	
+51-19	5182-5188	highly	FOOD\_Descriptor[139]|DESCR\_Positive[140]	
+51-20	5189-5198	flavoured	FOOD\_Descriptor[139]|DESCR\_Positive[140]	
+51-21	5199-5203	with	_	
+51-22	5204-5207	the	_	
+51-23	5208-5215	vanilla	FOOD\_LU	
+51-24	5215-5216	.	_	
+
+#Text=Then (having taken out\r
+#Text=the bean) strain the milk into a pint of thick cream.
+52-1	5217-5221	Then	_	
+52-2	5222-5223	(	_	
+52-3	5223-5229	having	_	
+52-4	5230-5235	taken	_	
+52-5	5236-5239	out	_	
+52-6	5241-5244	the	_	
+52-7	5245-5249	bean	FOOD\_LU	
+52-8	5249-5250	)	_	
+52-9	5251-5257	strain	_	
+52-10	5258-5261	the	_	
+52-11	5262-5266	milk	FOOD\_LU	
+52-12	5267-5271	into	_	
+52-13	5272-5273	a	_	
+52-14	5274-5278	pint	FOOD\_Unit	
+52-15	5279-5281	of	_	
+52-16	5282-5287	thick	FOOD\_Descriptor[141]|DESCR\_Positive[142]	
+52-17	5288-5293	cream	FOOD\_LU	
+52-18	5293-5294	.	_	
+
+#Text=Beat the yolks of\r
+#Text=five eggs till very light, and then mix gradually with the beaten egg a\r
+#Text=quarter of a pound of powdered loaf-sugar, beating it in very hard.
+53-1	5295-5299	Beat	_	
+53-2	5300-5303	the	_	
+53-3	5304-5309	yolks	FOOD\_Constituent\_Part	
+53-4	5310-5312	of	_	
+53-5	5314-5318	five	FOOD\_Count	
+53-6	5319-5323	eggs	FOOD\_LU	
+53-7	5324-5328	till	_	
+53-8	5329-5333	very	FOOD\_Descriptor[143]|DESCR\_Positive[144]	
+53-9	5334-5339	light	FOOD\_Descriptor[143]|DESCR\_Positive[144]	
+53-10	5339-5340	,	_	
+53-11	5341-5344	and	_	
+53-12	5345-5349	then	_	
+53-13	5350-5353	mix	_	
+53-14	5354-5363	gradually	_	
+53-15	5364-5368	with	_	
+53-16	5369-5372	the	_	
+53-17	5373-5379	beaten	FOOD\_Descriptor[145]|DESCR\_Neutral[146]	
+53-18	5380-5383	egg	FOOD\_LU	
+53-19	5384-5385	a	FOOD\_Count[147]	
+53-20	5387-5394	quarter	FOOD\_Count[147]	
+53-21	5395-5397	of	_	
+53-22	5398-5399	a	FOOD\_Unit[148]	
+53-23	5400-5405	pound	FOOD\_Unit[148]	
+53-24	5406-5408	of	_	
+53-25	5409-5417	powdered	FOOD\_Descriptor	
+53-26	5418-5428	loaf-sugar	FOOD\_LU	
+53-27	5428-5429	,	_	
+53-28	5430-5437	beating	_	
+53-29	5438-5440	it	_	
+53-30	5441-5443	in	_	
+53-31	5444-5448	very	_	
+53-32	5449-5453	hard	_	
+53-33	5453-5454	.	_	
+
+#Text=Set\r
+#Text=the cream over hot coals, and add to it by degrees the egg and sugar.
+54-1	5455-5458	Set	_	
+54-2	5460-5463	the	_	
+54-3	5464-5469	cream	FOOD\_LU	
+54-4	5470-5474	over	_	
+54-5	5475-5478	hot	_	
+54-6	5479-5484	coals	_	
+54-7	5484-5485	,	_	
+54-8	5486-5489	and	_	
+54-9	5490-5493	add	_	
+54-10	5494-5496	to	_	
+54-11	5497-5499	it	_	
+54-12	5500-5502	by	_	
+54-13	5503-5510	degrees	_	
+54-14	5511-5514	the	_	
+54-15	5515-5518	egg	FOOD\_LU	
+54-16	5519-5522	and	_	
+54-17	5523-5528	sugar	FOOD\_LU	
+54-18	5528-5529	.	_	
+
+#Text=Stir it continually till it is on the point of coming to a boil.
+55-1	5531-5535	Stir	_	
+55-2	5536-5538	it	_	
+55-3	5539-5550	continually	_	
+55-4	5551-5555	till	_	
+55-5	5556-5558	it	_	
+55-6	5559-5561	is	_	
+55-7	5562-5564	on	_	
+55-8	5565-5568	the	_	
+55-9	5569-5574	point	_	
+55-10	5575-5577	of	_	
+55-11	5578-5584	coming	_	
+55-12	5585-5587	to	_	
+55-13	5588-5589	a	_	
+55-14	5590-5594	boil	_	
+55-15	5594-5595	.	_	
+
+#Text=It must\r
+#Text=be very thick and smooth.
+56-1	5596-5598	It	_	
+56-2	5599-5603	must	_	
+56-3	5605-5607	be	_	
+56-4	5608-5612	very	_	
+56-5	5613-5618	thick	FOOD\_Descriptor[149]|DESCR\_Positive[150]	
+56-6	5619-5622	and	_	
+56-7	5623-5629	smooth	FOOD\_Descriptor[151]|DESCR\_Positive[152]	
+56-8	5629-5630	.	_	
+
+#Text=Cover the bottom and sides of a glass bowl or\r
+#Text=dish, with three quarters of a pound of lady-cake, cut into nice even\r
+#Text=slices.
+57-1	5631-5636	Cover	_	
+57-2	5637-5640	the	_	
+57-3	5641-5647	bottom	_	
+57-4	5648-5651	and	_	
+57-5	5652-5657	sides	_	
+57-6	5658-5660	of	_	
+57-7	5661-5662	a	_	
+57-8	5663-5668	glass	_	
+57-9	5669-5673	bowl	_	
+57-10	5674-5676	or	_	
+57-11	5678-5682	dish	_	
+57-12	5682-5683	,	_	
+57-13	5684-5688	with	_	
+57-14	5689-5694	three	FOOD\_Count[153]	
+57-15	5695-5703	quarters	FOOD\_Count[153]	
+57-16	5704-5706	of	_	
+57-17	5707-5708	a	FOOD\_Unit[154]	
+57-18	5709-5714	pound	FOOD\_Unit[154]	
+57-19	5715-5717	of	_	
+57-20	5718-5727	lady-cake	FOOD\_LU	
+57-21	5727-5728	,	_	
+57-22	5729-5732	cut	_	
+57-23	5733-5737	into	_	
+57-24	5738-5742	nice	_	
+57-25	5743-5747	even	_	
+57-26	5749-5755	slices	FOOD\_Constituent\_Part	
+57-27	5755-5756	.	_	
+
+#Text=Pour on the mixture, and then set the bowl on ice or snow till\r
+#Text=wanted.
+58-1	5757-5761	Pour	_	
+58-2	5762-5764	on	_	
+58-3	5765-5768	the	_	
+58-4	5769-5776	mixture	FOOD\_LU	
+58-5	5776-5777	,	_	
+58-6	5778-5781	and	_	
+58-7	5782-5786	then	_	
+58-8	5787-5790	set	_	
+58-9	5791-5794	the	_	
+58-10	5795-5799	bowl	_	
+58-11	5800-5802	on	_	
+58-12	5803-5806	ice	_	
+58-13	5807-5809	or	_	
+58-14	5810-5814	snow	_	
+58-15	5815-5819	till	_	
+58-16	5821-5827	wanted	_	
+58-17	5827-5828	.	_	
+
+#Text=THE BEST WAY OF PRESERVING PINE-APPLES.
+59-1	5836-5839	THE	_	
+59-2	5840-5844	BEST	_	
+59-3	5845-5848	WAY	_	
+59-4	5849-5851	OF	_	
+59-5	5852-5862	PRESERVING	PR\_LU	
+59-6	5863-5874	PINE-APPLES	FOOD\_LU[155]|PR\_Food\_Patient[156]	
+59-7	5874-5875	.	_	
+
+#Text=--Take six large, fine, ripe\r
+#Text=pine-apples.
+60-1	5875-5876	-	_	
+60-2	5876-5877	-	_	
+60-3	5877-5881	Take	_	
+60-4	5882-5885	six	FOOD\_Count	
+60-5	5886-5891	large	FOOD\_Descriptor[157]|DESCR\_Positive[158]	
+60-6	5891-5892	,	_	
+60-7	5893-5897	fine	FOOD\_Descriptor[159]|DESCR\_Positive[160]	
+60-8	5897-5898	,	_	
+60-9	5899-5903	ripe	FOOD\_Descriptor[161]|DESCR\_Positive[162]	
+60-10	5905-5916	pine-apples	FOOD\_LU	
+60-11	5916-5917	.	_	
+
+#Text=Make them very clean, but do not pare off the rind, or cut\r
+#Text=off the leaves.
+61-1	5918-5922	Make	_	
+61-2	5923-5927	them	_	
+61-3	5928-5932	very	_	
+61-4	5933-5938	clean	FOOD\_Descriptor[163]|DESCR\_Neutral[164]	
+61-5	5938-5939	,	_	
+61-6	5940-5943	but	_	
+61-7	5944-5946	do	_	
+61-8	5947-5950	not	_	
+61-9	5951-5955	pare	_	
+61-10	5956-5959	off	_	
+61-11	5960-5963	the	_	
+61-12	5964-5968	rind	FOOD\_Constituent\_Part	
+61-13	5968-5969	,	_	
+61-14	5970-5972	or	_	
+61-15	5973-5976	cut	_	
+61-16	5978-5981	off	_	
+61-17	5982-5985	the	_	
+61-18	5986-5992	leaves	FOOD\_Constituent\_Part	
+61-19	5992-5993	.	_	
+
+#Text=Put them, whole, into a very large and very clean pot or\r
+#Text=kettle.
+62-1	5994-5997	Put	_	
+62-2	5998-6002	them	_	
+62-3	6002-6003	,	_	
+62-4	6004-6009	whole	FOOD\_Descriptor[165]|DESCR\_Neutral[166]	
+62-5	6009-6010	,	_	
+62-6	6011-6015	into	_	
+62-7	6016-6017	a	_	
+62-8	6018-6022	very	_	
+62-9	6023-6028	large	_	
+62-10	6029-6032	and	_	
+62-11	6033-6037	very	_	
+62-12	6038-6043	clean	_	
+62-13	6044-6047	pot	_	
+62-14	6048-6050	or	_	
+62-15	6052-6058	kettle	_	
+62-16	6058-6059	.	_	
+
+#Text=Fill it up with cold water, and boil the pine-apples till they\r
+#Text=are so tender that you can penetrate them all through with a twig from a\r
+#Text=broom.
+63-1	6060-6064	Fill	_	
+63-2	6065-6067	it	_	
+63-3	6068-6070	up	_	
+63-4	6071-6075	with	_	
+63-5	6076-6080	cold	FOOD\_Descriptor[167]|DESCR\_Neutral[168]	
+63-6	6081-6086	water	FOOD\_LU	
+63-7	6086-6087	,	_	
+63-8	6088-6091	and	_	
+63-9	6092-6096	boil	_	
+63-10	6097-6100	the	_	
+63-11	6101-6112	pine-apples	FOOD\_LU	
+63-12	6113-6117	till	_	
+63-13	6118-6122	they	_	
+63-14	6124-6127	are	_	
+63-15	6128-6130	so	_	
+63-16	6131-6137	tender	FOOD\_Descriptor[169]|DESCR\_Positive[170]	
+63-17	6138-6142	that	_	
+63-18	6143-6146	you	_	
+63-19	6147-6150	can	_	
+63-20	6151-6160	penetrate	_	
+63-21	6161-6165	them	_	
+63-22	6166-6169	all	_	
+63-23	6170-6177	through	_	
+63-24	6178-6182	with	_	
+63-25	6183-6184	a	_	
+63-26	6185-6189	twig	_	
+63-27	6190-6194	from	_	
+63-28	6195-6196	a	_	
+63-29	6198-6203	broom	_	
+63-30	6203-6204	.	_	
+
+#Text=Then take them out and drain them.
+64-1	6205-6209	Then	_	
+64-2	6210-6214	take	_	
+64-3	6215-6219	them	_	
+64-4	6220-6223	out	_	
+64-5	6224-6227	and	_	
+64-6	6228-6233	drain	_	
+64-7	6234-6238	them	_	
+64-8	6238-6239	.	_	
+
+#Text=When cool enough to handle\r
+#Text=without inconvenience, remove the leaves, and pare off the rind.
+65-1	6240-6244	When	_	
+65-2	6245-6249	cool	_	
+65-3	6250-6256	enough	_	
+65-4	6257-6259	to	_	
+65-5	6260-6266	handle	_	
+65-6	6268-6275	without	_	
+65-7	6276-6289	inconvenience	_	
+65-8	6289-6290	,	_	
+65-9	6291-6297	remove	_	
+65-10	6298-6301	the	_	
+65-11	6302-6308	leaves	FOOD\_Constituent\_Part	
+65-12	6308-6309	,	_	
+65-13	6310-6313	and	_	
+65-14	6314-6318	pare	_	
+65-15	6319-6322	off	_	
+65-16	6323-6326	the	_	
+65-17	6327-6331	rind	FOOD\_Constituent\_Part	
+65-18	6331-6332	.	_	
+
+#Text=The\r
+#Text=rind and leaves being left on, while boiling, will keep in the flavour\r
+#Text=of the fruit.
+66-1	6333-6336	The	_	
+66-2	6338-6342	rind	FOOD\_Constituent\_Part	
+66-3	6343-6346	and	_	
+66-4	6347-6353	leaves	FOOD\_Constituent\_Part	
+66-5	6354-6359	being	_	
+66-6	6360-6364	left	_	
+66-7	6365-6367	on	_	
+66-8	6367-6368	,	_	
+66-9	6369-6374	while	_	
+66-10	6375-6382	boiling	_	
+66-11	6382-6383	,	_	
+66-12	6384-6388	will	_	
+66-13	6389-6393	keep	_	
+66-14	6394-6396	in	_	
+66-15	6397-6400	the	_	
+66-16	6401-6408	flavour	_	
+66-17	6410-6412	of	_	
+66-18	6413-6416	the	_	
+66-19	6417-6422	fruit	FOOD\_LU	
+66-20	6422-6423	.	_	
+
+#Text=Cut the pine-apples into round slices, about half an inch\r
+#Text=thick, extracting the core from the centre, so as to leave a round hole\r
+#Text=in the middle of every slice.
+67-1	6424-6427	Cut	_	
+67-2	6428-6431	the	_	
+67-3	6432-6443	pine-apples	FOOD\_LU	
+67-4	6444-6448	into	_	
+67-5	6449-6454	round	FOOD\_Descriptor[171]|DESCR\_Neutral[172]	
+67-6	6455-6461	slices	FOOD\_Constituent\_Part	
+67-7	6461-6462	,	_	
+67-8	6463-6468	about	_	
+67-9	6469-6473	half	FOOD\_Descriptor[173]|DESCR\_Neutral[174]	
+67-10	6474-6476	an	FOOD\_Descriptor[173]|DESCR\_Neutral[174]	
+67-11	6477-6481	inch	FOOD\_Descriptor[173]|DESCR\_Neutral[174]	
+67-12	6483-6488	thick	FOOD\_Descriptor[173]|DESCR\_Neutral[174]	
+67-13	6488-6489	,	_	
+67-14	6490-6500	extracting	_	
+67-15	6501-6504	the	_	
+67-16	6505-6509	core	_	
+67-17	6510-6514	from	_	
+67-18	6515-6518	the	_	
+67-19	6519-6525	centre	_	
+67-20	6525-6526	,	_	
+67-21	6527-6529	so	_	
+67-22	6530-6532	as	_	
+67-23	6533-6535	to	_	
+67-24	6536-6541	leave	_	
+67-25	6542-6543	a	_	
+67-26	6544-6549	round	_	
+67-27	6550-6554	hole	_	
+67-28	6556-6558	in	_	
+67-29	6559-6562	the	_	
+67-30	6563-6569	middle	_	
+67-31	6570-6572	of	_	
+67-32	6573-6578	every	_	
+67-33	6579-6584	slice	_	
+67-34	6584-6585	.	_	
+
+#Text=Weigh them; and to each pound allow a\r
+#Text=pound of double-refined loaf-sugar, broken up and powdered.
+68-1	6586-6591	Weigh	_	
+68-2	6592-6596	them	_	
+68-3	6596-6597	;	_	
+68-4	6598-6601	and	_	
+68-5	6602-6604	to	_	
+68-6	6605-6609	each	_	
+68-7	6610-6615	pound	FOOD\_Unit	
+68-8	6616-6621	allow	_	
+68-9	6622-6623	a	FOOD\_Unit[175]	
+68-10	6625-6630	pound	FOOD\_Unit[175]	
+68-11	6631-6633	of	_	
+68-12	6634-6648	double-refined	FOOD\_Descriptor[176]|DESCR\_Neutral[177]	
+68-13	6649-6659	loaf-sugar	FOOD\_LU[178]|PR\_Medium[179]	
+68-14	6659-6660	,	_	
+68-15	6661-6667	broken	FOOD\_Descriptor[180]|DESCR\_Neutral[181]	
+68-16	6668-6670	up	_	
+68-17	6671-6674	and	_	
+68-18	6675-6683	powdered	FOOD\_Descriptor[182]|DESCR\_Neutral[183]	
+68-19	6683-6684	.	_	
+
+#Text=Cover the\r
+#Text=bottom of a large dish, or dishes, with a layer of the sugar.
+69-1	6685-6690	Cover	_	
+69-2	6691-6694	the	_	
+69-3	6696-6702	bottom	_	
+69-4	6703-6705	of	_	
+69-5	6706-6707	a	_	
+69-6	6708-6713	large	_	
+69-7	6714-6718	dish	_	
+69-8	6718-6719	,	_	
+69-9	6720-6722	or	_	
+69-10	6723-6729	dishes	_	
+69-11	6729-6730	,	_	
+69-12	6731-6735	with	_	
+69-13	6736-6737	a	_	
+69-14	6738-6743	layer	_	
+69-15	6744-6746	of	_	
+69-16	6747-6750	the	_	
+69-17	6751-6756	sugar	FOOD\_LU[184]|PR\_Medium[185]	
+69-18	6756-6757	.	_	
+
+#Text=On this,\r
+#Text=place a layer of pine-apple slices; then a layer of sugar; then one of\r
+#Text=pine-apple; and so till the pine-apple slices are all covered; finishing\r
+#Text=with a layer of sugar.
+70-1	6758-6760	On	_	
+70-2	6761-6765	this	_	
+70-3	6765-6766	,	_	
+70-4	6768-6773	place	_	
+70-5	6774-6775	a	_	
+70-6	6776-6781	layer	_	
+70-7	6782-6784	of	_	
+70-8	6785-6795	pine-apple	FOOD\_LU	
+70-9	6796-6802	slices	FOOD\_Constituent\_Part	
+70-10	6802-6803	;	_	
+70-11	6804-6808	then	_	
+70-12	6809-6810	a	_	
+70-13	6811-6816	layer	_	
+70-14	6817-6819	of	_	
+70-15	6820-6825	sugar	FOOD\_LU[186]|PR\_Medium[187]	
+70-16	6825-6826	;	_	
+70-17	6827-6831	then	_	
+70-18	6832-6835	one	_	
+70-19	6836-6838	of	_	
+70-20	6840-6850	pine-apple	FOOD\_LU	
+70-21	6850-6851	;	_	
+70-22	6852-6855	and	_	
+70-23	6856-6858	so	_	
+70-24	6859-6863	till	_	
+70-25	6864-6867	the	_	
+70-26	6868-6878	pine-apple	FOOD\_LU	
+70-27	6879-6885	slices	FOOD\_Constituent\_Part	
+70-28	6886-6889	are	_	
+70-29	6890-6893	all	_	
+70-30	6894-6901	covered	_	
+70-31	6901-6902	;	_	
+70-32	6903-6912	finishing	_	
+70-33	6914-6918	with	_	
+70-34	6919-6920	a	_	
+70-35	6921-6926	layer	_	
+70-36	6927-6929	of	_	
+70-37	6930-6935	sugar	FOOD\_LU[188]|PR\_Medium[189]	
+70-38	6935-6936	.	_	
+
+#Text=Let them stand twenty-four hours.
+71-1	6937-6940	Let	_	
+71-2	6941-6945	them	_	
+71-3	6946-6951	stand	_	
+71-4	6952-6963	twenty-four	_	
+71-5	6964-6969	hours	_	
+71-6	6969-6970	.	_	
+
+#Text=Then drain the\r
+#Text=slices from the syrup, and lay them in wide jars.
+72-1	6971-6975	Then	_	
+72-2	6976-6981	drain	_	
+72-3	6982-6985	the	_	
+72-4	6987-6993	slices	FOOD\_Constituent\_Part[190]|PR\_Food\_Patient[191]	
+72-5	6994-6998	from	_	
+72-6	6999-7002	the	_	
+72-7	7003-7008	syrup	FOOD\_LU[192]|PR\_Medium[193]	
+72-8	7008-7009	,	_	
+72-9	7010-7013	and	_	
+72-10	7014-7017	lay	_	
+72-11	7018-7022	them	_	
+72-12	7023-7025	in	_	
+72-13	7026-7030	wide	_	
+72-14	7031-7035	jars	FOOD\_Unit	
+72-15	7035-7036	.	_	
+
+#Text=Put the syrup into a\r
+#Text=clean preserving-kettle, and boil and skim it till the scum ceases to\r
+#Text=rise.
+73-1	7037-7040	Put	_	
+73-2	7041-7044	the	_	
+73-3	7045-7050	syrup	FOOD\_LU[194]|PR\_Medium[195]	
+73-4	7051-7055	into	_	
+73-5	7056-7057	a	_	
+73-6	7059-7064	clean	FOOD\_Descriptor[196]|DESCR\_Neutral[197]	
+73-7	7065-7082	preserving-kettle	FOOD\_Unit	
+73-8	7082-7083	,	_	
+73-9	7084-7087	and	_	
+73-10	7088-7092	boil	_	
+73-11	7093-7096	and	_	
+73-12	7097-7101	skim	_	
+73-13	7102-7104	it	_	
+73-14	7105-7109	till	_	
+73-15	7110-7113	the	_	
+73-16	7114-7118	scum	_	
+73-17	7119-7125	ceases	_	
+73-18	7126-7128	to	_	
+73-19	7130-7134	rise	_	
+73-20	7134-7135	.	_	
+
+#Text=Then pour it hot upon the pine-apple.
+74-1	7136-7140	Then	_	
+74-2	7141-7145	pour	_	
+74-3	7146-7148	it	_	
+74-4	7149-7152	hot	_	
+74-5	7153-7157	upon	_	
+74-6	7158-7161	the	_	
+74-7	7162-7172	pine-apple	FOOD\_LU[198]|PR\_Food\_Patient[199]	
+74-8	7172-7173	.	_	
+
+#Text=While still warm, cover the\r
+#Text=jars closely, and paste paper over them.
+75-1	7174-7179	While	_	
+75-2	7180-7185	still	_	
+75-3	7186-7190	warm	_	
+75-4	7190-7191	,	_	
+75-5	7192-7197	cover	_	
+75-6	7198-7201	the	_	
+75-7	7203-7207	jars	FOOD\_Unit	
+75-8	7208-7215	closely	_	
+75-9	7215-7216	,	_	
+75-10	7217-7220	and	_	
+75-11	7221-7226	paste	_	
+75-12	7227-7232	paper	_	
+75-13	7233-7237	over	_	
+75-14	7238-7242	them	_	
+75-15	7242-7243	.	_	
+
+#Text=They will be found very fine.
+76-1	7244-7248	They	_	
+76-2	7249-7253	will	_	
+76-3	7254-7256	be	_	
+76-4	7257-7262	found	_	
+76-5	7263-7267	very	_	
+76-6	7268-7272	fine	_	
+76-7	7272-7273	.	_	
+
+#Text=QUINCES may be preserved in a similar manner; first boiling them whole,\r
+#Text=with the skin on; then peeling them, and extracting the cores; then\r
+#Text=slicing the quinces into round, thin pieces, and letting them stand\r
+#Text=twenty-four hours in layers of sugar.
+77-1	7279-7286	QUINCES	FOOD\_LU[200]|PR\_Food\_Patient[201]	
+77-2	7287-7290	may	_	
+77-3	7291-7293	be	_	
+77-4	7294-7303	preserved	PR\_LU	
+77-5	7304-7306	in	_	
+77-6	7307-7308	a	_	
+77-7	7309-7316	similar	_	
+77-8	7317-7323	manner	_	
+77-9	7323-7324	;	_	
+77-10	7325-7330	first	_	
+77-11	7331-7338	boiling	_	
+77-12	7339-7343	them	_	
+77-13	7344-7349	whole	FOOD\_Descriptor[202]|DESCR\_Neutral[203]	
+77-14	7349-7350	,	_	
+77-15	7352-7356	with	_	
+77-16	7357-7360	the	_	
+77-17	7361-7365	skin	FOOD\_Constituent\_Part	
+77-18	7366-7368	on	_	
+77-19	7368-7369	;	_	
+77-20	7370-7374	then	_	
+77-21	7375-7382	peeling	_	
+77-22	7383-7387	them	_	
+77-23	7387-7388	,	_	
+77-24	7389-7392	and	_	
+77-25	7393-7403	extracting	_	
+77-26	7404-7407	the	_	
+77-27	7408-7413	cores	FOOD\_Constituent\_Part	
+77-28	7413-7414	;	_	
+77-29	7415-7419	then	_	
+77-30	7421-7428	slicing	_	
+77-31	7429-7432	the	_	
+77-32	7433-7440	quinces	FOOD\_LU	
+77-33	7441-7445	into	_	
+77-34	7446-7451	round	FOOD\_Descriptor[204]|DESCR\_Neutral[205]	
+77-35	7451-7452	,	_	
+77-36	7453-7457	thin	_	
+77-37	7458-7464	pieces	FOOD\_Constituent\_Part	
+77-38	7464-7465	,	_	
+77-39	7466-7469	and	_	
+77-40	7470-7477	letting	_	
+77-41	7478-7482	them	_	
+77-42	7483-7488	stand	_	
+77-43	7490-7501	twenty-four	_	
+77-44	7502-7507	hours	_	
+77-45	7508-7510	in	_	
+77-46	7511-7517	layers	_	
+77-47	7518-7520	of	_	
+77-48	7521-7526	sugar	FOOD\_LU[206]|PR\_Medium[207]	
+77-49	7526-7527	.	_	
+
+#Text=Boil the syrup, and pour it over\r
+#Text=the quinces, after they are in the jars.
+78-1	7528-7532	Boil	_	
+78-2	7533-7536	the	_	
+78-3	7537-7542	syrup	FOOD\_LU[208]|PR\_Medium[209]	
+78-4	7542-7543	,	_	
+78-5	7544-7547	and	_	
+78-6	7548-7552	pour	_	
+78-7	7553-7555	it	_	
+78-8	7556-7560	over	_	
+78-9	7562-7565	the	_	
+78-10	7566-7573	quinces	FOOD\_LU[210]|PR\_Food\_Patient[211]	
+78-11	7573-7574	,	_	
+78-12	7575-7580	after	_	
+78-13	7581-7585	they	_	
+78-14	7586-7589	are	_	
+78-15	7590-7592	in	_	
+78-16	7593-7596	the	_	
+78-17	7597-7601	jars	FOOD\_Unit	
+78-18	7601-7602	.	_	
+
+#Text=Save the parings and cores, and also some of the water in which the\r
+#Text=quinces were boiled.
+79-1	7606-7610	Save	_	
+79-2	7611-7614	the	_	
+79-3	7615-7622	parings	FOOD\_Constituent\_Part	
+79-4	7623-7626	and	_	
+79-5	7627-7632	cores	FOOD\_Constituent\_Part	
+79-6	7632-7633	,	_	
+79-7	7634-7637	and	_	
+79-8	7638-7642	also	_	
+79-9	7643-7647	some	_	
+79-10	7648-7650	of	_	
+79-11	7651-7654	the	_	
+79-12	7655-7660	water	FOOD\_LU	
+79-13	7661-7663	in	_	
+79-14	7664-7669	which	_	
+79-15	7670-7673	the	_	
+79-16	7675-7682	quinces	FOOD\_LU	
+79-17	7683-7687	were	_	
+79-18	7688-7694	boiled	_	
+79-19	7694-7695	.	_	
+
+#Text=Weigh the boiled cores and parings, and to each\r
+#Text=pound allow a half-pint of the quince-water.
+80-1	7696-7701	Weigh	_	
+80-2	7702-7705	the	_	
+80-3	7706-7712	boiled	_	
+80-4	7713-7718	cores	FOOD\_Constituent\_Part	
+80-5	7719-7722	and	_	
+80-6	7723-7730	parings	FOOD\_Constituent\_Part	
+80-7	7730-7731	,	_	
+80-8	7732-7735	and	_	
+80-9	7736-7738	to	_	
+80-10	7739-7743	each	_	
+80-11	7745-7750	pound	FOOD\_Unit	
+80-12	7751-7756	allow	_	
+80-13	7757-7758	a	_	
+80-14	7759-7768	half-pint	FOOD\_Count	
+80-15	7769-7771	of	_	
+80-16	7772-7775	the	_	
+80-17	7776-7788	quince-water	FOOD\_LU[212]	
+80-18	7788-7789	.	FOOD\_LU[212]	
+
+#Text=Set them over the fire, in\r
+#Text=a clean kettle, and boil them, till dissolved as much as possible.
+81-1	7790-7793	Set	_	
+81-2	7794-7798	them	_	
+81-3	7799-7803	over	_	
+81-4	7804-7807	the	_	
+81-5	7808-7812	fire	_	
+81-6	7812-7813	,	_	
+81-7	7814-7816	in	_	
+81-8	7818-7819	a	_	
+81-9	7820-7825	clean	_	
+81-10	7826-7832	kettle	_	
+81-11	7832-7833	,	_	
+81-12	7834-7837	and	_	
+81-13	7838-7842	boil	_	
+81-14	7843-7847	them	_	
+81-15	7847-7848	,	_	
+81-16	7849-7853	till	_	
+81-17	7854-7863	dissolved	_	
+81-18	7864-7866	as	_	
+81-19	7867-7871	much	_	
+81-20	7872-7874	as	_	
+81-21	7875-7883	possible	_	
+81-22	7883-7884	.	_	
+
+#Text=Then\r
+#Text=strain them through a linen bag.
+82-1	7885-7889	Then	_	
+82-2	7891-7897	strain	_	
+82-3	7898-7902	them	_	
+82-4	7903-7910	through	_	
+82-5	7911-7912	a	_	
+82-6	7913-7918	linen	_	
+82-7	7919-7922	bag	_	
+82-8	7922-7923	.	_	
+
+#Text=To each pint of juice allow a pound of\r
+#Text=loaf-sugar, powdered.
+83-1	7924-7926	To	_	
+83-2	7927-7931	each	_	
+83-3	7932-7936	pint	FOOD\_Unit	
+83-4	7937-7939	of	_	
+83-5	7940-7945	juice	FOOD\_LU	
+83-6	7946-7951	allow	_	
+83-7	7952-7953	a	FOOD\_Unit[213]	
+83-8	7954-7959	pound	FOOD\_Unit[213]	
+83-9	7960-7962	of	_	
+83-10	7964-7974	loaf-sugar	FOOD\_LU	
+83-11	7974-7975	,	_	
+83-12	7976-7984	powdered	FOOD\_Descriptor[214]|DESCR\_Neutral[215]	
+83-13	7984-7985	.	_	
+
+#Text=Having washed the kettle, put in the sugar; pour\r
+#Text=on it the quince-liquor; and boil it till it becomes a jelly.
+84-1	7986-7992	Having	_	
+84-2	7993-7999	washed	_	
+84-3	8000-8003	the	_	
+84-4	8004-8010	kettle	_	
+84-5	8010-8011	,	_	
+84-6	8012-8015	put	_	
+84-7	8016-8018	in	_	
+84-8	8019-8022	the	_	
+84-9	8023-8028	sugar	FOOD\_LU	
+84-10	8028-8029	;	_	
+84-11	8030-8034	pour	_	
+84-12	8036-8038	on	_	
+84-13	8039-8041	it	_	
+84-14	8042-8045	the	_	
+84-15	8046-8059	quince-liquor	FOOD\_LU	
+84-16	8059-8060	;	_	
+84-17	8061-8064	and	_	
+84-18	8065-8069	boil	_	
+84-19	8070-8072	it	_	
+84-20	8073-8077	till	_	
+84-21	8078-8080	it	_	
+84-22	8081-8088	becomes	_	
+84-23	8089-8090	a	_	
+84-24	8091-8096	jelly	FOOD\_LU	
+84-25	8096-8097	.	_	
+
+#Text=Try it, by\r
+#Text=holding a spoonful in the open air, and, if all is right, it will\r
+#Text=congeal very soon.
+85-1	8098-8101	Try	_	
+85-2	8102-8104	it	_	
+85-3	8104-8105	,	_	
+85-4	8106-8108	by	_	
+85-5	8110-8117	holding	_	
+85-6	8118-8119	a	_	
+85-7	8120-8128	spoonful	FOOD\_Count	
+85-8	8129-8131	in	_	
+85-9	8132-8135	the	_	
+85-10	8136-8140	open	_	
+85-11	8141-8144	air	_	
+85-12	8144-8145	,	_	
+85-13	8146-8149	and	_	
+85-14	8149-8150	,	_	
+85-15	8151-8153	if	_	
+85-16	8154-8157	all	_	
+85-17	8158-8160	is	_	
+85-18	8161-8166	right	_	
+85-19	8166-8167	,	_	
+85-20	8168-8170	it	_	
+85-21	8171-8175	will	_	
+85-22	8177-8184	congeal	_	
+85-23	8185-8189	very	_	
+85-24	8190-8194	soon	_	
+85-25	8194-8195	.	_	
+
+#Text=TO PRESERVE GREEN GAGES.
+86-1	8203-8205	TO	_	
+86-2	8206-8214	PRESERVE	PR\_LU	
+86-3	8215-8220	GREEN	FOOD\_Descriptor[216]|DESCR\_Neutral[217]	
+86-4	8221-8226	GAGES	FOOD\_LU	
+86-5	8226-8227	.	_	
+
+#Text=--Take gages that are perfectly ripe.
+87-1	8227-8228	-	_	
+87-2	8228-8229	-	_	
+87-3	8229-8233	Take	_	
+87-4	8234-8239	gages	FOOD\_LU[218]|PR\_Food\_Patient[219]	
+87-5	8240-8244	that	_	
+87-6	8245-8248	are	_	
+87-7	8249-8258	perfectly	_	
+87-8	8259-8263	ripe	FOOD\_Descriptor[220]|DESCR\_Positive[221]	
+87-9	8263-8264	.	_	
+
+#Text=Weigh\r
+#Text=them; and to each pound of fruit allow a pound of the best\r
+#Text=double-refined loaf-sugar, broken up.
+88-1	8265-8270	Weigh	_	
+88-2	8272-8276	them	_	
+88-3	8276-8277	;	_	
+88-4	8278-8281	and	_	
+88-5	8282-8284	to	_	
+88-6	8285-8289	each	_	
+88-7	8290-8295	pound	FOOD\_Unit	
+88-8	8296-8298	of	_	
+88-9	8299-8304	fruit	FOOD\_LU	
+88-10	8305-8310	allow	_	
+88-11	8311-8312	a	*[222]	
+88-12	8313-8318	pound	*[222]	
+88-13	8319-8321	of	_	
+88-14	8322-8325	the	FOOD\_Descriptor[223]|DESCR\_Positive[224]	
+88-15	8326-8330	best	FOOD\_Descriptor[223]|DESCR\_Positive[224]	
+88-16	8332-8346	double-refined	FOOD\_Descriptor[225]|DESCR\_Neutral[226]	
+88-17	8347-8357	loaf-sugar	FOOD\_LU[227]|PR\_Medium[228]	
+88-18	8357-8358	,	_	
+88-19	8359-8365	broken	FOOD\_Descriptor[229]|DESCR\_Neutral[230]	
+88-20	8366-8368	up	_	
+88-21	8368-8369	.	_	
+
+#Text=Put a layer of grape-leaves in the\r
+#Text=bottom and round the sides of your preserving-kettle.
+89-1	8370-8373	Put	_	
+89-2	8374-8375	a	_	
+89-3	8376-8381	layer	_	
+89-4	8382-8384	of	_	
+89-5	8385-8397	grape-leaves	FOOD\_LU[231]|PR\_Medium[232]	
+89-6	8398-8400	in	_	
+89-7	8401-8404	the	_	
+89-8	8406-8412	bottom	_	
+89-9	8413-8416	and	_	
+89-10	8417-8422	round	_	
+89-11	8423-8426	the	_	
+89-12	8427-8432	sides	_	
+89-13	8433-8435	of	_	
+89-14	8436-8440	your	_	
+89-15	8441-8458	preserving-kettle	FOOD\_Unit	
+89-16	8458-8459	.	_	
+
+#Text=Then put in the\r
+#Text=gages, interspersing them thickly with vine-leaves, and covering them\r
+#Text=with a thick layer.
+90-1	8460-8464	Then	_	
+90-2	8465-8468	put	_	
+90-3	8469-8471	in	_	
+90-4	8472-8475	the	_	
+90-5	8477-8482	gages	FOOD\_LU[233]|PR\_Food\_Patient[234]	
+90-6	8482-8483	,	_	
+90-7	8484-8497	interspersing	_	
+90-8	8498-8502	them	_	
+90-9	8503-8510	thickly	_	
+90-10	8511-8515	with	_	
+90-11	8516-8527	vine-leaves	FOOD\_LU[235]|PR\_Medium[236]	
+90-12	8527-8528	,	_	
+90-13	8529-8532	and	_	
+90-14	8533-8541	covering	_	
+90-15	8542-8546	them	_	
+90-16	8548-8552	with	_	
+90-17	8553-8554	a	_	
+90-18	8555-8560	thick	FOOD\_Descriptor[237]|DESCR\_Neutral[238]	
+90-19	8561-8566	layer	_	
+90-20	8566-8567	.	_	
+
+#Text=Pour in just enough of water to keep them from\r
+#Text=burning.
+91-1	8568-8572	Pour	_	
+91-2	8573-8575	in	_	
+91-3	8576-8580	just	_	
+91-4	8581-8587	enough	_	
+91-5	8588-8590	of	_	
+91-6	8591-8596	water	FOOD\_LU	
+91-7	8597-8599	to	_	
+91-8	8600-8604	keep	_	
+91-9	8605-8609	them	_	
+91-10	8610-8614	from	_	
+91-11	8616-8623	burning	_	
+91-12	8623-8624	.	_	
+
+#Text=Set the kettle over the fire, cover it, and let it simmer\r
+#Text=slowly till the gages are well greened.
+92-1	8625-8628	Set	_	
+92-2	8629-8632	the	_	
+92-3	8633-8639	kettle	_	
+92-4	8640-8644	over	_	
+92-5	8645-8648	the	_	
+92-6	8649-8653	fire	_	
+92-7	8653-8654	,	_	
+92-8	8655-8660	cover	_	
+92-9	8661-8663	it	_	
+92-10	8663-8664	,	_	
+92-11	8665-8668	and	_	
+92-12	8669-8672	let	_	
+92-13	8673-8675	it	_	
+92-14	8676-8682	simmer	_	
+92-15	8684-8690	slowly	_	
+92-16	8691-8695	till	_	
+92-17	8696-8699	the	_	
+92-18	8700-8705	gages	FOOD\_LU[239]|PR\_Food\_Patient[240]	
+92-19	8706-8709	are	_	
+92-20	8710-8714	well	_	
+92-21	8715-8722	greened	_	
+92-22	8722-8723	.	_	
+
+#Text=Then take them out, and spread\r
+#Text=them on a large dish to cool.
+93-1	8724-8728	Then	_	
+93-2	8729-8733	take	_	
+93-3	8734-8738	them	_	
+93-4	8739-8742	out	_	
+93-5	8742-8743	,	_	
+93-6	8744-8747	and	_	
+93-7	8748-8754	spread	_	
+93-8	8756-8760	them	_	
+93-9	8761-8763	on	_	
+93-10	8764-8765	a	_	
+93-11	8766-8771	large	_	
+93-12	8772-8776	dish	_	
+93-13	8777-8779	to	_	
+93-14	8780-8784	cool	_	
+93-15	8784-8785	.	_	
+
+#Text=Afterwards prick them in several places\r
+#Text=with a needle.
+94-1	8786-8796	Afterwards	_	
+94-2	8797-8802	prick	_	
+94-3	8803-8807	them	_	
+94-4	8808-8810	in	_	
+94-5	8811-8818	several	_	
+94-6	8819-8825	places	_	
+94-7	8827-8831	with	_	
+94-8	8832-8833	a	_	
+94-9	8834-8840	needle	_	
+94-10	8840-8841	.	_	
+
+#Text=Having washed the kettle clean, put the sugar into it\r
+#Text=with a very little water,--about half a pint to each pound of sugar.
+95-1	8842-8848	Having	_	
+95-2	8849-8855	washed	_	
+95-3	8856-8859	the	_	
+95-4	8860-8866	kettle	_	
+95-5	8867-8872	clean	_	
+95-6	8872-8873	,	_	
+95-7	8874-8877	put	_	
+95-8	8878-8881	the	_	
+95-9	8882-8887	sugar	FOOD\_LU[241]|PR\_Medium[242]	
+95-10	8888-8892	into	_	
+95-11	8893-8895	it	_	
+95-12	8897-8901	with	_	
+95-13	8902-8903	a	_	
+95-14	8904-8908	very	_	
+95-15	8909-8915	little	FOOD\_Count	
+95-16	8916-8921	water	FOOD\_LU	
+95-17	8921-8922	,	_	
+95-18	8922-8923	-	_	
+95-19	8923-8924	-	_	
+95-20	8924-8929	about	_	
+95-21	8930-8934	half	FOOD\_Count[243]	
+95-22	8935-8936	a	FOOD\_Count[243]	
+95-23	8937-8941	pint	FOOD\_Count[243]	
+95-24	8942-8944	to	_	
+95-25	8945-8949	each	_	
+95-26	8950-8955	pound	FOOD\_Unit	
+95-27	8956-8958	of	_	
+95-28	8959-8964	sugar	FOOD\_LU	
+95-29	8964-8965	.	_	
+
+#Text=Set\r
+#Text=it over the fire, and boil and skim it till no more scum rises.
+96-1	8966-8969	Set	_	
+96-2	8971-8973	it	_	
+96-3	8974-8978	over	_	
+96-4	8979-8982	the	_	
+96-5	8983-8987	fire	_	
+96-6	8987-8988	,	_	
+96-7	8989-8992	and	_	
+96-8	8993-8997	boil	_	
+96-9	8998-9001	and	_	
+96-10	9002-9006	skim	_	
+96-11	9007-9009	it	_	
+96-12	9010-9014	till	_	
+96-13	9015-9017	no	_	
+96-14	9018-9022	more	_	
+96-15	9023-9027	scum	_	
+96-16	9028-9033	rises	_	
+96-17	9033-9034	.	_	
+
+#Text=Then put\r
+#Text=in the gages, and boil them half an hour.
+97-1	9035-9039	Then	_	
+97-2	9040-9043	put	_	
+97-3	9045-9047	in	_	
+97-4	9048-9051	the	_	
+97-5	9052-9057	gages	FOOD\_LU[244]|PR\_Food\_Patient[245]	
+97-6	9057-9058	,	_	
+97-7	9059-9062	and	_	
+97-8	9063-9067	boil	_	
+97-9	9068-9072	them	_	
+97-10	9073-9077	half	_	
+97-11	9078-9080	an	_	
+97-12	9081-9085	hour	_	
+97-13	9085-9086	.	_	
+
+#Text=When done, and cold, put them\r
+#Text=into glass jars, and pour the syrup over them.
+98-1	9087-9091	When	_	
+98-2	9092-9096	done	_	
+98-3	9096-9097	,	_	
+98-4	9098-9101	and	_	
+98-5	9102-9106	cold	_	
+98-6	9106-9107	,	_	
+98-7	9108-9111	put	_	
+98-8	9112-9116	them	_	
+98-9	9118-9122	into	_	
+98-10	9123-9128	glass	FOOD\_Unit[246]	
+98-11	9129-9133	jars	FOOD\_Unit[246]	
+98-12	9133-9134	,	_	
+98-13	9135-9138	and	_	
+98-14	9139-9143	pour	_	
+98-15	9144-9147	the	_	
+98-16	9148-9153	syrup	FOOD\_LU[247]|PR\_Medium[248]	
+98-17	9154-9158	over	_	
+98-18	9159-9163	them	_	
+98-19	9163-9164	.	_	
+
+#Text=Paste paper closely down\r
+#Text=over the lids of the jars.
+99-1	9165-9170	Paste	_	
+99-2	9171-9176	paper	_	
+99-3	9177-9184	closely	_	
+99-4	9185-9189	down	_	
+99-5	9191-9195	over	_	
+99-6	9196-9199	the	_	
+99-7	9200-9204	lids	_	
+99-8	9205-9207	of	_	
+99-9	9208-9211	the	_	
+99-10	9212-9216	jars	FOOD\_Unit	
+99-11	9216-9217	.	_	
+
+#Text=POTATOE ROLLS.
+100-1	9227-9234	POTATOE	FOOD\_LU[249]	
+100-2	9235-9240	ROLLS	FOOD\_LU[249]	
+100-3	9240-9241	.	_	
+
+#Text=--Take fine large potatoes.
+101-1	9241-9242	-	_	
+101-2	9242-9243	-	_	
+101-3	9243-9247	Take	_	
+101-4	9248-9252	fine	_	
+101-5	9253-9258	large	FOOD\_Descriptor[250]|DESCR\_Positive[251]	
+101-6	9259-9267	potatoes	FOOD\_LU	
+101-7	9267-9268	.	_	
+
+#Text=Boil, peel, and mash them.
+102-1	9269-9273	Boil	_	
+102-2	9273-9274	,	_	
+102-3	9275-9279	peel	_	
+102-4	9279-9280	,	_	
+102-5	9281-9284	and	_	
+102-6	9285-9289	mash	_	
+102-7	9290-9294	them	_	
+102-8	9294-9295	.	_	
+
+#Text=Then rub the mashed potatoe through a sieve.
+103-1	9297-9301	Then	_	
+103-2	9302-9305	rub	_	
+103-3	9306-9309	the	_	
+103-4	9310-9316	mashed	FOOD\_Descriptor[252]|DESCR\_Neutral[253]	
+103-5	9317-9324	potatoe	FOOD\_LU	
+103-6	9325-9332	through	_	
+103-7	9333-9334	a	_	
+103-8	9335-9340	sieve	_	
+103-9	9340-9341	.	_	
+
+#Text=To each potatoe allow a\r
+#Text=pint of sifted flour; a table-spoonful of strong fresh yeast; a jill of\r
+#Text=milk-warm water; a salt-spoon of salt; the yolk of an egg; and a bit of\r
+#Text=fresh butter about the size of a large hickory-nut.
+104-1	9342-9344	To	_	
+104-2	9345-9349	each	_	
+104-3	9350-9357	potatoe	FOOD\_LU	
+104-4	9358-9363	allow	_	
+104-5	9364-9365	a	_	
+104-6	9367-9371	pint	FOOD\_Unit	
+104-7	9372-9374	of	_	
+104-8	9375-9381	sifted	FOOD\_Descriptor[254]|DESCR\_Neutral[255]	
+104-9	9382-9387	flour	FOOD\_LU	
+104-10	9387-9388	;	_	
+104-11	9389-9390	a	FOOD\_Unit[256]	
+104-12	9391-9405	table-spoonful	FOOD\_Unit[256]	
+104-13	9406-9408	of	_	
+104-14	9409-9415	strong	_	
+104-15	9416-9421	fresh	FOOD\_Descriptor[257]|DESCR\_Positive[258]	
+104-16	9422-9427	yeast	FOOD\_LU	
+104-17	9427-9428	;	_	
+104-18	9429-9430	a	FOOD\_Count[259]	
+104-19	9431-9435	jill	FOOD\_Count[259]	
+104-20	9436-9438	of	_	
+104-21	9440-9449	milk-warm	FOOD\_LU[260]	
+104-22	9450-9455	water	FOOD\_LU[260]	
+104-23	9455-9456	;	_	
+104-24	9457-9458	a	_	
+104-25	9459-9469	salt-spoon	FOOD\_LU	
+104-26	9470-9472	of	_	
+104-27	9473-9477	salt	FOOD\_LU	
+104-28	9477-9478	;	_	
+104-29	9479-9482	the	_	
+104-30	9483-9487	yolk	FOOD\_Constituent\_Part	
+104-31	9488-9490	of	_	
+104-32	9491-9493	an	_	
+104-33	9494-9497	egg	FOOD\_LU	
+104-34	9497-9498	;	_	
+104-35	9499-9502	and	_	
+104-36	9503-9504	a	FOOD\_Count[261]	
+104-37	9505-9508	bit	FOOD\_Count[261]	
+104-38	9509-9511	of	FOOD\_Count[261]	
+104-39	9513-9518	fresh	FOOD\_Descriptor[262]|DESCR\_Positive[263]	
+104-40	9519-9525	butter	FOOD\_LU	
+104-41	9526-9531	about	_	
+104-42	9532-9535	the	_	
+104-43	9536-9540	size	_	
+104-44	9541-9543	of	_	
+104-45	9544-9545	a	_	
+104-46	9546-9551	large	FOOD\_Descriptor[264]|DESCR\_Positive[265]	
+104-47	9552-9563	hickory-nut	FOOD\_LU	
+104-48	9563-9564	.	_	
+
+#Text=Mix together in a\r
+#Text=large broad pan the flour, the mashed potatoe, and the salt.
+105-1	9565-9568	Mix	_	
+105-2	9569-9577	together	_	
+105-3	9578-9580	in	_	
+105-4	9581-9582	a	_	
+105-5	9584-9589	large	_	
+105-6	9590-9595	broad	_	
+105-7	9596-9599	pan	_	
+105-8	9600-9603	the	_	
+105-9	9604-9609	flour	FOOD\_LU	
+105-10	9609-9610	,	_	
+105-11	9611-9614	the	_	
+105-12	9615-9621	mashed	FOOD\_Descriptor[266]|DESCR\_Neutral[267]	
+105-13	9622-9629	potatoe	FOOD\_LU	
+105-14	9629-9630	,	_	
+105-15	9631-9634	and	_	
+105-16	9635-9638	the	_	
+105-17	9639-9643	salt	FOOD\_LU	
+105-18	9643-9644	.	_	
+
+#Text=Make a hole\r
+#Text=in the centre of the mixture, and pour into it the yeast mixed with the\r
+#Text=warm water.
+106-1	9645-9649	Make	_	
+106-2	9650-9651	a	_	
+106-3	9652-9656	hole	_	
+106-4	9658-9660	in	_	
+106-5	9661-9664	the	_	
+106-6	9665-9671	centre	_	
+106-7	9672-9674	of	_	
+106-8	9675-9678	the	_	
+106-9	9679-9686	mixture	_	
+106-10	9686-9687	,	_	
+106-11	9688-9691	and	_	
+106-12	9692-9696	pour	_	
+106-13	9697-9701	into	_	
+106-14	9702-9704	it	_	
+106-15	9705-9708	the	_	
+106-16	9709-9714	yeast	_	
+106-17	9715-9720	mixed	_	
+106-18	9721-9725	with	_	
+106-19	9726-9729	the	_	
+106-20	9731-9735	warm	_	
+106-21	9736-9741	water	_	
+106-22	9741-9742	.	_	
+
+#Text=Sprinkle a little flour over the top, and mix in a little\r
+#Text=from round the sides of the hole.
+107-1	9743-9751	Sprinkle	_	
+107-2	9752-9753	a	_	
+107-3	9754-9760	little	_	
+107-4	9761-9766	flour	_	
+107-5	9767-9771	over	_	
+107-6	9772-9775	the	_	
+107-7	9776-9779	top	_	
+107-8	9779-9780	,	_	
+107-9	9781-9784	and	_	
+107-10	9785-9788	mix	_	
+107-11	9789-9791	in	_	
+107-12	9792-9793	a	_	
+107-13	9794-9800	little	_	
+107-14	9802-9806	from	_	
+107-15	9807-9812	round	_	
+107-16	9813-9816	the	_	
+107-17	9817-9822	sides	_	
+107-18	9823-9825	of	_	
+107-19	9826-9829	the	_	
+107-20	9830-9834	hole	_	
+107-21	9834-9835	.	_	
+
+#Text=Cover it with a clean towel, and over\r
+#Text=that a flannel, and set it near the fire to rise.
+108-1	9836-9841	Cover	_	
+108-2	9842-9844	it	_	
+108-3	9845-9849	with	_	
+108-4	9850-9851	a	_	
+108-5	9852-9857	clean	_	
+108-6	9858-9863	towel	_	
+108-7	9863-9864	,	_	
+108-8	9865-9868	and	_	
+108-9	9869-9873	over	_	
+108-10	9875-9879	that	_	
+108-11	9880-9881	a	_	
+108-12	9882-9889	flannel	_	
+108-13	9889-9890	,	_	
+108-14	9891-9894	and	_	
+108-15	9895-9898	set	_	
+108-16	9899-9901	it	_	
+108-17	9902-9906	near	_	
+108-18	9907-9910	the	_	
+108-19	9911-9915	fire	_	
+108-20	9916-9918	to	_	
+108-21	9919-9923	rise	_	
+108-22	9923-9924	.	_	
+
+#Text=When the dough is\r
+#Text=quite light, and cracked all over the surface, knead in the butter and\r
+#Text=also the yolks of eggs, having previously beaten them well, and add a\r
+#Text=small tea-spoonful of soda dissolved in a little warm water.
+109-1	9925-9929	When	_	
+109-2	9930-9933	the	_	
+109-3	9934-9939	dough	_	
+109-4	9940-9942	is	_	
+109-5	9944-9949	quite	_	
+109-6	9950-9955	light	_	
+109-7	9955-9956	,	_	
+109-8	9957-9960	and	_	
+109-9	9961-9968	cracked	_	
+109-10	9969-9972	all	_	
+109-11	9973-9977	over	_	
+109-12	9978-9981	the	_	
+109-13	9982-9989	surface	_	
+109-14	9989-9990	,	_	
+109-15	9991-9996	knead	_	
+109-16	9997-9999	in	_	
+109-17	10000-10003	the	_	
+109-18	10004-10010	butter	_	
+109-19	10011-10014	and	_	
+109-20	10016-10020	also	_	
+109-21	10021-10024	the	_	
+109-22	10025-10030	yolks	_	
+109-23	10031-10033	of	_	
+109-24	10034-10038	eggs	_	
+109-25	10038-10039	,	_	
+109-26	10040-10046	having	_	
+109-27	10047-10057	previously	_	
+109-28	10058-10064	beaten	_	
+109-29	10065-10069	them	_	
+109-30	10070-10074	well	_	
+109-31	10074-10075	,	_	
+109-32	10076-10079	and	_	
+109-33	10080-10083	add	_	
+109-34	10084-10085	a	_	
+109-35	10087-10092	small	_	
+109-36	10093-10105	tea-spoonful	_	
+109-37	10106-10108	of	_	
+109-38	10109-10113	soda	_	
+109-39	10114-10123	dissolved	_	
+109-40	10124-10126	in	_	
+109-41	10127-10128	a	_	
+109-42	10129-10135	little	_	
+109-43	10136-10140	warm	_	
+109-44	10141-10146	water	_	
+109-45	10146-10147	.	_	
+
+#Text=Then divide\r
+#Text=the dough into equal parts, make it into long-shaped rolls, and lay them\r
+#Text=in a tin or iron pan sprinkled with flour.
+110-1	10148-10152	Then	_	
+110-2	10153-10159	divide	_	
+110-3	10161-10164	the	_	
+110-4	10165-10170	dough	_	
+110-5	10171-10175	into	_	
+110-6	10176-10181	equal	_	
+110-7	10182-10187	parts	_	
+110-8	10187-10188	,	_	
+110-9	10189-10193	make	_	
+110-10	10194-10196	it	_	
+110-11	10197-10201	into	_	
+110-12	10202-10213	long-shaped	_	
+110-13	10214-10219	rolls	_	
+110-14	10219-10220	,	_	
+110-15	10221-10224	and	_	
+110-16	10225-10228	lay	_	
+110-17	10229-10233	them	_	
+110-18	10235-10237	in	_	
+110-19	10238-10239	a	_	
+110-20	10240-10243	tin	_	
+110-21	10244-10246	or	_	
+110-22	10247-10251	iron	_	
+110-23	10252-10255	pan	_	
+110-24	10256-10265	sprinkled	_	
+110-25	10266-10270	with	_	
+110-26	10271-10276	flour	_	
+110-27	10276-10277	.	_	
+
+#Text=Cover them, and again set\r
+#Text=them to rise in a warm place.
+111-1	10278-10283	Cover	_	
+111-2	10284-10288	them	_	
+111-3	10288-10289	,	_	
+111-4	10290-10293	and	_	
+111-5	10294-10299	again	_	
+111-6	10300-10303	set	_	
+111-7	10305-10309	them	_	
+111-8	10310-10312	to	_	
+111-9	10313-10317	rise	_	
+111-10	10318-10320	in	_	
+111-11	10321-10322	a	_	
+111-12	10323-10327	warm	_	
+111-13	10328-10333	place	_	
+111-14	10333-10334	.	_	
+
+#Text=When perfectly light, (which should be in\r
+#Text=about an hour,) set the pan into the oven, and bake the rolls brown.
+112-1	10335-10339	When	_	
+112-2	10340-10349	perfectly	_	
+112-3	10350-10355	light	_	
+112-4	10355-10356	,	_	
+112-5	10357-10358	(	_	
+112-6	10358-10363	which	_	
+112-7	10364-10370	should	_	
+112-8	10371-10373	be	_	
+112-9	10374-10376	in	_	
+112-10	10378-10383	about	_	
+112-11	10384-10386	an	_	
+112-12	10387-10391	hour	_	
+112-13	10391-10392	,	_	
+112-14	10392-10393	)	_	
+112-15	10394-10397	set	_	
+112-16	10398-10401	the	_	
+112-17	10402-10405	pan	_	
+112-18	10406-10410	into	_	
+112-19	10411-10414	the	_	
+112-20	10415-10419	oven	_	
+112-21	10419-10420	,	_	
+112-22	10421-10424	and	_	
+112-23	10425-10429	bake	_	
+112-24	10430-10433	the	_	
+112-25	10434-10439	rolls	_	
+112-26	10440-10445	brown	_	
+112-27	10445-10446	.	_	
+
+#Text=They are best when quite fresh.
+113-1	10448-10452	They	_	
+113-2	10453-10456	are	_	
+113-3	10457-10461	best	_	
+113-4	10462-10466	when	_	
+113-5	10467-10472	quite	_	
+113-6	10473-10478	fresh	_	
+113-7	10478-10479	.	_	
+
+#Text=Pull them open with your fingers, and\r
+#Text=eat them with butter.
+114-1	10480-10484	Pull	_	
+114-2	10485-10489	them	_	
+114-3	10490-10494	open	_	
+114-4	10495-10499	with	_	
+114-5	10500-10504	your	_	
+114-6	10505-10512	fingers	_	
+114-7	10512-10513	,	_	
+114-8	10514-10517	and	_	
+114-9	10519-10522	eat	_	
+114-10	10523-10527	them	_	
+114-11	10528-10532	with	_	
+114-12	10533-10539	butter	_	
+114-13	10539-10540	.	_	
+
+#Text=LEMON MACCAROONS.
+115-1	10548-10553	LEMON	_	
+115-2	10554-10564	MACCAROONS	_	
+115-3	10564-10565	.	_	
+
+#Text=--Take four large ripe lemons, and rub off the yellow\r
+#Text=surface of the rind, upon a lump of sugar.
+116-1	10565-10566	-	_	
+116-2	10566-10567	-	_	
+116-3	10567-10571	Take	_	
+116-4	10572-10576	four	_	
+116-5	10577-10582	large	_	
+116-6	10583-10587	ripe	_	
+116-7	10588-10594	lemons	_	
+116-8	10594-10595	,	_	
+116-9	10596-10599	and	_	
+116-10	10600-10603	rub	_	
+116-11	10604-10607	off	_	
+116-12	10608-10611	the	_	
+116-13	10612-10618	yellow	_	
+116-14	10620-10627	surface	_	
+116-15	10628-10630	of	_	
+116-16	10631-10634	the	_	
+116-17	10635-10639	rind	_	
+116-18	10639-10640	,	_	
+116-19	10641-10645	upon	_	
+116-20	10646-10647	a	_	
+116-21	10648-10652	lump	_	
+116-22	10653-10655	of	_	
+116-23	10656-10661	sugar	_	
+116-24	10661-10662	.	_	
+
+#Text=Then powder that sugar, and\r
+#Text=add to it not quite a pound of loaf-sugar, already powdered.
+117-1	10663-10667	Then	_	
+117-2	10668-10674	powder	_	
+117-3	10675-10679	that	_	
+117-4	10680-10685	sugar	_	
+117-5	10685-10686	,	_	
+117-6	10687-10690	and	_	
+117-7	10692-10695	add	_	
+117-8	10696-10698	to	_	
+117-9	10699-10701	it	_	
+117-10	10702-10705	not	_	
+117-11	10706-10711	quite	_	
+117-12	10712-10713	a	_	
+117-13	10714-10719	pound	_	
+117-14	10720-10722	of	_	
+117-15	10723-10733	loaf-sugar	_	
+117-16	10733-10734	,	_	
+117-17	10735-10742	already	_	
+117-18	10743-10751	powdered	_	
+117-19	10751-10752	.	_	
+
+#Text=Break four\r
+#Text=eggs into a shallow pan, and beat them till very thick and light.
+118-1	10753-10758	Break	_	
+118-2	10759-10763	four	_	
+118-3	10765-10769	eggs	_	
+118-4	10770-10774	into	_	
+118-5	10775-10776	a	_	
+118-6	10777-10784	shallow	_	
+118-7	10785-10788	pan	_	
+118-8	10788-10789	,	_	
+118-9	10790-10793	and	_	
+118-10	10794-10798	beat	_	
+118-11	10799-10803	them	_	
+118-12	10804-10808	till	_	
+118-13	10809-10813	very	_	
+118-14	10814-10819	thick	_	
+118-15	10820-10823	and	_	
+118-16	10824-10829	light	_	
+118-17	10829-10830	.	_	
+
+#Text=Then\r
+#Text=add the juice of the lemons, squeezed through a strainer, and a\r
+#Text=tea-spoonful of powdered nutmeg and cinnamon, and stir in the sugar, a\r
+#Text=little at a time, alternately with three large heaped-up table-spoonfuls\r
+#Text=of sifted flour.
+119-1	10831-10835	Then	_	
+119-2	10837-10840	add	_	
+119-3	10841-10844	the	_	
+119-4	10845-10850	juice	_	
+119-5	10851-10853	of	_	
+119-6	10854-10857	the	_	
+119-7	10858-10864	lemons	_	
+119-8	10864-10865	,	_	
+119-9	10866-10874	squeezed	_	
+119-10	10875-10882	through	_	
+119-11	10883-10884	a	_	
+119-12	10885-10893	strainer	_	
+119-13	10893-10894	,	_	
+119-14	10895-10898	and	_	
+119-15	10899-10900	a	_	
+119-16	10902-10914	tea-spoonful	_	
+119-17	10915-10917	of	_	
+119-18	10918-10926	powdered	_	
+119-19	10927-10933	nutmeg	_	
+119-20	10934-10937	and	_	
+119-21	10938-10946	cinnamon	_	
+119-22	10946-10947	,	_	
+119-23	10948-10951	and	_	
+119-24	10952-10956	stir	_	
+119-25	10957-10959	in	_	
+119-26	10960-10963	the	_	
+119-27	10964-10969	sugar	_	
+119-28	10969-10970	,	_	
+119-29	10971-10972	a	_	
+119-30	10974-10980	little	_	
+119-31	10981-10983	at	_	
+119-32	10984-10985	a	_	
+119-33	10986-10990	time	_	
+119-34	10990-10991	,	_	
+119-35	10992-11003	alternately	_	
+119-36	11004-11008	with	_	
+119-37	11009-11014	three	_	
+119-38	11015-11020	large	_	
+119-39	11021-11030	heaped-up	_	
+119-40	11031-11046	table-spoonfuls	_	
+119-41	11048-11050	of	_	
+119-42	11051-11057	sifted	_	
+119-43	11058-11063	flour	_	
+119-44	11063-11064	.	_	
+
+#Text=A little more flour may, probably, be found necessary.
+120-1	11065-11066	A	_	
+120-2	11067-11073	little	_	
+120-3	11074-11078	more	_	
+120-4	11079-11084	flour	_	
+120-5	11085-11088	may	_	
+120-6	11088-11089	,	_	
+120-7	11090-11098	probably	_	
+120-8	11098-11099	,	_	
+120-9	11100-11102	be	_	
+120-10	11103-11108	found	_	
+120-11	11109-11118	necessary	_	
+120-12	11118-11119	.	_	
+
+#Text=Mix the whole, thoroughly, so as to form a soft paste.
+121-1	11121-11124	Mix	_	
+121-2	11125-11128	the	_	
+121-3	11129-11134	whole	_	
+121-4	11134-11135	,	_	
+121-5	11136-11146	thoroughly	_	
+121-6	11146-11147	,	_	
+121-7	11148-11150	so	_	
+121-8	11151-11153	as	_	
+121-9	11154-11156	to	_	
+121-10	11157-11161	form	_	
+121-11	11162-11163	a	_	
+121-12	11164-11168	soft	_	
+121-13	11169-11174	paste	_	
+121-14	11174-11175	.	_	
+
+#Text=Have ready some\r
+#Text=shallow, square baking-pans, or sheets of iron, the bottoms covered with\r
+#Text=white paper, laid smoothly in.
+122-1	11176-11180	Have	_	
+122-2	11181-11186	ready	_	
+122-3	11187-11191	some	_	
+122-4	11193-11200	shallow	_	
+122-5	11200-11201	,	_	
+122-6	11202-11208	square	_	
+122-7	11209-11220	baking-pans	_	
+122-8	11220-11221	,	_	
+122-9	11222-11224	or	_	
+122-10	11225-11231	sheets	_	
+122-11	11232-11234	of	_	
+122-12	11235-11239	iron	_	
+122-13	11239-11240	,	_	
+122-14	11241-11244	the	_	
+122-15	11245-11252	bottoms	_	
+122-16	11253-11260	covered	_	
+122-17	11261-11265	with	_	
+122-18	11267-11272	white	_	
+122-19	11273-11278	paper	_	
+122-20	11278-11279	,	_	
+122-21	11280-11284	laid	_	
+122-22	11285-11293	smoothly	_	
+122-23	11294-11296	in	_	
+122-24	11296-11297	.	_	
+
+#Text=Moisten your hands with water, and then\r
+#Text=take up portions of the mixture, and roll them into balls, about the\r
+#Text=size of a large plum, laying them, as you proceed, upon the paper, but\r
+#Text=rather more than an inch apart.
+123-1	11298-11305	Moisten	_	
+123-2	11306-11310	your	_	
+123-3	11311-11316	hands	_	
+123-4	11317-11321	with	_	
+123-5	11322-11327	water	_	
+123-6	11327-11328	,	_	
+123-7	11329-11332	and	_	
+123-8	11333-11337	then	_	
+123-9	11339-11343	take	_	
+123-10	11344-11346	up	_	
+123-11	11347-11355	portions	_	
+123-12	11356-11358	of	_	
+123-13	11359-11362	the	_	
+123-14	11363-11370	mixture	_	
+123-15	11370-11371	,	_	
+123-16	11372-11375	and	_	
+123-17	11376-11380	roll	_	
+123-18	11381-11385	them	_	
+123-19	11386-11390	into	_	
+123-20	11391-11396	balls	_	
+123-21	11396-11397	,	_	
+123-22	11398-11403	about	_	
+123-23	11404-11407	the	_	
+123-24	11409-11413	size	_	
+123-25	11414-11416	of	_	
+123-26	11417-11418	a	_	
+123-27	11419-11424	large	_	
+123-28	11425-11429	plum	_	
+123-29	11429-11430	,	_	
+123-30	11431-11437	laying	_	
+123-31	11438-11442	them	_	
+123-32	11442-11443	,	_	
+123-33	11444-11446	as	_	
+123-34	11447-11450	you	_	
+123-35	11451-11458	proceed	_	
+123-36	11458-11459	,	_	
+123-37	11460-11464	upon	_	
+123-38	11465-11468	the	_	
+123-39	11469-11474	paper	_	
+123-40	11474-11475	,	_	
+123-41	11476-11479	but	_	
+123-42	11481-11487	rather	_	
+123-43	11488-11492	more	_	
+123-44	11493-11497	than	_	
+123-45	11498-11500	an	_	
+123-46	11501-11505	inch	_	
+123-47	11506-11511	apart	_	
+123-48	11511-11512	.	_	
+
+#Text=Lastly, with the blade of a knife,\r
+#Text=dipped in water, smooth the surface of each.
+124-1	11513-11519	Lastly	_	
+124-2	11519-11520	,	_	
+124-3	11521-11525	with	_	
+124-4	11526-11529	the	_	
+124-5	11530-11535	blade	_	
+124-6	11536-11538	of	_	
+124-7	11539-11540	a	_	
+124-8	11541-11546	knife	_	
+124-9	11546-11547	,	_	
+124-10	11549-11555	dipped	_	
+124-11	11556-11558	in	_	
+124-12	11559-11564	water	_	
+124-13	11564-11565	,	_	
+124-14	11566-11572	smooth	_	
+124-15	11573-11576	the	_	
+124-16	11577-11584	surface	_	
+124-17	11585-11587	of	_	
+124-18	11588-11592	each	_	
+124-19	11592-11593	.	_	
+
+#Text=Set them into a moderate\r
+#Text=oven, and bake them brown.
+125-1	11594-11597	Set	_	
+125-2	11598-11602	them	_	
+125-3	11603-11607	into	_	
+125-4	11608-11609	a	_	
+125-5	11610-11618	moderate	_	
+125-6	11620-11624	oven	_	
+125-7	11624-11625	,	_	
+125-8	11626-11629	and	_	
+125-9	11630-11634	bake	_	
+125-10	11635-11639	them	_	
+125-11	11640-11645	brown	_	
+125-12	11645-11646	.	_	
+
+#Text=Try one, when you think they are done.
+126-1	11647-11650	Try	_	
+126-2	11651-11654	one	_	
+126-3	11654-11655	,	_	
+126-4	11656-11660	when	_	
+126-5	11661-11664	you	_	
+126-6	11665-11670	think	_	
+126-7	11671-11675	they	_	
+126-8	11676-11679	are	_	
+126-9	11680-11684	done	_	
+126-10	11684-11685	.	_	
+
+#Text=If not\r
+#Text=sufficiently baked, let them remain longer in the oven.
+127-1	11686-11688	If	_	
+127-2	11689-11692	not	_	
+127-3	11694-11706	sufficiently	_	
+127-4	11707-11712	baked	_	
+127-5	11712-11713	,	_	
+127-6	11714-11717	let	_	
+127-7	11718-11722	them	_	
+127-8	11723-11729	remain	_	
+127-9	11730-11736	longer	_	
+127-10	11737-11739	in	_	
+127-11	11740-11743	the	_	
+127-12	11744-11748	oven	_	
+127-13	11748-11749	.	_	
+
+#Text=As soon as they\r
+#Text=are cold, loosen them from the paper, by slipping under them a\r
+#Text=broad-bladed knife.
+128-1	11750-11752	As	_	
+128-2	11753-11757	soon	_	
+128-3	11758-11760	as	_	
+128-4	11761-11765	they	_	
+128-5	11767-11770	are	_	
+128-6	11771-11775	cold	_	
+128-7	11775-11776	,	_	
+128-8	11777-11783	loosen	_	
+128-9	11784-11788	them	_	
+128-10	11789-11793	from	_	
+128-11	11794-11797	the	_	
+128-12	11798-11803	paper	_	
+128-13	11803-11804	,	_	
+128-14	11805-11807	by	_	
+128-15	11808-11816	slipping	_	
+128-16	11817-11822	under	_	
+128-17	11823-11827	them	_	
+128-18	11828-11829	a	_	
+128-19	11831-11843	broad-bladed	_	
+128-20	11844-11849	knife	_	
+128-21	11849-11850	.	_	
+
+#Text=Orange maccaroons may be made in this manner, using\r
+#Text=the grated rind of two oranges only, but the juice of four.
+129-1	11851-11857	Orange	_	
+129-2	11858-11868	maccaroons	_	
+129-3	11869-11872	may	_	
+129-4	11873-11875	be	_	
+129-5	11876-11880	made	_	
+129-6	11881-11883	in	_	
+129-7	11884-11888	this	_	
+129-8	11889-11895	manner	_	
+129-9	11895-11896	,	_	
+129-10	11897-11902	using	_	
+129-11	11904-11907	the	_	
+129-12	11908-11914	grated	_	
+129-13	11915-11919	rind	_	
+129-14	11920-11922	of	_	
+129-15	11923-11926	two	_	
+129-16	11927-11934	oranges	_	
+129-17	11935-11939	only	_	
+129-18	11939-11940	,	_	
+129-19	11941-11944	but	_	
+129-20	11945-11948	the	_	
+129-21	11949-11954	juice	_	
+129-22	11955-11957	of	_	
+129-23	11958-11962	four	_	
+129-24	11962-11963	.	_	
+
+#Text=To make\r
+#Text=vanilla maccaroons, boil, in a covered vessel, a vanilla bean, with as\r
+#Text=much milk as will barely cover it.
+130-1	11964-11966	To	_	
+130-2	11967-11971	make	_	
+130-3	11973-11980	vanilla	_	
+130-4	11981-11991	maccaroons	_	
+130-5	11991-11992	,	_	
+130-6	11993-11997	boil	_	
+130-7	11997-11998	,	_	
+130-8	11999-12001	in	_	
+130-9	12002-12003	a	_	
+130-10	12004-12011	covered	_	
+130-11	12012-12018	vessel	_	
+130-12	12018-12019	,	_	
+130-13	12020-12021	a	_	
+130-14	12022-12029	vanilla	_	
+130-15	12030-12034	bean	_	
+130-16	12034-12035	,	_	
+130-17	12036-12040	with	_	
+130-18	12041-12043	as	_	
+130-19	12045-12049	much	_	
+130-20	12050-12054	milk	_	
+130-21	12055-12057	as	_	
+130-22	12058-12062	will	_	
+130-23	12063-12069	barely	_	
+130-24	12070-12075	cover	_	
+130-25	12076-12078	it	_	
+130-26	12078-12079	.	_	
+
+#Text=When the milk is strongly flavoured\r
+#Text=with the vanilla, strain it, and, when cold, add it to the beaten egg.
+131-1	12080-12084	When	_	
+131-2	12085-12088	the	_	
+131-3	12089-12093	milk	_	
+131-4	12094-12096	is	_	
+131-5	12097-12105	strongly	_	
+131-6	12106-12115	flavoured	_	
+131-7	12117-12121	with	_	
+131-8	12122-12125	the	_	
+131-9	12126-12133	vanilla	_	
+131-10	12133-12134	,	_	
+131-11	12135-12141	strain	_	
+131-12	12142-12144	it	_	
+131-13	12144-12145	,	_	
+131-14	12146-12149	and	_	
+131-15	12149-12150	,	_	
+131-16	12151-12155	when	_	
+131-17	12156-12160	cold	_	
+131-18	12160-12161	,	_	
+131-19	12162-12165	add	_	
+131-20	12166-12168	it	_	
+131-21	12169-12171	to	_	
+131-22	12172-12175	the	_	
+131-23	12176-12182	beaten	_	
+131-24	12183-12186	egg	_	
+131-25	12186-12187	.	_	
+
+#Text=Then stir in, gradually, the sugar, spice, and flour, and proceed as\r
+#Text=above.
+132-1	12189-12193	Then	_	
+132-2	12194-12198	stir	_	
+132-3	12199-12201	in	_	
+132-4	12201-12202	,	_	
+132-5	12203-12212	gradually	_	
+132-6	12212-12213	,	_	
+132-7	12214-12217	the	_	
+132-8	12218-12223	sugar	_	
+132-9	12223-12224	,	_	
+132-10	12225-12230	spice	_	
+132-11	12230-12231	,	_	
+132-12	12232-12235	and	_	
+132-13	12236-12241	flour	_	
+132-14	12241-12242	,	_	
+132-15	12243-12246	and	_	
+132-16	12247-12254	proceed	_	
+132-17	12255-12257	as	_	
+132-18	12259-12264	above	_	
+132-19	12264-12265	.	_	
+
+#Text=VERY FINE INK.
+133-1	12277-12281	VERY	_	
+133-2	12282-12286	FINE	_	
+133-3	12287-12290	INK	_	
+133-4	12290-12291	.	_	
+
+#Text=--Into a large jar or pitcher put half a pound of the best\r
+#Text=Aleppo galls, broken up with a hammer or flat-iron; but not pounded.
+134-1	12291-12292	-	_	
+134-2	12292-12293	-	_	
+134-3	12293-12297	Into	_	
+134-4	12298-12299	a	_	
+134-5	12300-12305	large	_	
+134-6	12306-12309	jar	_	
+134-7	12310-12312	or	_	
+134-8	12313-12320	pitcher	_	
+134-9	12321-12324	put	_	
+134-10	12325-12329	half	_	
+134-11	12330-12331	a	_	
+134-12	12332-12337	pound	_	
+134-13	12338-12340	of	_	
+134-14	12341-12344	the	_	
+134-15	12345-12349	best	_	
+134-16	12351-12357	Aleppo	_	
+134-17	12358-12363	galls	_	
+134-18	12363-12364	,	_	
+134-19	12365-12371	broken	_	
+134-20	12372-12374	up	_	
+134-21	12375-12379	with	_	
+134-22	12380-12381	a	_	
+134-23	12382-12388	hammer	_	
+134-24	12389-12391	or	_	
+134-25	12392-12401	flat-iron	_	
+134-26	12401-12402	;	_	
+134-27	12403-12406	but	_	
+134-28	12407-12410	not	_	
+134-29	12411-12418	pounded	_	
+134-30	12418-12419	.	_	
+
+#Text=Pour on two quarts of soft water, nearly of boiling heat.
+135-1	12421-12425	Pour	_	
+135-2	12426-12428	on	_	
+135-3	12429-12432	two	_	
+135-4	12433-12439	quarts	_	
+135-5	12440-12442	of	_	
+135-6	12443-12447	soft	_	
+135-7	12448-12453	water	_	
+135-8	12453-12454	,	_	
+135-9	12455-12461	nearly	_	
+135-10	12462-12464	of	_	
+135-11	12465-12472	boiling	_	
+135-12	12473-12477	heat	_	
+135-13	12477-12478	.	_	
+
+#Text=Cover the\r
+#Text=vessel; and let it stand on a warm hearth or in the hot sun for a\r
+#Text=fortnight; stirring it to the bottom twice a day, with a stick.
+136-1	12479-12484	Cover	_	
+136-2	12485-12488	the	_	
+136-3	12490-12496	vessel	_	
+136-4	12496-12497	;	_	
+136-5	12498-12501	and	_	
+136-6	12502-12505	let	_	
+136-7	12506-12508	it	_	
+136-8	12509-12514	stand	_	
+136-9	12515-12517	on	_	
+136-10	12518-12519	a	_	
+136-11	12520-12524	warm	_	
+136-12	12525-12531	hearth	_	
+136-13	12532-12534	or	_	
+136-14	12535-12537	in	_	
+136-15	12538-12541	the	_	
+136-16	12542-12545	hot	_	
+136-17	12546-12549	sun	_	
+136-18	12550-12553	for	_	
+136-19	12554-12555	a	_	
+136-20	12557-12566	fortnight	_	
+136-21	12566-12567	;	_	
+136-22	12568-12576	stirring	_	
+136-23	12577-12579	it	_	
+136-24	12580-12582	to	_	
+136-25	12583-12586	the	_	
+136-26	12587-12593	bottom	_	
+136-27	12594-12599	twice	_	
+136-28	12600-12601	a	_	
+136-29	12602-12605	day	_	
+136-30	12605-12606	,	_	
+136-31	12607-12611	with	_	
+136-32	12612-12613	a	_	
+136-33	12614-12619	stick	_	
+136-34	12619-12620	.	_	
+
+#Text=At the\r
+#Text=end of the fortnight, add two ounces of green copperas; two ounces of\r
+#Text=logwood chips; two ounces of gum-arabic; half an ounce of alum; and half\r
+#Text=an ounce of sugar-candy.
+137-1	12621-12623	At	_	
+137-2	12624-12627	the	_	
+137-3	12629-12632	end	_	
+137-4	12633-12635	of	_	
+137-5	12636-12639	the	_	
+137-6	12640-12649	fortnight	_	
+137-7	12649-12650	,	_	
+137-8	12651-12654	add	_	
+137-9	12655-12658	two	_	
+137-10	12659-12665	ounces	_	
+137-11	12666-12668	of	_	
+137-12	12669-12674	green	_	
+137-13	12675-12683	copperas	_	
+137-14	12683-12684	;	_	
+137-15	12685-12688	two	_	
+137-16	12689-12695	ounces	_	
+137-17	12696-12698	of	_	
+137-18	12700-12707	logwood	_	
+137-19	12708-12713	chips	_	
+137-20	12713-12714	;	_	
+137-21	12715-12718	two	_	
+137-22	12719-12725	ounces	_	
+137-23	12726-12728	of	_	
+137-24	12729-12739	gum-arabic	_	
+137-25	12739-12740	;	_	
+137-26	12741-12745	half	_	
+137-27	12746-12748	an	_	
+137-28	12749-12754	ounce	_	
+137-29	12755-12757	of	_	
+137-30	12758-12762	alum	_	
+137-31	12762-12763	;	_	
+137-32	12764-12767	and	_	
+137-33	12768-12772	half	_	
+137-34	12774-12776	an	_	
+137-35	12777-12782	ounce	_	
+137-36	12783-12785	of	_	
+137-37	12786-12797	sugar-candy	_	
+137-38	12797-12798	.	_	
+
+#Text=Let the whole remain in a moderate heat a\r
+#Text=fortnight longer; stirring it twice a day.
+138-1	12799-12802	Let	_	
+138-2	12803-12806	the	_	
+138-3	12807-12812	whole	_	
+138-4	12813-12819	remain	_	
+138-5	12820-12822	in	_	
+138-6	12823-12824	a	_	
+138-7	12825-12833	moderate	_	
+138-8	12834-12838	heat	_	
+138-9	12839-12840	a	_	
+138-10	12842-12851	fortnight	_	
+138-11	12852-12858	longer	_	
+138-12	12858-12859	;	_	
+138-13	12860-12868	stirring	_	
+138-14	12869-12871	it	_	
+138-15	12872-12877	twice	_	
+138-16	12878-12879	a	_	
+138-17	12880-12883	day	_	
+138-18	12883-12884	.	_	
+
+#Text=Keep the mouth of the vessel\r
+#Text=covered with paper only, tied down over it.
+139-1	12885-12889	Keep	_	
+139-2	12890-12893	the	_	
+139-3	12894-12899	mouth	_	
+139-4	12900-12902	of	_	
+139-5	12903-12906	the	_	
+139-6	12907-12913	vessel	_	
+139-7	12915-12922	covered	_	
+139-8	12923-12927	with	_	
+139-9	12928-12933	paper	_	
+139-10	12934-12938	only	_	
+139-11	12938-12939	,	_	
+139-12	12940-12944	tied	_	
+139-13	12945-12949	down	_	
+139-14	12950-12954	over	_	
+139-15	12955-12957	it	_	
+139-16	12957-12958	.	_	
+
+#Text=On the last day, do not stir\r
+#Text=it, but pour the ink through a strainer into another vessel, and then\r
+#Text=with a funnel transfer it to bottles.
+140-1	12959-12961	On	_	
+140-2	12962-12965	the	_	
+140-3	12966-12970	last	_	
+140-4	12971-12974	day	_	
+140-5	12974-12975	,	_	
+140-6	12976-12978	do	_	
+140-7	12979-12982	not	_	
+140-8	12983-12987	stir	_	
+140-9	12989-12991	it	_	
+140-10	12991-12992	,	_	
+140-11	12993-12996	but	_	
+140-12	12997-13001	pour	_	
+140-13	13002-13005	the	_	
+140-14	13006-13009	ink	_	
+140-15	13010-13017	through	_	
+140-16	13018-13019	a	_	
+140-17	13020-13028	strainer	_	
+140-18	13029-13033	into	_	
+140-19	13034-13041	another	_	
+140-20	13042-13048	vessel	_	
+140-21	13048-13049	,	_	
+140-22	13050-13053	and	_	
+140-23	13054-13058	then	_	
+140-24	13060-13064	with	_	
+140-25	13065-13066	a	_	
+140-26	13067-13073	funnel	_	
+140-27	13074-13082	transfer	_	
+140-28	13083-13085	it	_	
+140-29	13086-13088	to	_	
+140-30	13089-13096	bottles	_	
+140-31	13096-13097	.	_	
+
+#Text=Pour a small tea-spoonful or more\r
+#Text=of brandy into the top of each bottle, if small.
+141-1	13098-13102	Pour	_	
+141-2	13103-13104	a	_	
+141-3	13105-13110	small	_	
+141-4	13111-13123	tea-spoonful	_	
+141-5	13124-13126	or	_	
+141-6	13127-13131	more	_	
+141-7	13133-13135	of	_	
+141-8	13136-13142	brandy	_	
+141-9	13143-13147	into	_	
+141-10	13148-13151	the	_	
+141-11	13152-13155	top	_	
+141-12	13156-13158	of	_	
+141-13	13159-13163	each	_	
+141-14	13164-13170	bottle	_	
+141-15	13170-13171	,	_	
+141-16	13172-13174	if	_	
+141-17	13175-13180	small	_	
+141-18	13180-13181	.	_	
+
+#Text=To a pint bottle there\r
+#Text=should be a table-spoonful of brandy.
+142-1	13182-13184	To	_	
+142-2	13185-13186	a	_	
+142-3	13187-13191	pint	_	
+142-4	13192-13198	bottle	_	
+142-5	13199-13204	there	_	
+142-6	13206-13212	should	_	
+142-7	13213-13215	be	_	
+142-8	13216-13217	a	_	
+142-9	13218-13232	table-spoonful	_	
+142-10	13233-13235	of	_	
+142-11	13236-13242	brandy	_	
+142-12	13242-13243	.	_	
+
+#Text=This will preserve the ink from\r
+#Text=moulding.
+143-1	13244-13248	This	_	
+143-2	13249-13253	will	_	
+143-3	13254-13262	preserve	_	
+143-4	13263-13266	the	_	
+143-5	13267-13270	ink	_	
+143-6	13271-13275	from	_	
+143-7	13277-13285	moulding	_	
+143-8	13285-13286	.	_	
+
+#Text=Cork the bottles well, and seal the corks.
+144-1	13287-13291	Cork	_	
+144-2	13292-13295	the	_	
+144-3	13296-13303	bottles	_	
+144-4	13304-13308	well	_	
+144-5	13308-13309	,	_	
+144-6	13310-13313	and	_	
+144-7	13314-13318	seal	_	
+144-8	13319-13322	the	_	
+144-9	13323-13328	corks	_	
+144-10	13328-13329	.	_	
+
+#Text=Keep them in a\r
+#Text=place of temperate heat.
+145-1	13330-13334	Keep	_	
+145-2	13335-13339	them	_	
+145-3	13340-13342	in	_	
+145-4	13343-13344	a	_	
+145-5	13346-13351	place	_	
+145-6	13352-13354	of	_	
+145-7	13355-13364	temperate	_	
+145-8	13365-13369	heat	_	
+145-9	13369-13370	.	_	
+
+#Text=In buying Aleppo galls get those that are dark coloured, heavy, and free\r
+#Text=from holes.
+146-1	13374-13376	In	_	
+146-2	13377-13383	buying	_	
+146-3	13384-13390	Aleppo	_	
+146-4	13391-13396	galls	_	
+146-5	13397-13400	get	_	
+146-6	13401-13406	those	_	
+146-7	13407-13411	that	_	
+146-8	13412-13415	are	_	
+146-9	13416-13420	dark	_	
+146-10	13421-13429	coloured	_	
+146-11	13429-13430	,	_	
+146-12	13431-13436	heavy	_	
+146-13	13436-13437	,	_	
+146-14	13438-13441	and	_	
+146-15	13442-13446	free	_	
+146-16	13448-13452	from	_	
+146-17	13453-13458	holes	_	
+146-18	13458-13459	.	_	
+
+#Text=TO DESTROY FLIES.
+147-1	13463-13465	TO	_	
+147-2	13466-13473	DESTROY	_	
+147-3	13474-13479	FLIES	_	
+147-4	13479-13480	.	_	
+
+#Text=--Get, at a druggist’s, some Egyptian or Fly-killing\r
+#Text=paper.
+148-1	13480-13481	-	_	
+148-2	13481-13482	-	_	
+148-3	13482-13485	Get	_	
+148-4	13485-13486	,	_	
+148-5	13487-13489	at	_	
+148-6	13490-13491	a	_	
+148-7	13492-13500	druggist	_	
+148-8	13500-13501	’	_	
+148-9	13501-13502	s	_	
+148-10	13502-13503	,	_	
+148-11	13504-13508	some	_	
+148-12	13509-13517	Egyptian	_	
+148-13	13518-13520	or	_	
+148-14	13521-13532	Fly-killing	_	
+148-15	13534-13539	paper	_	
+148-16	13539-13540	.	_	
+
+#Text=Lay a piece of it on an old plate, and keep it moist by wetting\r
+#Text=it frequently with water.
+149-1	13541-13544	Lay	_	
+149-2	13545-13546	a	_	
+149-3	13547-13552	piece	_	
+149-4	13553-13555	of	_	
+149-5	13556-13558	it	_	
+149-6	13559-13561	on	_	
+149-7	13562-13564	an	_	
+149-8	13565-13568	old	_	
+149-9	13569-13574	plate	_	
+149-10	13574-13575	,	_	
+149-11	13576-13579	and	_	
+149-12	13580-13584	keep	_	
+149-13	13585-13587	it	_	
+149-14	13588-13593	moist	_	
+149-15	13594-13596	by	_	
+149-16	13597-13604	wetting	_	
+149-17	13606-13608	it	_	
+149-18	13609-13619	frequently	_	
+149-19	13620-13624	with	_	
+149-20	13625-13630	water	_	
+149-21	13630-13631	.	_	
+
+#Text=It will soon be found covered with dead flies.
+150-1	13632-13634	It	_	
+150-2	13635-13639	will	_	
+150-3	13640-13644	soon	_	
+150-4	13645-13647	be	_	
+150-5	13648-13653	found	_	
+150-6	13654-13661	covered	_	
+150-7	13662-13666	with	_	
+150-8	13667-13671	dead	_	
+150-9	13672-13677	flies	_	
+150-10	13677-13678	.	_	
+
+#Text=Shake them off, and wet the paper again.
+151-1	13680-13685	Shake	_	
+151-2	13686-13690	them	_	
+151-3	13691-13694	off	_	
+151-4	13694-13695	,	_	
+151-5	13696-13699	and	_	
+151-6	13700-13703	wet	_	
+151-7	13704-13707	the	_	
+151-8	13708-13713	paper	_	
+151-9	13714-13719	again	_	
+151-10	13719-13720	.	_	
+
+#Text=Or mix together a table-spoonful of powdered black pepper, the same\r
+#Text=quantity of brown sugar, and as much milk as will make it into a thin\r
+#Text=paste.
+152-1	13724-13726	Or	_	
+152-2	13727-13730	mix	_	
+152-3	13731-13739	together	_	
+152-4	13740-13741	a	_	
+152-5	13742-13756	table-spoonful	_	
+152-6	13757-13759	of	_	
+152-7	13760-13768	powdered	_	
+152-8	13769-13774	black	_	
+152-9	13775-13781	pepper	_	
+152-10	13781-13782	,	_	
+152-11	13783-13786	the	_	
+152-12	13787-13791	same	_	
+152-13	13793-13801	quantity	_	
+152-14	13802-13804	of	_	
+152-15	13805-13810	brown	_	
+152-16	13811-13816	sugar	_	
+152-17	13816-13817	,	_	
+152-18	13818-13821	and	_	
+152-19	13822-13824	as	_	
+152-20	13825-13829	much	_	
+152-21	13830-13834	milk	_	
+152-22	13835-13837	as	_	
+152-23	13838-13842	will	_	
+152-24	13843-13847	make	_	
+152-25	13848-13850	it	_	
+152-26	13851-13855	into	_	
+152-27	13856-13857	a	_	
+152-28	13858-13862	thin	_	
+152-29	13864-13869	paste	_	
+152-30	13869-13870	.	_	
+
+#Text=Set it about on saucers.
+153-1	13871-13874	Set	_	
+153-2	13875-13877	it	_	
+153-3	13878-13883	about	_	
+153-4	13884-13886	on	_	
+153-5	13887-13894	saucers	_	
+153-6	13894-13895	.	_	
+
+#Text=It will attract the flies, and they will\r
+#Text=die on eating it.
+154-1	13896-13898	It	_	
+154-2	13899-13903	will	_	
+154-3	13904-13911	attract	_	
+154-4	13912-13915	the	_	
+154-5	13916-13921	flies	_	
+154-6	13921-13922	,	_	
+154-7	13923-13926	and	_	
+154-8	13927-13931	they	_	
+154-9	13932-13936	will	_	
+154-10	13938-13941	die	_	
+154-11	13942-13944	on	_	
+154-12	13945-13951	eating	_	
+154-13	13952-13954	it	_	
+154-14	13954-13955	.	_	
+
+#Text=TO DESTROY GARDEN ANTS.
+155-1	13961-13963	TO	_	
+155-2	13964-13971	DESTROY	_	
+155-3	13972-13978	GARDEN	_	
+155-4	13979-13983	ANTS	_	
+155-5	13983-13984	.	_	
+
+#Text=--Mix together half a pound of flour of\r
+#Text=brimstone, and four ounces of potash.
+156-1	13984-13985	-	_	
+156-2	13985-13986	-	_	
+156-3	13986-13989	Mix	_	
+156-4	13990-13998	together	_	
+156-5	13999-14003	half	_	
+156-6	14004-14005	a	_	
+156-7	14006-14011	pound	_	
+156-8	14012-14014	of	_	
+156-9	14015-14020	flour	_	
+156-10	14021-14023	of	_	
+156-11	14025-14034	brimstone	_	
+156-12	14034-14035	,	_	
+156-13	14036-14039	and	_	
+156-14	14040-14044	four	_	
+156-15	14045-14051	ounces	_	
+156-16	14052-14054	of	_	
+156-17	14055-14061	potash	_	
+156-18	14061-14062	.	_	
+
+#Text=Put them into an iron pot or pan,\r
+#Text=and stir it over the fire till they are dissolved, and well\r
+#Text=incorporated.
+157-1	14063-14066	Put	_	
+157-2	14067-14071	them	_	
+157-3	14072-14076	into	_	
+157-4	14077-14079	an	_	
+157-5	14080-14084	iron	_	
+157-6	14085-14088	pot	_	
+157-7	14089-14091	or	_	
+157-8	14092-14095	pan	_	
+157-9	14095-14096	,	_	
+157-10	14098-14101	and	_	
+157-11	14102-14106	stir	_	
+157-12	14107-14109	it	_	
+157-13	14110-14114	over	_	
+157-14	14115-14118	the	_	
+157-15	14119-14123	fire	_	
+157-16	14124-14128	till	_	
+157-17	14129-14133	they	_	
+157-18	14134-14137	are	_	
+157-19	14138-14147	dissolved	_	
+157-20	14147-14148	,	_	
+157-21	14149-14152	and	_	
+157-22	14153-14157	well	_	
+157-23	14159-14171	incorporated	_	
+157-24	14171-14172	.	_	
+
+#Text=Then pound them to a powder.
+158-1	14173-14177	Then	_	
+158-2	14178-14183	pound	_	
+158-3	14184-14188	them	_	
+158-4	14189-14191	to	_	
+158-5	14192-14193	a	_	
+158-6	14194-14200	powder	_	
+158-7	14200-14201	.	_	
+
+#Text=Put the powder into a glass\r
+#Text=jar, with a cover, and keep it for use.
+159-1	14202-14205	Put	_	
+159-2	14206-14209	the	_	
+159-3	14210-14216	powder	_	
+159-4	14217-14221	into	_	
+159-5	14222-14223	a	_	
+159-6	14224-14229	glass	_	
+159-7	14231-14234	jar	_	
+159-8	14234-14235	,	_	
+159-9	14236-14240	with	_	
+159-10	14241-14242	a	_	
+159-11	14243-14248	cover	_	
+159-12	14248-14249	,	_	
+159-13	14250-14253	and	_	
+159-14	14254-14258	keep	_	
+159-15	14259-14261	it	_	
+159-16	14262-14265	for	_	
+159-17	14266-14269	use	_	
+159-18	14269-14270	.	_	
+
+#Text=Infuse some of this powder in a\r
+#Text=cup of water, and sprinkle with it the places that are infested by ants.
+160-1	14271-14277	Infuse	_	
+160-2	14278-14282	some	_	
+160-3	14283-14285	of	_	
+160-4	14286-14290	this	_	
+160-5	14291-14297	powder	_	
+160-6	14298-14300	in	_	
+160-7	14301-14302	a	_	
+160-8	14304-14307	cup	_	
+160-9	14308-14310	of	_	
+160-10	14311-14316	water	_	
+160-11	14316-14317	,	_	
+160-12	14318-14321	and	_	
+160-13	14322-14330	sprinkle	_	
+160-14	14331-14335	with	_	
+160-15	14336-14338	it	_	
+160-16	14339-14342	the	_	
+160-17	14343-14349	places	_	
+160-18	14350-14354	that	_	
+160-19	14355-14358	are	_	
+160-20	14359-14367	infested	_	
+160-21	14368-14370	by	_	
+160-22	14371-14375	ants	_	
+160-23	14375-14376	.	_	
+
+#Text=They will soon disappear.
+161-1	14378-14382	They	_	
+161-2	14383-14387	will	_	
+161-3	14388-14392	soon	_	
+161-4	14393-14402	disappear	_	
+161-5	14402-14403	.	_	
+
+#Text=TO EXPEL SMALL ANTS.
+162-1	14409-14411	TO	_	
+162-2	14412-14417	EXPEL	_	
+162-3	14418-14423	SMALL	_	
+162-4	14424-14428	ANTS	_	
+162-5	14428-14429	.	_	
+
+#Text=--Mix a tea-spoonful of tartar emetic in two\r
+#Text=table-spoonfuls of molasses.
+163-1	14429-14430	-	_	
+163-2	14430-14431	-	_	
+163-3	14431-14434	Mix	_	
+163-4	14435-14436	a	_	
+163-5	14437-14449	tea-spoonful	_	
+163-6	14450-14452	of	_	
+163-7	14453-14459	tartar	_	
+163-8	14460-14466	emetic	_	
+163-9	14467-14469	in	_	
+163-10	14470-14473	two	_	
+163-11	14475-14490	table-spoonfuls	_	
+163-12	14491-14493	of	_	
+163-13	14494-14502	molasses	_	
+163-14	14502-14503	.	_	
+
+#Text=Stir this into a small saucer of water, and\r
+#Text=set it where you have seen the ants.
+164-1	14504-14508	Stir	_	
+164-2	14509-14513	this	_	
+164-3	14514-14518	into	_	
+164-4	14519-14520	a	_	
+164-5	14521-14526	small	_	
+164-6	14527-14533	saucer	_	
+164-7	14534-14536	of	_	
+164-8	14537-14542	water	_	
+164-9	14542-14543	,	_	
+164-10	14544-14547	and	_	
+164-11	14549-14552	set	_	
+164-12	14553-14555	it	_	
+164-13	14556-14561	where	_	
+164-14	14562-14565	you	_	
+164-15	14566-14570	have	_	
+164-16	14571-14575	seen	_	
+164-17	14576-14579	the	_	
+164-18	14580-14584	ants	_	
+164-19	14584-14585	.	_	
+
+#Text=Let it remain all night; and in the\r
+#Text=morning you will find a great number of ants lying dead on the surface\r
+#Text=of the water, and the others will have been frightened away.
+165-1	14586-14589	Let	_	
+165-2	14590-14592	it	_	
+165-3	14593-14599	remain	_	
+165-4	14600-14603	all	_	
+165-5	14604-14609	night	_	
+165-6	14609-14610	;	_	
+165-7	14611-14614	and	_	
+165-8	14615-14617	in	_	
+165-9	14618-14621	the	_	
+165-10	14623-14630	morning	_	
+165-11	14631-14634	you	_	
+165-12	14635-14639	will	_	
+165-13	14640-14644	find	_	
+165-14	14645-14646	a	_	
+165-15	14647-14652	great	_	
+165-16	14653-14659	number	_	
+165-17	14660-14662	of	_	
+165-18	14663-14667	ants	_	
+165-19	14668-14673	lying	_	
+165-20	14674-14678	dead	_	
+165-21	14679-14681	on	_	
+165-22	14682-14685	the	_	
+165-23	14686-14693	surface	_	
+165-24	14695-14697	of	_	
+165-25	14698-14701	the	_	
+165-26	14702-14707	water	_	
+165-27	14707-14708	,	_	
+165-28	14709-14712	and	_	
+165-29	14713-14716	the	_	
+165-30	14717-14723	others	_	
+165-31	14724-14728	will	_	
+165-32	14729-14733	have	_	
+165-33	14734-14738	been	_	
+165-34	14739-14749	frightened	_	
+165-35	14750-14754	away	_	
+165-36	14754-14755	.	_	
+
+#Text=Skim off\r
+#Text=the dead ants, and set the saucer in any other place where these insects\r
+#Text=have appeared.
+166-1	14756-14760	Skim	_	
+166-2	14761-14764	off	_	
+166-3	14766-14769	the	_	
+166-4	14770-14774	dead	_	
+166-5	14775-14779	ants	_	
+166-6	14779-14780	,	_	
+166-7	14781-14784	and	_	
+166-8	14785-14788	set	_	
+166-9	14789-14792	the	_	
+166-10	14793-14799	saucer	_	
+166-11	14800-14802	in	_	
+166-12	14803-14806	any	_	
+166-13	14807-14812	other	_	
+166-14	14813-14818	place	_	
+166-15	14819-14824	where	_	
+166-16	14825-14830	these	_	
+166-17	14831-14838	insects	_	
+166-18	14840-14844	have	_	
+166-19	14845-14853	appeared	_	
+166-20	14853-14854	.	_	
+
+#Text=This we know, by experience, to be an excellent remedy\r
+#Text=for the little ants with which so many houses are infested, and which\r
+#Text=swarm over sweet things.
+167-1	14855-14859	This	_	
+167-2	14860-14862	we	_	
+167-3	14863-14867	know	_	
+167-4	14867-14868	,	_	
+167-5	14869-14871	by	_	
+167-6	14872-14882	experience	_	
+167-7	14882-14883	,	_	
+167-8	14884-14886	to	_	
+167-9	14887-14889	be	_	
+167-10	14890-14892	an	_	
+167-11	14893-14902	excellent	_	
+167-12	14903-14909	remedy	_	
+167-13	14911-14914	for	_	
+167-14	14915-14918	the	_	
+167-15	14919-14925	little	_	
+167-16	14926-14930	ants	_	
+167-17	14931-14935	with	_	
+167-18	14936-14941	which	_	
+167-19	14942-14944	so	_	
+167-20	14945-14949	many	_	
+167-21	14950-14956	houses	_	
+167-22	14957-14960	are	_	
+167-23	14961-14969	infested	_	
+167-24	14969-14970	,	_	
+167-25	14971-14974	and	_	
+167-26	14975-14980	which	_	
+167-27	14982-14987	swarm	_	
+167-28	14988-14992	over	_	
+167-29	14993-14998	sweet	_	
+167-30	14999-15005	things	_	
+167-31	15005-15006	.	_	
+
+#Text=MICE.
+168-1	15012-15016	MICE	_	
+168-2	15016-15017	.	_	
+
+#Text=--An excellent preparation for expelling mice and rats is Levy’s\r
+#Text=Exterminator, spread upon bread or cheese, and laid about the places\r
+#Text=they frequent.
+169-1	15017-15018	-	_	
+169-2	15018-15019	-	_	
+169-3	15019-15021	An	_	
+169-4	15022-15031	excellent	_	
+169-5	15032-15043	preparation	_	
+169-6	15044-15047	for	_	
+169-7	15048-15057	expelling	_	
+169-8	15058-15062	mice	_	
+169-9	15063-15066	and	_	
+169-10	15067-15071	rats	_	
+169-11	15072-15074	is	_	
+169-12	15075-15079	Levy	_	
+169-13	15079-15080	’	_	
+169-14	15080-15081	s	_	
+169-15	15083-15095	Exterminator	_	
+169-16	15095-15096	,	_	
+169-17	15097-15103	spread	_	
+169-18	15104-15108	upon	_	
+169-19	15109-15114	bread	_	
+169-20	15115-15117	or	_	
+169-21	15118-15124	cheese	_	
+169-22	15124-15125	,	_	
+169-23	15126-15129	and	_	
+169-24	15130-15134	laid	_	
+169-25	15135-15140	about	_	
+169-26	15141-15144	the	_	
+169-27	15145-15151	places	_	
+169-28	15153-15157	they	_	
+169-29	15158-15166	frequent	_	
+169-30	15166-15167	.	_	
+
+#Text=It is a preparation of phosphorus; and after one mouse\r
+#Text=has eaten it and (of course) died, the others will disappear.
+170-1	15168-15170	It	_	
+170-2	15171-15173	is	_	
+170-3	15174-15175	a	_	
+170-4	15176-15187	preparation	_	
+170-5	15188-15190	of	_	
+170-6	15191-15201	phosphorus	_	
+170-7	15201-15202	;	_	
+170-8	15203-15206	and	_	
+170-9	15207-15212	after	_	
+170-10	15213-15216	one	_	
+170-11	15217-15222	mouse	_	
+170-12	15224-15227	has	_	
+170-13	15228-15233	eaten	_	
+170-14	15234-15236	it	_	
+170-15	15237-15240	and	_	
+170-16	15241-15242	(	_	
+170-17	15242-15244	of	_	
+170-18	15245-15251	course	_	
+170-19	15251-15252	)	_	
+170-20	15253-15257	died	_	
+170-21	15257-15258	,	_	
+170-22	15259-15262	the	_	
+170-23	15263-15269	others	_	
+170-24	15270-15274	will	_	
+170-25	15275-15284	disappear	_	
+170-26	15284-15285	.	_	
+
+#Text=It is to\r
+#Text=be had of most druggists; and will also destroy cockroaches, by\r
+#Text=spreading it on bits of cake or something similar, and laying it at\r
+#Text=night on the kitchen hearth, and in the closets.
+171-1	15286-15288	It	_	
+171-2	15289-15291	is	_	
+171-3	15292-15294	to	_	
+171-4	15296-15298	be	_	
+171-5	15299-15302	had	_	
+171-6	15303-15305	of	_	
+171-7	15306-15310	most	_	
+171-8	15311-15320	druggists	_	
+171-9	15320-15321	;	_	
+171-10	15322-15325	and	_	
+171-11	15326-15330	will	_	
+171-12	15331-15335	also	_	
+171-13	15336-15343	destroy	_	
+171-14	15344-15355	cockroaches	_	
+171-15	15355-15356	,	_	
+171-16	15357-15359	by	_	
+171-17	15361-15370	spreading	_	
+171-18	15371-15373	it	_	
+171-19	15374-15376	on	_	
+171-20	15377-15381	bits	_	
+171-21	15382-15384	of	_	
+171-22	15385-15389	cake	_	
+171-23	15390-15392	or	_	
+171-24	15393-15402	something	_	
+171-25	15403-15410	similar	_	
+171-26	15410-15411	,	_	
+171-27	15412-15415	and	_	
+171-28	15416-15422	laying	_	
+171-29	15423-15425	it	_	
+171-30	15426-15428	at	_	
+171-31	15430-15435	night	_	
+171-32	15436-15438	on	_	
+171-33	15439-15442	the	_	
+171-34	15443-15450	kitchen	_	
+171-35	15451-15457	hearth	_	
+171-36	15457-15458	,	_	
+171-37	15459-15462	and	_	
+171-38	15463-15465	in	_	
+171-39	15466-15469	the	_	
+171-40	15470-15477	closets	_	
+171-41	15477-15478	.	_	
+
+#Text=We highly recommend it.
+172-1	15479-15481	We	_	
+172-2	15482-15488	highly	_	
+172-3	15489-15498	recommend	_	
+172-4	15499-15501	it	_	
+172-5	15501-15502	.	_	
+
+#Text=If you propose to destroy a mouse by arsenic spread on bread and butter,\r
+#Text=sprinkle on the arsenic a drop or two of oil of rhodium, and the mouse\r
+#Text=will unfailingly be attracted to the poison.
+173-1	15506-15508	If	_	
+173-2	15509-15512	you	_	
+173-3	15513-15520	propose	_	
+173-4	15521-15523	to	_	
+173-5	15524-15531	destroy	_	
+173-6	15532-15533	a	_	
+173-7	15534-15539	mouse	_	
+173-8	15540-15542	by	_	
+173-9	15543-15550	arsenic	_	
+173-10	15551-15557	spread	_	
+173-11	15558-15560	on	_	
+173-12	15561-15566	bread	_	
+173-13	15567-15570	and	_	
+173-14	15571-15577	butter	_	
+173-15	15577-15578	,	_	
+173-16	15580-15588	sprinkle	_	
+173-17	15589-15591	on	_	
+173-18	15592-15595	the	_	
+173-19	15596-15603	arsenic	_	
+173-20	15604-15605	a	_	
+173-21	15606-15610	drop	_	
+173-22	15611-15613	or	_	
+173-23	15614-15617	two	_	
+173-24	15618-15620	of	_	
+173-25	15621-15624	oil	_	
+173-26	15625-15627	of	_	
+173-27	15628-15635	rhodium	_	
+173-28	15635-15636	,	_	
+173-29	15637-15640	and	_	
+173-30	15641-15644	the	_	
+173-31	15645-15650	mouse	_	
+173-32	15652-15656	will	_	
+173-33	15657-15668	unfailingly	_	
+173-34	15669-15671	be	_	
+173-35	15672-15681	attracted	_	
+173-36	15682-15684	to	_	
+173-37	15685-15688	the	_	
+173-38	15689-15695	poison	_	
+173-39	15695-15696	.	_	
+
+#Text=Place beside it a saucer of\r
+#Text=water, and as soon as he has eaten of the poisoned bread and butter, he\r
+#Text=will drink, and then die on the spot.
+174-1	15697-15702	Place	_	
+174-2	15703-15709	beside	_	
+174-3	15710-15712	it	_	
+174-4	15713-15714	a	_	
+174-5	15715-15721	saucer	_	
+174-6	15722-15724	of	_	
+174-7	15726-15731	water	_	
+174-8	15731-15732	,	_	
+174-9	15733-15736	and	_	
+174-10	15737-15739	as	_	
+174-11	15740-15744	soon	_	
+174-12	15745-15747	as	_	
+174-13	15748-15750	he	_	
+174-14	15751-15754	has	_	
+174-15	15755-15760	eaten	_	
+174-16	15761-15763	of	_	
+174-17	15764-15767	the	_	
+174-18	15768-15776	poisoned	_	
+174-19	15777-15782	bread	_	
+174-20	15783-15786	and	_	
+174-21	15787-15793	butter	_	
+174-22	15793-15794	,	_	
+174-23	15795-15797	he	_	
+174-24	15799-15803	will	_	
+174-25	15804-15809	drink	_	
+174-26	15809-15810	,	_	
+174-27	15811-15814	and	_	
+174-28	15815-15819	then	_	
+174-29	15820-15823	die	_	
+174-30	15824-15826	on	_	
+174-31	15827-15830	the	_	
+174-32	15831-15835	spot	_	
+174-33	15835-15836	.	_	
+
+#Text=Oil of aniseed, spread on the bait, will attract them into a trap.
+175-1	15840-15843	Oil	_	
+175-2	15844-15846	of	_	
+175-3	15847-15854	aniseed	_	
+175-4	15854-15855	,	_	
+175-5	15856-15862	spread	_	
+175-6	15863-15865	on	_	
+175-7	15866-15869	the	_	
+175-8	15870-15874	bait	_	
+175-9	15874-15875	,	_	
+175-10	15876-15880	will	_	
+175-11	15881-15888	attract	_	
+175-12	15889-15893	them	_	
+175-13	15894-15898	into	_	
+175-14	15899-15900	a	_	
+175-15	15901-15905	trap	_	
+175-16	15905-15906	.	_	
+
+#Text=TO DESTROY CATERPILLARS.
+176-1	15912-15914	TO	_	
+176-2	15915-15922	DESTROY	_	
+176-3	15923-15935	CATERPILLARS	_	
+176-4	15935-15936	.	_	
+
+#Text=--Mix together twelve ounces of powdered\r
+#Text=quick-lime, two ounces of snuff, two ounces of fine salt, and two ounces\r
+#Text=of powdered sulphur.
+177-1	15936-15937	-	_	
+177-2	15937-15938	-	_	
+177-3	15938-15941	Mix	_	
+177-4	15942-15950	together	_	
+177-5	15951-15957	twelve	_	
+177-6	15958-15964	ounces	_	
+177-7	15965-15967	of	_	
+177-8	15968-15976	powdered	_	
+177-9	15978-15988	quick-lime	_	
+177-10	15988-15989	,	_	
+177-11	15990-15993	two	_	
+177-12	15994-16000	ounces	_	
+177-13	16001-16003	of	_	
+177-14	16004-16009	snuff	_	
+177-15	16009-16010	,	_	
+177-16	16011-16014	two	_	
+177-17	16015-16021	ounces	_	
+177-18	16022-16024	of	_	
+177-19	16025-16029	fine	_	
+177-20	16030-16034	salt	_	
+177-21	16034-16035	,	_	
+177-22	16036-16039	and	_	
+177-23	16040-16043	two	_	
+177-24	16044-16050	ounces	_	
+177-25	16052-16054	of	_	
+177-26	16055-16063	powdered	_	
+177-27	16064-16071	sulphur	_	
+177-28	16071-16072	.	_	
+
+#Text=Strew this mixture over the caterpillars, or\r
+#Text=dissolve it in five gallons of water; keep it in a convenient vessel,\r
+#Text=and sprinkle with it places where they abound.
+178-1	16073-16078	Strew	_	
+178-2	16079-16083	this	_	
+178-3	16084-16091	mixture	_	
+178-4	16092-16096	over	_	
+178-5	16097-16100	the	_	
+178-6	16101-16113	caterpillars	_	
+178-7	16113-16114	,	_	
+178-8	16115-16117	or	_	
+178-9	16119-16127	dissolve	_	
+178-10	16128-16130	it	_	
+178-11	16131-16133	in	_	
+178-12	16134-16138	five	_	
+178-13	16139-16146	gallons	_	
+178-14	16147-16149	of	_	
+178-15	16150-16155	water	_	
+178-16	16155-16156	;	_	
+178-17	16157-16161	keep	_	
+178-18	16162-16164	it	_	
+178-19	16165-16167	in	_	
+178-20	16168-16169	a	_	
+178-21	16170-16180	convenient	_	
+178-22	16181-16187	vessel	_	
+178-23	16187-16188	,	_	
+178-24	16190-16193	and	_	
+178-25	16194-16202	sprinkle	_	
+178-26	16203-16207	with	_	
+178-27	16208-16210	it	_	
+178-28	16211-16217	places	_	
+178-29	16218-16223	where	_	
+178-30	16224-16228	they	_	
+178-31	16229-16235	abound	_	
+178-32	16235-16236	.	_	
+
+#Text=Any garden insects may be destroyed in this manner.
+179-1	16240-16243	Any	_	
+179-2	16244-16250	garden	_	
+179-3	16251-16258	insects	_	
+179-4	16259-16262	may	_	
+179-5	16263-16265	be	_	
+179-6	16266-16275	destroyed	_	
+179-7	16276-16278	in	_	
+179-8	16279-16283	this	_	
+179-9	16284-16290	manner	_	
+179-10	16290-16291	.	_	
+
+#Text=TO DESTROY WORMS IN GARDEN WALKS.
+180-1	16297-16299	TO	_	
+180-2	16300-16307	DESTROY	_	
+180-3	16308-16313	WORMS	_	
+180-4	16314-16316	IN	_	
+180-5	16317-16323	GARDEN	_	
+180-6	16324-16329	WALKS	_	
+180-7	16329-16330	.	_	
+
+#Text=--Pour into the worm-holes a strong\r
+#Text=lye, made of wood-ashes, lime, and water.
+181-1	16330-16331	-	_	
+181-2	16331-16332	-	_	
+181-3	16332-16336	Pour	_	
+181-4	16337-16341	into	_	
+181-5	16342-16345	the	_	
+181-6	16346-16356	worm-holes	_	
+181-7	16357-16358	a	_	
+181-8	16359-16365	strong	_	
+181-9	16367-16370	lye	_	
+181-10	16370-16371	,	_	
+181-11	16372-16376	made	_	
+181-12	16377-16379	of	_	
+181-13	16380-16390	wood-ashes	_	
+181-14	16390-16391	,	_	
+181-15	16392-16396	lime	_	
+181-16	16396-16397	,	_	
+181-17	16398-16401	and	_	
+181-18	16402-16407	water	_	
+181-19	16407-16408	.	_	
+
+#Text=Or, if more convenient, use,\r
+#Text=for this purpose, strong salt and water.
+182-1	16409-16411	Or	_	
+182-2	16411-16412	,	_	
+182-3	16413-16415	if	_	
+182-4	16416-16420	more	_	
+182-5	16421-16431	convenient	_	
+182-6	16431-16432	,	_	
+182-7	16433-16436	use	_	
+182-8	16436-16437	,	_	
+182-9	16439-16442	for	_	
+182-10	16443-16447	this	_	
+182-11	16448-16455	purpose	_	
+182-12	16455-16456	,	_	
+182-13	16457-16463	strong	_	
+182-14	16464-16468	salt	_	
+182-15	16469-16472	and	_	
+182-16	16473-16478	water	_	
+182-17	16478-16479	.	_	
+
+#Text=TO DESTROY THE BEE-MILLER.
+183-1	16485-16487	TO	_	
+183-2	16488-16495	DESTROY	_	
+183-3	16496-16499	THE	_	
+183-4	16500-16510	BEE-MILLER	_	
+183-5	16510-16511	.	_	
+
+#Text=--This insect, whose night-visits are so\r
+#Text=destructive to bees, may be destroyed by mixing a large wine-glass of\r
+#Text=vinegar with a pint of water, that has been made very sweet with honey.
+184-1	16511-16512	-	_	
+184-2	16512-16513	-	_	
+184-3	16513-16517	This	_	
+184-4	16518-16524	insect	_	
+184-5	16524-16525	,	_	
+184-6	16526-16531	whose	_	
+184-7	16532-16544	night-visits	_	
+184-8	16545-16548	are	_	
+184-9	16549-16551	so	_	
+184-10	16553-16564	destructive	_	
+184-11	16565-16567	to	_	
+184-12	16568-16572	bees	_	
+184-13	16572-16573	,	_	
+184-14	16574-16577	may	_	
+184-15	16578-16580	be	_	
+184-16	16581-16590	destroyed	_	
+184-17	16591-16593	by	_	
+184-18	16594-16600	mixing	_	
+184-19	16601-16602	a	_	
+184-20	16603-16608	large	_	
+184-21	16609-16619	wine-glass	_	
+184-22	16620-16622	of	_	
+184-23	16624-16631	vinegar	_	
+184-24	16632-16636	with	_	
+184-25	16637-16638	a	_	
+184-26	16639-16643	pint	_	
+184-27	16644-16646	of	_	
+184-28	16647-16652	water	_	
+184-29	16652-16653	,	_	
+184-30	16654-16658	that	_	
+184-31	16659-16662	has	_	
+184-32	16663-16667	been	_	
+184-33	16668-16672	made	_	
+184-34	16673-16677	very	_	
+184-35	16678-16683	sweet	_	
+184-36	16684-16688	with	_	
+184-37	16689-16694	honey	_	
+184-38	16694-16695	.	_	
+
+#Text=Set it in a bowl on the top of the hive, or beside it.
+185-1	16697-16700	Set	_	
+185-2	16701-16703	it	_	
+185-3	16704-16706	in	_	
+185-4	16707-16708	a	_	
+185-5	16709-16713	bowl	_	
+185-6	16714-16716	on	_	
+185-7	16717-16720	the	_	
+185-8	16721-16724	top	_	
+185-9	16725-16727	of	_	
+185-10	16728-16731	the	_	
+185-11	16732-16736	hive	_	
+185-12	16736-16737	,	_	
+185-13	16738-16740	or	_	
+185-14	16741-16747	beside	_	
+185-15	16748-16750	it	_	
+185-16	16750-16751	.	_	
+
+#Text=It will attract\r
+#Text=the miller, and then drown him.
+186-1	16752-16754	It	_	
+186-2	16755-16759	will	_	
+186-3	16760-16767	attract	_	
+186-4	16769-16772	the	_	
+186-5	16773-16779	miller	_	
+186-6	16779-16780	,	_	
+186-7	16781-16784	and	_	
+186-8	16785-16789	then	_	
+186-9	16790-16795	drown	_	
+186-10	16796-16799	him	_	
+186-11	16799-16800	.	_	
+
+#Text=CURE FOR PRICKLY HEAT.
+187-1	16806-16810	CURE	_	
+187-2	16811-16814	FOR	_	
+187-3	16815-16822	PRICKLY	_	
+187-4	16823-16827	HEAT	_	
+187-5	16827-16828	.	_	
+
+#Text=--Mix a large portion of wheat bran with either\r
+#Text=cold or lukewarm water, and use it as a bath twice or thrice a day.
+188-1	16828-16829	-	_	
+188-2	16829-16830	-	_	
+188-3	16830-16833	Mix	_	
+188-4	16834-16835	a	_	
+188-5	16836-16841	large	_	
+188-6	16842-16849	portion	_	
+188-7	16850-16852	of	_	
+188-8	16853-16858	wheat	_	
+188-9	16859-16863	bran	_	
+188-10	16864-16868	with	_	
+188-11	16869-16875	either	_	
+188-12	16877-16881	cold	_	
+188-13	16882-16884	or	_	
+188-14	16885-16893	lukewarm	_	
+188-15	16894-16899	water	_	
+188-16	16899-16900	,	_	
+188-17	16901-16904	and	_	
+188-18	16905-16908	use	_	
+188-19	16909-16911	it	_	
+188-20	16912-16914	as	_	
+188-21	16915-16916	a	_	
+188-22	16917-16921	bath	_	
+188-23	16922-16927	twice	_	
+188-24	16928-16930	or	_	
+188-25	16931-16937	thrice	_	
+188-26	16938-16939	a	_	
+188-27	16940-16943	day	_	
+188-28	16943-16944	.	_	
+
+#Text=Children who are covered with prickly heat in warm weather will be thus\r
+#Text=effectually relieved from that tormenting eruption.
+189-1	16946-16954	Children	_	
+189-2	16955-16958	who	_	
+189-3	16959-16962	are	_	
+189-4	16963-16970	covered	_	
+189-5	16971-16975	with	_	
+189-6	16976-16983	prickly	_	
+189-7	16984-16988	heat	_	
+189-8	16989-16991	in	_	
+189-9	16992-16996	warm	_	
+189-10	16997-17004	weather	_	
+189-11	17005-17009	will	_	
+189-12	17010-17012	be	_	
+189-13	17013-17017	thus	_	
+189-14	17019-17030	effectually	_	
+189-15	17031-17039	relieved	_	
+189-16	17040-17044	from	_	
+189-17	17045-17049	that	_	
+189-18	17050-17060	tormenting	_	
+189-19	17061-17069	eruption	_	
+189-20	17069-17070	.	_	
+
+#Text=As soon as it begins\r
+#Text=to appear on the neck, face, or arms, commence using the bran-water on\r
+#Text=these parts repeatedly through the day, and it may probably spread no\r
+#Text=farther.
+190-1	17071-17073	As	_	
+190-2	17074-17078	soon	_	
+190-3	17079-17081	as	_	
+190-4	17082-17084	it	_	
+190-5	17085-17091	begins	_	
+190-6	17093-17095	to	_	
+190-7	17096-17102	appear	_	
+190-8	17103-17105	on	_	
+190-9	17106-17109	the	_	
+190-10	17110-17114	neck	_	
+190-11	17114-17115	,	_	
+190-12	17116-17120	face	_	
+190-13	17120-17121	,	_	
+190-14	17122-17124	or	_	
+190-15	17125-17129	arms	_	
+190-16	17129-17130	,	_	
+190-17	17131-17139	commence	_	
+190-18	17140-17145	using	_	
+190-19	17146-17149	the	_	
+190-20	17150-17160	bran-water	_	
+190-21	17161-17163	on	_	
+190-22	17165-17170	these	_	
+190-23	17171-17176	parts	_	
+190-24	17177-17187	repeatedly	_	
+190-25	17188-17195	through	_	
+190-26	17196-17199	the	_	
+190-27	17200-17203	day	_	
+190-28	17203-17204	,	_	
+190-29	17205-17208	and	_	
+190-30	17209-17211	it	_	
+190-31	17212-17215	may	_	
+190-32	17216-17224	probably	_	
+190-33	17225-17231	spread	_	
+190-34	17232-17234	no	_	
+190-35	17236-17243	farther	_	
+190-36	17243-17244	.	_	
+
+#Text=If it does, the bran-water bath will certainly cure it, if\r
+#Text=persisted in.
+191-1	17245-17247	If	_	
+191-2	17248-17250	it	_	
+191-3	17251-17255	does	_	
+191-4	17255-17256	,	_	
+191-5	17257-17260	the	_	
+191-6	17261-17271	bran-water	_	
+191-7	17272-17276	bath	_	
+191-8	17277-17281	will	_	
+191-9	17282-17291	certainly	_	
+191-10	17292-17296	cure	_	
+191-11	17297-17299	it	_	
+191-12	17299-17300	,	_	
+191-13	17301-17303	if	_	
+191-14	17305-17314	persisted	_	
+191-15	17315-17317	in	_	
+191-16	17317-17318	.	_	
+
+#Text=BROWN MIXTURE FOR A COUGH.
+192-1	17324-17329	BROWN	_	
+192-2	17330-17337	MIXTURE	_	
+192-3	17338-17341	FOR	_	
+192-4	17342-17343	A	_	
+192-5	17344-17349	COUGH	_	
+192-6	17349-17350	.	_	
+
+#Text=--Mix in a large bottle, half an ounce of\r
+#Text=liquorice; a quarter of an ounce of gum-arabic; two tea-spoonfuls of\r
+#Text=antimonial wine; sixty drops of laudanum; and half a pint of water.
+193-1	17350-17351	-	_	
+193-2	17351-17352	-	_	
+193-3	17352-17355	Mix	_	
+193-4	17356-17358	in	_	
+193-5	17359-17360	a	_	
+193-6	17361-17366	large	_	
+193-7	17367-17373	bottle	_	
+193-8	17373-17374	,	_	
+193-9	17375-17379	half	_	
+193-10	17380-17382	an	_	
+193-11	17383-17388	ounce	_	
+193-12	17389-17391	of	_	
+193-13	17393-17402	liquorice	_	
+193-14	17402-17403	;	_	
+193-15	17404-17405	a	_	
+193-16	17406-17413	quarter	_	
+193-17	17414-17416	of	_	
+193-18	17417-17419	an	_	
+193-19	17420-17425	ounce	_	
+193-20	17426-17428	of	_	
+193-21	17429-17439	gum-arabic	_	
+193-22	17439-17440	;	_	
+193-23	17441-17444	two	_	
+193-24	17445-17458	tea-spoonfuls	_	
+193-25	17459-17461	of	_	
+193-26	17463-17473	antimonial	_	
+193-27	17474-17478	wine	_	
+193-28	17478-17479	;	_	
+193-29	17480-17485	sixty	_	
+193-30	17486-17491	drops	_	
+193-31	17492-17494	of	_	
+193-32	17495-17503	laudanum	_	
+193-33	17503-17504	;	_	
+193-34	17505-17508	and	_	
+193-35	17509-17513	half	_	
+193-36	17514-17515	a	_	
+193-37	17516-17520	pint	_	
+193-38	17521-17523	of	_	
+193-39	17524-17529	water	_	
+193-40	17529-17530	.	_	
+
+#Text=Shake it well, and when the ingredients are thoroughly amalgamated it\r
+#Text=will be fit for use.
+194-1	17532-17537	Shake	_	
+194-2	17538-17540	it	_	
+194-3	17541-17545	well	_	
+194-4	17545-17546	,	_	
+194-5	17547-17550	and	_	
+194-6	17551-17555	when	_	
+194-7	17556-17559	the	_	
+194-8	17560-17571	ingredients	_	
+194-9	17572-17575	are	_	
+194-10	17576-17586	thoroughly	_	
+194-11	17587-17598	amalgamated	_	
+194-12	17599-17601	it	_	
+194-13	17603-17607	will	_	
+194-14	17608-17610	be	_	
+194-15	17611-17614	fit	_	
+194-16	17615-17618	for	_	
+194-17	17619-17622	use	_	
+194-18	17622-17623	.	_	
+
+#Text=For a cold and cough, take a dessert-spoonful three\r
+#Text=or four times a day, shaking or stirring it first.
+195-1	17624-17627	For	_	
+195-2	17628-17629	a	_	
+195-3	17630-17634	cold	_	
+195-4	17635-17638	and	_	
+195-5	17639-17644	cough	_	
+195-6	17644-17645	,	_	
+195-7	17646-17650	take	_	
+195-8	17651-17652	a	_	
+195-9	17653-17669	dessert-spoonful	_	
+195-10	17670-17675	three	_	
+195-11	17677-17679	or	_	
+195-12	17680-17684	four	_	
+195-13	17685-17690	times	_	
+195-14	17691-17692	a	_	
+195-15	17693-17696	day	_	
+195-16	17696-17697	,	_	
+195-17	17698-17705	shaking	_	
+195-18	17706-17708	or	_	
+195-19	17709-17717	stirring	_	
+195-20	17718-17720	it	_	
+195-21	17721-17726	first	_	
+195-22	17726-17727	.	_	
+
+#Text=RED LIP SALVE.
+196-1	17733-17736	RED	_	
+196-2	17737-17740	LIP	_	
+196-3	17741-17746	SALVE	_	
+196-4	17746-17747	.	_	
+
+#Text=--Mix together equal portions of the best suet and the\r
+#Text=best lard.
+197-1	17747-17748	-	_	
+197-2	17748-17749	-	_	
+197-3	17749-17752	Mix	_	
+197-4	17753-17761	together	_	
+197-5	17762-17767	equal	_	
+197-6	17768-17776	portions	_	
+197-7	17777-17779	of	_	
+197-8	17780-17783	the	_	
+197-9	17784-17788	best	_	
+197-10	17789-17793	suet	_	
+197-11	17794-17797	and	_	
+197-12	17798-17801	the	_	
+197-13	17803-17807	best	_	
+197-14	17808-17812	lard	_	
+197-15	17812-17813	.	_	
+
+#Text=There must be no salt about them.
+198-1	17814-17819	There	_	
+198-2	17820-17824	must	_	
+198-3	17825-17827	be	_	
+198-4	17828-17830	no	_	
+198-5	17831-17835	salt	_	
+198-6	17836-17841	about	_	
+198-7	17842-17846	them	_	
+198-8	17846-17847	.	_	
+
+#Text=Boil slowly, and skim and\r
+#Text=stir the mixture.
+199-1	17848-17852	Boil	_	
+199-2	17853-17859	slowly	_	
+199-3	17859-17860	,	_	
+199-4	17861-17864	and	_	
+199-5	17865-17869	skim	_	
+199-6	17870-17873	and	_	
+199-7	17875-17879	stir	_	
+199-8	17880-17883	the	_	
+199-9	17884-17891	mixture	_	
+199-10	17891-17892	.	_	
+
+#Text=Then add a small thin bag of alkanet chips; and when\r
+#Text=it has coloured the mixture of a fine deep red, take it out.
+200-1	17893-17897	Then	_	
+200-2	17898-17901	add	_	
+200-3	17902-17903	a	_	
+200-4	17904-17909	small	_	
+200-5	17910-17914	thin	_	
+200-6	17915-17918	bag	_	
+200-7	17919-17921	of	_	
+200-8	17922-17929	alkanet	_	
+200-9	17930-17935	chips	_	
+200-10	17935-17936	;	_	
+200-11	17937-17940	and	_	
+200-12	17941-17945	when	_	
+200-13	17947-17949	it	_	
+200-14	17950-17953	has	_	
+200-15	17954-17962	coloured	_	
+200-16	17963-17966	the	_	
+200-17	17967-17974	mixture	_	
+200-18	17975-17977	of	_	
+200-19	17978-17979	a	_	
+200-20	17980-17984	fine	_	
+200-21	17985-17989	deep	_	
+200-22	17990-17993	red	_	
+200-23	17993-17994	,	_	
+200-24	17995-17999	take	_	
+200-25	18000-18002	it	_	
+200-26	18003-18006	out	_	
+200-27	18006-18007	.	_	
+
+#Text=While\r
+#Text=cooling, stir in, very hard, sufficient rose or orange-flower water to\r
+#Text=give it a fine perfume.
+201-1	18008-18013	While	_	
+201-2	18015-18022	cooling	_	
+201-3	18022-18023	,	_	
+201-4	18024-18028	stir	_	
+201-5	18029-18031	in	_	
+201-6	18031-18032	,	_	
+201-7	18033-18037	very	_	
+201-8	18038-18042	hard	_	
+201-9	18042-18043	,	_	
+201-10	18044-18054	sufficient	_	
+201-11	18055-18059	rose	_	
+201-12	18060-18062	or	_	
+201-13	18063-18076	orange-flower	_	
+201-14	18077-18082	water	_	
+201-15	18083-18085	to	_	
+201-16	18087-18091	give	_	
+201-17	18092-18094	it	_	
+201-18	18095-18096	a	_	
+201-19	18097-18101	fine	_	
+201-20	18102-18109	perfume	_	
+201-21	18109-18110	.	_	
+
+#Text=A few drops of oil of rhodium will impart to it\r
+#Text=a very agreeable rose-scent.
+202-1	18111-18112	A	_	
+202-2	18113-18116	few	_	
+202-3	18117-18122	drops	_	
+202-4	18123-18125	of	_	
+202-5	18126-18129	oil	_	
+202-6	18130-18132	of	_	
+202-7	18133-18140	rhodium	_	
+202-8	18141-18145	will	_	
+202-9	18146-18152	impart	_	
+202-10	18153-18155	to	_	
+202-11	18156-18158	it	_	
+202-12	18160-18161	a	_	
+202-13	18162-18166	very	_	
+202-14	18167-18176	agreeable	_	
+202-15	18177-18187	rose-scent	_	
+202-16	18187-18188	.	_	
+
+#Text=Cold cream for excoriated nostrils, chafed upper lips, or chapped hands\r
+#Text=may be made nearly as above, but with one-third suet, and two-thirds\r
+#Text=lard, and no alkanet.
+203-1	18192-18196	Cold	_	
+203-2	18197-18202	cream	_	
+203-3	18203-18206	for	_	
+203-4	18207-18217	excoriated	_	
+203-5	18218-18226	nostrils	_	
+203-6	18226-18227	,	_	
+203-7	18228-18234	chafed	_	
+203-8	18235-18240	upper	_	
+203-9	18241-18245	lips	_	
+203-10	18245-18246	,	_	
+203-11	18247-18249	or	_	
+203-12	18250-18257	chapped	_	
+203-13	18258-18263	hands	_	
+203-14	18265-18268	may	_	
+203-15	18269-18271	be	_	
+203-16	18272-18276	made	_	
+203-17	18277-18283	nearly	_	
+203-18	18284-18286	as	_	
+203-19	18287-18292	above	_	
+203-20	18292-18293	,	_	
+203-21	18294-18297	but	_	
+203-22	18298-18302	with	_	
+203-23	18303-18312	one-third	_	
+203-24	18313-18317	suet	_	
+203-25	18317-18318	,	_	
+203-26	18319-18322	and	_	
+203-27	18323-18333	two-thirds	_	
+203-28	18335-18339	lard	_	
+203-29	18339-18340	,	_	
+203-30	18341-18344	and	_	
+203-31	18345-18347	no	_	
+203-32	18348-18355	alkanet	_	
+203-33	18355-18356	.	_	
+
+#Text=When it has boiled thoroughly, remove it from the\r
+#Text=fire, and stir in, gradually, a large portion of rose-water, or a little\r
+#Text=oil of rhodium, beating very hard.
+204-1	18357-18361	When	_	
+204-2	18362-18364	it	_	
+204-3	18365-18368	has	_	
+204-4	18369-18375	boiled	_	
+204-5	18376-18386	thoroughly	_	
+204-6	18386-18387	,	_	
+204-7	18388-18394	remove	_	
+204-8	18395-18397	it	_	
+204-9	18398-18402	from	_	
+204-10	18403-18406	the	_	
+204-11	18408-18412	fire	_	
+204-12	18412-18413	,	_	
+204-13	18414-18417	and	_	
+204-14	18418-18422	stir	_	
+204-15	18423-18425	in	_	
+204-16	18425-18426	,	_	
+204-17	18427-18436	gradually	_	
+204-18	18436-18437	,	_	
+204-19	18438-18439	a	_	
+204-20	18440-18445	large	_	
+204-21	18446-18453	portion	_	
+204-22	18454-18456	of	_	
+204-23	18457-18467	rose-water	_	
+204-24	18467-18468	,	_	
+204-25	18469-18471	or	_	
+204-26	18472-18473	a	_	
+204-27	18474-18480	little	_	
+204-28	18482-18485	oil	_	
+204-29	18486-18488	of	_	
+204-30	18489-18496	rhodium	_	
+204-31	18496-18497	,	_	
+204-32	18498-18505	beating	_	
+204-33	18506-18510	very	_	
+204-34	18511-18515	hard	_	
+204-35	18515-18516	.	_	
+
+#Text=Put it into small gallicups, with\r
+#Text=close covers.
+205-1	18517-18520	Put	_	
+205-2	18521-18523	it	_	
+205-3	18524-18528	into	_	
+205-4	18529-18534	small	_	
+205-5	18535-18544	gallicups	_	
+205-6	18544-18545	,	_	
+205-7	18546-18550	with	_	
+205-8	18552-18557	close	_	
+205-9	18558-18564	covers	_	
+205-10	18564-18565	.	_	
+
+#Text=ANTIDOTE TO CORROSIVE SUBLIMATE.
+206-1	18571-18579	ANTIDOTE	_	
+206-2	18580-18582	TO	_	
+206-3	18583-18592	CORROSIVE	_	
+206-4	18593-18602	SUBLIMATE	_	
+206-5	18602-18603	.	_	
+
+#Text=--If corrosive sublimate (one of the\r
+#Text=worst poisons) has been swallowed, immediately drink a large quantity of\r
+#Text=olive oil, even the whole contents of a flask; or more, indeed, if that\r
+#Text=is not found sufficient.
+207-1	18603-18604	-	_	
+207-2	18604-18605	-	_	
+207-3	18605-18607	If	_	
+207-4	18608-18617	corrosive	_	
+207-5	18618-18627	sublimate	_	
+207-6	18628-18629	(	_	
+207-7	18629-18632	one	_	
+207-8	18633-18635	of	_	
+207-9	18636-18639	the	_	
+207-10	18641-18646	worst	_	
+207-11	18647-18654	poisons	_	
+207-12	18654-18655	)	_	
+207-13	18656-18659	has	_	
+207-14	18660-18664	been	_	
+207-15	18665-18674	swallowed	_	
+207-16	18674-18675	,	_	
+207-17	18676-18687	immediately	_	
+207-18	18688-18693	drink	_	
+207-19	18694-18695	a	_	
+207-20	18696-18701	large	_	
+207-21	18702-18710	quantity	_	
+207-22	18711-18713	of	_	
+207-23	18715-18720	olive	_	
+207-24	18721-18724	oil	_	
+207-25	18724-18725	,	_	
+207-26	18726-18730	even	_	
+207-27	18731-18734	the	_	
+207-28	18735-18740	whole	_	
+207-29	18741-18749	contents	_	
+207-30	18750-18752	of	_	
+207-31	18753-18754	a	_	
+207-32	18755-18760	flask	_	
+207-33	18760-18761	;	_	
+207-34	18762-18764	or	_	
+207-35	18765-18769	more	_	
+207-36	18769-18770	,	_	
+207-37	18771-18777	indeed	_	
+207-38	18777-18778	,	_	
+207-39	18779-18781	if	_	
+207-40	18782-18786	that	_	
+207-41	18788-18790	is	_	
+207-42	18791-18794	not	_	
+207-43	18795-18800	found	_	
+207-44	18801-18811	sufficient	_	
+207-45	18811-18812	.	_	
+
+#Text=This remedy, if taken in time, is always\r
+#Text=efficacious.
+208-1	18813-18817	This	_	
+208-2	18818-18824	remedy	_	
+208-3	18824-18825	,	_	
+208-4	18826-18828	if	_	
+208-5	18829-18834	taken	_	
+208-6	18835-18837	in	_	
+208-7	18838-18842	time	_	
+208-8	18842-18843	,	_	
+208-9	18844-18846	is	_	
+208-10	18847-18853	always	_	
+208-11	18855-18866	efficacious	_	
+208-12	18866-18867	.	_	
+
+#Text=If it cannot be immediately obtained, try white of egg.
+209-1	18868-18870	If	_	
+209-2	18871-18873	it	_	
+209-3	18874-18880	cannot	_	
+209-4	18881-18883	be	_	
+209-5	18884-18895	immediately	_	
+209-6	18896-18904	obtained	_	
+209-7	18904-18905	,	_	
+209-8	18906-18909	try	_	
+209-9	18910-18915	white	_	
+209-10	18916-18918	of	_	
+209-11	18919-18922	egg	_	
+209-12	18922-18923	.	_	
+
+#Text=REMEDY FOR AN OVER-DOSE OF LAUDANUM.
+210-1	18929-18935	REMEDY	_	
+210-2	18936-18939	FOR	_	
+210-3	18940-18942	AN	_	
+210-4	18943-18952	OVER-DOSE	_	
+210-5	18953-18955	OF	_	
+210-6	18956-18964	LAUDANUM	_	
+210-7	18964-18965	.	_	
+
+#Text=--A cup of the strongest possible\r
+#Text=coffee has been known to keep the patient awake, and effect a positive\r
+#Text=cure when all other means have failed.
+211-1	18965-18966	-	_	
+211-2	18966-18967	-	_	
+211-3	18967-18968	A	_	
+211-4	18969-18972	cup	_	
+211-5	18973-18975	of	_	
+211-6	18976-18979	the	_	
+211-7	18980-18989	strongest	_	
+211-8	18990-18998	possible	_	
+211-9	19000-19006	coffee	_	
+211-10	19007-19010	has	_	
+211-11	19011-19015	been	_	
+211-12	19016-19021	known	_	
+211-13	19022-19024	to	_	
+211-14	19025-19029	keep	_	
+211-15	19030-19033	the	_	
+211-16	19034-19041	patient	_	
+211-17	19042-19047	awake	_	
+211-18	19047-19048	,	_	
+211-19	19049-19052	and	_	
+211-20	19053-19059	effect	_	
+211-21	19060-19061	a	_	
+211-22	19062-19070	positive	_	
+211-23	19072-19076	cure	_	
+211-24	19077-19081	when	_	
+211-25	19082-19085	all	_	
+211-26	19086-19091	other	_	
+211-27	19092-19097	means	_	
+211-28	19098-19102	have	_	
+211-29	19103-19109	failed	_	
+211-30	19109-19110	.	_	
+
+#Text=After the fatal sleep has been\r
+#Text=thus prevented, and the patient is thoroughly roused and excited, let an\r
+#Text=emetic be administered.
+212-1	19111-19116	After	_	
+212-2	19117-19120	the	_	
+212-3	19121-19126	fatal	_	
+212-4	19127-19132	sleep	_	
+212-5	19133-19136	has	_	
+212-6	19137-19141	been	_	
+212-7	19143-19147	thus	_	
+212-8	19148-19157	prevented	_	
+212-9	19157-19158	,	_	
+212-10	19159-19162	and	_	
+212-11	19163-19166	the	_	
+212-12	19167-19174	patient	_	
+212-13	19175-19177	is	_	
+212-14	19178-19188	thoroughly	_	
+212-15	19189-19195	roused	_	
+212-16	19196-19199	and	_	
+212-17	19200-19207	excited	_	
+212-18	19207-19208	,	_	
+212-19	19209-19212	let	_	
+212-20	19213-19215	an	_	
+212-21	19217-19223	emetic	_	
+212-22	19224-19226	be	_	
+212-23	19227-19239	administered	_	
+212-24	19239-19240	.	_	
+
+#Text=BLACKBERRY SYRUP.
+213-1	19246-19256	BLACKBERRY	_	
+213-2	19257-19262	SYRUP	_	
+213-3	19262-19263	.	_	
+
+#Text=--Take a sufficient quantity of fine, ripe, sweet\r
+#Text=blackberries.
+214-1	19263-19264	-	_	
+214-2	19264-19265	-	_	
+214-3	19265-19269	Take	_	
+214-4	19270-19271	a	_	
+214-5	19272-19282	sufficient	_	
+214-6	19283-19291	quantity	_	
+214-7	19292-19294	of	_	
+214-8	19295-19299	fine	_	
+214-9	19299-19300	,	_	
+214-10	19301-19305	ripe	_	
+214-11	19305-19306	,	_	
+214-12	19307-19312	sweet	_	
+214-13	19314-19326	blackberries	_	
+214-14	19326-19327	.	_	
+
+#Text=Put them into a sieve placed over a large broad pan; and\r
+#Text=with a clean potatoe-masher, (or something similar,) mash the\r
+#Text=blackberries, and press out all their juice.
+215-1	19328-19331	Put	_	
+215-2	19332-19336	them	_	
+215-3	19337-19341	into	_	
+215-4	19342-19343	a	_	
+215-5	19344-19349	sieve	_	
+215-6	19350-19356	placed	_	
+215-7	19357-19361	over	_	
+215-8	19362-19363	a	_	
+215-9	19364-19369	large	_	
+215-10	19370-19375	broad	_	
+215-11	19376-19379	pan	_	
+215-12	19379-19380	;	_	
+215-13	19381-19384	and	_	
+215-14	19386-19390	with	_	
+215-15	19391-19392	a	_	
+215-16	19393-19398	clean	_	
+215-17	19399-19413	potatoe-masher	_	
+215-18	19413-19414	,	_	
+215-19	19415-19416	(	_	
+215-20	19416-19418	or	_	
+215-21	19419-19428	something	_	
+215-22	19429-19436	similar	_	
+215-23	19436-19437	,	_	
+215-24	19437-19438	)	_	
+215-25	19439-19443	mash	_	
+215-26	19444-19447	the	_	
+215-27	19449-19461	blackberries	_	
+215-28	19461-19462	,	_	
+215-29	19463-19466	and	_	
+215-30	19467-19472	press	_	
+215-31	19473-19476	out	_	
+215-32	19477-19480	all	_	
+215-33	19481-19486	their	_	
+215-34	19487-19492	juice	_	
+215-35	19492-19493	.	_	
+
+#Text=Or (having bruised them\r
+#Text=first) put the blackberries into a linen bag, and squeeze out all the\r
+#Text=juice into a vessel placed beneath.
+216-1	19494-19496	Or	_	
+216-2	19497-19498	(	_	
+216-3	19498-19504	having	_	
+216-4	19505-19512	bruised	_	
+216-5	19513-19517	them	_	
+216-6	19519-19524	first	_	
+216-7	19524-19525	)	_	
+216-8	19526-19529	put	_	
+216-9	19530-19533	the	_	
+216-10	19534-19546	blackberries	_	
+216-11	19547-19551	into	_	
+216-12	19552-19553	a	_	
+216-13	19554-19559	linen	_	
+216-14	19560-19563	bag	_	
+216-15	19563-19564	,	_	
+216-16	19565-19568	and	_	
+216-17	19569-19576	squeeze	_	
+216-18	19577-19580	out	_	
+216-19	19581-19584	all	_	
+216-20	19585-19588	the	_	
+216-21	19590-19595	juice	_	
+216-22	19596-19600	into	_	
+216-23	19601-19602	a	_	
+216-24	19603-19609	vessel	_	
+216-25	19610-19616	placed	_	
+216-26	19617-19624	beneath	_	
+216-27	19624-19625	.	_	
+
+#Text=Measure it; and to every quart of\r
+#Text=the strained juice allow half a pound of powdered loaf-sugar; a heaped\r
+#Text=tea-spoonful of powdered cinnamon; the same of powdered cloves; and a\r
+#Text=large nutmeg grated.
+217-1	19626-19633	Measure	_	
+217-2	19634-19636	it	_	
+217-3	19636-19637	;	_	
+217-4	19638-19641	and	_	
+217-5	19642-19644	to	_	
+217-6	19645-19650	every	_	
+217-7	19651-19656	quart	_	
+217-8	19657-19659	of	_	
+217-9	19661-19664	the	_	
+217-10	19665-19673	strained	_	
+217-11	19674-19679	juice	_	
+217-12	19680-19685	allow	_	
+217-13	19686-19690	half	_	
+217-14	19691-19692	a	_	
+217-15	19693-19698	pound	_	
+217-16	19699-19701	of	_	
+217-17	19702-19710	powdered	_	
+217-18	19711-19721	loaf-sugar	_	
+217-19	19721-19722	;	_	
+217-20	19723-19724	a	_	
+217-21	19725-19731	heaped	_	
+217-22	19733-19745	tea-spoonful	_	
+217-23	19746-19748	of	_	
+217-24	19749-19757	powdered	_	
+217-25	19758-19766	cinnamon	_	
+217-26	19766-19767	;	_	
+217-27	19768-19771	the	_	
+217-28	19772-19776	same	_	
+217-29	19777-19779	of	_	
+217-30	19780-19788	powdered	_	
+217-31	19789-19795	cloves	_	
+217-32	19795-19796	;	_	
+217-33	19797-19800	and	_	
+217-34	19801-19802	a	_	
+217-35	19804-19809	large	_	
+217-36	19810-19816	nutmeg	_	
+217-37	19817-19823	grated	_	
+217-38	19823-19824	.	_	
+
+#Text=Mix the spices with the juice and sugar, and boil\r
+#Text=all together in a porcelain preserving-kettle; skimming it well.
+218-1	19825-19828	Mix	_	
+218-2	19829-19832	the	_	
+218-3	19833-19839	spices	_	
+218-4	19840-19844	with	_	
+218-5	19845-19848	the	_	
+218-6	19849-19854	juice	_	
+218-7	19855-19858	and	_	
+218-8	19859-19864	sugar	_	
+218-9	19864-19865	,	_	
+218-10	19866-19869	and	_	
+218-11	19870-19874	boil	_	
+218-12	19876-19879	all	_	
+218-13	19880-19888	together	_	
+218-14	19889-19891	in	_	
+218-15	19892-19893	a	_	
+218-16	19894-19903	porcelain	_	
+218-17	19904-19921	preserving-kettle	_	
+218-18	19921-19922	;	_	
+218-19	19923-19931	skimming	_	
+218-20	19932-19934	it	_	
+218-21	19935-19939	well	_	
+218-22	19939-19940	.	_	
+
+#Text=When\r
+#Text=cold, stir into each quart of the syrup half a pint of fourth-proof\r
+#Text=brandy.
+219-1	19941-19945	When	_	
+219-2	19947-19951	cold	_	
+219-3	19951-19952	,	_	
+219-4	19953-19957	stir	_	
+219-5	19958-19962	into	_	
+219-6	19963-19967	each	_	
+219-7	19968-19973	quart	_	
+219-8	19974-19976	of	_	
+219-9	19977-19980	the	_	
+219-10	19981-19986	syrup	_	
+219-11	19987-19991	half	_	
+219-12	19992-19993	a	_	
+219-13	19994-19998	pint	_	
+219-14	19999-20001	of	_	
+219-15	20002-20014	fourth-proof	_	
+219-16	20016-20022	brandy	_	
+219-17	20022-20023	.	_	
+
+#Text=Then bottle it for use.
+220-1	20024-20028	Then	_	
+220-2	20029-20035	bottle	_	
+220-3	20036-20038	it	_	
+220-4	20039-20042	for	_	
+220-5	20043-20046	use	_	
+220-6	20046-20047	.	_	
+
+#Text=This is a good family medicine; and is\r
+#Text=beneficial in complaints incident to summer.
+221-1	20048-20052	This	_	
+221-2	20053-20055	is	_	
+221-3	20056-20057	a	_	
+221-4	20058-20062	good	_	
+221-5	20063-20069	family	_	
+221-6	20070-20078	medicine	_	
+221-7	20078-20079	;	_	
+221-8	20080-20083	and	_	
+221-9	20084-20086	is	_	
+221-10	20088-20098	beneficial	_	
+221-11	20099-20101	in	_	
+221-12	20102-20112	complaints	_	
+221-13	20113-20121	incident	_	
+221-14	20122-20124	to	_	
+221-15	20125-20131	summer	_	
+221-16	20131-20132	.	_	
+
+#Text=It should be administered,\r
+#Text=(at proper intervals,) from a tea-spoonful to a wine-glassful, according\r
+#Text=to the age of the patient.
+222-1	20133-20135	It	_	
+222-2	20136-20142	should	_	
+222-3	20143-20145	be	_	
+222-4	20146-20158	administered	_	
+222-5	20158-20159	,	_	
+222-6	20161-20162	(	_	
+222-7	20162-20164	at	_	
+222-8	20165-20171	proper	_	
+222-9	20172-20181	intervals	_	
+222-10	20181-20182	,	_	
+222-11	20182-20183	)	_	
+222-12	20184-20188	from	_	
+222-13	20189-20190	a	_	
+222-14	20191-20203	tea-spoonful	_	
+222-15	20204-20206	to	_	
+222-16	20207-20208	a	_	
+222-17	20209-20222	wine-glassful	_	
+222-18	20222-20223	,	_	
+222-19	20224-20233	according	_	
+222-20	20235-20237	to	_	
+222-21	20238-20241	the	_	
+222-22	20242-20245	age	_	
+222-23	20246-20248	of	_	
+222-24	20249-20252	the	_	
+222-25	20253-20260	patient	_	
+222-26	20260-20261	.	_	
+
+#Text=RHUBARB BITTERS.
+223-1	20267-20274	RHUBARB	_	
+223-2	20275-20282	BITTERS	_	
+223-3	20282-20283	.	_	
+
+#Text=--Take two ounces of rhubarb root; half an ounce of\r
+#Text=cardamom seeds; one drachm of Virginia snake-root; and half a drachm of\r
+#Text=gentian root.
+224-1	20283-20284	-	_	
+224-2	20284-20285	-	_	
+224-3	20285-20289	Take	_	
+224-4	20290-20293	two	_	
+224-5	20294-20300	ounces	_	
+224-6	20301-20303	of	_	
+224-7	20304-20311	rhubarb	_	
+224-8	20312-20316	root	_	
+224-9	20316-20317	;	_	
+224-10	20318-20322	half	_	
+224-11	20323-20325	an	_	
+224-12	20326-20331	ounce	_	
+224-13	20332-20334	of	_	
+224-14	20336-20344	cardamom	_	
+224-15	20345-20350	seeds	_	
+224-16	20350-20351	;	_	
+224-17	20352-20355	one	_	
+224-18	20356-20362	drachm	_	
+224-19	20363-20365	of	_	
+224-20	20366-20374	Virginia	_	
+224-21	20375-20385	snake-root	_	
+224-22	20385-20386	;	_	
+224-23	20387-20390	and	_	
+224-24	20391-20395	half	_	
+224-25	20396-20397	a	_	
+224-26	20398-20404	drachm	_	
+224-27	20405-20407	of	_	
+224-28	20409-20416	gentian	_	
+224-29	20417-20421	root	_	
+224-30	20421-20422	.	_	
+
+#Text=Put these articles into a large bottle, and pour on it a\r
+#Text=quart of good brandy.
+225-1	20423-20426	Put	_	
+225-2	20427-20432	these	_	
+225-3	20433-20441	articles	_	
+225-4	20442-20446	into	_	
+225-5	20447-20448	a	_	
+225-6	20449-20454	large	_	
+225-7	20455-20461	bottle	_	
+225-8	20461-20462	,	_	
+225-9	20463-20466	and	_	
+225-10	20467-20471	pour	_	
+225-11	20472-20474	on	_	
+225-12	20475-20477	it	_	
+225-13	20478-20479	a	_	
+225-14	20481-20486	quart	_	
+225-15	20487-20489	of	_	
+225-16	20490-20494	good	_	
+225-17	20495-20501	brandy	_	
+225-18	20501-20502	.	_	
+
+#Text=It is excellent for children in complaints incident to summer weather.
+226-1	20506-20508	It	_	
+226-2	20509-20511	is	_	
+226-3	20512-20521	excellent	_	
+226-4	20522-20525	for	_	
+226-5	20526-20534	children	_	
+226-6	20535-20537	in	_	
+226-7	20538-20548	complaints	_	
+226-8	20549-20557	incident	_	
+226-9	20558-20560	to	_	
+226-10	20561-20567	summer	_	
+226-11	20568-20575	weather	_	
+226-12	20575-20576	.	_	
+
+#Text=LEMON HONEY.
+227-1	20588-20593	LEMON	_	
+227-2	20594-20599	HONEY	_	
+227-3	20599-20600	.	_	
+
+#Text=--Take three large ripe lemons, (or four or five small\r
+#Text=ones,) and (having rolled them under your hand on a table, to increase\r
+#Text=the juice,) rub off on a piece of loaf-sugar the yellow rind or zest,\r
+#Text=scraping it up with a teaspoon as you proceed, and putting it aside on a\r
+#Text=saucer.
+228-1	20600-20601	-	_	
+228-2	20601-20602	-	_	
+228-3	20602-20606	Take	_	
+228-4	20607-20612	three	_	
+228-5	20613-20618	large	_	
+228-6	20619-20623	ripe	_	
+228-7	20624-20630	lemons	_	
+228-8	20630-20631	,	_	
+228-9	20632-20633	(	_	
+228-10	20633-20635	or	_	
+228-11	20636-20640	four	_	
+228-12	20641-20643	or	_	
+228-13	20644-20648	five	_	
+228-14	20649-20654	small	_	
+228-15	20656-20660	ones	_	
+228-16	20660-20661	,	_	
+228-17	20661-20662	)	_	
+228-18	20663-20666	and	_	
+228-19	20667-20668	(	_	
+228-20	20668-20674	having	_	
+228-21	20675-20681	rolled	_	
+228-22	20682-20686	them	_	
+228-23	20687-20692	under	_	
+228-24	20693-20697	your	_	
+228-25	20698-20702	hand	_	
+228-26	20703-20705	on	_	
+228-27	20706-20707	a	_	
+228-28	20708-20713	table	_	
+228-29	20713-20714	,	_	
+228-30	20715-20717	to	_	
+228-31	20718-20726	increase	_	
+228-32	20728-20731	the	_	
+228-33	20732-20737	juice	_	
+228-34	20737-20738	,	_	
+228-35	20738-20739	)	_	
+228-36	20740-20743	rub	_	
+228-37	20744-20747	off	_	
+228-38	20748-20750	on	_	
+228-39	20751-20752	a	_	
+228-40	20753-20758	piece	_	
+228-41	20759-20761	of	_	
+228-42	20762-20772	loaf-sugar	_	
+228-43	20773-20776	the	_	
+228-44	20777-20783	yellow	_	
+228-45	20784-20788	rind	_	
+228-46	20789-20791	or	_	
+228-47	20792-20796	zest	_	
+228-48	20796-20797	,	_	
+228-49	20799-20807	scraping	_	
+228-50	20808-20810	it	_	
+228-51	20811-20813	up	_	
+228-52	20814-20818	with	_	
+228-53	20819-20820	a	_	
+228-54	20821-20829	teaspoon	_	
+228-55	20830-20832	as	_	
+228-56	20833-20836	you	_	
+228-57	20837-20844	proceed	_	
+228-58	20844-20845	,	_	
+228-59	20846-20849	and	_	
+228-60	20850-20857	putting	_	
+228-61	20858-20860	it	_	
+228-62	20861-20866	aside	_	
+228-63	20867-20869	on	_	
+228-64	20870-20871	a	_	
+228-65	20873-20879	saucer	_	
+228-66	20879-20880	.	_	
+
+#Text=Then squeeze the juice of the lemons through a strainer, upon a\r
+#Text=pound of loaf-sugar, (broken small or powdered,) and add the zest or\r
+#Text=grated rind.
+229-1	20881-20885	Then	_	
+229-2	20886-20893	squeeze	_	
+229-3	20894-20897	the	_	
+229-4	20898-20903	juice	_	
+229-5	20904-20906	of	_	
+229-6	20907-20910	the	_	
+229-7	20911-20917	lemons	_	
+229-8	20918-20925	through	_	
+229-9	20926-20927	a	_	
+229-10	20928-20936	strainer	_	
+229-11	20936-20937	,	_	
+229-12	20938-20942	upon	_	
+229-13	20943-20944	a	_	
+229-14	20946-20951	pound	_	
+229-15	20952-20954	of	_	
+229-16	20955-20965	loaf-sugar	_	
+229-17	20965-20966	,	_	
+229-18	20967-20968	(	_	
+229-19	20968-20974	broken	_	
+229-20	20975-20980	small	_	
+229-21	20981-20983	or	_	
+229-22	20984-20992	powdered	_	
+229-23	20992-20993	,	_	
+229-24	20993-20994	)	_	
+229-25	20995-20998	and	_	
+229-26	20999-21002	add	_	
+229-27	21003-21006	the	_	
+229-28	21007-21011	zest	_	
+229-29	21012-21014	or	_	
+229-30	21016-21022	grated	_	
+229-31	21023-21027	rind	_	
+229-32	21027-21028	.	_	
+
+#Text=Cut up, among the sugar, a large quarter of a pound of the\r
+#Text=best fresh butter.
+230-1	21029-21032	Cut	_	
+230-2	21033-21035	up	_	
+230-3	21035-21036	,	_	
+230-4	21037-21042	among	_	
+230-5	21043-21046	the	_	
+230-6	21047-21052	sugar	_	
+230-7	21052-21053	,	_	
+230-8	21054-21055	a	_	
+230-9	21056-21061	large	_	
+230-10	21062-21069	quarter	_	
+230-11	21070-21072	of	_	
+230-12	21073-21074	a	_	
+230-13	21075-21080	pound	_	
+230-14	21081-21083	of	_	
+230-15	21084-21087	the	_	
+230-16	21089-21093	best	_	
+230-17	21094-21099	fresh	_	
+230-18	21100-21106	butter	_	
+230-19	21106-21107	.	_	
+
+#Text=Break six eggs into a shallow earthen pan, and beat\r
+#Text=them till as light as possible.
+231-1	21108-21113	Break	_	
+231-2	21114-21117	six	_	
+231-3	21118-21122	eggs	_	
+231-4	21123-21127	into	_	
+231-5	21128-21129	a	_	
+231-6	21130-21137	shallow	_	
+231-7	21138-21145	earthen	_	
+231-8	21146-21149	pan	_	
+231-9	21149-21150	,	_	
+231-10	21151-21154	and	_	
+231-11	21155-21159	beat	_	
+231-12	21161-21165	them	_	
+231-13	21166-21170	till	_	
+231-14	21171-21173	as	_	
+231-15	21174-21179	light	_	
+231-16	21180-21182	as	_	
+231-17	21183-21191	possible	_	
+231-18	21191-21192	.	_	
+
+#Text=Then mix in, gradually, the sugar and\r
+#Text=lemon, stirring all very hard.
+232-1	21193-21197	Then	_	
+232-2	21198-21201	mix	_	
+232-3	21202-21204	in	_	
+232-4	21204-21205	,	_	
+232-5	21206-21215	gradually	_	
+232-6	21215-21216	,	_	
+232-7	21217-21220	the	_	
+232-8	21221-21226	sugar	_	
+232-9	21227-21230	and	_	
+232-10	21232-21237	lemon	_	
+232-11	21237-21238	,	_	
+232-12	21239-21247	stirring	_	
+232-13	21248-21251	all	_	
+232-14	21252-21256	very	_	
+232-15	21257-21261	hard	_	
+232-16	21261-21262	.	_	
+
+#Text=Put the whole into a porcelain-lined\r
+#Text=kettle; set it over a moderate fire that has no blaze, and (stirring it\r
+#Text=all the time) let it boil till it becomes of the consistence of very\r
+#Text=thick honey.
+233-1	21263-21266	Put	_	
+233-2	21267-21270	the	_	
+233-3	21271-21276	whole	_	
+233-4	21277-21281	into	_	
+233-5	21282-21283	a	_	
+233-6	21284-21299	porcelain-lined	_	
+233-7	21301-21307	kettle	_	
+233-8	21307-21308	;	_	
+233-9	21309-21312	set	_	
+233-10	21313-21315	it	_	
+233-11	21316-21320	over	_	
+233-12	21321-21322	a	_	
+233-13	21323-21331	moderate	_	
+233-14	21332-21336	fire	_	
+233-15	21337-21341	that	_	
+233-16	21342-21345	has	_	
+233-17	21346-21348	no	_	
+233-18	21349-21354	blaze	_	
+233-19	21354-21355	,	_	
+233-20	21356-21359	and	_	
+233-21	21360-21361	(	_	
+233-22	21361-21369	stirring	_	
+233-23	21370-21372	it	_	
+233-24	21374-21377	all	_	
+233-25	21378-21381	the	_	
+233-26	21382-21386	time	_	
+233-27	21386-21387	)	_	
+233-28	21388-21391	let	_	
+233-29	21392-21394	it	_	
+233-30	21395-21399	boil	_	
+233-31	21400-21404	till	_	
+233-32	21405-21407	it	_	
+233-33	21408-21415	becomes	_	
+233-34	21416-21418	of	_	
+233-35	21419-21422	the	_	
+233-36	21423-21434	consistence	_	
+233-37	21435-21437	of	_	
+233-38	21438-21442	very	_	
+233-39	21444-21449	thick	_	
+233-40	21450-21455	honey	_	
+233-41	21455-21456	.	_	
+
+#Text=If the weather is warm, you may add to its thickness by\r
+#Text=stirring in a table-spoonful of ground arrow-root, or of sifted flour.
+234-1	21457-21459	If	_	
+234-2	21460-21463	the	_	
+234-3	21464-21471	weather	_	
+234-4	21472-21474	is	_	
+234-5	21475-21479	warm	_	
+234-6	21479-21480	,	_	
+234-7	21481-21484	you	_	
+234-8	21485-21488	may	_	
+234-9	21489-21492	add	_	
+234-10	21493-21495	to	_	
+234-11	21496-21499	its	_	
+234-12	21500-21509	thickness	_	
+234-13	21510-21512	by	_	
+234-14	21514-21522	stirring	_	
+234-15	21523-21525	in	_	
+234-16	21526-21527	a	_	
+234-17	21528-21542	table-spoonful	_	
+234-18	21543-21545	of	_	
+234-19	21546-21552	ground	_	
+234-20	21553-21563	arrow-root	_	
+234-21	21563-21564	,	_	
+234-22	21565-21567	or	_	
+234-23	21568-21570	of	_	
+234-24	21571-21577	sifted	_	
+234-25	21578-21583	flour	_	
+234-26	21583-21584	.	_	
+
+#Text=When done, put it warm into glass jars; cover them, closely, and seal\r
+#Text=the covers.
+235-1	21586-21590	When	_	
+235-2	21591-21595	done	_	
+235-3	21595-21596	,	_	
+235-4	21597-21600	put	_	
+235-5	21601-21603	it	_	
+235-6	21604-21608	warm	_	
+235-7	21609-21613	into	_	
+235-8	21614-21619	glass	_	
+235-9	21620-21624	jars	_	
+235-10	21624-21625	;	_	
+235-11	21626-21631	cover	_	
+235-12	21632-21636	them	_	
+235-13	21636-21637	,	_	
+235-14	21638-21645	closely	_	
+235-15	21645-21646	,	_	
+235-16	21647-21650	and	_	
+235-17	21651-21655	seal	_	
+235-18	21657-21660	the	_	
+235-19	21661-21667	covers	_	
+235-20	21667-21668	.	_	
+
+#Text=It will keep in a cool dry place a month or more.
+236-1	21669-21671	It	_	
+236-2	21672-21676	will	_	
+236-3	21677-21681	keep	_	
+236-4	21682-21684	in	_	
+236-5	21685-21686	a	_	
+236-6	21687-21691	cool	_	
+236-7	21692-21695	dry	_	
+236-8	21696-21701	place	_	
+236-9	21702-21703	a	_	
+236-10	21704-21709	month	_	
+236-11	21710-21712	or	_	
+236-12	21713-21717	more	_	
+236-13	21717-21718	.	_	
+
+#Text=If made\r
+#Text=in winter, it will continue good for two months.
+237-1	21719-21721	If	_	
+237-2	21722-21726	made	_	
+237-3	21728-21730	in	_	
+237-4	21731-21737	winter	_	
+237-5	21737-21738	,	_	
+237-6	21739-21741	it	_	
+237-7	21742-21746	will	_	
+237-8	21747-21755	continue	_	
+237-9	21756-21760	good	_	
+237-10	21761-21764	for	_	
+237-11	21765-21768	two	_	
+237-12	21769-21775	months	_	
+237-13	21775-21776	.	_	
+
+#Text=RAISIN CURRANTS.
+238-1	21784-21790	RAISIN	_	
+238-2	21791-21799	CURRANTS	_	
+238-3	21799-21800	.	_	
+
+#Text=--Strip as many ripe currants from the stems as will\r
+#Text=fill a quart measure when done.
+239-1	21800-21801	-	_	
+239-2	21801-21802	-	_	
+239-3	21802-21807	Strip	_	
+239-4	21808-21810	as	_	
+239-5	21811-21815	many	_	
+239-6	21816-21820	ripe	_	
+239-7	21821-21829	currants	_	
+239-8	21830-21834	from	_	
+239-9	21835-21838	the	_	
+239-10	21839-21844	stems	_	
+239-11	21845-21847	as	_	
+239-12	21848-21852	will	_	
+239-13	21854-21858	fill	_	
+239-14	21859-21860	a	_	
+239-15	21861-21866	quart	_	
+239-16	21867-21874	measure	_	
+239-17	21875-21879	when	_	
+239-18	21880-21884	done	_	
+239-19	21884-21885	.	_	
+
+#Text=Put them into a porcelain-lined kettle;\r
+#Text=mash them, and add three quarters of a pound of sugar--brown will do.
+240-1	21886-21889	Put	_	
+240-2	21890-21894	them	_	
+240-3	21895-21899	into	_	
+240-4	21900-21901	a	_	
+240-5	21902-21917	porcelain-lined	_	
+240-6	21918-21924	kettle	_	
+240-7	21924-21925	;	_	
+240-8	21927-21931	mash	_	
+240-9	21932-21936	them	_	
+240-10	21936-21937	,	_	
+240-11	21938-21941	and	_	
+240-12	21942-21945	add	_	
+240-13	21946-21951	three	_	
+240-14	21952-21960	quarters	_	
+240-15	21961-21963	of	_	
+240-16	21964-21965	a	_	
+240-17	21966-21971	pound	_	
+240-18	21972-21974	of	_	
+240-19	21975-21980	sugar	_	
+240-20	21980-21981	-	_	
+240-21	21981-21982	-	_	
+240-22	21982-21987	brown	_	
+240-23	21988-21992	will	_	
+240-24	21993-21995	do	_	
+240-25	21995-21996	.	_	
+
+#Text=Prepare three quarters of a pound of the largest and best raisins,\r
+#Text=washed, drained, seeded, and cut in half.
+241-1	21998-22005	Prepare	_	
+241-2	22006-22011	three	_	
+241-3	22012-22020	quarters	_	
+241-4	22021-22023	of	_	
+241-5	22024-22025	a	_	
+241-6	22026-22031	pound	_	
+241-7	22032-22034	of	_	
+241-8	22035-22038	the	_	
+241-9	22039-22046	largest	_	
+241-10	22047-22050	and	_	
+241-11	22051-22055	best	_	
+241-12	22056-22063	raisins	_	
+241-13	22063-22064	,	_	
+241-14	22066-22072	washed	_	
+241-15	22072-22073	,	_	
+241-16	22074-22081	drained	_	
+241-17	22081-22082	,	_	
+241-18	22083-22089	seeded	_	
+241-19	22089-22090	,	_	
+241-20	22091-22094	and	_	
+241-21	22095-22098	cut	_	
+241-22	22099-22101	in	_	
+241-23	22102-22106	half	_	
+241-24	22106-22107	.	_	
+
+#Text=Or, use the small sultana or\r
+#Text=seedless raisins.
+242-1	22108-22110	Or	_	
+242-2	22110-22111	,	_	
+242-3	22112-22115	use	_	
+242-4	22116-22119	the	_	
+242-5	22120-22125	small	_	
+242-6	22126-22133	sultana	_	
+242-7	22134-22136	or	_	
+242-8	22138-22146	seedless	_	
+242-9	22147-22154	raisins	_	
+242-10	22154-22155	.	_	
+
+#Text=When the currants and sugar have come to a boil, and\r
+#Text=been skimmed, mix in the raisins, gradually, and let them boil till\r
+#Text=quite soft; skimming the surface well; and after each skimming stir the\r
+#Text=whole down to the bottom of the kettle.
+243-1	22156-22160	When	_	
+243-2	22161-22164	the	_	
+243-3	22165-22173	currants	_	
+243-4	22174-22177	and	_	
+243-5	22178-22183	sugar	_	
+243-6	22184-22188	have	_	
+243-7	22189-22193	come	_	
+243-8	22194-22196	to	_	
+243-9	22197-22198	a	_	
+243-10	22199-22203	boil	_	
+243-11	22203-22204	,	_	
+243-12	22205-22208	and	_	
+243-13	22210-22214	been	_	
+243-14	22215-22222	skimmed	_	
+243-15	22222-22223	,	_	
+243-16	22224-22227	mix	_	
+243-17	22228-22230	in	_	
+243-18	22231-22234	the	_	
+243-19	22235-22242	raisins	_	
+243-20	22242-22243	,	_	
+243-21	22244-22253	gradually	_	
+243-22	22253-22254	,	_	
+243-23	22255-22258	and	_	
+243-24	22259-22262	let	_	
+243-25	22263-22267	them	_	
+243-26	22268-22272	boil	_	
+243-27	22273-22277	till	_	
+243-28	22279-22284	quite	_	
+243-29	22285-22289	soft	_	
+243-30	22289-22290	;	_	
+243-31	22291-22299	skimming	_	
+243-32	22300-22303	the	_	
+243-33	22304-22311	surface	_	
+243-34	22312-22316	well	_	
+243-35	22316-22317	;	_	
+243-36	22318-22321	and	_	
+243-37	22322-22327	after	_	
+243-38	22328-22332	each	_	
+243-39	22333-22341	skimming	_	
+243-40	22342-22346	stir	_	
+243-41	22347-22350	the	_	
+243-42	22352-22357	whole	_	
+243-43	22358-22362	down	_	
+243-44	22363-22365	to	_	
+243-45	22366-22369	the	_	
+243-46	22370-22376	bottom	_	
+243-47	22377-22379	of	_	
+243-48	22380-22383	the	_	
+243-49	22384-22390	kettle	_	
+243-50	22390-22391	.	_	
+
+#Text=When done, take it up in a deep\r
+#Text=dish, and set it to cool.
+244-1	22392-22396	When	_	
+244-2	22397-22401	done	_	
+244-3	22401-22402	,	_	
+244-4	22403-22407	take	_	
+244-5	22408-22410	it	_	
+244-6	22411-22413	up	_	
+244-7	22414-22416	in	_	
+244-8	22417-22418	a	_	
+244-9	22419-22423	deep	_	
+244-10	22425-22429	dish	_	
+244-11	22429-22430	,	_	
+244-12	22431-22434	and	_	
+244-13	22435-22438	set	_	
+244-14	22439-22441	it	_	
+244-15	22442-22444	to	_	
+244-16	22445-22449	cool	_	
+244-17	22449-22450	.	_	
+
+#Text=This is a nice, plain dessert.
+245-1	22451-22455	This	_	
+245-2	22456-22458	is	_	
+245-3	22459-22460	a	_	
+245-4	22461-22465	nice	_	
+245-5	22465-22466	,	_	
+245-6	22467-22472	plain	_	
+245-7	22473-22480	dessert	_	
+245-8	22480-22481	.	_	
+
+#Text=For a larger quantity, take two quarts of stripped currants; a pound and\r
+#Text=a half of sugar; and a pound and a half of raisins.
+246-1	22485-22488	For	_	
+246-2	22489-22490	a	_	
+246-3	22491-22497	larger	_	
+246-4	22498-22506	quantity	_	
+246-5	22506-22507	,	_	
+246-6	22508-22512	take	_	
+246-7	22513-22516	two	_	
+246-8	22517-22523	quarts	_	
+246-9	22524-22526	of	_	
+246-10	22527-22535	stripped	_	
+246-11	22536-22544	currants	_	
+246-12	22544-22545	;	_	
+246-13	22546-22547	a	_	
+246-14	22548-22553	pound	_	
+246-15	22554-22557	and	_	
+246-16	22559-22560	a	_	
+246-17	22561-22565	half	_	
+246-18	22566-22568	of	_	
+246-19	22569-22574	sugar	_	
+246-20	22574-22575	;	_	
+246-21	22576-22579	and	_	
+246-22	22580-22581	a	_	
+246-23	22582-22587	pound	_	
+246-24	22588-22591	and	_	
+246-25	22592-22593	a	_	
+246-26	22594-22598	half	_	
+246-27	22599-22601	of	_	
+246-28	22602-22609	raisins	_	
+246-29	22609-22610	.	_	
+
+#Text=None but raisins of\r
+#Text=the best quality should be used for this or any other purpose.
+247-1	22611-22615	None	_	
+247-2	22616-22619	but	_	
+247-3	22620-22627	raisins	_	
+247-4	22628-22630	of	_	
+247-5	22632-22635	the	_	
+247-6	22636-22640	best	_	
+247-7	22641-22648	quality	_	
+247-8	22649-22655	should	_	
+247-9	22656-22658	be	_	
+247-10	22659-22663	used	_	
+247-11	22664-22667	for	_	
+247-12	22668-22672	this	_	
+247-13	22673-22675	or	_	
+247-14	22676-22679	any	_	
+247-15	22680-22685	other	_	
+247-16	22686-22693	purpose	_	
+247-17	22693-22694	.	_	
+
+#Text=Low-priced raisins are unwholesome, being always of bad quality.
+248-1	22696-22706	Low-priced	_	
+248-2	22707-22714	raisins	_	
+248-3	22715-22718	are	_	
+248-4	22719-22730	unwholesome	_	
+248-5	22730-22731	,	_	
+248-6	22732-22737	being	_	
+248-7	22738-22744	always	_	
+248-8	22745-22747	of	_	
+248-9	22748-22751	bad	_	
+248-10	22752-22759	quality	_	
+248-11	22759-22760	.	_	
+
+#Text=EXCELLENT PICKLED CABBAGE.
+249-1	22768-22777	EXCELLENT	_	
+249-2	22778-22785	PICKLED	_	
+249-3	22786-22793	CABBAGE	_	
+249-4	22793-22794	.	_	
+
+#Text=--Shred very fine, with a cabbage-cutter, a\r
+#Text=large fresh red cabbage.
+250-1	22794-22795	-	_	
+250-2	22795-22796	-	_	
+250-3	22796-22801	Shred	_	
+250-4	22802-22806	very	_	
+250-5	22807-22811	fine	_	
+250-6	22811-22812	,	_	
+250-7	22813-22817	with	_	
+250-8	22818-22819	a	_	
+250-9	22820-22834	cabbage-cutter	_	
+250-10	22834-22835	,	_	
+250-11	22836-22837	a	_	
+250-12	22839-22844	large	_	
+250-13	22845-22850	fresh	_	
+250-14	22851-22854	red	_	
+250-15	22855-22862	cabbage	_	
+250-16	22862-22863	.	_	
+
+#Text=Pack it down (with a little salt sprinkled\r
+#Text=between each layer) in a large stone jar.
+251-1	22864-22868	Pack	_	
+251-2	22869-22871	it	_	
+251-3	22872-22876	down	_	
+251-4	22877-22878	(	_	
+251-5	22878-22882	with	_	
+251-6	22883-22884	a	_	
+251-7	22885-22891	little	_	
+251-8	22892-22896	salt	_	
+251-9	22897-22906	sprinkled	_	
+251-10	22908-22915	between	_	
+251-11	22916-22920	each	_	
+251-12	22921-22926	layer	_	
+251-13	22926-22927	)	_	
+251-14	22928-22930	in	_	
+251-15	22931-22932	a	_	
+251-16	22933-22938	large	_	
+251-17	22939-22944	stone	_	
+251-18	22945-22948	jar	_	
+251-19	22948-22949	.	_	
+
+#Text=The jar should be three parts\r
+#Text=full of the shred cabbage.
+252-1	22950-22953	The	_	
+252-2	22954-22957	jar	_	
+252-3	22958-22964	should	_	
+252-4	22965-22967	be	_	
+252-5	22968-22973	three	_	
+252-6	22974-22979	parts	_	
+252-7	22981-22985	full	_	
+252-8	22986-22988	of	_	
+252-9	22989-22992	the	_	
+252-10	22993-22998	shred	_	
+252-11	22999-23006	cabbage	_	
+252-12	23006-23007	.	_	
+
+#Text=Then tie up, in a bag of very thin clean\r
+#Text=muslin, two table-spoonfuls of whole black pepper; the same quantity of\r
+#Text=cloves; and the same of cinnamon, broken very small, but not powdered.
+253-1	23008-23012	Then	_	
+253-2	23013-23016	tie	_	
+253-3	23017-23019	up	_	
+253-4	23019-23020	,	_	
+253-5	23021-23023	in	_	
+253-6	23024-23025	a	_	
+253-7	23026-23029	bag	_	
+253-8	23030-23032	of	_	
+253-9	23033-23037	very	_	
+253-10	23038-23042	thin	_	
+253-11	23043-23048	clean	_	
+253-12	23050-23056	muslin	_	
+253-13	23056-23057	,	_	
+253-14	23058-23061	two	_	
+253-15	23062-23077	table-spoonfuls	_	
+253-16	23078-23080	of	_	
+253-17	23081-23086	whole	_	
+253-18	23087-23092	black	_	
+253-19	23093-23099	pepper	_	
+253-20	23099-23100	;	_	
+253-21	23101-23104	the	_	
+253-22	23105-23109	same	_	
+253-23	23110-23118	quantity	_	
+253-24	23119-23121	of	_	
+253-25	23123-23129	cloves	_	
+253-26	23129-23130	;	_	
+253-27	23131-23134	and	_	
+253-28	23135-23138	the	_	
+253-29	23139-23143	same	_	
+253-30	23144-23146	of	_	
+253-31	23147-23155	cinnamon	_	
+253-32	23155-23156	,	_	
+253-33	23157-23163	broken	_	
+253-34	23164-23168	very	_	
+253-35	23169-23174	small	_	
+253-36	23174-23175	,	_	
+253-37	23176-23179	but	_	
+253-38	23180-23183	not	_	
+253-39	23184-23192	powdered	_	
+253-40	23192-23193	.	_	
+
+#Text=Also a dozen blades of mace.
+254-1	23195-23199	Also	_	
+254-2	23200-23201	a	_	
+254-3	23202-23207	dozen	_	
+254-4	23208-23214	blades	_	
+254-5	23215-23217	of	_	
+254-6	23218-23222	mace	_	
+254-7	23222-23223	.	_	
+
+#Text=Put two quarts of the best cider-vinegar\r
+#Text=into a porcelain-lined kettle; throw in the bag of spices, and boil it.
+255-1	23224-23227	Put	_	
+255-2	23228-23231	two	_	
+255-3	23232-23238	quarts	_	
+255-4	23239-23241	of	_	
+255-5	23242-23245	the	_	
+255-6	23246-23250	best	_	
+255-7	23251-23264	cider-vinegar	_	
+255-8	23266-23270	into	_	
+255-9	23271-23272	a	_	
+255-10	23273-23288	porcelain-lined	_	
+255-11	23289-23295	kettle	_	
+255-12	23295-23296	;	_	
+255-13	23297-23302	throw	_	
+255-14	23303-23305	in	_	
+255-15	23306-23309	the	_	
+255-16	23310-23313	bag	_	
+255-17	23314-23316	of	_	
+255-18	23317-23323	spices	_	
+255-19	23323-23324	,	_	
+255-20	23325-23328	and	_	
+255-21	23329-23333	boil	_	
+255-22	23334-23336	it	_	
+255-23	23336-23337	.	_	
+
+#Text=Five minutes after it has come to a hard boil, take out the bag of\r
+#Text=spice, and pour the vinegar hot over the cabbage in the jar; stirring it\r
+#Text=up from the bottom, so that the vinegar may get all through the\r
+#Text=cabbage.
+256-1	23339-23343	Five	_	
+256-2	23344-23351	minutes	_	
+256-3	23352-23357	after	_	
+256-4	23358-23360	it	_	
+256-5	23361-23364	has	_	
+256-6	23365-23369	come	_	
+256-7	23370-23372	to	_	
+256-8	23373-23374	a	_	
+256-9	23375-23379	hard	_	
+256-10	23380-23384	boil	_	
+256-11	23384-23385	,	_	
+256-12	23386-23390	take	_	
+256-13	23391-23394	out	_	
+256-14	23395-23398	the	_	
+256-15	23399-23402	bag	_	
+256-16	23403-23405	of	_	
+256-17	23407-23412	spice	_	
+256-18	23412-23413	,	_	
+256-19	23414-23417	and	_	
+256-20	23418-23422	pour	_	
+256-21	23423-23426	the	_	
+256-22	23427-23434	vinegar	_	
+256-23	23435-23438	hot	_	
+256-24	23439-23443	over	_	
+256-25	23444-23447	the	_	
+256-26	23448-23455	cabbage	_	
+256-27	23456-23458	in	_	
+256-28	23459-23462	the	_	
+256-29	23463-23466	jar	_	
+256-30	23466-23467	;	_	
+256-31	23468-23476	stirring	_	
+256-32	23477-23479	it	_	
+256-33	23481-23483	up	_	
+256-34	23484-23488	from	_	
+256-35	23489-23492	the	_	
+256-36	23493-23499	bottom	_	
+256-37	23499-23500	,	_	
+256-38	23501-23503	so	_	
+256-39	23504-23508	that	_	
+256-40	23509-23512	the	_	
+256-41	23513-23520	vinegar	_	
+256-42	23521-23524	may	_	
+256-43	23525-23528	get	_	
+256-44	23529-23532	all	_	
+256-45	23533-23540	through	_	
+256-46	23541-23544	the	_	
+256-47	23546-23553	cabbage	_	
+256-48	23553-23554	.	_	
+
+#Text=Then lay the bag of spice on the top, and while the pickle is\r
+#Text=hot, cover the jar closely.
+257-1	23555-23559	Then	_	
+257-2	23560-23563	lay	_	
+257-3	23564-23567	the	_	
+257-4	23568-23571	bag	_	
+257-5	23572-23574	of	_	
+257-6	23575-23580	spice	_	
+257-7	23581-23583	on	_	
+257-8	23584-23587	the	_	
+257-9	23588-23591	top	_	
+257-10	23591-23592	,	_	
+257-11	23593-23596	and	_	
+257-12	23597-23602	while	_	
+257-13	23603-23606	the	_	
+257-14	23607-23613	pickle	_	
+257-15	23614-23616	is	_	
+257-16	23618-23621	hot	_	
+257-17	23621-23622	,	_	
+257-18	23623-23628	cover	_	
+257-19	23629-23632	the	_	
+257-20	23633-23636	jar	_	
+257-21	23637-23644	closely	_	
+257-22	23644-23645	.	_	
+
+#Text=It will be fit for use in two days.
+258-1	23646-23648	It	_	
+258-2	23649-23653	will	_	
+258-3	23654-23656	be	_	
+258-4	23657-23660	fit	_	
+258-5	23661-23664	for	_	
+258-6	23665-23668	use	_	
+258-7	23669-23671	in	_	
+258-8	23672-23675	two	_	
+258-9	23676-23680	days	_	
+258-10	23680-23681	.	_	
+
+#Text=If you find, after awhile, that the pickle tastes too much of the spice,\r
+#Text=remove the spice-bag.
+259-1	23685-23687	If	_	
+259-2	23688-23691	you	_	
+259-3	23692-23696	find	_	
+259-4	23696-23697	,	_	
+259-5	23698-23703	after	_	
+259-6	23704-23710	awhile	_	
+259-7	23710-23711	,	_	
+259-8	23712-23716	that	_	
+259-9	23717-23720	the	_	
+259-10	23721-23727	pickle	_	
+259-11	23728-23734	tastes	_	
+259-12	23735-23738	too	_	
+259-13	23739-23743	much	_	
+259-14	23744-23746	of	_	
+259-15	23747-23750	the	_	
+259-16	23751-23756	spice	_	
+259-17	23756-23757	,	_	
+259-18	23759-23765	remove	_	
+259-19	23766-23769	the	_	
+259-20	23770-23779	spice-bag	_	
+259-21	23779-23780	.	_	
+
+#Text=You may pickle white cabbage in the same way; omitting the cloves, and\r
+#Text=boiling in the vinegar a second muslin bag, with three ounces of\r
+#Text=turmeric, which will give the cabbage a fine bright yellow colour.
+260-1	23784-23787	You	_	
+260-2	23788-23791	may	_	
+260-3	23792-23798	pickle	_	
+260-4	23799-23804	white	_	
+260-5	23805-23812	cabbage	_	
+260-6	23813-23815	in	_	
+260-7	23816-23819	the	_	
+260-8	23820-23824	same	_	
+260-9	23825-23828	way	_	
+260-10	23828-23829	;	_	
+260-11	23830-23838	omitting	_	
+260-12	23839-23842	the	_	
+260-13	23843-23849	cloves	_	
+260-14	23849-23850	,	_	
+260-15	23851-23854	and	_	
+260-16	23856-23863	boiling	_	
+260-17	23864-23866	in	_	
+260-18	23867-23870	the	_	
+260-19	23871-23878	vinegar	_	
+260-20	23879-23880	a	_	
+260-21	23881-23887	second	_	
+260-22	23888-23894	muslin	_	
+260-23	23895-23898	bag	_	
+260-24	23898-23899	,	_	
+260-25	23900-23904	with	_	
+260-26	23905-23910	three	_	
+260-27	23911-23917	ounces	_	
+260-28	23918-23920	of	_	
+260-29	23922-23930	turmeric	_	
+260-30	23930-23931	,	_	
+260-31	23932-23937	which	_	
+260-32	23938-23942	will	_	
+260-33	23943-23947	give	_	
+260-34	23948-23951	the	_	
+260-35	23952-23959	cabbage	_	
+260-36	23960-23961	a	_	
+260-37	23962-23966	fine	_	
+260-38	23967-23973	bright	_	
+260-39	23974-23980	yellow	_	
+260-40	23981-23987	colour	_	
+260-41	23987-23988	.	_	
+
+#Text=Having put up the cabbage into the jar, lay the turmeric-bag half way\r
+#Text=down, and the spice-bag on the top.
+261-1	23990-23996	Having	_	
+261-2	23997-24000	put	_	
+261-3	24001-24003	up	_	
+261-4	24004-24007	the	_	
+261-5	24008-24015	cabbage	_	
+261-6	24016-24020	into	_	
+261-7	24021-24024	the	_	
+261-8	24025-24028	jar	_	
+261-9	24028-24029	,	_	
+261-10	24030-24033	lay	_	
+261-11	24034-24037	the	_	
+261-12	24038-24050	turmeric-bag	_	
+261-13	24051-24055	half	_	
+261-14	24056-24059	way	_	
+261-15	24061-24065	down	_	
+261-16	24065-24066	,	_	
+261-17	24067-24070	and	_	
+261-18	24071-24074	the	_	
+261-19	24075-24084	spice-bag	_	
+261-20	24085-24087	on	_	
+261-21	24088-24091	the	_	
+261-22	24092-24095	top	_	
+261-23	24095-24096	.	_	
+
+#Text=But the turmeric-bag need not be put\r
+#Text=into the jar if the vinegar has sufficiently coloured the cabbage.
+262-1	24097-24100	But	_	
+262-2	24101-24104	the	_	
+262-3	24105-24117	turmeric-bag	_	
+262-4	24118-24122	need	_	
+262-5	24123-24126	not	_	
+262-6	24127-24129	be	_	
+262-7	24130-24133	put	_	
+262-8	24135-24139	into	_	
+262-9	24140-24143	the	_	
+262-10	24144-24147	jar	_	
+262-11	24148-24150	if	_	
+262-12	24151-24154	the	_	
+262-13	24155-24162	vinegar	_	
+262-14	24163-24166	has	_	
+262-15	24167-24179	sufficiently	_	
+262-16	24180-24188	coloured	_	
+262-17	24189-24192	the	_	
+262-18	24193-24200	cabbage	_	
+262-19	24200-24201	.	_	
+
+#Text=Small onions may be pickled, as above, with turmeric.
+263-1	24205-24210	Small	_	
+263-2	24211-24217	onions	_	
+263-3	24218-24221	may	_	
+263-4	24222-24224	be	_	
+263-5	24225-24232	pickled	_	
+263-6	24232-24233	,	_	
+263-7	24234-24236	as	_	
+263-8	24237-24242	above	_	
+263-9	24242-24243	,	_	
+263-10	24244-24248	with	_	
+263-11	24249-24257	turmeric	_	
+263-12	24257-24258	.	_	
+
+#Text=Always, in\r
+#Text=preparing onions, for any purpose, peel off the thin outer skin.
+264-1	24259-24265	Always	_	
+264-2	24265-24266	,	_	
+264-3	24267-24269	in	_	
+264-4	24271-24280	preparing	_	
+264-5	24281-24287	onions	_	
+264-6	24287-24288	,	_	
+264-7	24289-24292	for	_	
+264-8	24293-24296	any	_	
+264-9	24297-24304	purpose	_	
+264-10	24304-24305	,	_	
+264-11	24306-24310	peel	_	
+264-12	24311-24314	off	_	
+264-13	24315-24318	the	_	
+264-14	24319-24323	thin	_	
+264-15	24324-24329	outer	_	
+264-16	24330-24334	skin	_	
+264-17	24334-24335	.	_	
+
+#Text=CHICKEN POT-PIE.
+265-1	24345-24352	CHICKEN	_	
+265-2	24353-24360	POT-PIE	_	
+265-3	24360-24361	.	_	
+
+#Text=--Cut up, and par-boil a pair of large fowls, seasoning\r
+#Text=them with pepper, salt, and nutmeg.
+266-1	24361-24362	-	_	
+266-2	24362-24363	-	_	
+266-3	24363-24366	Cut	_	
+266-4	24367-24369	up	_	
+266-5	24369-24370	,	_	
+266-6	24371-24374	and	_	
+266-7	24375-24383	par-boil	_	
+266-8	24384-24385	a	_	
+266-9	24386-24390	pair	_	
+266-10	24391-24393	of	_	
+266-11	24394-24399	large	_	
+266-12	24400-24405	fowls	_	
+266-13	24405-24406	,	_	
+266-14	24407-24416	seasoning	_	
+266-15	24418-24422	them	_	
+266-16	24423-24427	with	_	
+266-17	24428-24434	pepper	_	
+266-18	24434-24435	,	_	
+266-19	24436-24440	salt	_	
+266-20	24440-24441	,	_	
+266-21	24442-24445	and	_	
+266-22	24446-24452	nutmeg	_	
+266-23	24452-24453	.	_	
+
+#Text=You may add some small slices of\r
+#Text=cold ham; in which case add no salt, as the ham will make it salt\r
+#Text=enough.
+267-1	24454-24457	You	_	
+267-2	24458-24461	may	_	
+267-3	24462-24465	add	_	
+267-4	24466-24470	some	_	
+267-5	24471-24476	small	_	
+267-6	24477-24483	slices	_	
+267-7	24484-24486	of	_	
+267-8	24488-24492	cold	_	
+267-9	24493-24496	ham	_	
+267-10	24496-24497	;	_	
+267-11	24498-24500	in	_	
+267-12	24501-24506	which	_	
+267-13	24507-24511	case	_	
+267-14	24512-24515	add	_	
+267-15	24516-24518	no	_	
+267-16	24519-24523	salt	_	
+267-17	24523-24524	,	_	
+267-18	24525-24527	as	_	
+267-19	24528-24531	the	_	
+267-20	24532-24535	ham	_	
+267-21	24536-24540	will	_	
+267-22	24541-24545	make	_	
+267-23	24546-24548	it	_	
+267-24	24549-24553	salt	_	
+267-25	24555-24561	enough	_	
+267-26	24561-24562	.	_	
+
+#Text=Or you may put in some pieces of the lean of fresh pork.
+268-1	24563-24565	Or	_	
+268-2	24566-24569	you	_	
+268-3	24570-24573	may	_	
+268-4	24574-24577	put	_	
+268-5	24578-24580	in	_	
+268-6	24581-24585	some	_	
+268-7	24586-24592	pieces	_	
+268-8	24593-24595	of	_	
+268-9	24596-24599	the	_	
+268-10	24600-24604	lean	_	
+268-11	24605-24607	of	_	
+268-12	24608-24613	fresh	_	
+268-13	24614-24618	pork	_	
+268-14	24618-24619	.	_	
+
+#Text=You may\r
+#Text=prepare a suet-paste; but for a chicken pot-pie it is best to make the\r
+#Text=paste of butter, which should be fresh, and of the best quality.
+269-1	24620-24623	You	_	
+269-2	24624-24627	may	_	
+269-3	24629-24636	prepare	_	
+269-4	24637-24638	a	_	
+269-5	24639-24649	suet-paste	_	
+269-6	24649-24650	;	_	
+269-7	24651-24654	but	_	
+269-8	24655-24658	for	_	
+269-9	24659-24660	a	_	
+269-10	24661-24668	chicken	_	
+269-11	24669-24676	pot-pie	_	
+269-12	24677-24679	it	_	
+269-13	24680-24682	is	_	
+269-14	24683-24687	best	_	
+269-15	24688-24690	to	_	
+269-16	24691-24695	make	_	
+269-17	24696-24699	the	_	
+269-18	24701-24706	paste	_	
+269-19	24707-24709	of	_	
+269-20	24710-24716	butter	_	
+269-21	24716-24717	,	_	
+269-22	24718-24723	which	_	
+269-23	24724-24730	should	_	
+269-24	24731-24733	be	_	
+269-25	24734-24739	fresh	_	
+269-26	24739-24740	,	_	
+269-27	24741-24744	and	_	
+269-28	24745-24747	of	_	
+269-29	24748-24751	the	_	
+269-30	24752-24756	best	_	
+269-31	24757-24764	quality	_	
+269-32	24764-24765	.	_	
+
+#Text=Allow\r
+#Text=to each quart of flour, a small half-pound of butter.
+270-1	24766-24771	Allow	_	
+270-2	24773-24775	to	_	
+270-3	24776-24780	each	_	
+270-4	24781-24786	quart	_	
+270-5	24787-24789	of	_	
+270-6	24790-24795	flour	_	
+270-7	24795-24796	,	_	
+270-8	24797-24798	a	_	
+270-9	24799-24804	small	_	
+270-10	24805-24815	half-pound	_	
+270-11	24816-24818	of	_	
+270-12	24819-24825	butter	_	
+270-13	24825-24826	.	_	
+
+#Text=There should be\r
+#Text=enough for a great deal of paste.
+271-1	24827-24832	There	_	
+271-2	24833-24839	should	_	
+271-3	24840-24842	be	_	
+271-4	24844-24850	enough	_	
+271-5	24851-24854	for	_	
+271-6	24855-24856	a	_	
+271-7	24857-24862	great	_	
+271-8	24863-24867	deal	_	
+271-9	24868-24870	of	_	
+271-10	24871-24876	paste	_	
+271-11	24876-24877	.	_	
+
+#Text=Line the sides of the pot, two-thirds\r
+#Text=up, with paste.
+272-1	24878-24882	Line	_	
+272-2	24883-24886	the	_	
+272-3	24887-24892	sides	_	
+272-4	24893-24895	of	_	
+272-5	24896-24899	the	_	
+272-6	24900-24903	pot	_	
+272-7	24903-24904	,	_	
+272-8	24905-24915	two-thirds	_	
+272-9	24917-24919	up	_	
+272-10	24919-24920	,	_	
+272-11	24921-24925	with	_	
+272-12	24926-24931	paste	_	
+272-13	24931-24932	.	_	
+
+#Text=Put in the chickens, with the liquor in which they were\r
+#Text=parboiled.
+273-1	24933-24936	Put	_	
+273-2	24937-24939	in	_	
+273-3	24940-24943	the	_	
+273-4	24944-24952	chickens	_	
+273-5	24952-24953	,	_	
+273-6	24954-24958	with	_	
+273-7	24959-24962	the	_	
+273-8	24963-24969	liquor	_	
+273-9	24970-24972	in	_	
+273-10	24973-24978	which	_	
+273-11	24979-24983	they	_	
+273-12	24984-24988	were	_	
+273-13	24990-24999	parboiled	_	
+273-14	24999-25000	.	_	
+
+#Text=You may add some sliced potatoes.
+274-1	25001-25004	You	_	
+274-2	25005-25008	may	_	
+274-3	25009-25012	add	_	
+274-4	25013-25017	some	_	
+274-5	25018-25024	sliced	_	
+274-6	25025-25033	potatoes	_	
+274-7	25033-25034	.	_	
+
+#Text=Intersperse the pieces of\r
+#Text=chicken with layers of paste in square slices.
+275-1	25035-25046	Intersperse	_	
+275-2	25047-25050	the	_	
+275-3	25051-25057	pieces	_	
+275-4	25058-25060	of	_	
+275-5	25062-25069	chicken	_	
+275-6	25070-25074	with	_	
+275-7	25075-25081	layers	_	
+275-8	25082-25084	of	_	
+275-9	25085-25090	paste	_	
+275-10	25091-25093	in	_	
+275-11	25094-25100	square	_	
+275-12	25101-25107	slices	_	
+275-13	25107-25108	.	_	
+
+#Text=Then cover the whole with\r
+#Text=a lid of paste, not fitting very closely.
+276-1	25109-25113	Then	_	
+276-2	25114-25119	cover	_	
+276-3	25120-25123	the	_	
+276-4	25124-25129	whole	_	
+276-5	25130-25134	with	_	
+276-6	25136-25137	a	_	
+276-7	25138-25141	lid	_	
+276-8	25142-25144	of	_	
+276-9	25145-25150	paste	_	
+276-10	25150-25151	,	_	
+276-11	25152-25155	not	_	
+276-12	25156-25163	fitting	_	
+276-13	25164-25168	very	_	
+276-14	25169-25176	closely	_	
+276-15	25176-25177	.	_	
+
+#Text=Make a slit in the top, and\r
+#Text=boil the pie about three-quarters of an hour or more.
+277-1	25178-25182	Make	_	
+277-2	25183-25184	a	_	
+277-3	25185-25189	slit	_	
+277-4	25190-25192	in	_	
+277-5	25193-25196	the	_	
+277-6	25197-25200	top	_	
+277-7	25200-25201	,	_	
+277-8	25202-25205	and	_	
+277-9	25207-25211	boil	_	
+277-10	25212-25215	the	_	
+277-11	25216-25219	pie	_	
+277-12	25220-25225	about	_	
+277-13	25226-25240	three-quarters	_	
+277-14	25241-25243	of	_	
+277-15	25244-25246	an	_	
+277-16	25247-25251	hour	_	
+277-17	25252-25254	or	_	
+277-18	25255-25259	more	_	
+277-19	25259-25260	.	_	
+
+#Text=This pie will be greatly improved by adding some clams to the chickens\r
+#Text=while par-boiling, omitting salt in the seasoning, as the clams will\r
+#Text=salt it quite enough.
+278-1	25264-25268	This	_	
+278-2	25269-25272	pie	_	
+278-3	25273-25277	will	_	
+278-4	25278-25280	be	_	
+278-5	25281-25288	greatly	_	
+278-6	25289-25297	improved	_	
+278-7	25298-25300	by	_	
+278-8	25301-25307	adding	_	
+278-9	25308-25312	some	_	
+278-10	25313-25318	clams	_	
+278-11	25319-25321	to	_	
+278-12	25322-25325	the	_	
+278-13	25326-25334	chickens	_	
+278-14	25336-25341	while	_	
+278-15	25342-25353	par-boiling	_	
+278-16	25353-25354	,	_	
+278-17	25355-25363	omitting	_	
+278-18	25364-25368	salt	_	
+278-19	25369-25371	in	_	
+278-20	25372-25375	the	_	
+278-21	25376-25385	seasoning	_	
+278-22	25385-25386	,	_	
+278-23	25387-25389	as	_	
+278-24	25390-25393	the	_	
+278-25	25394-25399	clams	_	
+278-26	25400-25404	will	_	
+278-27	25406-25410	salt	_	
+278-28	25411-25413	it	_	
+278-29	25414-25419	quite	_	
+278-30	25420-25426	enough	_	
+278-31	25426-25427	.	_	
+
+#Text=AN EASY WAY TO PICKLE MUSHROOMS.
+279-1	25433-25435	AN	_	
+279-2	25436-25440	EASY	_	
+279-3	25441-25444	WAY	_	
+279-4	25445-25447	TO	_	
+279-5	25448-25454	PICKLE	_	
+279-6	25455-25464	MUSHROOMS	_	
+279-7	25464-25465	.	_	
+
+#Text=--Take two quarts of small\r
+#Text=freshly-gathered mushrooms.
+280-1	25465-25466	-	_	
+280-2	25466-25467	-	_	
+280-3	25467-25471	Take	_	
+280-4	25472-25475	two	_	
+280-5	25476-25482	quarts	_	
+280-6	25483-25485	of	_	
+280-7	25486-25491	small	_	
+280-8	25493-25509	freshly-gathered	_	
+280-9	25510-25519	mushrooms	_	
+280-10	25519-25520	.	_	
+
+#Text=With a sharp-pointed knife peel off,\r
+#Text=carefully, their thin outside skin; and cut off the stalks closely.
+281-1	25521-25525	With	_	
+281-2	25526-25527	a	_	
+281-3	25528-25541	sharp-pointed	_	
+281-4	25542-25547	knife	_	
+281-5	25548-25552	peel	_	
+281-6	25553-25556	off	_	
+281-7	25556-25557	,	_	
+281-8	25559-25568	carefully	_	
+281-9	25568-25569	,	_	
+281-10	25570-25575	their	_	
+281-11	25576-25580	thin	_	
+281-12	25581-25588	outside	_	
+281-13	25589-25593	skin	_	
+281-14	25593-25594	;	_	
+281-15	25595-25598	and	_	
+281-16	25599-25602	cut	_	
+281-17	25603-25606	off	_	
+281-18	25607-25610	the	_	
+281-19	25611-25617	stalks	_	
+281-20	25618-25625	closely	_	
+281-21	25625-25626	.	_	
+
+#Text=Prepare eight little bags of very thin clear muslin, and tie up in each\r
+#Text=bag six blades of mace; six slices of root-ginger; and a small nutmeg\r
+#Text=(or half a large one) broken small, but not powdered.
+282-1	25628-25635	Prepare	_	
+282-2	25636-25641	eight	_	
+282-3	25642-25648	little	_	
+282-4	25649-25653	bags	_	
+282-5	25654-25656	of	_	
+282-6	25657-25661	very	_	
+282-7	25662-25666	thin	_	
+282-8	25667-25672	clear	_	
+282-9	25673-25679	muslin	_	
+282-10	25679-25680	,	_	
+282-11	25681-25684	and	_	
+282-12	25685-25688	tie	_	
+282-13	25689-25691	up	_	
+282-14	25692-25694	in	_	
+282-15	25695-25699	each	_	
+282-16	25701-25704	bag	_	
+282-17	25705-25708	six	_	
+282-18	25709-25715	blades	_	
+282-19	25716-25718	of	_	
+282-20	25719-25723	mace	_	
+282-21	25723-25724	;	_	
+282-22	25725-25728	six	_	
+282-23	25729-25735	slices	_	
+282-24	25736-25738	of	_	
+282-25	25739-25750	root-ginger	_	
+282-26	25750-25751	;	_	
+282-27	25752-25755	and	_	
+282-28	25756-25757	a	_	
+282-29	25758-25763	small	_	
+282-30	25764-25770	nutmeg	_	
+282-31	25772-25773	(	_	
+282-32	25773-25775	or	_	
+282-33	25776-25780	half	_	
+282-34	25781-25782	a	_	
+282-35	25783-25788	large	_	
+282-36	25789-25792	one	_	
+282-37	25792-25793	)	_	
+282-38	25794-25800	broken	_	
+282-39	25801-25806	small	_	
+282-40	25806-25807	,	_	
+282-41	25808-25811	but	_	
+282-42	25812-25815	not	_	
+282-43	25816-25824	powdered	_	
+282-44	25824-25825	.	_	
+
+#Text=Have ready four\r
+#Text=glass jars, such as are considered to hold a quart.
+283-1	25826-25830	Have	_	
+283-2	25831-25836	ready	_	
+283-3	25837-25841	four	_	
+283-4	25843-25848	glass	_	
+283-5	25849-25853	jars	_	
+283-6	25853-25854	,	_	
+283-7	25855-25859	such	_	
+283-8	25860-25862	as	_	
+283-9	25863-25866	are	_	
+283-10	25867-25877	considered	_	
+283-11	25878-25880	to	_	
+283-12	25881-25885	hold	_	
+283-13	25886-25887	a	_	
+283-14	25888-25893	quart	_	
+283-15	25893-25894	.	_	
+
+#Text=Lay a bag of spice\r
+#Text=in the bottom of each; then put in a pint of the mushrooms, laying a\r
+#Text=second bag of spice on the top.
+284-1	25895-25898	Lay	_	
+284-2	25899-25900	a	_	
+284-3	25901-25904	bag	_	
+284-4	25905-25907	of	_	
+284-5	25908-25913	spice	_	
+284-6	25915-25917	in	_	
+284-7	25918-25921	the	_	
+284-8	25922-25928	bottom	_	
+284-9	25929-25931	of	_	
+284-10	25932-25936	each	_	
+284-11	25936-25937	;	_	
+284-12	25938-25942	then	_	
+284-13	25943-25946	put	_	
+284-14	25947-25949	in	_	
+284-15	25950-25951	a	_	
+284-16	25952-25956	pint	_	
+284-17	25957-25959	of	_	
+284-18	25960-25963	the	_	
+284-19	25964-25973	mushrooms	_	
+284-20	25973-25974	,	_	
+284-21	25975-25981	laying	_	
+284-22	25982-25983	a	_	
+284-23	25985-25991	second	_	
+284-24	25992-25995	bag	_	
+284-25	25996-25998	of	_	
+284-26	25999-26004	spice	_	
+284-27	26005-26007	on	_	
+284-28	26008-26011	the	_	
+284-29	26012-26015	top	_	
+284-30	26015-26016	.	_	
+
+#Text=Have ready a sufficiency of the best\r
+#Text=cider-vinegar, very slightly seasoned with salt; allowing to each quart\r
+#Text=of vinegar but a salt-spoon of salt.
+285-1	26017-26021	Have	_	
+285-2	26022-26027	ready	_	
+285-3	26028-26029	a	_	
+285-4	26030-26041	sufficiency	_	
+285-5	26042-26044	of	_	
+285-6	26045-26048	the	_	
+285-7	26049-26053	best	_	
+285-8	26055-26068	cider-vinegar	_	
+285-9	26068-26069	,	_	
+285-10	26070-26074	very	_	
+285-11	26075-26083	slightly	_	
+285-12	26084-26092	seasoned	_	
+285-13	26093-26097	with	_	
+285-14	26098-26102	salt	_	
+285-15	26102-26103	;	_	
+285-16	26104-26112	allowing	_	
+285-17	26113-26115	to	_	
+285-18	26116-26120	each	_	
+285-19	26121-26126	quart	_	
+285-20	26128-26130	of	_	
+285-21	26131-26138	vinegar	_	
+285-22	26139-26142	but	_	
+285-23	26143-26144	a	_	
+285-24	26145-26155	salt-spoon	_	
+285-25	26156-26158	of	_	
+285-26	26159-26163	salt	_	
+285-27	26163-26164	.	_	
+
+#Text=Fill up the jars with the vinegar,\r
+#Text=finishing at the top with two table-spoonfuls of sweet oil.
+286-1	26165-26169	Fill	_	
+286-2	26170-26172	up	_	
+286-3	26173-26176	the	_	
+286-4	26177-26181	jars	_	
+286-5	26182-26186	with	_	
+286-6	26187-26190	the	_	
+286-7	26191-26198	vinegar	_	
+286-8	26198-26199	,	_	
+286-9	26201-26210	finishing	_	
+286-10	26211-26213	at	_	
+286-11	26214-26217	the	_	
+286-12	26218-26221	top	_	
+286-13	26222-26226	with	_	
+286-14	26227-26230	two	_	
+286-15	26231-26246	table-spoonfuls	_	
+286-16	26247-26249	of	_	
+286-17	26250-26255	sweet	_	
+286-18	26256-26259	oil	_	
+286-19	26259-26260	.	_	
+
+#Text=Immediately\r
+#Text=close up the jars, corking them tightly; and pasting thick paper, or\r
+#Text=tying a piece of leather or bladder closely down over the corks.
+287-1	26261-26272	Immediately	_	
+287-2	26274-26279	close	_	
+287-3	26280-26282	up	_	
+287-4	26283-26286	the	_	
+287-5	26287-26291	jars	_	
+287-6	26291-26292	,	_	
+287-7	26293-26300	corking	_	
+287-8	26301-26305	them	_	
+287-9	26306-26313	tightly	_	
+287-10	26313-26314	;	_	
+287-11	26315-26318	and	_	
+287-12	26319-26326	pasting	_	
+287-13	26327-26332	thick	_	
+287-14	26333-26338	paper	_	
+287-15	26338-26339	,	_	
+287-16	26340-26342	or	_	
+287-17	26344-26349	tying	_	
+287-18	26350-26351	a	_	
+287-19	26352-26357	piece	_	
+287-20	26358-26360	of	_	
+287-21	26361-26368	leather	_	
+287-22	26369-26371	or	_	
+287-23	26372-26379	bladder	_	
+287-24	26380-26387	closely	_	
+287-25	26388-26392	down	_	
+287-26	26393-26397	over	_	
+287-27	26398-26401	the	_	
+287-28	26402-26407	corks	_	
+287-29	26407-26408	.	_	
+
+#Text=These mushrooms will be found very fine; and as they require no cooking,\r
+#Text=are speedily and easily prepared.
+288-1	26412-26417	These	_	
+288-2	26418-26427	mushrooms	_	
+288-3	26428-26432	will	_	
+288-4	26433-26435	be	_	
+288-5	26436-26441	found	_	
+288-6	26442-26446	very	_	
+288-7	26447-26451	fine	_	
+288-8	26451-26452	;	_	
+288-9	26453-26456	and	_	
+288-10	26457-26459	as	_	
+288-11	26460-26464	they	_	
+288-12	26465-26472	require	_	
+288-13	26473-26475	no	_	
+288-14	26476-26483	cooking	_	
+288-15	26483-26484	,	_	
+288-16	26486-26489	are	_	
+288-17	26490-26498	speedily	_	
+288-18	26499-26502	and	_	
+288-19	26503-26509	easily	_	
+288-20	26510-26518	prepared	_	
+288-21	26518-26519	.	_	
+
+#Text=When a jar is once opened, it will be\r
+#Text=well to use them fast.
+289-1	26520-26524	When	_	
+289-2	26525-26526	a	_	
+289-3	26527-26530	jar	_	
+289-4	26531-26533	is	_	
+289-5	26534-26538	once	_	
+289-6	26539-26545	opened	_	
+289-7	26545-26546	,	_	
+289-8	26547-26549	it	_	
+289-9	26550-26554	will	_	
+289-10	26555-26557	be	_	
+289-11	26559-26563	well	_	
+289-12	26564-26566	to	_	
+289-13	26567-26570	use	_	
+289-14	26571-26575	them	_	
+289-15	26576-26580	fast	_	
+289-16	26580-26581	.	_	
+
+#Text=They may be put up in small jars, or in glass\r
+#Text=tumblers, such as hold but a pint altogether; seeing that the\r
+#Text=proportions of spice in each jar or tumbler are duly divided, as above.
+290-1	26582-26586	They	_	
+290-2	26587-26590	may	_	
+290-3	26591-26593	be	_	
+290-4	26594-26597	put	_	
+290-5	26598-26600	up	_	
+290-6	26601-26603	in	_	
+290-7	26604-26609	small	_	
+290-8	26610-26614	jars	_	
+290-9	26614-26615	,	_	
+290-10	26616-26618	or	_	
+290-11	26619-26621	in	_	
+290-12	26622-26627	glass	_	
+290-13	26629-26637	tumblers	_	
+290-14	26637-26638	,	_	
+290-15	26639-26643	such	_	
+290-16	26644-26646	as	_	
+290-17	26647-26651	hold	_	
+290-18	26652-26655	but	_	
+290-19	26656-26657	a	_	
+290-20	26658-26662	pint	_	
+290-21	26663-26673	altogether	_	
+290-22	26673-26674	;	_	
+290-23	26675-26681	seeing	_	
+290-24	26682-26686	that	_	
+290-25	26687-26690	the	_	
+290-26	26692-26703	proportions	_	
+290-27	26704-26706	of	_	
+290-28	26707-26712	spice	_	
+290-29	26713-26715	in	_	
+290-30	26716-26720	each	_	
+290-31	26721-26724	jar	_	
+290-32	26725-26727	or	_	
+290-33	26728-26735	tumbler	_	
+290-34	26736-26739	are	_	
+290-35	26740-26744	duly	_	
+290-36	26745-26752	divided	_	
+290-37	26752-26753	,	_	
+290-38	26754-26756	as	_	
+290-39	26757-26762	above	_	
+290-40	26762-26763	.	_	
+
+#Text=Keep them in a very dry place.
+291-1	26765-26769	Keep	_	
+291-2	26770-26774	them	_	
+291-3	26775-26777	in	_	
+291-4	26778-26779	a	_	
+291-5	26780-26784	very	_	
+291-6	26785-26788	dry	_	
+291-7	26789-26794	place	_	
+291-8	26794-26795	.	_	
+
+#Text=If you wish the mushrooms to be of a dark colour when pickled, add half\r
+#Text=a dozen cloves to each bag of spice; but the clove-taste will most\r
+#Text=likely overpower that of the mushrooms.
+292-1	26799-26801	If	_	
+292-2	26802-26805	you	_	
+292-3	26806-26810	wish	_	
+292-4	26811-26814	the	_	
+292-5	26815-26824	mushrooms	_	
+292-6	26825-26827	to	_	
+292-7	26828-26830	be	_	
+292-8	26831-26833	of	_	
+292-9	26834-26835	a	_	
+292-10	26836-26840	dark	_	
+292-11	26841-26847	colour	_	
+292-12	26848-26852	when	_	
+292-13	26853-26860	pickled	_	
+292-14	26860-26861	,	_	
+292-15	26862-26865	add	_	
+292-16	26866-26870	half	_	
+292-17	26872-26873	a	_	
+292-18	26874-26879	dozen	_	
+292-19	26880-26886	cloves	_	
+292-20	26887-26889	to	_	
+292-21	26890-26894	each	_	
+292-22	26895-26898	bag	_	
+292-23	26899-26901	of	_	
+292-24	26902-26907	spice	_	
+292-25	26907-26908	;	_	
+292-26	26909-26912	but	_	
+292-27	26913-26916	the	_	
+292-28	26917-26928	clove-taste	_	
+292-29	26929-26933	will	_	
+292-30	26934-26938	most	_	
+292-31	26940-26946	likely	_	
+292-32	26947-26956	overpower	_	
+292-33	26957-26961	that	_	
+292-34	26962-26964	of	_	
+292-35	26965-26968	the	_	
+292-36	26969-26978	mushrooms	_	
+292-37	26978-26979	.	_	
+
+#Text=On no account omit the oil.
+293-1	26980-26982	On	_	
+293-2	26983-26985	no	_	
+293-3	26986-26993	account	_	
+293-4	26994-26998	omit	_	
+293-5	26999-27002	the	_	
+293-6	27003-27006	oil	_	
+293-7	27006-27007	.	_	
+
+#Text=If you cannot obtain button-mushrooms, cut large ones into four\r
+#Text=quarters, first peeling them and removing the stems.
+294-1	27011-27013	If	_	
+294-2	27014-27017	you	_	
+294-3	27018-27024	cannot	_	
+294-4	27025-27031	obtain	_	
+294-5	27032-27048	button-mushrooms	_	
+294-6	27048-27049	,	_	
+294-7	27050-27053	cut	_	
+294-8	27054-27059	large	_	
+294-9	27060-27064	ones	_	
+294-10	27065-27069	into	_	
+294-11	27070-27074	four	_	
+294-12	27076-27084	quarters	_	
+294-13	27084-27085	,	_	
+294-14	27086-27091	first	_	
+294-15	27092-27099	peeling	_	
+294-16	27100-27104	them	_	
+294-17	27105-27108	and	_	
+294-18	27109-27117	removing	_	
+294-19	27118-27121	the	_	
+294-20	27122-27127	stems	_	
+294-21	27127-27128	.	_	

@@ -1,0 +1,1232 @@
+#FORMAT=WebAnno TSV 3.3
+#T_SP=custom.Span|label
+
+
+#Text=THE PRESERVATION OF FOOD.
+1-1	0-3	THE	_	
+1-2	4-16	PRESERVATION	PR\_LU	
+1-3	17-19	OF	_	
+1-4	20-24	FOOD	FOOD\_LU[1]|PR\_Food\_Patient[2]	
+1-5	24-25	.	_	
+
+#Text=—All organic foods tend rapidly to decompose
+#Text=and putrefy.
+2-1	25-26	—	_	
+2-2	26-29	All	_	
+2-3	30-37	organic	FOOD\_Descriptor[3]|DESCR\_Neutral[4]	
+2-4	38-43	foods	FOOD\_LU	
+2-5	44-48	tend	_	
+2-6	49-56	rapidly	_	
+2-7	57-59	to	_	
+2-8	60-69	decompose	_	
+2-9	70-73	and	_	
+2-10	74-81	putrefy	_	
+2-11	81-82	.	_	
+
+#Text=Putrefaction only occurs when a warm and moist substance
+#Text=is exposed to the air.
+3-1	83-95	Putrefaction	_	
+3-2	96-100	only	_	
+3-3	101-107	occurs	_	
+3-4	108-112	when	_	
+3-5	113-114	a	_	
+3-6	115-119	warm	_	
+3-7	120-123	and	_	
+3-8	124-129	moist	_	
+3-9	130-139	substance	_	
+3-10	140-142	is	_	
+3-11	143-150	exposed	_	
+3-12	151-153	to	_	
+3-13	154-157	the	_	
+3-14	158-161	air	_	
+3-15	161-162	.	_	
+
+#Text=The problem of preserving any food, therefore,
+#Text=may be solved (1) by keeping it at a very low temperature, (2) by
+#Text=desiccating it, or (3) by boiling or steaming it so as to destroy any
+#Text=microbes in the food which would otherwise start putrefaction, and then
+#Text=fastening it in an air-tight case.
+4-1	163-166	The	_	
+4-2	167-174	problem	_	
+4-3	175-177	of	_	
+4-4	178-188	preserving	PR\_LU	
+4-5	189-192	any	_	
+4-6	193-197	food	FOOD\_LU[5]|PR\_Food\_Patient[6]	
+4-7	197-198	,	_	
+4-8	199-208	therefore	_	
+4-9	208-209	,	_	
+4-10	210-213	may	_	
+4-11	214-216	be	_	
+4-12	217-223	solved	_	
+4-13	224-225	(	_	
+4-14	225-226	1	_	
+4-15	226-227	)	_	
+4-16	228-230	by	_	
+4-17	231-238	keeping	_	
+4-18	239-241	it	_	
+4-19	242-244	at	_	
+4-20	245-246	a	_	
+4-21	247-251	very	_	
+4-22	252-255	low	_	
+4-23	256-267	temperature	_	
+4-24	267-268	,	_	
+4-25	269-270	(	_	
+4-26	270-271	2	_	
+4-27	271-272	)	_	
+4-28	273-275	by	_	
+4-29	276-287	desiccating	PR\_LU[7]|COOKING\_CREATION\_LU[8]	
+4-30	288-290	it	_	
+4-31	290-291	,	_	
+4-32	292-294	or	_	
+4-33	295-296	(	_	
+4-34	296-297	3	_	
+4-35	297-298	)	_	
+4-36	299-301	by	_	
+4-37	302-309	boiling	COOKING\_CREATION\_LU	
+4-38	310-312	or	_	
+4-39	313-321	steaming	COOKING\_CREATION\_LU	
+4-40	322-324	it	_	
+4-41	325-327	so	_	
+4-42	328-330	as	_	
+4-43	331-333	to	_	
+4-44	334-341	destroy	_	
+4-45	342-345	any	_	
+4-46	346-354	microbes	_	
+4-47	355-357	in	_	
+4-48	358-361	the	_	
+4-49	362-366	food	FOOD\_LU[9]|COOKING\_CREATION\_Produced\_Food[10]	
+4-50	367-372	which	_	
+4-51	373-378	would	_	
+4-52	379-388	otherwise	_	
+4-53	389-394	start	_	
+4-54	395-407	putrefaction	_	
+4-55	407-408	,	_	
+4-56	409-412	and	_	
+4-57	413-417	then	_	
+4-58	418-427	fastening	_	
+4-59	428-430	it	_	
+4-60	431-433	in	_	
+4-61	434-436	an	_	
+4-62	437-446	air-tight	_	
+4-63	447-451	case	_	
+4-64	451-452	.	_	
+
+#Text=Milk is commonly preserved as condensed milk, and in this condition
+#Text=is very valuable.
+5-1	454-458	Milk	FOOD\_LU[11]|PR\_Food\_Patient[12]	
+5-2	459-461	is	_	
+5-3	462-470	commonly	_	
+5-4	471-480	preserved	PR\_LU	
+5-5	481-483	as	_	
+5-6	484-493	condensed	FOOD\_LU[13]|FOOD\_Descriptor[14]|DESCR\_Neutral[15]	
+5-7	494-498	milk	FOOD\_LU[13]|FOOD\_LU[16]	
+5-8	498-499	,	_	
+5-9	500-503	and	_	
+5-10	504-506	in	_	
+5-11	507-511	this	_	
+5-12	512-521	condition	_	
+5-13	522-524	is	_	
+5-14	525-529	very	_	
+5-15	530-538	valuable	_	
+5-16	538-539	.	_	
+
+#Text=A pure condensed milk is now supplied, prepared
+#Text=without the addition of sugar or any antiseptic, but in which, as in
+#Text=other condensed milks, all disease-producing or decomposition-producing
+#Text=microbes have been destroyed during the process of concentration.
+6-1	540-541	A	_	
+6-2	542-546	pure	FOOD\_Descriptor[17]|DESCR\_Neutral[18]	
+6-3	547-556	condensed	FOOD\_LU[19]|FOOD\_Descriptor[20]|DESCR\_Neutral[21]	
+6-4	557-561	milk	FOOD\_LU[19]|FOOD\_LU[22]	
+6-5	562-564	is	_	
+6-6	565-568	now	_	
+6-7	569-577	supplied	_	
+6-8	577-578	,	_	
+6-9	579-587	prepared	_	
+6-10	588-595	without	_	
+6-11	596-599	the	_	
+6-12	600-608	addition	_	
+6-13	609-611	of	_	
+6-14	612-617	sugar	FOOD\_LU	
+6-15	618-620	or	_	
+6-16	621-624	any	_	
+6-17	625-635	antiseptic	_	
+6-18	635-636	,	_	
+6-19	637-640	but	_	
+6-20	641-643	in	_	
+6-21	644-649	which	_	
+6-22	649-650	,	_	
+6-23	651-653	as	_	
+6-24	654-656	in	_	
+6-25	657-662	other	_	
+6-26	663-672	condensed	FOOD\_LU[23]|FOOD\_Descriptor[24]|DESCR\_Neutral[25]	
+6-27	673-678	milks	FOOD\_LU[23]|FOOD\_LU[26]	
+6-28	678-679	,	_	
+6-29	680-683	all	_	
+6-30	684-701	disease-producing	_	
+6-31	702-704	or	_	
+6-32	705-728	decomposition-producing	_	
+6-33	729-737	microbes	_	
+6-34	738-742	have	_	
+6-35	743-747	been	_	
+6-36	748-757	destroyed	_	
+6-37	758-764	during	_	
+6-38	765-768	the	_	
+6-39	769-776	process	_	
+6-40	777-779	of	_	
+6-41	780-793	concentration	_	
+6-42	793-794	.	_	
+
+#Text=Milk
+#Text=may also be desiccated; in this condition it is difficult of digestion.
+7-1	795-799	Milk	FOOD\_LU[27]|PR\_Food\_Patient[28]	
+7-2	800-803	may	_	
+7-3	804-808	also	_	
+7-4	809-811	be	_	
+7-5	812-822	desiccated	PR\_LU	
+7-6	822-823	;	_	
+7-7	824-826	in	_	
+7-8	827-831	this	_	
+7-9	832-841	condition	_	
+7-10	842-844	it	_	
+7-11	845-847	is	_	
+7-12	848-857	difficult	_	
+7-13	858-860	of	_	
+7-14	861-870	digestion	_	
+7-15	870-871	.	_	
+
+#Text=In addition to the household methods of preserving fruits, large
+#Text=quantities of fruits—both moist and dry—are now imported, protected
+#Text=by syrup or sugar, in sealed canisters; and they retain the original
+#Text=flavour almost unchanged.
+8-1	873-875	In	_	
+8-2	876-884	addition	_	
+8-3	885-887	to	_	
+8-4	888-891	the	PR\_Medium[29]	
+8-5	892-901	household	PR\_Medium[29]	
+8-6	902-909	methods	PR\_Medium[29]	
+8-7	910-912	of	_	
+8-8	913-923	preserving	PR\_LU	
+8-9	924-930	fruits	FOOD\_LU	
+8-10	930-931	,	_	
+8-11	932-937	large	_	
+8-12	938-948	quantities	_	
+8-13	949-951	of	_	
+8-14	952-963	fruits—both	FOOD\_LU	
+8-15	964-969	moist	DESCR\_Neutral[30]|FOOD\_Descriptor[31]	
+8-16	970-973	and	_	
+8-17	974-981	dry—are	FOOD\_Descriptor[32]|DESCR\_Neutral[33]	
+8-18	982-985	now	_	
+8-19	986-994	imported	_	
+8-20	994-995	,	_	
+8-21	996-1005	protected	_	
+8-22	1006-1008	by	_	
+8-23	1009-1014	syrup	FOOD\_LU	
+8-24	1015-1017	or	_	
+8-25	1018-1023	sugar	FOOD\_LU	
+8-26	1023-1024	,	_	
+8-27	1025-1027	in	_	
+8-28	1028-1034	sealed	_	
+8-29	1035-1044	canisters	_	
+8-30	1044-1045	;	_	
+8-31	1046-1049	and	_	
+8-32	1050-1054	they	_	
+8-33	1055-1061	retain	_	
+8-34	1062-1065	the	_	
+8-35	1066-1074	original	_	
+8-36	1075-1082	flavour	_	
+8-37	1083-1089	almost	_	
+8-38	1090-1099	unchanged	_	
+8-39	1099-1100	.	_	
+
+#Text=The preservation of meat is effected by—
+#Text=
+#Text=1.
+9-1	1102-1105	The	_	
+9-2	1106-1118	preservation	PR\_LU	
+9-3	1119-1121	of	_	
+9-4	1122-1126	meat	FOOD\_LU[34]|PR\_Food\_Patient[35]	
+9-5	1127-1129	is	_	
+9-6	1130-1138	effected	_	
+9-7	1139-1141	by	_	
+9-8	1141-1142	—	_	
+9-9	1144-1145	1	_	
+9-10	1145-1146	.	_	
+
+#Text==Drying.
+10-1	1147-1148	=	_	
+10-2	1148-1154	Drying	PR\_LU	
+10-3	1154-1155	.	_	
+
+#Text==—This must be done rapidly.
+11-1	1155-1156	=	_	
+11-2	1156-1157	—	_	
+11-3	1157-1161	This	_	
+11-4	1162-1166	must	_	
+11-5	1167-1169	be	_	
+11-6	1170-1174	done	_	
+11-7	1175-1182	rapidly	_	
+11-8	1182-1183	.	_	
+
+#Text=It is a process which is best
+#Text=applicable to fish, but has been applied also to beef.
+12-1	1184-1186	It	_	
+12-2	1187-1189	is	_	
+12-3	1190-1191	a	_	
+12-4	1192-1199	process	_	
+12-5	1200-1205	which	_	
+12-6	1206-1208	is	_	
+12-7	1209-1213	best	_	
+12-8	1214-1224	applicable	_	
+12-9	1225-1227	to	_	
+12-10	1228-1232	fish	FOOD\_LU[36]|PR\_Food\_Patient[37]	
+12-11	1232-1233	,	_	
+12-12	1234-1237	but	_	
+12-13	1238-1241	has	_	
+12-14	1242-1246	been	_	
+12-15	1247-1254	applied	_	
+12-16	1255-1259	also	_	
+12-17	1260-1262	to	_	
+12-18	1263-1267	beef	FOOD\_LU[38]|PR\_Food\_Patient[39]	
+12-19	1267-1268	.	_	
+
+#Text=Dried Hamburg
+#Text=beef is used for making sausages.
+13-1	1269-1274	Dried	PR\_LU	
+13-2	1275-1282	Hamburg	FOOD\_LU[40]|PR\_Food\_Patient[41]|FOOD\_Descriptor[42]|DESCR\_Neutral[43]	
+13-3	1283-1287	beef	FOOD\_LU[40]|PR\_Food\_Patient[41]|FOOD\_LU[44]	
+13-4	1288-1290	is	_	
+13-5	1291-1295	used	_	
+13-6	1296-1299	for	_	
+13-7	1300-1306	making	_	
+13-8	1307-1315	sausages	FOOD\_LU	
+13-9	1315-1316	.	_	
+
+#Text=Pemmican, largely used by Arctic
+#Text=voyagers, consists of a mixture of meat and fat, dried and powdered
+#Text=along with some spices; it is generally eaten with some kind of meal.
+#Text=
+#Text=2.
+14-1	1317-1325	Pemmican	FOOD\_LU[45]|INGESTION\_Food\_Ingestible[46]	
+14-2	1325-1326	,	_	
+14-3	1327-1334	largely	_	
+14-4	1335-1339	used	_	
+14-5	1340-1342	by	_	
+14-6	1343-1349	Arctic	INGESTION\_Ingestor[47]	
+14-7	1350-1358	voyagers	INGESTION\_Ingestor[47]	
+14-8	1358-1359	,	_	
+14-9	1360-1368	consists	_	
+14-10	1369-1371	of	_	
+14-11	1372-1373	a	_	
+14-12	1374-1381	mixture	_	
+14-13	1382-1384	of	_	
+14-14	1385-1389	meat	FOOD\_LU	
+14-15	1390-1393	and	_	
+14-16	1394-1397	fat	_	
+14-17	1397-1398	,	_	
+14-18	1399-1404	dried	PR\_LU	
+14-19	1405-1408	and	_	
+14-20	1409-1417	powdered	PR\_LU	
+14-21	1418-1423	along	_	
+14-22	1424-1428	with	_	
+14-23	1429-1433	some	_	
+14-24	1434-1440	spices	FOOD\_LU[48]|PR\_Food\_Patient[49]	
+14-25	1440-1441	;	_	
+14-26	1442-1444	it	_	
+14-27	1445-1447	is	_	
+14-28	1448-1457	generally	_	
+14-29	1458-1463	eaten	INGESTION\_LU	
+14-30	1464-1468	with	_	
+14-31	1469-1473	some	_	
+14-32	1474-1478	kind	_	
+14-33	1479-1481	of	_	
+14-34	1482-1486	meal	_	
+14-35	1486-1487	.	_	
+14-36	1489-1490	2	_	
+14-37	1490-1491	.	_	
+
+#Text==Cold.
+15-1	1492-1493	=	_	
+15-2	1493-1497	Cold	_	
+15-3	1497-1498	.	_	
+
+#Text==—Frozen meat now forms a very large part of the food of
+#Text=the English people.
+16-1	1498-1499	=	_	
+16-2	1499-1500	—	_	
+16-3	1500-1506	Frozen	PR\_LU	
+16-4	1507-1511	meat	FOOD\_LU[50]|PR\_Food\_Patient[51]	
+16-5	1512-1515	now	_	
+16-6	1516-1521	forms	_	
+16-7	1522-1523	a	_	
+16-8	1524-1528	very	_	
+16-9	1529-1534	large	_	
+16-10	1535-1539	part	_	
+16-11	1540-1542	of	_	
+16-12	1543-1546	the	_	
+16-13	1547-1551	food	FOOD\_LU	
+16-14	1552-1554	of	_	
+16-15	1555-1558	the	_	
+16-16	1559-1566	English	_	
+16-17	1567-1573	people	_	
+16-18	1573-1574	.	_	
+
+#Text=If the meat has been frozen before rigor mortis
+#Text=(rigidity after death) has commenced, it keeps well; if frozen later,
+#Text=it rapidly decomposes after being thawed.
+17-1	1575-1577	If	_	
+17-2	1578-1581	the	_	
+17-3	1582-1586	meat	FOOD\_LU[52]|PR\_Food\_Patient[53]	
+17-4	1587-1590	has	_	
+17-5	1591-1595	been	_	
+17-6	1596-1602	frozen	PR\_LU	
+17-7	1603-1609	before	_	
+17-8	1610-1615	rigor	_	
+17-9	1616-1622	mortis	_	
+17-10	1623-1624	(	_	
+17-11	1624-1632	rigidity	_	
+17-12	1633-1638	after	_	
+17-13	1639-1644	death	_	
+17-14	1644-1645	)	_	
+17-15	1646-1649	has	_	
+17-16	1650-1659	commenced	_	
+17-17	1659-1660	,	_	
+17-18	1661-1663	it	_	
+17-19	1664-1669	keeps	_	
+17-20	1670-1674	well	_	
+17-21	1674-1675	;	_	
+17-22	1676-1678	if	_	
+17-23	1679-1685	frozen	PR\_LU	
+17-24	1686-1691	later	_	
+17-25	1691-1692	,	_	
+17-26	1693-1695	it	_	
+17-27	1696-1703	rapidly	_	
+17-28	1704-1714	decomposes	_	
+17-29	1715-1720	after	_	
+17-30	1721-1726	being	_	
+17-31	1727-1733	thawed	COOKING\_CREATION\_LU	
+17-32	1733-1734	.	_	
+
+#Text=Freezing arrests putrefaction
+#Text=and tends to conceal its odour.
+18-1	1735-1743	Freezing	PR\_LU	
+18-2	1744-1751	arrests	_	
+18-3	1752-1764	putrefaction	_	
+18-4	1765-1768	and	_	
+18-5	1769-1774	tends	_	
+18-6	1775-1777	to	_	
+18-7	1778-1785	conceal	_	
+18-8	1786-1789	its	_	
+18-9	1790-1795	odour	_	
+18-10	1795-1796	.	_	
+
+#Text=Hence the bad condition of frozen fish
+#Text=may not be detected until it is cooked.
+19-1	1797-1802	Hence	_	
+19-2	1803-1806	the	_	
+19-3	1807-1810	bad	_	
+19-4	1811-1820	condition	_	
+19-5	1821-1823	of	_	
+19-6	1824-1830	frozen	PR\_LU	
+19-7	1831-1835	fish	FOOD\_LU[54]|PR\_Food\_Patient[55]	
+19-8	1836-1839	may	_	
+19-9	1840-1843	not	_	
+19-10	1844-1846	be	_	
+19-11	1847-1855	detected	_	
+19-12	1856-1861	until	_	
+19-13	1862-1864	it	_	
+19-14	1865-1867	is	_	
+19-15	1868-1874	cooked	_	
+19-16	1874-1875	.	_	
+
+#Text=In cooking frozen meat, time
+#Text=should be allowed for thawing to occur, before the meat is placed in
+#Text=the oven.
+20-1	1876-1878	In	_	
+20-2	1879-1886	cooking	COOKING\_CREATION\_LU	
+20-3	1887-1893	frozen	PR\_LU	
+20-4	1894-1898	meat	FOOD\_LU[56]|PR\_Food\_Patient[57]	
+20-5	1898-1899	,	_	
+20-6	1900-1904	time	_	
+20-7	1905-1911	should	_	
+20-8	1912-1914	be	_	
+20-9	1915-1922	allowed	_	
+20-10	1923-1926	for	_	
+20-11	1927-1934	thawing	COOKING\_CREATION\_LU	
+20-12	1935-1937	to	_	
+20-13	1938-1943	occur	_	
+20-14	1943-1944	,	_	
+20-15	1945-1951	before	_	
+20-16	1952-1955	the	_	
+20-17	1956-1960	meat	FOOD\_LU[58]|COOKING\_CREATION\_Produced\_Food[59]	
+20-18	1961-1963	is	_	
+20-19	1964-1970	placed	_	
+20-20	1971-1973	in	_	
+20-21	1974-1977	the	_	
+20-22	1978-1982	oven	_	
+20-23	1982-1983	.	_	
+
+#Text=Much of the ill-founded prejudice against frozen meat arises
+#Text=from inattention to this point.
+21-1	1984-1988	Much	_	
+21-2	1989-1991	of	_	
+21-3	1992-1995	the	_	
+21-4	1996-2007	ill-founded	_	
+21-5	2008-2017	prejudice	_	
+21-6	2018-2025	against	_	
+21-7	2026-2032	frozen	PR\_LU	
+21-8	2033-2037	meat	FOOD\_LU[60]|PR\_Food\_Patient[61]	
+21-9	2038-2044	arises	_	
+21-10	2045-2049	from	_	
+21-11	2050-2061	inattention	_	
+21-12	2062-2064	to	_	
+21-13	2065-2069	this	_	
+21-14	2070-2075	point	_	
+21-15	2075-2076	.	_	
+
+#Text=Frozen meat is equal in nutritive value
+#Text=to and does not lose more in cooking than fresh meat.
+#Text=
+#Text=3.
+22-1	2077-2083	Frozen	PR\_LU	
+22-2	2084-2088	meat	FOOD\_LU[62]|PR\_Food\_Patient[63]	
+22-3	2089-2091	is	_	
+22-4	2092-2097	equal	_	
+22-5	2098-2100	in	_	
+22-6	2101-2110	nutritive	_	
+22-7	2111-2116	value	_	
+22-8	2117-2119	to	_	
+22-9	2120-2123	and	_	
+22-10	2124-2128	does	_	
+22-11	2129-2132	not	_	
+22-12	2133-2137	lose	_	
+22-13	2138-2142	more	_	
+22-14	2143-2145	in	_	
+22-15	2146-2153	cooking	COOKING\_CREATION\_LU	
+22-16	2154-2158	than	_	
+22-17	2159-2164	fresh	FOOD\_Descriptor[64]|DESCR\_Positive[65]	
+22-18	2165-2169	meat	FOOD\_LU	
+22-19	2169-2170	.	_	
+22-20	2172-2173	3	_	
+22-21	2173-2174	.	_	
+
+#Text==Salting= may be done with brine or saltpetre (nitrate of
+#Text=potassium); the latter does not decolourize the meat like the former.
+23-1	2175-2176	=	_	
+23-2	2176-2183	Salting	PR\_LU	
+23-3	2183-2184	=	_	
+23-4	2185-2188	may	_	
+23-5	2189-2191	be	_	
+23-6	2192-2196	done	_	
+23-7	2197-2201	with	_	
+23-8	2202-2207	brine	FOOD\_LU[66]|PR\_Medium[67]	
+23-9	2208-2210	or	_	
+23-10	2211-2220	saltpetre	PR\_Medium	
+23-11	2221-2222	(	_	
+23-12	2222-2229	nitrate	_	
+23-13	2230-2232	of	_	
+23-14	2233-2242	potassium	_	
+23-15	2242-2243	)	_	
+23-16	2243-2244	;	_	
+23-17	2245-2248	the	_	
+23-18	2249-2255	latter	_	
+23-19	2256-2260	does	_	
+23-20	2261-2264	not	_	
+23-21	2265-2276	decolourize	_	
+23-22	2277-2280	the	_	
+23-23	2281-2285	meat	FOOD\_LU	
+23-24	2286-2290	like	_	
+23-25	2291-2294	the	_	
+23-26	2295-2301	former	_	
+23-27	2301-2302	.	_	
+
+#Text=Salted meats have lost much of their nutritive material, in the
+#Text=form of albumin and salts, and the remaining meat is harder and more
+#Text=difficult of digestion than fresh meat.
+#Text=
+#Text=4.
+24-1	2303-2309	Salted	PR\_LU[68]|FOOD\_Descriptor[69]|DESCR\_Neutral[70]	
+24-2	2310-2315	meats	FOOD\_LU[71]|PR\_Food\_Patient[72]	
+24-3	2316-2320	have	_	
+24-4	2321-2325	lost	_	
+24-5	2326-2330	much	_	
+24-6	2331-2333	of	_	
+24-7	2334-2339	their	_	
+24-8	2340-2349	nutritive	_	
+24-9	2350-2358	material	_	
+24-10	2358-2359	,	_	
+24-11	2360-2362	in	_	
+24-12	2363-2366	the	_	
+24-13	2367-2371	form	_	
+24-14	2372-2374	of	_	
+24-15	2375-2382	albumin	_	
+24-16	2383-2386	and	_	
+24-17	2387-2392	salts	_	
+24-18	2392-2393	,	_	
+24-19	2394-2397	and	_	
+24-20	2398-2401	the	_	
+24-21	2402-2411	remaining	_	
+24-22	2412-2416	meat	FOOD\_LU	
+24-23	2417-2419	is	_	
+24-24	2420-2426	harder	FOOD\_Descriptor[73]|DESCR\_Negative[74]	
+24-25	2427-2430	and	_	
+24-26	2431-2435	more	_	
+24-27	2436-2445	difficult	_	
+24-28	2446-2448	of	_	
+24-29	2449-2458	digestion	_	
+24-30	2459-2463	than	_	
+24-31	2464-2469	fresh	FOOD\_Descriptor[75]|DESCR\_Positive[76]	
+24-32	2470-2474	meat	FOOD\_LU	
+24-33	2474-2475	.	_	
+24-34	2477-2478	4	_	
+24-35	2478-2479	.	_	
+
+#Text==Immersion in antiseptic liquids= or gases, as sulphite of soda,
+#Text=is objectionable, on account of the addition of extraneous, and not
+#Text=altogether innocuous, salts.
+25-1	2480-2481	=	_	
+25-2	2481-2490	Immersion	PR\_LU	
+25-3	2491-2493	in	PR\_Medium[77]	
+25-4	2494-2504	antiseptic	PR\_Medium[77]	
+25-5	2505-2512	liquids	PR\_Medium[77]	
+25-6	2512-2513	=	PR\_Medium[77]	
+25-7	2514-2516	or	PR\_Medium[77]	
+25-8	2517-2522	gases	PR\_Medium[77]	
+25-9	2522-2523	,	_	
+25-10	2524-2526	as	_	
+25-11	2527-2535	sulphite	PR\_Medium[78]	
+25-12	2536-2538	of	PR\_Medium[78]	
+25-13	2539-2543	soda	PR\_Medium[78]	
+25-14	2543-2544	,	_	
+25-15	2545-2547	is	_	
+25-16	2548-2561	objectionable	_	
+25-17	2561-2562	,	_	
+25-18	2563-2565	on	_	
+25-19	2566-2573	account	_	
+25-20	2574-2576	of	_	
+25-21	2577-2580	the	_	
+25-22	2581-2589	addition	_	
+25-23	2590-2592	of	_	
+25-24	2593-2603	extraneous	_	
+25-25	2603-2604	,	_	
+25-26	2605-2608	and	_	
+25-27	2609-2612	not	_	
+25-28	2613-2623	altogether	_	
+25-29	2624-2633	innocuous	_	
+25-30	2633-2634	,	_	
+25-31	2635-2640	salts	_	
+25-32	2640-2641	.	_	
+
+#Text=Boric acid powder is largely used for
+#Text=sprinkling on meat, particularly rabbits, etc., and for preserving hams
+#Text=and other meats.
+26-1	2642-2647	Boric	PR\_Medium[79]	
+26-2	2648-2652	acid	PR\_Medium[79]	
+26-3	2653-2659	powder	PR\_Medium[79]	
+26-4	2660-2662	is	_	
+26-5	2663-2670	largely	_	
+26-6	2671-2675	used	_	
+26-7	2676-2679	for	_	
+26-8	2680-2690	sprinkling	_	
+26-9	2691-2693	on	_	
+26-10	2694-2698	meat	FOOD\_LU[80]|PR\_Food\_Patient[81]	
+26-11	2698-2699	,	_	
+26-12	2700-2712	particularly	_	
+26-13	2713-2720	rabbits	FOOD\_LU[82]|PR\_Food\_Patient[83]	
+26-14	2720-2721	,	_	
+26-15	2722-2725	etc	_	
+26-16	2725-2726	.	_	
+26-17	2726-2727	,	_	
+26-18	2728-2731	and	_	
+26-19	2732-2735	for	_	
+26-20	2736-2746	preserving	PR\_LU	
+26-21	2747-2751	hams	FOOD\_LU[84]|PR\_Food\_Patient[85]	
+26-22	2752-2755	and	_	
+26-23	2756-2761	other	_	
+26-24	2762-2767	meats	FOOD\_LU[86]|PR\_Food\_Patient[87]	
+26-25	2767-2768	.	_	
+
+#Text=Its use is to be deprecated.
+27-1	2769-2772	Its	_	
+27-2	2773-2776	use	_	
+27-3	2777-2779	is	_	
+27-4	2780-2782	to	_	
+27-5	2783-2785	be	_	
+27-6	2786-2796	deprecated	_	
+27-7	2796-2797	.	_	
+
+#Text=All such meats should be
+#Text=thoroughly washed with water, before being cooked.
+28-1	2798-2801	All	_	
+28-2	2802-2806	such	_	
+28-3	2807-2812	meats	FOOD\_LU[88]|COOKING\_CREATION\_Produced\_Food[89]	
+28-4	2813-2819	should	_	
+28-5	2820-2822	be	_	
+28-6	2823-2833	thoroughly	_	
+28-7	2834-2840	washed	_	
+28-8	2841-2845	with	_	
+28-9	2846-2851	water	FOOD\_LU	
+28-10	2851-2852	,	_	
+28-11	2853-2859	before	_	
+28-12	2860-2865	being	_	
+28-13	2866-2872	cooked	COOKING\_CREATION\_LU	
+28-14	2872-2873	.	_	
+
+#Text=Solutions of _boric acid and borax_ are frequently added to milk.
+29-1	2875-2884	Solutions	PR\_Medium[90]	
+29-2	2885-2887	of	PR\_Medium[90]	
+29-3	2888-2889	_	PR\_Medium[90]	
+29-4	2889-2894	boric	PR\_Medium[90]	
+29-5	2895-2899	acid	PR\_Medium[90]	
+29-6	2900-2903	and	PR\_Medium[90]	
+29-7	2904-2909	borax	PR\_Medium[90]	
+29-8	2909-2910	_	_	
+29-9	2911-2914	are	_	
+29-10	2915-2925	frequently	_	
+29-11	2926-2931	added	_	
+29-12	2932-2934	to	_	
+29-13	2935-2939	milk	FOOD\_LU[91]|PR\_Food\_Patient[92]	
+29-14	2939-2940	.	_	
+
+#Text=Their
+#Text=use is objectionable (_a_) because they tend to conceal incipient
+#Text=decomposition, but do not prevent its possible evil effects, and (_b_)
+#Text=because they enable the farmer to palm off dirty milk on the public.
+30-1	2941-2946	Their	_	
+30-2	2947-2950	use	_	
+30-3	2951-2953	is	_	
+30-4	2954-2967	objectionable	_	
+30-5	2968-2969	(	_	
+30-6	2969-2970	_	_	
+30-7	2970-2971	a	_	
+30-8	2971-2972	_	_	
+30-9	2972-2973	)	_	
+30-10	2974-2981	because	_	
+30-11	2982-2986	they	_	
+30-12	2987-2991	tend	_	
+30-13	2992-2994	to	_	
+30-14	2995-3002	conceal	_	
+30-15	3003-3012	incipient	_	
+30-16	3013-3026	decomposition	_	
+30-17	3026-3027	,	_	
+30-18	3028-3031	but	_	
+30-19	3032-3034	do	_	
+30-20	3035-3038	not	_	
+30-21	3039-3046	prevent	_	
+30-22	3047-3050	its	_	
+30-23	3051-3059	possible	_	
+30-24	3060-3064	evil	_	
+30-25	3065-3072	effects	_	
+30-26	3072-3073	,	_	
+30-27	3074-3077	and	_	
+30-28	3078-3079	(	_	
+30-29	3079-3080	_	_	
+30-30	3080-3081	b	_	
+30-31	3081-3082	_	_	
+30-32	3082-3083	)	_	
+30-33	3084-3091	because	_	
+30-34	3092-3096	they	_	
+30-35	3097-3103	enable	_	
+30-36	3104-3107	the	_	
+30-37	3108-3114	farmer	_	
+30-38	3115-3117	to	_	
+30-39	3118-3122	palm	_	
+30-40	3123-3126	off	_	
+30-41	3127-3132	dirty	FOOD\_Descriptor[93]|DESCR\_Negative[94]	
+30-42	3133-3137	milk	FOOD\_LU	
+30-43	3138-3140	on	_	
+30-44	3141-3144	the	_	
+30-45	3145-3151	public	_	
+30-46	3151-3152	.	_	
+
+#Text=Were the addition of preservatives to milk forbidden, the farmer could
+#Text=perfectly well keep his milk sweet until it reached the town-consumer
+#Text=by adopting strict measures of cleanliness, and by cooling his milk
+#Text=before it leaves the farm.
+31-1	3153-3157	Were	_	
+31-2	3158-3161	the	_	
+31-3	3162-3170	addition	_	
+31-4	3171-3173	of	_	
+31-5	3174-3187	preservatives	PR\_LU	
+31-6	3188-3190	to	_	
+31-7	3191-3195	milk	FOOD\_LU[95]|PR\_Food\_Patient[96]	
+31-8	3196-3205	forbidden	_	
+31-9	3205-3206	,	_	
+31-10	3207-3210	the	_	
+31-11	3211-3217	farmer	_	
+31-12	3218-3223	could	_	
+31-13	3224-3233	perfectly	_	
+31-14	3234-3238	well	_	
+31-15	3239-3243	keep	_	
+31-16	3244-3247	his	_	
+31-17	3248-3252	milk	FOOD\_LU	
+31-18	3253-3258	sweet	FOOD\_Descriptor[97]|DESCR\_Positive[98]	
+31-19	3259-3264	until	_	
+31-20	3265-3267	it	_	
+31-21	3268-3275	reached	_	
+31-22	3276-3279	the	_	
+31-23	3280-3293	town-consumer	_	
+31-24	3294-3296	by	_	
+31-25	3297-3305	adopting	_	
+31-26	3306-3312	strict	_	
+31-27	3313-3321	measures	_	
+31-28	3322-3324	of	_	
+31-29	3325-3336	cleanliness	_	
+31-30	3336-3337	,	_	
+31-31	3338-3341	and	_	
+31-32	3342-3344	by	_	
+31-33	3345-3352	cooling	_	
+31-34	3353-3356	his	_	
+31-35	3357-3361	milk	FOOD\_LU	
+31-36	3362-3368	before	_	
+31-37	3369-3371	it	_	
+31-38	3372-3378	leaves	_	
+31-39	3379-3382	the	_	
+31-40	3383-3387	farm	_	
+31-41	3387-3388	.	_	
+
+#Text=At the least it should be made obligatory on
+#Text=the milk retailer to declare the presence of preservatives in milk sold
+#Text=by him.
+32-1	3389-3391	At	_	
+32-2	3392-3395	the	_	
+32-3	3396-3401	least	_	
+32-4	3402-3404	it	_	
+32-5	3405-3411	should	_	
+32-6	3412-3414	be	_	
+32-7	3415-3419	made	_	
+32-8	3420-3430	obligatory	_	
+32-9	3431-3433	on	_	
+32-10	3434-3437	the	_	
+32-11	3438-3442	milk	FOOD\_LU	
+32-12	3443-3451	retailer	_	
+32-13	3452-3454	to	_	
+32-14	3455-3462	declare	_	
+32-15	3463-3466	the	_	
+32-16	3467-3475	presence	_	
+32-17	3476-3478	of	_	
+32-18	3479-3492	preservatives	PR\_LU	
+32-19	3493-3495	in	_	
+32-20	3496-3500	milk	FOOD\_LU[99]|PR\_Food\_Patient[100]	
+32-21	3501-3505	sold	_	
+32-22	3506-3508	by	_	
+32-23	3509-3512	him	_	
+32-24	3512-3513	.	_	
+
+#Text=The presence of borax or boric acid can be detected by evaporating
+#Text= the milk to dryness, incinerating and then moistening the ash with a
+#Text= drop of strong sulphuric acid.
+33-1	3516-3519	The	_	
+33-2	3520-3528	presence	_	
+33-3	3529-3531	of	_	
+33-4	3532-3537	borax	_	
+33-5	3538-3540	or	_	
+33-6	3541-3546	boric	_	
+33-7	3547-3551	acid	_	
+33-8	3552-3555	can	_	
+33-9	3556-3558	be	_	
+33-10	3559-3567	detected	_	
+33-11	3568-3570	by	_	
+33-12	3571-3582	evaporating	_	
+33-13	3584-3587	the	_	
+33-14	3588-3592	milk	FOOD\_LU	
+33-15	3593-3595	to	_	
+33-16	3596-3603	dryness	_	
+33-17	3603-3604	,	_	
+33-18	3605-3617	incinerating	_	
+33-19	3618-3621	and	_	
+33-20	3622-3626	then	_	
+33-21	3627-3637	moistening	_	
+33-22	3638-3641	the	_	
+33-23	3642-3645	ash	_	
+33-24	3646-3650	with	_	
+33-25	3651-3652	a	_	
+33-26	3654-3658	drop	_	
+33-27	3659-3661	of	_	
+33-28	3662-3668	strong	_	
+33-29	3669-3678	sulphuric	_	
+33-30	3679-3683	acid	_	
+33-31	3683-3684	.	_	
+
+#Text=If a little alcohol be now added, on
+#Text= applying a light, a green flame indicates boric acid.
+34-1	3685-3687	If	_	
+34-2	3688-3689	a	_	
+34-3	3690-3696	little	FOOD\_Count	
+34-4	3697-3704	alcohol	FOOD\_LU	
+34-5	3705-3707	be	_	
+34-6	3708-3711	now	_	
+34-7	3712-3717	added	_	
+34-8	3717-3718	,	_	
+34-9	3719-3721	on	_	
+34-10	3723-3731	applying	_	
+34-11	3732-3733	a	_	
+34-12	3734-3739	light	_	
+34-13	3739-3740	,	_	
+34-14	3741-3742	a	_	
+34-15	3743-3748	green	_	
+34-16	3749-3754	flame	_	
+34-17	3755-3764	indicates	_	
+34-18	3765-3770	boric	_	
+34-19	3771-3775	acid	_	
+34-20	3775-3776	.	_	
+
+#Text=Milk or cream
+#Text= containing boric acid turns blue litmus paper red.
+35-1	3777-3781	Milk	FOOD\_LU	
+35-2	3782-3784	or	_	
+35-3	3785-3790	cream	FOOD\_LU	
+35-4	3792-3802	containing	_	
+35-5	3803-3808	boric	_	
+35-6	3809-3813	acid	_	
+35-7	3814-3819	turns	_	
+35-8	3820-3824	blue	_	
+35-9	3825-3831	litmus	_	
+35-10	3832-3837	paper	_	
+35-11	3838-3841	red	_	
+35-12	3841-3842	.	_	
+
+#Text=_Formalin_ is also sometimes used as a preservative for milk in very
+#Text=weak solution.
+36-1	3844-3845	_	_	
+36-2	3845-3853	Formalin	PR\_Medium	
+36-3	3853-3854	_	_	
+36-4	3855-3857	is	_	
+36-5	3858-3862	also	_	
+36-6	3863-3872	sometimes	_	
+36-7	3873-3877	used	_	
+36-8	3878-3880	as	_	
+36-9	3881-3882	a	_	
+36-10	3883-3895	preservative	PR\_LU	
+36-11	3896-3899	for	_	
+36-12	3900-3904	milk	FOOD\_LU[101]|PR\_Food\_Patient[102]	
+36-13	3905-3907	in	_	
+36-14	3908-3912	very	_	
+36-15	3913-3917	weak	_	
+36-16	3918-3926	solution	_	
+36-17	3926-3927	.	_	
+
+#Text=Its presence can be determined by diluting the milk with water in a
+#Text= test-tube, and running strong sulphuric acid down the side of the
+#Text= tube, taking care to prevent mixing.
+37-1	3930-3933	Its	_	
+37-2	3934-3942	presence	_	
+37-3	3943-3946	can	_	
+37-4	3947-3949	be	_	
+37-5	3950-3960	determined	_	
+37-6	3961-3963	by	_	
+37-7	3964-3972	diluting	_	
+37-8	3973-3976	the	_	
+37-9	3977-3981	milk	FOOD\_LU	
+37-10	3982-3986	with	_	
+37-11	3987-3992	water	FOOD\_LU	
+37-12	3993-3995	in	_	
+37-13	3996-3997	a	_	
+37-14	3999-4008	test-tube	_	
+37-15	4008-4009	,	_	
+37-16	4010-4013	and	_	
+37-17	4014-4021	running	_	
+37-18	4022-4028	strong	_	
+37-19	4029-4038	sulphuric	_	
+37-20	4039-4043	acid	_	
+37-21	4044-4048	down	_	
+37-22	4049-4052	the	_	
+37-23	4053-4057	side	_	
+37-24	4058-4060	of	_	
+37-25	4061-4064	the	_	
+37-26	4066-4070	tube	_	
+37-27	4070-4071	,	_	
+37-28	4072-4078	taking	_	
+37-29	4079-4083	care	_	
+37-30	4084-4086	to	_	
+37-31	4087-4094	prevent	_	
+37-32	4095-4101	mixing	_	
+37-33	4101-4102	.	_	
+
+#Text=At the junction of the acid and
+#Text= diluted milk a violet ring is seen if formalin is present.
+38-1	4103-4105	At	_	
+38-2	4106-4109	the	_	
+38-3	4110-4118	junction	_	
+38-4	4119-4121	of	_	
+38-5	4122-4125	the	_	
+38-6	4126-4130	acid	_	
+38-7	4131-4134	and	_	
+38-8	4136-4143	diluted	FOOD\_Descriptor[103]|DESCR\_Neutral[104]	
+38-9	4144-4148	milk	FOOD\_LU	
+38-10	4149-4150	a	_	
+38-11	4151-4157	violet	_	
+38-12	4158-4162	ring	_	
+38-13	4163-4165	is	_	
+38-14	4166-4170	seen	_	
+38-15	4171-4173	if	_	
+38-16	4174-4182	formalin	_	
+38-17	4183-4185	is	_	
+38-18	4186-4193	present	_	
+38-19	4193-4194	.	_	
+
+#Text=_Salicylic acid_ was formerly used as a milk preservative, but is now
+#Text=seldom used except in beers.
+39-1	4196-4197	_	_	
+39-2	4197-4206	Salicylic	PR\_Medium[105]	
+39-3	4207-4211	acid	PR\_Medium[105]	
+39-4	4211-4212	_	_	
+39-5	4213-4216	was	_	
+39-6	4217-4225	formerly	_	
+39-7	4226-4230	used	_	
+39-8	4231-4233	as	_	
+39-9	4234-4235	a	_	
+39-10	4236-4240	milk	FOOD\_LU[106]|PR\_Food\_Patient[107]	
+39-11	4241-4253	preservative	PR\_LU	
+39-12	4253-4254	,	_	
+39-13	4255-4258	but	_	
+39-14	4259-4261	is	_	
+39-15	4262-4265	now	_	
+39-16	4266-4272	seldom	_	
+39-17	4273-4277	used	_	
+39-18	4278-4284	except	_	
+39-19	4285-4287	in	_	
+39-20	4288-4293	beers	FOOD\_LU[108]|PR\_Food\_Patient[109]	
+39-21	4293-4294	.	_	
+
+#Text=All these preservatives are objectionable
+#Text=in milk, although their injurious action may be difficult to prove.
+#Text=
+#Text=5.
+40-1	4295-4298	All	_	
+40-2	4299-4304	these	_	
+40-3	4305-4318	preservatives	PR\_LU	
+40-4	4319-4322	are	_	
+40-5	4323-4336	objectionable	_	
+40-6	4337-4339	in	_	
+40-7	4340-4344	milk	PR\_Food\_Patient[110]|FOOD\_LU[111]	
+40-8	4344-4345	,	_	
+40-9	4346-4354	although	_	
+40-10	4355-4360	their	_	
+40-11	4361-4370	injurious	_	
+40-12	4371-4377	action	_	
+40-13	4378-4381	may	_	
+40-14	4382-4384	be	_	
+40-15	4385-4394	difficult	_	
+40-16	4395-4397	to	_	
+40-17	4398-4403	prove	_	
+40-18	4403-4404	.	_	
+40-19	4406-4407	5	_	
+40-20	4407-4408	.	_	
+
+#Text==Coating with fat or gelatine= has only succeeded in conjunction
+#Text=with the exclusion of air.
+41-1	4409-4410	=	_	
+41-2	4410-4417	Coating	PR\_LU	
+41-3	4418-4422	with	PR\_Medium[112]	
+41-4	4423-4426	fat	PR\_Medium[112]	
+41-5	4427-4429	or	PR\_Medium[112]	
+41-6	4430-4438	gelatine	PR\_Medium[112]|FOOD\_LU[113]	
+41-7	4438-4439	=	_	
+41-8	4440-4443	has	_	
+41-9	4444-4448	only	_	
+41-10	4449-4458	succeeded	_	
+41-11	4459-4461	in	_	
+41-12	4462-4473	conjunction	_	
+41-13	4474-4478	with	_	
+41-14	4479-4482	the	_	
+41-15	4483-4492	exclusion	_	
+41-16	4493-4495	of	_	
+41-17	4496-4499	air	_	
+41-18	4499-4500	.	_	
+
+#Text=This process is especially applicable to
+#Text=fishes, as tinned sardines.
+42-1	4501-4505	This	_	
+42-2	4506-4513	process	_	
+42-3	4514-4516	is	_	
+42-4	4517-4527	especially	_	
+42-5	4528-4538	applicable	_	
+42-6	4539-4541	to	_	
+42-7	4542-4548	fishes	FOOD\_LU[114]|PR\_Food\_Patient[115]	
+42-8	4548-4549	,	_	
+42-9	4550-4552	as	_	
+42-10	4553-4559	tinned	PR\_LU	
+42-11	4560-4568	sardines	FOOD\_LU[116]|PR\_Food\_Patient[117]	
+42-12	4568-4569	.	_	
+
+#Text=In a modified form, it is useful in coating
+#Text=potted meats, etc.
+#Text=
+#Text=6.
+43-1	4570-4572	In	_	
+43-2	4573-4574	a	_	
+43-3	4575-4583	modified	_	
+43-4	4584-4588	form	_	
+43-5	4588-4589	,	_	
+43-6	4590-4592	it	_	
+43-7	4593-4595	is	_	
+43-8	4596-4602	useful	_	
+43-9	4603-4605	in	_	
+43-10	4606-4613	coating	PR\_LU	
+43-11	4614-4620	potted	FOOD\_Descriptor[118]|DESCR\_Neutral[119]|PR\_LU[120]	
+43-12	4621-4626	meats	FOOD\_LU[121]|PR\_Food\_Patient[122]	
+43-13	4626-4627	,	_	
+43-14	4628-4631	etc	_	
+43-15	4631-4632	.	_	
+43-16	4634-4635	6	_	
+43-17	4635-4636	.	_	
+
+#Text==Heating and Air-tight Cases.
+44-1	4637-4638	=	_	
+44-2	4638-4645	Heating	PR\_LU	
+44-3	4646-4649	and	_	
+44-4	4650-4659	Air-tight	PR\_Medium[123]	
+44-5	4660-4665	Cases	PR\_Medium[123]	
+44-6	4665-4666	.	_	
+
+#Text==—Tinned meats prepared according
+#Text=to this method are imported in large quantities.
+45-1	4666-4667	=	_	
+45-2	4667-4668	—	_	
+45-3	4668-4674	Tinned	FOOD\_Descriptor[124]|DESCR\_Neutral[125]|PR\_LU[126]	
+45-4	4675-4680	meats	FOOD\_LU[127]|PR\_Food\_Patient[128]	
+45-5	4681-4689	prepared	_	
+45-6	4690-4699	according	_	
+45-7	4700-4702	to	_	
+45-8	4703-4707	this	_	
+45-9	4708-4714	method	_	
+45-10	4715-4718	are	_	
+45-11	4719-4727	imported	_	
+45-12	4728-4730	in	_	
+45-13	4731-4736	large	_	
+45-14	4737-4747	quantities	_	
+45-15	4747-4748	.	_	
+
+#Text=In the process of
+#Text=preparation, the cases are packed with meat and filled up with gravy,
+#Text=and then closed with a cover which is hermetically sealed, except at
+#Text=one point.
+46-1	4749-4751	In	_	
+46-2	4752-4755	the	_	
+46-3	4756-4763	process	_	
+46-4	4764-4766	of	_	
+46-5	4767-4778	preparation	_	
+46-6	4778-4779	,	_	
+46-7	4780-4783	the	_	
+46-8	4784-4789	cases	_	
+46-9	4790-4793	are	_	
+46-10	4794-4800	packed	_	
+46-11	4801-4805	with	_	
+46-12	4806-4810	meat	FOOD\_LU	
+46-13	4811-4814	and	_	
+46-14	4815-4821	filled	_	
+46-15	4822-4824	up	_	
+46-16	4825-4829	with	_	
+46-17	4830-4835	gravy	FOOD\_LU	
+46-18	4835-4836	,	_	
+46-19	4837-4840	and	_	
+46-20	4841-4845	then	_	
+46-21	4846-4852	closed	_	
+46-22	4853-4857	with	_	
+46-23	4858-4859	a	_	
+46-24	4860-4865	cover	_	
+46-25	4866-4871	which	_	
+46-26	4872-4874	is	_	
+46-27	4875-4887	hermetically	_	
+46-28	4888-4894	sealed	_	
+46-29	4894-4895	,	_	
+46-30	4896-4902	except	_	
+46-31	4903-4905	at	_	
+46-32	4906-4909	one	_	
+46-33	4910-4915	point	_	
+46-34	4915-4916	.	_	
+
+#Text=The case is then heated to 250° Fahr., in order to drive
+#Text=out all air, and destroy any putrefactive germs present.
+47-1	4917-4920	The	_	
+47-2	4921-4925	case	_	
+47-3	4926-4928	is	_	
+47-4	4929-4933	then	_	
+47-5	4934-4940	heated	_	
+47-6	4941-4943	to	_	
+47-7	4944-4947	250	_	
+47-8	4947-4948	°	_	
+47-9	4949-4953	Fahr	_	
+47-10	4953-4954	.	_	
+47-11	4954-4955	,	_	
+47-12	4956-4958	in	_	
+47-13	4959-4964	order	_	
+47-14	4965-4967	to	_	
+47-15	4968-4973	drive	_	
+47-16	4974-4977	out	_	
+47-17	4978-4981	all	_	
+47-18	4982-4985	air	_	
+47-19	4985-4986	,	_	
+47-20	4987-4990	and	_	
+47-21	4991-4998	destroy	_	
+47-22	4999-5002	any	_	
+47-23	5003-5015	putrefactive	_	
+47-24	5016-5021	germs	_	
+47-25	5022-5029	present	_	
+47-26	5029-5030	.	_	
+
+#Text=The open
+#Text=point is sealed while the gravy is still boiling, thus making the case
+#Text=completely air-tight.
+48-1	5031-5034	The	_	
+48-2	5035-5039	open	_	
+48-3	5040-5045	point	_	
+48-4	5046-5048	is	_	
+48-5	5049-5055	sealed	_	
+48-6	5056-5061	while	_	
+48-7	5062-5065	the	_	
+48-8	5066-5071	gravy	FOOD\_LU	
+48-9	5072-5074	is	_	
+48-10	5075-5080	still	_	
+48-11	5081-5088	boiling	_	
+48-12	5088-5089	,	_	
+48-13	5090-5094	thus	_	
+48-14	5095-5101	making	_	
+48-15	5102-5105	the	_	
+48-16	5106-5110	case	_	
+48-17	5111-5121	completely	_	
+48-18	5122-5131	air-tight	_	
+48-19	5131-5132	.	_	
+
+#Text=Albumin is coagulated at about 170° Fahr.; the
+#Text=higher temperature, which it is found necessary to employ, overcooks
+#Text=the meat and renders it less digestible (see also p. 40).
+49-1	5133-5140	Albumin	_	
+49-2	5141-5143	is	_	
+49-3	5144-5154	coagulated	_	
+49-4	5155-5157	at	_	
+49-5	5158-5163	about	_	
+49-6	5164-5167	170	_	
+49-7	5167-5168	°	_	
+49-8	5169-5173	Fahr	_	
+49-9	5173-5174	.	_	
+49-10	5174-5175	;	_	
+49-11	5176-5179	the	_	
+49-12	5180-5186	higher	_	
+49-13	5187-5198	temperature	_	
+49-14	5198-5199	,	_	
+49-15	5200-5205	which	_	
+49-16	5206-5208	it	_	
+49-17	5209-5211	is	_	
+49-18	5212-5217	found	_	
+49-19	5218-5227	necessary	_	
+49-20	5228-5230	to	_	
+49-21	5231-5237	employ	_	
+49-22	5237-5238	,	_	
+49-23	5239-5248	overcooks	COOKING\_CREATION\_LU	
+49-24	5249-5252	the	_	
+49-25	5253-5257	meat	FOOD\_LU[129]|COOKING\_CREATION\_Produced\_Food[130]	
+49-26	5258-5261	and	_	
+49-27	5262-5269	renders	_	
+49-28	5270-5272	it	_	
+49-29	5273-5277	less	_	
+49-30	5278-5288	digestible	_	
+49-31	5289-5290	(	_	
+49-32	5290-5293	see	_	
+49-33	5294-5298	also	_	
+49-34	5299-5300	p	_	
+49-35	5300-5301	.	_	
+49-36	5302-5304	40	_	
+49-37	5304-5305	)	_	
+49-38	5305-5306	.	_	
