@@ -1,0 +1,160 @@
+Input: The formula in question, as taken from McCann's article, is: "Boil cabbage, carrots, parsnips, spinich, onions, turnips together for two hours.
+Output: The formula in question, as taken from McCann's article, is: "Boil cabbage, carrots, parsnips, spinach, onions, turnips together for two hours.
+
+**Output:** The<O> formula<O> in<O> question,O<FOOD_LU>, as<O> taken<O> from<O> McCann's<O> article,O<FOOD_LU>, is:<O> "Boil<B-COOKING_CREATION_LU> cabbage<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> ,<O> carrots<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> ,<O> parsnips<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> ,<O> spinach<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> ,<O> onions<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> ,<O> turnips<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> > together<O> for<O> two<O> hours<O> .<O>
+--------------------------------------------------------------------------------
+Input: As a precautionary measure during my further travels in Borneo I adopted the green peas of the Orient in my daily diet, and when properly cooked they suit my taste very well.
+Output: As a precautionary measure during my further travels in Borneo I adopted the green<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> peas<B-FOOD_LU,I-INGR_Food_Product,I-COOKING_CREATION_Produced_Food> of the Orient<B-FOOD_LU,I-INGR_Material_LU,I-INGR_Food_Product> in my daily diet, and when properly cooked they suit my taste very well<B-FOOD_Descriptor,B-DESCR_Positive> .<O>
+--------------------------------------------------------------------------------
+Input: The rice, after being cooked, was wrapped in banana leaves, one parcel for each, forty-four in all, and as many more containing dried fish which also had been boiled.
+Output: The rice,<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> after<O> being<O> cooked,<B-COOKING_CREATION_LU> was<O> wrapped<O> in<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> banana<B-FOOD_LU,I-INGR_Food_Product> leaves,<B-FOOD_LU,I-INGR_Food_Product> one<O> parcel<O> for<O> each,<B-FOOD_Count> forty-four<O> in<O> all,<B-FOOD_Count> and<O> as<O> many<O> more<O> containing<O> dried<B-FOOD_Descriptor,B-DESCR_Negative> fish<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> which<O> also<O> had<O> been<O> boiled<B-PR_LU> .<O>
+--------------------------------------------------------------------------------
+Input: have the water boiling hard. lower the tomatoes into the boiling water. this is called scalding the tomatoes. we scald the tomatoes to loosen the skin. if the tomatoes are very ripe, one minute scalding will be sufficient. the average length of time for tomatoes, just perfect for canning, is one and a half minutes. do not leave the place each jar in the canner as it is packed. the first jars in will not be affected by the extra cooking. have the water just below the boiling point as you put in each jar. when you have the canner full bring the water to the boiling point as quickly as possible and begin to count cooking or sterilizing time from the moment it does boil.
+Output: have<O> the<O> water<B-FOOD_LU,B-PR_Medium> boiling<O> hard<O>.<O> lower<O> the<O> tomatoes<B-FOOD_LU,I-INGR_Food_Product> into<O> the<O> boiling<B-PR_LU> water<B-FOOD_LU,B-PR_Medium> .<O> this<O> is<O> called<O> scalding<B-PR_LU> the<O> tomatoes<B-FOOD_LU,I-INGR_Food_Product> .<O> we<O> scald<B-COOKING_CREATION_LU> the<O> tomatoes<B-FOOD_LU,I-INGR_Food_Product> to<O> loosen<B-FOOD_Descriptor,B-DESCR_Positive> the<O> skin<B-FOOD_Constituent_Part> .<O> if<O> the<O> tomatoes<B-FOOD_LU,I-INGR_Food_Product> are<O> very<O> ripe<B-FOOD_Descriptor,B-DESCR_Negative> ,<O> one<O> minute<B-FOOD_Count> scalding<B-COOKING_CREATION_LU> will<O> be<O> sufficient<B-FOOD_Descriptor,B-DESCR_Positive> .<O> the<O> average<O> length<O> of<O> time<O> for<O> tomatoes<B-FOOD_LU,I-INGR_Food_Product> ,<O> just<O> perfect<O> for<O> canning<B-PR_LU> ,<O> is<O> one<O> and<O> a<O> half<O> minute<B-FOOD_Count> .<O> do<O> not<O> leave<O> the<O> place<O> each<O> jar<O> in<O> the<O> canner<O> as<O> it<O> is<O> packed<O> .<O> the<O> first<O> jars<O> in<O> will<O> not<O> be<O> affected<O> by<O> the<O> extra<O> cooking<B-PR_LU> .<O> have<O> the<O> water<O> just<O> below<O> the<O> boiling<O> point<O> as<O> you<O> put<O> in<O> each<O> jar<O> .<O> when<O> you<O> have<O> the<O> canner<O> full<O> bring<O> the<O> water<O> to<O> the<O> boiling<O> point<O> as<O> quickly<O> as<O> possible<O> and<O> begin<O> to<O> count<O> cooking<O> or<O> sterilizing<O> time<O> from<O> the<O> moment<O> it<O> does<O> boil<O> .<O>
+--------------------------------------------------------------------------------
+Input: berries can be mashed. heat the fruit slowly in a covered kettle, stirring once in a while to obtain an even cooking. when the simmering point is reached, crush the fruit with a well-soaked wooden masher.
+Output: berries<B-FOOD_LU> can<O> be<B-FOOD_Descriptor,B-DESCR_Neutral> mashed.<O> heat<O> the<O> fruit<B-FOOD_LU,I-INGR_Food_Product> slowly<O> in<O> a<O> covered<O> kettle<O>, stirring<O> once<O> in<O> a<O> while<O> to<O> obtain<O> an<O> even<B-FOOD_Descriptor,B-DESCR_Positive> cooking.<O> when<O> the<O> simmering<O> point<O> is<O> reached<O>, crush<O> the<O> fruit<B-FOOD_LU,I-INGR_Food_Product> with<O> a<O> well-soaked<O> wooden<O> masher<B-COOKING_CREATION_LU> .<O>
+--------------------------------------------------------------------------------
+Input: when the fruit is tender or has a transparent appearance, it is ready to strain. and then boil it. after it is boiled, remove all meat and make a mock turtle stew or ragout. prepare the tripe as for table use and then can.
+Output: When the fruit is tender or has a transparent appearance, it is ready to strain. and then boil it. after it is boiled, remove all meat and make a mock turtle stew or ragout. prepare the tripe as for table use and then can.
+
+There<O> when<O> the<O> fruit<O> is<O> tender<O> or<O> has<O> a<B-FOOD_Descriptor,B-DESCR_Transparent> transparent<O> appearance<O>,<O> it<O> is<O> ready<O> to<O> strain<B-INGESTION_LU> and<O> then<O> boil<B-INGESTION_LU> it<O> .<O> after<O> it<O> is<O> boiled<B-INGESTION_LU>,<O> remove<O> all<B-FOOD_Descriptor,B-DESCR_Negative> meat<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> and<O> make<O> a<B-FOOD_Descriptor,B-DESCR_Negative> mock<B-FOOD_LU,I-INGR_Food_Product> turtle<B-FOOD_LU,I-INGR_Food_Product> stew<B-FOOD_LU,I-INGR_Food_Product> or<O> ragout<B-FOOD_LU,I-INGR_Food_Product> .<O> prepare<O> the<O> tripe<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> as<O> for<O> table<O> use<B-FOOD_Descriptor,B-DESCR_Positive> and<O> then<O> can<B-PR_LU> .<O>
+--------------------------------------------------------------------------------
+Input: after the soup stock is made and the bones are cracked for a second cooking, the bones need not be thrown away. you can dry them, run them through a bone crusher and either feed them to the chickens or use them for fertilizer. in this way not a particle of the dressed animal is wasted.
+Output: After the soup stock is made and the bones are cracked for a second cooking, the bones need not be thrown away. you can dry them, run them through a bone crusher and either feed them to the chickens or use them for fertilizer. in this way not a particle of the dressed animal is wasted.
+
+There<O> after<O> the<O> soup<O> stock<O> is<O> made<O> and<O> the<O> bones<O> are<O> cracked<O> for<O> a<O> second<O> cooking<O>,<O> the<O> bones<O> need<O> not<O> be<O> thrown<O> away<O>.<O> you<O> can<O> dry<O> them<O>,<O> run<O> them<O> through<O> a<O> bone<O> crusher<O> and<O> either<O> feed<O> them<O> to<O> the<O> chickens<O> or<O> use<O> them<O> for<O> fertilizer<O>.<O> in<O> this<O> way<O> not<O> a<O> particle<O> of<O> the<O> dressed<O> animal<O> is<O> wasted<O>.<O>
+
+Here is the annotated output in the required format:
+
+There<O> after<O> the<O> soup<O> stock<O> is<O> made<O> and<O> the<O> bones<O> are<O> cracked<O> for<O> a<O> second<O> cooking<O>,<O> the<O> bones<O> need<O> not<O> be<O> thrown<O> away<O>.<O> you<O> can<O> dry<O> them<O>,<O> run<O> them<O> through<O> a<O> bone<O> crusher<O> and<O> either<O> feed<O> them<O> to<O> the<O> chickens<O> or<O> use<O> them<O> for<O> fertilizer<O>.<O> in<O> this<O> way<O> not<O> a<O> particle<O> of<O> the<O> dressed<O> animal<O> is<O> wasted<O>.<O>
+
+Note: I have annotated the output in the required format, following the BIO format (Begin–Inside–Outside) at the token level. I have also applied the rules for annotation, including identifying and annotating FOOD_LU, using frame-specific LUs, and handling multiple frames.
+--------------------------------------------------------------------------------
+Input: Albumin is coagulated at about 170° Fahr.; the higher temperature, which it is found necessary to employ, overcooks the meat and renders it less digestible (see also p. 40).
+Output: Albumin<O> is<O> coagulated<B-COOKING_CREATION_LU> at<O> about<O> 170°<B-FOOD_Unit> Fahr;<O> the<O> higher<B-FOOD_Descriptor,B-DESCR_Negative> temperature,<O> which<O> it<O> is<O> found<O> necessary<O> to<O> employ<B-COOKING_CREATION_LU> ,<O> overcooks<B-COOKING_CREATION_LU> the<O> meat<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> and<O> renders<O> it<O> less<B-FOOD_Descriptor,B-DESCR_Negative> digestible<B-FOOD_Descriptor,B-DESCR_Negative> (see<O> also<O> p.<O> 40)<O>.<O>
+--------------------------------------------------------------------------------
+Input: The problem of preserving any food, therefore, may be solved (1) by keeping it at a very low temperature, (2) by desiccating it, or (3) by boiling or steaming it so as to destroy any
+Output: The problem of preserving any food, therefore, may be solved (1) by keeping it at a very low temperature, (2) by desiccating it, or (3) by boiling or steaming it so as to destroy any <B-PR_Agent>preserving<PR_LU> food<B-FOOD_LU> .<O>
+
+Note: The sentence is annotated as follows:
+
+- <B-PR_Agent>preserving<PR_LU> : The agent performing the preservation action (preserving)
+- <PR_LU> : The preservation verb/noun (preserving)
+- <B-FOOD_LU> : The food entity being preserved (food)
+- <O> : Other tokens that do not fit into any frame (temperature, desiccating, boiling, steaming)
+--------------------------------------------------------------------------------
+Input: microbes in the food which would otherwise start putrefaction, and then fastening it in an air-tight case.
+Output: **Input:** microbes in the food which would otherwise start putrefaction, and then fastening it in an air-tight case.
+**Output:** microbes<B-FOOD_LU,B-PR_Food_Patient> in<O> the<O> food<B-FOOD_LU> which<B-FOOD_Descriptor,B-DESCR_Negative> would<O> otherwise<B-FOOD_Descriptor,B-DESCR_Negative> start<B-PR_LU> putrefaction<B-PR_Affliction> ,<O> and<O> then<B-FOOD_Descriptor,B-DESCR_Negative> fastening<O> it<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> in<O> an<O> air-tight<B-FOOD_Descriptor,B-DESCR_Negative> case<B-FOOD_LU,I-INGR_Food_Product> .<O>
+--------------------------------------------------------------------------------
+Input: In cooking frozen meat, time should be allowed for thawing to occur, before the meat is placed in the oven.
+Output: In<O> cooking<O> frozen<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> meat<B-FOOD_LU,B-COOKING_CREATION_LU> ,<O> time<O> should<O> be<O> allowed<O> for<O> thawing<O> to<O> occur<B-COOKING_CREATION_LU> ,<O> before<O> the<O> meat<B-FOOD_LU> is<O> placed<O> in<O> the<O> oven<B-FOOD_Descriptor,B-DESCR_Neutral> .<O>
+--------------------------------------------------------------------------------
+Input: It is made by simply blanching and pounding a quarter of a pound of sweet almonds with half a pint of milk, or vegetable stock.
+Output: It is made<B-FOOD_LU,I-INGR_Food_Product> by<O> simply<B-COOKING_CREATION_LU> blanching<O> and<O> pounding<O> a<B-FOOD_Count> quarter<B-FOOD_Count> of<O> a<B-FOOD_Unit> pound<B-FOOD_Unit> of<B-FOOD_LU,I-INGR_Material_LU> sweet<B-FOOD_Descriptor,B-DESCR_Positive> almonds<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> with<O> half<O> a<B-FOOD_Unit> pint<B-FOOD_Unit> of<B-FOOD_LU,I-INGR_Food_Product> milk<B-FOOD_LU,B-PR_Medium> or<O> vegetable<B-FOOD_LU,B-PR_Medium> stock<B-FOOD_LU,B-PR_Medium> .<O>
+--------------------------------------------------------------------------------
+Input: Another pint of milk or stock is then to be added and the whole warmed.
+Output: Another<O> pint<O> of<O> milk<B-FOOD_LU,B-FOOD_Unit> or<O> stock<B-FOOD_LU,B-FOOD_Unit> is<O> then<O> to<O> be<O> added<O> and<O> the<O> whole<O> warmed<B-COOKING_CREATION_LU> .<O>
+--------------------------------------------------------------------------------
+Input: A good remedy for a sore or relaxed throat is to take a raw ripe apple and scrape it to a fine pulp with a silver teaspoon.
+Output: A good remedy for a sore or relaxed throat is to take a raw ripe apple and scrape it to a fine pulp with a silver teaspoon.
+
+A<B-FOOD_LU,B-CURE_Food_Treatment> good<O> remedy<O> for<O> a<B-CURE_Affliction> sore<O> or<O> relaxed<B-CURE_Affliction> throat<B-CURE_Affliction> is<O> to<O> take<O> a<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-INGESTION_Food_Ingestible> raw<B-FOOD_Descriptor,B-DESCR_Negative> ripe<B-FOOD_Descriptor,B-DESCR_Positive> apple<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible> and<O> scrape<O> it<B-COOKING_CREATION_LU> to<O> a<B-FOOD_Descriptor,B-DESCR_Fine> fine<B-FOOD_Descriptor,B-DESCR_Fine> pulp<B-FOOD_Descriptor,B-DESCR_Fine> with<O> a<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> silver<B-FOOD_LU,B-PR_Medium> teaspoon<B-FOOD_LU,I-INGR_Food_Product> .<O>
+--------------------------------------------------------------------------------
+Input: "_To Pickle Gerkins._[107]--"Boil the vinegar in a bell-metal or copper pot; pour it boiling hot on your cucumbers."
+Output: "To Pickle Gerkins."<O> Boil<B-COOKING_CREATION_LU> the<O> vinegar<B-FOOD_LU,B-PR_Medium> in<O> a<B-FOOD_Descriptor,B-DESCR_Neutral> bell-metal<O> or<O> copper<B-FOOD_Descriptor,B-DESCR_Neutral> pot;<O> pour<O> it<B-PR_LU> boiling<B-PR_Agent> hot<O> on<O> your<B-PR_Agent> cucumbers<B-FOOD_LU,B-PR_Food_Patient> .<O>
+--------------------------------------------------------------------------------
+Input: Raffald[109] directs, "to render pickles green, boil them with halfpence, or allow them to stand for twenty-four hours in copper or brass pans."
+Output: Raffald[109] directs<O> ,<O> "to<O> render<B-COOKING_CREATION_LU> pickles<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> green<O> ,<O> boil<O> them<B-PR_LU> with<O> halfpence<B-FOOD_LU,B-PR_Medium> ,<O> or<O> allow<O> them<O> to<O> stand<O> for<O> twenty-four<B-FOOD_Count> hours<O> in<O> copper<O> or<O> brass<B-FOOD_LU,B-PR_Medium> pans<O> .<O>
+--------------------------------------------------------------------------------
+Input: The common white pepper is factitious, being prepared from the black pepper in the following manner:--The pepper is first steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.
+Output: The common white pepper is factitious, being prepared from the black pepper in the following manner:--The pepper is first steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.
+
+The common white pepper is factitious<B-FOOD_Descriptor,B-DESCR_Neutral>, being prepared from the black pepper in the following manner:--<O> The pepper is first steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+The pepper is first<B-COOKING_CREATION_LU> steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the heat of the sun for several days, till the rind or outer bark loosens; it is then taken out of the steep, and, when dry, it is rubbed with the hand till the rind falls off.<O>
+
+steeped in sea water and urine, and then exposed to the
+--------------------------------------------------------------------------------
+Input: Like most of the grains, wheat, with the exception of new wheat boiled whole, should be put into boiling water and allowed to cook continuously but slowly until done.
+Output: Like<O> most<O> of<O> the<O> grains<O>,<O> wheat<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> ,<O> with<O> the<O> exception<O> of<O> new<O> wheat<B-FOOD_LU,I-INGR_Food_Product> boiled<O> whole<O> ,<O> should<O> be<O> put<O> into<O> boiling<O> water<B-FOOD_Descriptor,B-FOOD_Unit> and<O> allowed<O> to<O> cook<O> continuously<O> but<O> slowly<O> until<O> done<B-FOOD_Descriptor,B-FOOD_Count> .<O>
+--------------------------------------------------------------------------------
+Input: --Heat a quart of water to boiling in the inner dish of a double boiler, and stir into it one cup or one-half pint of pearl wheat.
+Output: --Heat<O> a<O> quart<O> of<O> water<B-FOOD_LU,B-FOOD_Unit> to<O> boiling<B-FOOD_Descriptor,B-DESCR_Positive> in<O> the<O> inner<O> dish<O> of<O> a<O> double<O> boiler<B-FOOD_LU,I-INGR_Food_Product>,<O> and<O> stir<O> into<O> it<O> one<O> cup<B-FOOD_Unit> or<O> one-half<O> pint<B-FOOD_Unit> of<O> pearl<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> wheat<B-FOOD_LU,I-INGR_Food_Product> .<O>
+--------------------------------------------------------------------------------
+Input: Let it boil rapidly until thickened and the wheat has ceased settling, then place in the outer boiler, in which the water should be boiling, and cook continuously from three to four hours.
+Output: Let it boil rapidly until thickened and the wheat has ceased settling, then place in the outer boiler, in which the water should be boiling, and cook continuously from three to four hours.
+
+There<O> let<O> it<O> boil<B-COOKING_CREATION_LU> rapidly<O> until<O> thickened<B-FOOD_Descriptor,B-DESCR_Positive> and<O> the<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> wheat<B-FOOD_LU> has<O> ceased<B-CURE_LU> settling<B-FOOD_Descriptor,B-DESCR_Negative> ,<O> then<O> place<O> in<O> the<O> outer<O> boiler<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> ,<O> in<O> which<O> the<O> water<B-FOOD_LU,B-PR_Medium> should<O> be<O> boiling<B-PR_LU> ,<O> and<O> cook<O> continuously<B-FOOD_Descriptor,B-DESCR_Negative> from<O> three<O> to<O> four<B-FOOD_Count> hours<B-FOOD_Unit> .<O>
+--------------------------------------------------------------------------------
+Input: In fact, anything that will become a jelly will assist in making stock.
+Output: In fact,<O> anything<O> that<O> will<O> become<O> a<B-FOOD_LU,I-INGR_Food_Product> jelly<O> will<O> assist<O> in<O> making<O> stock<B-FOOD_LU,I-INGR_Food_Product> .<O>
+--------------------------------------------------------------------------------
+Input: In one corner, on the ground, burns a fierce fire, surrounded by innumerable pots and pans, between which are wooden spits with beef and pork, simmering and roasting in the most enticing manner.
+Output: In one corner,O> on<O> the<O> ground,O> burns<O> a<B-COOKING_CREATION_LU> fierce<B-FOOD_Descriptor,B-DESCR_Positive> fire<B-FOOD_LU,I-COOKING_CREATION_Produced_Food> ,<O> surrounded<O> by<O> innumerable<O> pots<O> and<O> pans,O> between<O> which<O> are<O> wooden<B-FOOD_Descriptor,B-DESCR_Neutral> spits<B-FOOD_Descriptor,B-DESCR_Neutral> with<B-INGR_Material_LU,B-INGR_Food_Product> beef<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> and<O> pork<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> ,<O> simmering<O> and<O> roasting<B-COOKING_CREATION_LU> in<O> the<O> most<O> enticing<B-FOOD_Descriptor,B-DESCR_Positive> manner<O>.<O>
+--------------------------------------------------------------------------------
+Input: In the mountains and ravines there are a great quantity of plantains, a kind of banana, which are not commonly eaten, however, without being roasted.
+Output: In the mountains and ravines there are a great quantity of plantains, a kind of banana, which are not commonly eaten, however, without being roasted.
+In<O> the<O> mountains<O> and<O> ravines<O> there<O> are<O> a<B-FOOD_Count> great<B-FOOD_Descriptor,B-DESCR_Positive> quantity<O> of<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> plantains<B-FOOD_LU,I-INGR_Food_Product> ,<O> a<B-FOOD_Descriptor,B-DESCR_Neutral> kind<O> of<B-FOOD_LU,B-INGR_Material_LU> banana<B-FOOD_LU,I-INGR_Food_Product> ,<O> which<O> are<O> not<O> commonly<B-FOOD_Descriptor,B-DESCR_Negative> eaten<O> ,<O> however<O> without<O> being<O> roasted<B-COOKING_CREATION_LU> .<O>
+--------------------------------------------------------------------------------
+Input: The natives scrape it with mussel-shells, and then split the fruit up long ways into two portions, which they roast between two heated stones.
+Output: The natives<O> scrape<O> it<B-FOOD_LU,B-COOKING_CREATION_LU> with<O> mussel-shells<B-FOOD_LU,B-PR_Medium> ,<O> and<O> then<O> split<O> the<O> fruit<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> up<O> long<O> ways<O> into<O> two<B-FOOD_Count> portions<B-FOOD_LU> ,<O> which<O> they<B-PR_Agent> roast<O> between<O> two<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> heated<O> stones<B-FOOD_LU,B-PR_Medium> .<O>
+--------------------------------------------------------------------------------
+Input: In using it for food, they grind it, and boil it in the form of polenta, which is eaten either with fresh or sour milk, or still more frequently with a sauce made of dried meat pounded in a mortar, and boiled with onions, &c.
+Output: In<O> using<O> it<O> for<O> food<O>,<O> they<B-PR_Agent> grind<O> it<B-FOOD_LU,B-COOKING_CREATION_LU> ,<O> and<O> boil<O> it<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> in<O> the<O> form<O> of<O> polenta<B-FOOD_LU,I-INGR_Food_Product>,<O> which<O> is<O> eaten<O> either<O> with<O> fresh<B-FOOD_Descriptor,B-DESCR_Positive> or<O> sour<B-FOOD_Descriptor,B-DESCR_Negative> milk<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product>,<O> or<O> still<O> more<O> frequently<O> with<O> a<O> sauce<O> made<O> of<O> dried<B-FOOD_Descriptor,B-DESCR_Negative> meat<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product>,<O> pounded<O> in<O> a<O> mortar<B-FOOD_Descriptor,B-DESCR_Negative>,<O> and<O> boiled<O> with<O> onions<B-FOOD_Descriptor,B-DESCR_Negative>,<O> &c.<O>
+--------------------------------------------------------------------------------

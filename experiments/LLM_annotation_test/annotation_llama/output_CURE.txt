@@ -1,0 +1,323 @@
+Input: The Malays come from lower down on the river, and a good many of them leave their bones in the jungle, dying from beri-beri; others ill with the same disease are barely able to return to Long Pangian, but in  three weeks those who do return usually recover sufficiently to walk about again by adopting a diet of katsjang idju, the famous green peas of the East Indies, which counteract the disease.
+Output: The Malays come from lower down on the river, and a good many of them leave their bones in the jungle, dying from beri-beri; others ill with the same disease are barely able to return to Long Pangian, but in three weeks those who do return usually recover sufficiently to walk about again by adopting a diet of katsjang idju, the famous green peas of the East Indies, which counteract the disease.
+
+The Malays come from lower down on the river, and a good many of them leave their bones in the jungle, dying from beri-beri; others ill with the same disease are barely able to return to Long Pangian, but in three weeks those who do return usually recover sufficiently to walk about again by adopting a diet of katsjang idju, the famous green peas of the East Indies, which counteract the disease.
+ 
+B-FOOD_LU: Malays 
+B-FOOD_LU: river 
+B-FOOD_LU: bones 
+B-FOOD_LU: beri-beri 
+B-FOOD_LU: disease 
+B-FOOD_LU: Long Pangian 
+B-FOOD_LU: katsjang idju 
+B-FOOD_LU: green peas 
+B-FOOD_LU: East Indies 
+
+B-FOOD_Descriptor: Malays (B-DESCR_Negative) 
+B-FOOD_Descriptor: river (B-DESCR_Negative) 
+B-FOOD_Descriptor: bones (B-DESCR_Negative) 
+B-FOOD_Descriptor: beri-beri (B-DESCR_Negative) 
+B-FOOD_Descriptor: disease (B-DESCR_Negative) 
+B-FOOD_Descriptor: Long Pangian (B-DESCR_Negative) 
+B-FOOD_Descriptor: katsjang idju (B-DESCR_Negative) 
+B-FOOD_Descriptor: green peas (B-DESCR_Negative) 
+B-FOOD_Descriptor: East Indies (B-DESCR_Negative) 
+
+B-FOOD_Count: good many 
+B-FOOD_Unit: 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: beri-beri 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: disease 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food_Ingestible: none 
+
+B-PR_Agent: none 
+B-PR_Food_Patient: none 
+B-PR_Medium: none 
+
+B-CURE_LU: none 
+B-CURE_Affliction: none 
+B-CURE_Body_Part: none 
+B-CURE_Healer: none 
+
+B-COOKING_CREATION_LU: none 
+B-COOKING_CREATION_Produced_Food: none 
+
+B-INGR_Material_LU: none 
+B-INGR_Food_Product: none 
+B-INGESTION_LU: none 
+B-INGESTION_Food
+--------------------------------------------------------------------------------
+Input: The patients rapidly recovered on a diet consisting of fresh vegetable soup, potato-skin liquor, wheat bran, whole-wheat bread, egg yolks, whole milk, orange juice, and apples.
+Output: The patients rapidly recovered on a diet consisting of fresh vegetable soup<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, potato-skin liquor<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, wheat bran<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, whole-wheat bread<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, egg yolks<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, whole milk<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, orange juice<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible>, and apples<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible> .
+--------------------------------------------------------------------------------
+Input: _Almond._ Almond soup is an excellent substitute for beef-tea for convalescents. An emulsion of almonds is useful in chest affections. Sufferers from nerve and brain exhaustion should eat at least two apples _at the beginning of each meal_.
+Output: _Almond._<O> Almond<B-FOOD_LU> soup<O> is<O> an<O> excellent<B-FOOD_Descriptor,B-DESCR_Positive> substitute<O> for<O> beef-tea<B-FOOD_LU,B-CURE_Food_Treatment> for<O> convalescents<B-CURE_Patient> .<O> An<O> emulsion<O> of<B-FOOD_Descriptor,B-DESCR_Neutral> almonds<B-FOOD_LU> is<O> useful<O> in<O> chest<B-CURE_Affliction> affections<B-CURE_Affliction> .<O> Sufferers<O> from<O> nerve<B-CURE_Affliction> and<O> brain<B-CURE_Affliction> exhaustion<O> should<O> eat<O> at<O> least<O> two<B-FOOD_Count> apples<B-FOOD_LU> _at<O> the<O> beginning<O> of<O> each<O> meal<O>.<O>
+
+Note: I have annotated the text according to the provided guidelines, using the BIO format at the token level. I have also followed the critical rules for annotation, including identifying and annotating FOOD_LU first, using double annotation when necessary, and annotating frame-specific LUs when context clearly indicates the purpose.
+--------------------------------------------------------------------------------
+Input: Apples are also invaluable to sufferers from the stone or calculus. All sufferers from sluggish livers should eat apples.
+Output: Apples<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,I-INGR_Food_Product,I-COOKING_CREATION_Produced_Food> are<O> also<O> invaluable<B-FOOD_Descriptor,B-DESCR_Positive> to<O> sufferers<B-CURE_Healer> from<O> the<O> stone<O> or<O> calculus<B-CURE_Affliction> .<O> All<O> sufferers<B-CURE_Healer> from<O> sluggish<liver<B-CURE_Body_Part> livers<O> should<O> eat<B-INGESTION_LU> apples<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible> .<O>
+--------------------------------------------------------------------------------
+Input: A good remedy for a sore or relaxed throat is to take a raw ripe apple and scrape it to a fine pulp with a silver teaspoon.
+Output: A good remedy for a sore or relaxed throat is to take a raw ripe apple and scrape it to a fine pulp with a silver teaspoon.
+
+A<B-FOOD_LU,B-CURE_Food_Treatment> good<O> remedy<O> for<O> a<B-CURE_Affliction> sore<O> or<O> relaxed<B-CURE_Affliction> throat<B-CURE_Affliction> is<O> to<O> take<O> a<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> raw<B-FOOD_Descriptor,B-DESCR_Negative> ripe<B-FOOD_Descriptor,B-DESCR_Positive> apple<B-FOOD_LU,I-INGR_Food_Product,I-COOKING_CREATION_Produced_Food> and<O> scrape<O> it<B-INGESTION_LU> to<O> a<B-FOOD_Descriptor,B-DESCR_Negative> fine<B-FOOD_Descriptor,B-DESCR_Positive> pulp<B-FOOD_Descriptor,B-DESCR_Negative> with<O> a<B-FOOD_LU,B-COOKING_CREATION_LU> silver<B-FOOD_LU,B-PR_Medium> teaspoon<B-FOOD_LU,I-INGR_Food_Product> .<O>
+--------------------------------------------------------------------------------
+Input: A diet consisting chiefly of apples has been found an excellent cure for inebriety.
+Output: A<B-FOOD_LU,B-CURE_Food_Treatment> diet<O> consisting chiefly<O> of<B-FOOD_Descriptor,B-DESCR_Neutral> apples<B-FOOD_LU> has<O> been<O> found<B-CURE_LU> an<O> excellent<B-FOOD_Descriptor,B-DESCR_Positive> cure<O> for<O> inebriety<B-CURE_Affliction> .<O>
+--------------------------------------------------------------------------------
+Input: Apple water or apple tea is an excellent drink for fever patients. It also calms palpitation of the heart. It is very helpful to rheumatic patients on account of its salts of potash.
+Output: Apple<B-FOOD_LU> water<O> or<O> apple<B-FOOD_LU> tea<B-FOOD_LU> is<O> an<B-FOOD_Descriptor,B-DESCR_Positive> excellent<B-FOOD_Descriptor,B-DESCR_Neutral> drink<B-INGESTION_LU> for<O> fever<B-CURE_Affliction> patients<B-CURE_Patient> .<O> It<O> also<B-CURE_LU> calms<B-CURE_LU> palpitation<B-CURE_Affliction> of<O> the<B-CURE_Body_Part> heart<I-CURE_Body_Part> .<O> It<O> is<O> very<B-FOOD_Descriptor,B-DESCR_Positive> helpful<B-FOOD_Descriptor,B-DESCR_Neutral> to<O> rheumatic<B-CURE_Affliction> patients<B-CURE_Patient> on<O> account<O> of<O> its<B-FOOD_Descriptor,B-DESCR_Neutral> salts<B-FOOD_Descriptor,B-DESCR_Neutral> of<O> potash<B-FOOD_LU,B-PR_Medium> .<O>
+--------------------------------------------------------------------------------
+Input: _Banana._ The banana is invaluable in inflammation of all kinds. For this reason it is very useful in cases of typhoid fever, gastritis, peritonitis, etc., and may constitute the only food allowed for a time.
+Output: _Banana._<B-FOOD_LU> The<B-FOOD_Descriptor,B-DESCR_Negative> banana<B-FOOD_LU> is<O> invaluable<B-FOOD_Descriptor,B-DESCR_Positive> in<O> inflammation<B-CURE_Affliction> of<O> all<B-FOOD_Descriptor,B-DESCR_Negative> kinds.<B-FOOD_Descriptor,B-DESCR_Negative> For<O> this<O> reason<O> it<O> is<O> very<O> useful<B-FOOD_Descriptor,B-DESCR_Positive> in<O> cases<O> of<O> typhoid<B-CURE_Affliction> fever<B-CURE_Affliction>, gastritis<B-CURE_Affliction>, peritonitis<B-CURE_Affliction>, etc.,<O> and<O> may<O> constitute<O> the<O> only<B-FOOD_Descriptor,B-DESCR_Negative> food<B-FOOD_LU> allowed<O> for<O> a<O> time.<O>
+--------------------------------------------------------------------------------
+Input: Sometimes it proves expedient in cases of diarrh&#x0153;a or dysentery to have the patient abstain for days from all food, except a very thin, starchy gruel, the object being to starve the germ which causes the disease; then, again, a patient, after a surgical operation, where there is a great loss of blood, needs a large supply of food.
+Output: Sometimes it proves expedient in cases of diarrh&#x0153;a or dysentery to have the patient abstain for days from all food, except a very thin, starchy gruel, the object being to starve the germ which causes the disease; then, again, a patient, after a surgical operation, where there is a great loss of blood, needs a large supply of food.
+ 
+Sometimes it proves expedient in cases of diarrh&#x0153;a or dysentery to have the patient abstain for days from all food, except a very thin, starchy gruel<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-INGESTION_Food_Ingestible> , the object being to starve the germ which causes the disease; then, again, a patient, after a surgical operation, where there is a great loss of blood, needs a large supply of food<B-FOOD_LU,I-INGR_Food_Product,I-INGESTION_Food_Ingestible> .<O>
+--------------------------------------------------------------------------------
+Input: Vegetables are necessary for the body's needs, as they give bulk to the food and possess especial antiscorbutic properties.
+Output: Vegetables are necessary for the body's needs, as they give bulk to the food and possess especial antiscorbutic properties.
+
+**Output:** Vegetables<B-FOOD_LU> are<O> necessary<O> for<O> the<O> body's<O> needs<B-FOOD_Descriptor,B-DESCR_Negative> ,<O> as<O> they<B-FOOD_Descriptor,B-DESCR_Positive> give<B-FOOD_Count> bulk<O> to<O> the<O> food<B-FOOD_LU> and<O> possess<O> especial<B-FOOD_Descriptor,B-DESCR_Negative> antiscorbutic<B-FOOD_Descriptor,B-DESCR_Positive> properties<B-FOOD_Descriptor,B-DESCR_Negative> .<O>
+--------------------------------------------------------------------------------
+Input: --Rice is one of the most abundantly used and most digestible of all the cereals.
+Output: --Rice<B-FOOD_LU> is<O> one<O> of<O> the<O> most<B-FOOD_Descriptor,B-DESCR_Positive> abundantly<B-FOOD_Count> used<B-FOOD_Descriptor,B-DESCR_Positive> and<O> most<B-FOOD_Descriptor,B-DESCR_Positive> digestible<B-FOOD_Descriptor,B-DESCR_Positive> of<O> all<O> the<O> cereals<B-FOOD_LU,I-INGR_Food_Product> .<O>
+--------------------------------------------------------------------------------
+Input: According to Soyer, an old writer on foods, the Greeks and Romans held rice in high esteem, believing it to be a panacea for chest and lung diseases.
+Output: According to<O> Soyer<O>,<O> an<O> old<O> writer<O> on<O> foods<O>,<O> the<O> Greeks<O> and<O> Romans<O> held<O> rice<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> in<O> high<O> esteem<B-FOOD_Descriptor,B-DESCR_Positive> ,<O> believing<O> it<O> to<O> be<O> a<B-FOOD_Descriptor,B-DESCR_Neutral> panacea<B-CURE_LU> for<O> chest<B-CURE_Affliction> and<O> lung<B-CURE_Affliction> diseases<B-CURE_Affliction> .<O>
+--------------------------------------------------------------------------------
+Input: I merely mention this malady, to which I was very subject in warm climates, that I may have the opportunity of remarking, that sea-baths or
+Output: I merely mention this<B-FOOD_Descriptor,B-DESCR_Negative> malady,<B-FOOD_LU,B-CURE_Affliction>, to which I was very subject in warm climates,<B-FOOD_Descriptor,B-DESCR_Negative>, that I may have the opportunity of remarking,<B-FOOD_Descriptor,B-DESCR_Neutral>, that sea-baths or<B-FOOD_LU,I-INGR_Food_Product> sea-baths/O<B-FOOD_LU,I-INGR_Food_Product> are<B-INGR_Material_LU> used/B-CURE_LU> for/O<B-FOOD_LU,I-INGR_Food_Product> the<B-FOOD_LU,I-INGR_Food_Product> treatment/B-CURE_Food_Treatment> of/B-I-PR_Food_Patient> this<B-FOOD_LU,I-INGR_Food_Product> malady/B-CURE_Affliction> .<O>
+--------------------------------------------------------------------------------
+Input: cooling drinks, such as buttermilk, sour milk, sherbet, orangeade, etc., are very efficacious remedies.
+Output: cooling<O> drinks<O>,<O> such<O> as<O> buttermilk<B-FOOD_LU,B-PR_Medium>,<O> sour<B-FOOD_Descriptor,B-DESCR_Negative> milk<B-FOOD_LU>,<O> sherbet<B-FOOD_LU>,<O> orangeade<B-FOOD_LU>,<O> etc.<O>,<O> are<O> very<O> efficacious<B-FOOD_Descriptor,B-DESCR_Positive> remedies<B-CURE_LU> .<O>
+--------------------------------------------------------------------------------
+Input: There we were all three, with our throats in an extraordinary state of sudden contraction and inflammation, with a
+Output: There we were all three, with our throats in an extraordinary state of sudden contraction and inflammation, with a<FOOD_Descriptor,B-DESCR_Negative> throat<B-FOOD_LU,B-CURE_Affliction> in<O> an<O> extraordinary<O> state<O> of<O> sudden<O> contraction<B-CURE_LU> and<O> inflammation<B-CURE_Affliction> , with a<FOOD_Descriptor,B-DESCR_Negative> tea<B-FOOD_LU,B-CURE_Food_Treatment> .<O>
+--------------------------------------------------------------------------------
+Input: burning and pricking sensation, in addition to a feeling of swelling and stoppage of the windpipe.
+Output: To annotate the given text using the BIO format, I will follow the steps and rules provided.
+
+**Input:** burning and pricking sensation, in addition to a feeling of swelling and stoppage of the windpipe.
+
+**Annotation:**
+
+1. Identify and annotate ALL Food_LU (Lexical Units of Food) - words referring to food entities (e.g., apple, soup, meat, tea, water etc.). In this case, there are no food entities, so the annotation will be based on the other frames.
+
+2. Once Food_LU is identified, annotate the frames activated by the LU through semantic relations.
+
+The text describes a medical condition, so the frames activated will be related to the symptoms and the body part affected.
+
+**Output:**
+
+burning<B-CURE_LU> and<O> pricking<B-CURE_LU> sensation<B-CURE_Affliction>, <O> in<O> addition<O> to<O> a<B-CURE_LU> feeling<O> of<O> swelling<B-CURE_Affliction> and<O> stoppage<B-CURE_LU> of<O> the<B-CURE_Body_Part> windpipe<B-CURE_Body_Part> .<O>
+
+Note: The frames activated are CURE (burning and pricking sensation), CURE (feeling of swelling), CURE (stoppage of the windpipe), and CURE (affliction) as the body part affected is the windpipe.
+--------------------------------------------------------------------------------
+Input: Having nothing but brandy at hand, we dosed largely instanter, and in the course of ten minutes we found relief; but Benton, having, eaten his large yam, was the last to recover. It is however eaten by the Arabs, and by some esteemed efficacious as a remedy for certain diseases.
+Output: Having<O> nothing<O> but<B-FOOD_LU> brandy<O> at<O> hand<O>, we<O> dosed<O> largely<O> instanter,O> and<O> in<O> the<O> course<O> of<O> ten<O> minutes<O> we<O> found<O> relief;<O> but<O> Benton,<B-CURE_Healer> having,O> eaten<O> his<O> large<B-FOOD_Descriptor,B-FOOD_Count> yam<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product> ,<O> was<O> the<O> last<O> to<O> recover<O>.<O> It<O> is<O> however<O> eaten<O> by<O> the<O> Arabs,<B-CURE_Patient> and<O> by<O> some<O> esteemed<O> efficacious<O> as<O> a<O> remedy<O> for<O> certain<O> diseases<B-CURE_Affliction> .<O>
+
+Note: The annotation follows the provided guidelines and includes all the necessary frame elements.
+--------------------------------------------------------------------------------
+Input: Fruits are generally of a cooling nature, and correct the heat and acrimony of the humours.
+Output: Fruits<B-FOOD_LU,B-FOOD_Descriptor,B-DESCR_Negative> are<O> generally<O> of<O> a<B-FOOD_Descriptor,B-DESCR_Positive> cooling<B-FOOD_Descriptor,B-DESCR_Negative> nature<B-FOOD_Descriptor,B-DESCR_Negative>, and<O> correct<O> the<O> heat<O> and<O> acrimony<B-FOOD_Descriptor,B-DESCR_Negative> of<O> the<B-FOOD_Descriptor,B-DESCR_Negative> humours<B-FOOD_Descriptor,B-DESCR_Negative> .<O>
+--------------------------------------------------------------------------------
+Input: Apples will afford much relief to sufferers from gout.
+Output: Apples<B-FOOD_LU,B-CURE_Food_Treatment> will<O> afford<B-CURE_LU> much<O> relief<B-CURE_Affliction> to<O> sufferers<B-CURE_Healer> from<O> gout<B-CURE_Affliction> .<O>
+--------------------------------------------------------------------------------
+Input: An old remedy for weak or inflamed eyes is an apple poultice.
+Output: An old<B-FOOD_LU> remedy<O> for<O> weak<O> or<O> inflamed<B-FOOD_Descriptor,B-DESCR_Negative> eyes<B-FOOD_LU,B-CURE_Affliction> is<O> an<B-FOOD_LU,I-INGR_Food_Product> apple<B-FOOD_LU,B-INGR_Material_LU,B-INGR_Food_Product,B-COOKING_CREATION_Produced_Food> poultice<B-FOOD_LU,I-INGR_Food_Product,I-COOKING_CREATION_Produced_Food> .<O>
+--------------------------------------------------------------------------------
+Input: The natives cure the sting by immediately applying to the part a bruised onion, which is renewed till the pain subsides.
+Output: The natives<B-CURE_Healer> cure<O> the<O> sting<B-CURE_Affliction> by<O> immediately<O> applying<B-COOKING_CREATION_LU> to<O> the<O> part<B-CURE_Body_Part> a<B-FOOD_Descriptor,B-DESCR_Neutral> bruised<B-FOOD_Descriptor,B-DESCR_Negative> onion<B-FOOD_LU,B-COOKING_CREATION_Produced_Food> ,<O> which<O> is<O> renewed<O> till<O> the<O> pain<B-CURE_Affliction> subsides<B-CURE_LU> .<O>
+--------------------------------------------------------------------------------
