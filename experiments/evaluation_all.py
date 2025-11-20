@@ -56,7 +56,6 @@ def filter_labels_by_type(labels_list, target_type):
     for sentence in labels_list:
         filtered_sentence = []
         for label in sentence:
-            # Espandi le label multiple
             expanded = expand_multi_labels(label)
             
             
