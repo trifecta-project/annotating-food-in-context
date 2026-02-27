@@ -127,7 +127,7 @@ def annotate_sentence(sentence):
          # model="meta-llama/Llama-3.1-70B-Instruct:fireworks-ai",
         messages=messages,
         temperature=0.0,
-        top_k=1.0,
+        # top_p=0.7,
         stream=True,
     )
     
