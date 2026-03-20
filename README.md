@@ -27,7 +27,7 @@ Contains:
 - a script to check alignment between human and model annotations
 - the full evaluation pipeline in `evaluation_all`
 
-> If you use this data, please cite:
+If you use this data, please cite:
 >
-> Paccosi, T., Bhagwat, G., & van Erp, M. (2026). *A FrameNet-Inspired Annotation of Food and Its Uses Over Time*. In Proceedings of LREC 2026.
+> Paccosi, T., Bhagwat, G., & van Erp, M. (2026). *To Eat and Beyond: A FrameNet-Inspired Annotation of Food and Its Uses Over Time*. In Proceedings of LREC 2026.
 
