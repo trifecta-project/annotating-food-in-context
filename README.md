@@ -27,5 +27,12 @@ Contains:
 - a script to check alignment between human and model annotations
 - the full evaluation pipeline in `evaluation_all`
 
-The paper is currently under review.
+If you use this data, please cite:
+```bibtex
+@inproceedings{paccosi2026framenet,
+  author = {Paccosi, T. and Bhagwat, G. and van Erp, M.},
+  title = {A FrameNet-Inspired Annotation of Food and Its Uses Over Time},
+  booktitle = {Proceedings of LREC 2026},
+  year = {2026}
+}
 
